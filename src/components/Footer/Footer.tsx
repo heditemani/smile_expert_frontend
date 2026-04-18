@@ -3,6 +3,13 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 import logo from '/icons/navbar_logo.svg';
+import location from '/icons/location_footer_icon.svg';
+import email from '/icons/email_footer_icon.svg';
+import phone from '/icons/phone_footer_icon.svg';
+import facebook from '/icons/facebook_icon.svg';
+import instagram from '/icons/instagram_icon.svg';
+import linkedin from '/icons/linkedin_icon.svg';
+
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -25,16 +32,16 @@ const Footer = () => {
           </div>
 
           <div className={styles['footer-contact']}>
-            <div className={styles['contact-item']}>
-              <i className="ph ph-map-pin"></i>
+            <div className={styles['contact-item'] + ' ' + styles['location-icon']}>
+              <img src={location} alt="Location" />
               <p>{t('footer.address')}</p>
             </div>
             <div className={styles['contact-item']}>
-              <i className="ph ph-envelope-simple"></i>
+              <img src={email} alt="Email" />
               <p>dentalclinic.tn@gmail.com</p>
             </div>
             <div className={styles['contact-item']}>
-              <i className="ph ph-phone"></i>
+              <img src={phone} alt="Phone" />
               <p>+216 53 99 00 79 / 72 270 888</p>
             </div>
           </div>
@@ -43,9 +50,15 @@ const Footer = () => {
         <div className={styles['footer-bottom']}>
           <p>{t('footer.copyright')}</p>
           <div className={styles['social-links']}>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer"><i className="ph-fill ph-facebook-logo"></i></a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer"><i className="ph ph-instagram-logo"></i></a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer"><i className="ph-fill ph-linkedin-logo"></i></a>
+            <a href="https://www.facebook.com/sarra.fischer.1" target="_blank" rel="noreferrer">
+                <img src={facebook} alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/dr.sarra.haouet/" target="_blank" rel="noreferrer">
+                <img src={instagram} alt="Instagram" />
+            </a>
+            <a href="https://www.linkedin.com/in/dr-sarra-haouet-104703380/" target="_blank" rel="noreferrer">
+                <img src={linkedin} alt="LinkedIn" />
+            </a>
           </div>
         </div>
       </div>
