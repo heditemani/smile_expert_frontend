@@ -99,6 +99,37 @@
     "button": "Prenota un appuntamento"
   },
 
+  "contact": {
+    "info_title": "Non esitate a contattarci",
+    "info_desc": "Il tuo sorriso è la nostra priorità. Contattaci per qualsiasi informazione o per fissare un appuntamento.",
+    "location": "Posizione",
+    "email_us": "Scrivici",
+    "call_us": "Chiamaci",
+    "follow_us": "Seguici sui social media",
+    "form_title": "Contattaci",
+    "name_placeholder": "Nome *",
+    "email_placeholder": "Email",
+    "phone_placeholder": "Numero di telefono *",
+    "message_placeholder": "Il tuo messaggio...",
+    "send": "INVIARE",
+    "locations_title": "Posizioni",
+    "locations_subtitle": "Vieni a trovarci nel nostro spazio calmo e accogliente",
+    "schedule_title": "I nostri orari",
+    "schedule_subtitle": "Trova il momento più adatto a te — le nostre porte sono aperte tutta la settimana"
+  },
+  "days": {
+    "monday": "Lunedì",
+    "tuesday": "Martedì",
+    "wednesday": "Mercoledì",
+    "thursday": "Giovedì",
+    "friday": "Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica"
+  },
+  "common": {
+    "closed": "Chiuso"
+  },
+
   "footer": {
     "address": "1° piano App, sopra il negozio Hamadi Abid, Edificio Takwa, 105, Nabeul 8000",
     "copyright": "Copyright © 2025 Smile Expert. Tutti i diritti riservati."

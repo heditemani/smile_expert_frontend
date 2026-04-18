@@ -1,0 +1,156 @@
+.contactPage {
+    background-color: var(--bg-white);
+}
+
+.contact-split-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+/* Left column */
+.contact-info-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-info-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+    line-height: 1.2;
+}
+
+.contact-info-desc {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.contact-info-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.contact-info-icon {
+    width: 56px;
+    height: 56px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 125, 129, 0.2);
+}
+
+.contact-info-text h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.contact-social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-social-icon {
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.contact-social-icon:hover {
+    transform: translateY(-3px);
+    background-color: var(--primary-dark);
+}
+
+/* Form Section */
+.contact-form-box {
+    background-color: var(--bg-offwhite);
+    border-radius: 24px;
+    padding: 3rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.form-input {
+    width: 100%;
+    padding: 1.1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(0, 125, 129, 0.1);
+}
+
+.form-textarea {
+    min-height: 150px;
+}
+
+/* Map & Schedule */
+.map-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: var(--shadow-sm);
+}
+
+.map-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.schedule-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.schedule-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.schedule-row span:first-child {
+    font-weight: 600;
+}
+
+.schedule-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .contact-split-wrapper, .schedule-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

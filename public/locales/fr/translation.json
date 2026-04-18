@@ -81,13 +81,42 @@
 
 
   "contact_hero": {
-  "title": "N'hésitez pas à nous contacter",
-  "subtitle": "Réservez Votre Rendez-vous Sur med.tn",
-  "button": "Prenez Rendez-vous"
+    "title": "N'hésitez pas à nous contacter",
+    "subtitle": "Réservez Votre Rendez-vous Sur med.tn",
+    "button": "Prenez Rendez-vous"
+    },
+    
+  "contact": {
+    "info_title": "N'hésitez pas à nous contacter",
+    "info_desc": "Votre sourire est notre priorité. Contactez-nous pour toute information ou pour prendre rendez-vous.",
+    "location": "Localisation",
+    "email_us": "Écrivez-nous",
+    "call_us": "Appelez-nous",
+    "follow_us": "Suivez-nous sur les réseaux sociaux",
+    "form_title": "Contactez-nous",
+    "name_placeholder": "Nom *",
+    "email_placeholder": "Email",
+    "phone_placeholder": "Numéro de téléphone *",
+    "message_placeholder": "Votre message...",
+    "send": "ENVOYER",
+    "locations_title": "Localisations",
+    "locations_subtitle": "Venez nous rendre visite dans notre espace calme et accueillant",
+    "schedule_title": "Nos Horaires",
+    "schedule_subtitle": "Trouvez un moment qui vous convient — nos portes sont ouvertes toute la semaine"
   },
 
-
-
+  "days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+    },
+  "common": {
+    "closed": "Fermé"
+  },
 
   "footer": {
     "address": "1er étage App, au-dessus de l'enseigne Hamadi Abid, Imm Takwa, 105, Nabeul 8000",

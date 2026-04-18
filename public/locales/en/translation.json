@@ -109,6 +109,37 @@
 
 
 
+
+  "contact": {
+    "info_title": "Feel free to contact us",
+    "info_desc": "Your smile is our priority. Contact us for any information or to book an appointment.",
+    "location": "Location",
+    "email_us": "Email Us",
+    "call_us": "Call Us",
+    "follow_us": "Follow us on social media",
+    "form_title": "Contact Us",
+    "name_placeholder": "Name *",
+    "email_placeholder": "Email",
+    "phone_placeholder": "Phone Number *",
+    "message_placeholder": "Your message...",
+    "send": "SEND",
+    "locations_title": "Locations",
+    "locations_subtitle": "Visit us in our calm and welcoming space",
+    "schedule_title": "Our Schedule",
+    "schedule_subtitle": "Find a time that suits you — our doors are open all week"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "common": {
+    "closed": "Closed"
+  },
   "contact_hero": {
     "title": "Feel free to contact us",
     "subtitle": "Book Your Appointment On med.tn",

@@ -15,7 +15,7 @@ const SecondBanner: React.FC<SecondBannerProps> = ({
   title, 
   subtitle, 
   buttonText, 
-  buttonLink = "" 
+  buttonLink = "https://www.med.tn/medecin/dentiste/nabeul/dr-sarra-haouet-164499.html" 
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -48,7 +48,7 @@ const SecondBanner: React.FC<SecondBannerProps> = ({
           <div className={styles['glass-plate']}>
             <h1 className={styles['contact-hero-title']}>{title}</h1>
             <p className={styles['contact-hero-subtitle']}>{subtitle}</p>
-            <a href={buttonLink} className={`btn ${styles['btn-primary']} ${styles['btn-large']}`}>
+            <a href={buttonLink} target='_blank' className={`btn ${styles['btn-primary']} ${styles['btn-large']}`}>
               {buttonText}
             </a>
           </div>
