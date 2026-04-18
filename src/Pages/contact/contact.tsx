@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './contact.module.css';
 import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import { useTranslation } from 'react-i18next';

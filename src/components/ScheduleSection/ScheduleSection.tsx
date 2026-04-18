@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './ScheduleSection.module.css';
 import { useTranslation } from 'react-i18next';
 import scheduleImg from '../../assets/images/schedulesection/schedule1.webp';

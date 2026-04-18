@@ -1,5 +1,3 @@
-import React from 'react'
-import styles from './home.module.css'
 import { useTranslation } from 'react-i18next';
 import SecondBanner from '../../components/SecondBanner/SecondBanner'
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection'
