@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import logo from'/icons/navbar_logo.svg';
 
 const Navbar = () => {
   return (
     <div className={styles.header}>
       <div className={` container ${styles['header-container']}`}>
         <Link to="/" className={styles.logo}>
-          <img src="./navbar_logo.svg" alt="Smile Expert Logo" className={styles['logo-img']} />
+          <img src={logo} alt="Smile Expert Logo" className={styles['logo-img']} />
         </Link>
 
         <nav className={styles.navbar}>
@@ -40,7 +41,7 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <Link to="/reservation" className={`${styles.btn} ${styles['btn-primary']}`}>Réserver</Link>
+        <Link to="/" target="_blank" className={`btn ${styles['btn-primary']}`}>Réserver</Link>
 
         <button className={styles['menu-toggle']} aria-label="Toggle menu">
           <i className="ph ph-list"></i>
