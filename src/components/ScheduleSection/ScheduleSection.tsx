@@ -3,7 +3,7 @@ import styles from './ScheduleSection.module.css';
 import { useTranslation } from 'react-i18next';
 import scheduleImg from '../../assets/images/schedulesection/schedule1.webp';
 
-const ScheduleSection = () => {
+const ScheduleSection = ({ isAltBg = false }) => {
   const { t } = useTranslation();
 
   const scheduleData = [
@@ -17,7 +17,8 @@ const ScheduleSection = () => {
   ];
 
   return (
-    <section className={`${styles.schedule} section-padding`}>
+    /* Itha isAltBg s7i7a, nzidou el class styles.altBg */
+    <section className={`${styles.schedule} ${isAltBg ? styles.altBg : ''} section-padding`}>
       <div className="container">
         <div className={styles.scheduleWrapper}>
           
@@ -39,7 +40,7 @@ const ScheduleSection = () => {
             {scheduleData.map((item, index) => (
               <div 
                 key={index} 
-                className={`${styles.scheduleRow} ${item.isClosed ? styles.closed : ''}`}
+                className={`${styles.scheduleRow} ${isAltBg ? styles.altrowbg : ''} ${item.isClosed ? styles.closed : ''}`}
               >
                 <span>{item.day}</span>
                 <span>{item.time}</span>

@@ -15,7 +15,7 @@ const homepage = () => {
         subtitle={t('contact_hero.subtitle')}
         buttonText={t('contact_hero.button')}
       />
-    <ScheduleSection />
+    <ScheduleSection isAltBg={true} />
     </>
   )
 }
