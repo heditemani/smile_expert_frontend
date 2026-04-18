@@ -1,0 +1,21 @@
+
+// NavBar
+
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "before_after": "Before & After",
+    "contact": "Contact",
+    "book_now": "Book Now"
+  },
+  "services": {
+    "conservative": "Conservative Dentistry",
+    "prosthetics": "Dental Prosthetics",
+    "orthodontics": "Orthodontics",
+    "pediatric": "Pediatric Dentistry",
+    "preventive": "Preventive Care",
+    "tech": "Tech & Diagnostics"
+  }
+}

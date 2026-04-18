@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "before_after": "Prima & Dopo",
+    "contact": "Contatti",
+    "book_now": "Prenota"
+  },
+  "services": {
+    "conservative": "Odontoiatria Conservativa",
+    "prosthetics": "Protesi Dentarie",
+    "orthodontics": "Ortodonzia",
+    "pediatric": "Odontoiatria Pediatrica",
+    "preventive": "Cure Preventive",
+    "tech": "Tecnologia e Diagnostica"
+  }
+}
