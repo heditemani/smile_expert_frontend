@@ -1,0 +1,86 @@
+.schedule {
+    background-color: var(--bg-white);
+}
+
+.scheduleWrapper {
+    display: flex;
+    gap: 4rem;
+    align-items: stretch;
+}
+
+.scheduleContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.scheduleImage {
+    margin-top: auto;
+    width: 100%;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+}
+
+.scheduleImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.scheduleTable {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.scheduleRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    background-color: #F7F9F8;
+    border-radius: var(--border-radius-sm);
+    font-weight: 500;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.scheduleRow:hover {
+    background-color: var(--secondary-bg, #e8f3f4);
+    transform: translateX(5px); /* Animation sghira pro */
+}
+
+.scheduleRow span:last-child {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+/* Style special lel nhar el msakker */
+.closed {
+    opacity: 0.7;
+    background-color: #fff1f0; /* Chwaya rouge sghir */
+}
+
+.closed span:first-child,
+.closed span:last-child {
+    color: #e74c3c !important; /* Red color */
+    font-weight: 400;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .scheduleWrapper {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .scheduleImage {
+        margin-top: 1.5rem;
+    }
+
+    .scheduleRow {
+        padding: 1rem 1.5rem;
+    }
+}

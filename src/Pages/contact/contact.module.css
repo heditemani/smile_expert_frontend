@@ -111,7 +111,6 @@
     min-height: 150px;
 }
 
-/* Map & Schedule */
 .map-container {
     width: 100%;
     overflow: hidden;
@@ -125,32 +124,10 @@
     object-fit: cover;
 }
 
-.schedule-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-}
-
-.schedule-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.schedule-row span:first-child {
-    font-weight: 600;
-}
-
-.schedule-img {
-    width: 100%;
-    border-radius: 20px;
-}
 
 /* Responsive */
 @media (max-width: 992px) {
-    .contact-split-wrapper, .schedule-wrapper {
+    .contact-split-wrapper,  {
         grid-template-columns: 1fr;
     }
 }
