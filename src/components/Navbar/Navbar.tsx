@@ -1,4 +1,4 @@
-
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
@@ -7,9 +7,16 @@ import logo from '/icons/navbar_logo.svg';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lang) => {
+  const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
   };
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
 
   return (
     <div className={styles.header}>
@@ -18,7 +25,7 @@ const Navbar = () => {
           <img src={logo} alt="Logo" className={styles['logo-img']} />
         </Link>
 
-        <nav className={styles.navbar}>
+        <nav className={`${styles.navbar} ${isMenuOpen ? styles['navbar-active'] : ''}`}>
           <ul className={styles['nav-list']}>
             
             <li><Link to="/" className={styles['nav-link']}>{t('nav.home')}</Link></li>
@@ -53,10 +60,16 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <Link to="/" className={`btn ${styles['btn-primary']}`}>{t('nav.book_now')}</Link>
+        <Link to="https://www.med.tn/medecin/dentiste/nabeul/dr-sarra-haouet-164499.html" target='_blank' rel="noopener noreferrer" className={`btn ${styles['btn-primary']}`}>{t('nav.book_now')}</Link>
 
-        <button className={styles['menu-toggle']}>
-          <i className="ph ph-list"></i>
+        <button 
+          className={`${styles['menu-toggle']} ${isMenuOpen ? styles['toggle-active'] : ''}`} 
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
       </div>
     </div>
