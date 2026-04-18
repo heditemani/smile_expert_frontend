@@ -46,7 +46,7 @@ const Navbar = () => {
             </li>
 
             <li><Link to="/" className={styles['nav-link']}>{t('nav.before_after')}</Link></li>
-            <li><Link to="/" className={styles['nav-link']}>{t('nav.contact')}</Link></li>
+            <li><Link to="/contact" className={styles['nav-link']}>{t('nav.contact')}</Link></li>
             
             <select 
               onChange={(e) => changeLanguage(e.target.value)} 

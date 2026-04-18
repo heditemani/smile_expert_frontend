@@ -1,0 +1,155 @@
+.contact-hero {
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out, transform 2s ease;
+    transform: scale(1.05); 
+}
+
+.carousel-item.active {
+    opacity: 1;
+    transform: scale(1); 
+}
+
+.about-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+    );
+    z-index: 2;
+}
+
+.contact-hero-container {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.glass-plate {
+    background: rgba(255, 255, 255, 0.15); /* Chwaya abyadh */
+    backdrop-filter: blur(12px); /* El faza mta' el dbebe */
+    -webkit-backdrop-filter: blur(12px);
+    padding: 3.5rem 2.5rem;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.contact-hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.contact-hero-subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2.5rem;
+}
+
+/* --- Buttons --- */
+.btn-primary {
+    display: inline-block;
+    background-color: var(--primary-color, #007bff);
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.1);
+}
+
+/* --- Dots (Pagination) --- */
+.hero-slider-dots {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    gap: 12px;
+    z-index: 4;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    background: #fff;
+    width: 30px; /* Ttwal chwaya ki tabda active (Modern look) */
+    border-radius: 10px;
+}
+
+/* --- Responsiveness --- */
+@media (max-width: 768px) {
+    .contact-hero {
+        height: 500px;
+    }
+
+    .contact-hero-title {
+        font-size: 2.2rem;
+    }
+
+    .glass-plate {
+        padding: 2.5rem 1.5rem;
+        margin: 0 15px;
+    }
+
+    .contact-hero-subtitle {
+        font-size: 1.1rem;
+    }
+}
