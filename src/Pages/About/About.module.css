@@ -135,3 +135,109 @@
         gap: 1.5rem;
     }
 }
+
+
+.textCenter {
+    text-align: center;
+}
+
+.technologies .techWrapper {
+    background: linear-gradient(to bottom, var(--secondary-bg) 0%, var(--bg-white) 100%);
+    border-radius: var(--border-radius-lg);
+    padding: 4rem 2rem 5rem 2rem;
+    margin: 0 auto;
+}
+
+.techGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+}
+
+.techCard {
+    background-color: #D3E6E1;
+    border-radius: var(--border-radius-md);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    transition: var(--transition);
+}
+
+.techImageWrapper {
+    background-color: transparent;
+    border-radius: var(--border-radius-sm);
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.techCard img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+    border: 4px solid rgba(0, 125, 129, 0.15);
+    border-radius: 12px;
+}
+
+.techOverlay {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: var(--transition);
+    position: relative;
+    z-index: 1;
+}
+
+.techHoverLink {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--bg-white);
+    color: var(--primary-color);
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 99;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.techCard:hover {
+    transform: translateY(-5px);
+}
+
+.techCard:hover .techHoverLink {
+    bottom: -15px;
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 900px) {
+    .techGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .techGrid {
+        grid-template-columns: 1fr;
+    }
+}

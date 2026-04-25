@@ -6,7 +6,12 @@ import img1 from '../../assets/images/about_page/about_gallery_image_1.webp';
 import img2 from '../../assets/images/about_page/about_gallery_image_2.webp';
 import img3 from '../../assets/images/about_page/about_gallery_image_3.webp';
 import img4 from '../../assets/images/about_page/about_gallery_image_4.webp';
-import FinalCTA from '../../components/FinalCTA/FinalCTA';
+
+
+import techImg1 from '../../assets/images/about_page/technologie_image_1.webp';
+import techImg2 from '../../assets/images/about_page/technologie_image_2.webp';
+import techImg3 from '../../assets/images/about_page/technologie_image_1.webp';
+
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 import CtaSplit from '../../components/CTASplit/CtaSplit';
 
@@ -21,6 +26,28 @@ const About = () => {
     { id: 2, src: img2, alt: "Gallery Image 2" },
     { id: 3, src: img3, alt: "Gallery Image 3" },
     { id: 4, src: img4, alt: "Gallery Image 4" },
+  ];
+
+
+  const technologies = [
+    {
+      id: 1,
+      image: techImg1,
+      key: 'laserDiode',
+      link: '/laser-diode'
+    },
+    {
+      id: 2,
+      image: techImg2,
+      key: 'scannerIntraoral',
+      link: '/scanner-intraoral'
+    },
+    {
+      id: 3,
+      image: techImg3,
+      key: 'scannerFacial',
+      link: '/scanner-facial'
+    }
   ];
 
   return (
@@ -64,6 +91,34 @@ const About = () => {
     <CtaSplit />
       
     <ScheduleSection isAltBg={true} />
+
+    
+    <section className={`${styles.technologies} ${styles.sectionPadding}`}>
+        <div className={`${styles.container} ${styles.textCenter}`}>
+          <div className={styles.techWrapper}>
+            <h2 className={styles.sectionTitle} style={{ maxWidth: '600px', margin: '0 auto 3rem auto' }}>
+              {t('about.tech.sectionTitle')}
+            </h2>
+            <div className={styles.techGrid}>
+              {technologies.map((tech) => (
+                <div key={tech.id} className={styles.techCard}>
+                  <div className={styles.techImageWrapper}>
+                    <img src={tech.image} alt={t(`about.tech.items.${tech.key}.name`)} />
+                  </div>
+                  <div className={styles.techOverlay}>
+                    {t(`about.tech.items.${tech.key}.name`)}
+                  </div>
+                  <a href={tech.link} className={styles.techHoverLink}>
+                    {t('about.tech.learnMore')} 
+                    <img src="/icons/technoligie_icon_learn_more.svg" alt={t('about.tech.learnMore')} />
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
 
     
 
