@@ -64,7 +64,15 @@
 
 
 
-
+  "about": {
+    "intro": {
+      "title": "Smile Expert ?",
+      "boldText": "est un cabinet dentaire où vous vous sentirez à la fois détendu (ou en sécurité) et bien accompagné.",
+      "expertise": "Environ 10 ans d'expertise, nous offrons des soins dentaires complets dans un environnement empreint de vitalité, d'énergie et de bien-être.",
+      "services": "Que vous ayez besoin d'un simple contrôle de routine, d'un traitement préventif, de soins esthétiques, de régénération cellulaire ou de traitements plus complexes, Notre Docteur expérimentée est à votre écoute pour répondre à tous vos besoins.",
+      "imgAlt": "Docteur Sarra"
+    }
+  },
 
 
 

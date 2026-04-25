@@ -87,9 +87,18 @@
 
 
 
+  
 
 
-
+  "about": {
+    "intro": {
+      "title": "Smile Expert?",
+      "boldText": "è uno studio dentistico dove ti sentirai rilassato (o al sicuro) e ben accompagnato.",
+      "expertise": "Con circa 10 anni di esperienza, offriamo cure dentistiche complete in un ambiente all'insegna della vitalità, dell'energia e del benessere.",
+      "services": "Che tu abbia bisogno di un semplice controllo di routine, di un trattamento preventivo, di cure estetiche, di rigenerazione cellulare o di trattamenti più complessi, la nostra dottoressa esperta è a tua disposizione per rispondere a ogni tua esigenza.",
+      "imgAlt": "Dottoressa Sarra"
+    }
+  },
 
   "cta": {
     "title": "Pronto A Sorridere Con Fiducia?",

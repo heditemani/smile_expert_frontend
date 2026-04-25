@@ -104,7 +104,16 @@
 
 
 
-
+  
+  "about": {
+    "intro": {
+      "title": "Smile Expert ?",
+      "boldText": "is a dental clinic where you will feel both relaxed (or secure) and well accompanied.",
+      "expertise": "With about 10 years of expertise, we offer comprehensive dental care in an environment filled with vitality, energy, and well-being.",
+      "services": "Whether you need a routine check-up, preventive treatment, aesthetic care, cellular regeneration, or more complex treatments, our experienced doctor is here to listen and meet all your needs.",
+      "imgAlt": "Doctor Sarra"
+    }
+  },
 
 
 
