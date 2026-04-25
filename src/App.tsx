@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import HomePage from './Pages/Home/home'
 import ContactPage from './Pages/contact/contact'
 import About from './Pages/About/About'
+import FinalCTA from './components/FinalCTA/FinalCTA'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       </Routes>
 
       {/* <Footer /> */}
+      <FinalCTA />
       <Footer />
 
     </BrowserRouter>

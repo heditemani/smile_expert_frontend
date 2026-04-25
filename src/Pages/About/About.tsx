@@ -60,13 +60,15 @@ const About = () => {
         </div>
       </section>
 
+
+    <CtaSplit />
       
     <ScheduleSection isAltBg={true} />
 
-    <CtaSplit />
+    
 
         
-    <FinalCTA />
+    
 
     </div>
   );
