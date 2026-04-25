@@ -91,7 +91,10 @@
 
 
 
-
+  "cta": {
+    "title": "Pronto A Sorridere Con Fiducia?",
+    "button": "Prenota un appuntamento"
+  },
 
   "contact_hero": {
     "title": "Non esitate a contattarci",

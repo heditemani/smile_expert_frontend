@@ -1,0 +1,46 @@
+.sectionPadding {
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+.ctaBox {
+    background-color: var(--secondary-bg);
+    border-radius: var(--border-radius-md);
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.sectionTitle {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+
+.btnWhite {
+    background: var(--bg-white);
+    color: var(--text-main);
+    font-weight: 600;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border-radius: var(--border-radius-md);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btnWhite:hover {
+    scale: 1.1;
+}
+
+@media (max-width: 768px) {
+    .sectionPadding {
+        padding: 3rem 0;
+    }
+}

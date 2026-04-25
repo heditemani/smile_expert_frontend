@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import SecondBanner from '../../components/SecondBanner/SecondBanner'
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection'
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
+import CtaBanner from '../../components/CTAsection/CTA';
 const homepage = () => {
 
   const { t } = useTranslation();
@@ -14,6 +15,9 @@ const homepage = () => {
         buttonText={t('contact_hero.button')}
       />
     <ScheduleSection isAltBg={true} />
+
+
+    <CtaBanner />
     </>
   )
 }
