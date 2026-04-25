@@ -12,6 +12,8 @@ import techImg1 from '../../assets/images/about_page/technologie_image_1.webp';
 import techImg2 from '../../assets/images/about_page/technologie_image_2.webp';
 import techImg3 from '../../assets/images/about_page/technologie_image_1.webp';
 
+import expertiseImg from '../../assets/images/about_page/expertise_image.webp';
+
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 import CtaSplit from '../../components/CTASplit/CtaSplit';
 
@@ -92,7 +94,7 @@ const About = () => {
       
     <ScheduleSection isAltBg={true} />
 
-    
+    {/* Technologies Section */}
     <section className={`${styles.technologies} ${styles.sectionPadding}`}>
         <div className={`${styles.container} ${styles.textCenter}`}>
           <div className={styles.techWrapper}>
@@ -114,6 +116,24 @@ const About = () => {
                   </a>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Expertise Section */}
+      <section className={styles.expertiseSection} style={{ backgroundColor: 'var(--bg-offwhite)' }}>
+        <div className={styles.container}>
+          <h2 className={`section-title mb-4`}>{t('about.expertise.sectionTitle')}</h2>
+          <div className={styles.expertiseWrapper}>
+            <div className={styles.expertiseContent}>
+              <h3>{t('about.expertise.doctorName')}</h3>
+              <p className={styles.expertiseRole}>
+                {t('about.expertise.description')}
+              </p>
+            </div>
+            <div className={styles.expertiseImage}>
+              <img src={expertiseImg} alt={t('about.expertise.doctorName')} />
             </div>
           </div>
         </div>

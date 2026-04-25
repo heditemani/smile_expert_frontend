@@ -121,6 +121,11 @@
         "scannerIntraoral": { "name": "Intraoral Scanner" },
         "scannerFacial": { "name": "Facial Scanner" }
       }
+    },
+    "expertise": {
+      "sectionTitle": "Our Expertise",
+      "doctorName": "Dr. Sarra Haouet",
+      "description": "Dr. Sarra Haouet brings her expertise and passion to your smile. Always attentive, she combines medical precision with a human approach to offer each patient a unique and reassuring care experience."
     }
 
   },

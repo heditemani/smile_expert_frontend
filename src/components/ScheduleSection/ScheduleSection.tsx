@@ -16,7 +16,6 @@ const ScheduleSection = ({ isAltBg = false }) => {
   ];
 
   return (
-    /* Itha isAltBg s7i7a, nzidou el class styles.altBg */
     <section className={`${styles.schedule} ${isAltBg ? styles.altBg : ''} section-padding`}>
       <div className="container">
         <div className={styles.scheduleWrapper}>

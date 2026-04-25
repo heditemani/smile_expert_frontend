@@ -241,3 +241,65 @@
         grid-template-columns: 1fr;
     }
 }
+
+
+
+.expertiseSection {
+    padding: 5rem 0;
+}
+
+.expertiseWrapper {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color: var(--bg-white);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+}
+
+.expertiseContent {
+    flex: 1;
+    padding: 3rem;
+}
+
+.expertiseContent h3 {
+    font-size: 1.8rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+.expertiseRole {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.expertiseImage {
+    flex: 1;
+    display: flex;
+}
+
+.expertiseImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .expertiseWrapper {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .expertiseContent {
+        padding: 2.5rem 2rem;
+        order: 1; /* Texte yji ta7t el taswira ken t7eb, walla order: 2 */
+    }
+
+    .expertiseImage {
+        width: 100%;
+        order: 2;
+    }
+}

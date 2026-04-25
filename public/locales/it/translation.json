@@ -106,6 +106,11 @@
         "scannerIntraoral": { "name": "Scanner Intraorale" },
         "scannerFacial": { "name": "Scanner Facciale" }
       }
+    },
+    "expertise": {
+      "sectionTitle": "La Nostra Esperienza",
+      "doctorName": "Dottoressa Sarra Haouet",
+      "description": "La Dottoressa Sarra Haouet mette la sua esperienza e la sua passione al servizio del vostro sorriso. Sempre attenta, unisce rigore medico e approccio umano per offrire a ogni paziente un'esperienza di cura unica e rassicurante."
     }
   },
 
