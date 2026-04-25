@@ -1,0 +1,59 @@
+.finalCta {
+    background-color: var(--bg-white);
+    padding: 5rem 0; /* Khallit'ha cohérente m3a el section eli qbalha */
+}
+
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+.finalCtaWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-offwhite);
+    padding: 4rem;
+    border-radius: var(--border-radius-lg);
+    gap: 2rem; /* Bch h2 w el button ma yitlasqush */
+}
+
+.finalCtaWrapper h2 {
+    font-size: 2.2rem;
+    color: var(--text-main);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.btnPrimary {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+    padding: 0.8rem 2rem;
+    border-radius: var(--border-radius-md);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    white-space: nowrap; /* Bch el kelma mta3 el button ma tatqassish */
+}
+
+.btnPrimary:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Responsive: Fel mobile ywalliw fouq b3adh'hom */
+@media (max-width: 768px) {
+    .finalCtaWrapper {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 2rem;
+    }
+    
+    .finalCtaWrapper h2 {
+        font-size: 1.8rem;
+    }
+}

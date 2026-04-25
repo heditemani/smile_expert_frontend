@@ -113,6 +113,10 @@
     "title": "Ready To Smile With Confidence?",
     "button": "Book an appointment"
   },
+  "finalCta": {
+    "title": "Keep Smiling!",
+    "button": "Contact Us"
+  },
 
   "contact": {
     "info_title": "Feel free to contact us",

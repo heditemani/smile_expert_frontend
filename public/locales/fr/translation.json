@@ -81,7 +81,10 @@
     "title": "Prêt À Sourire Avec Confiance?",
     "button": "Réserver un rendez-vous"
   },
-
+  "finalCta": {
+    "title": "Continuez à sourire!",
+    "button": "Contactez-nous"
+  },
 
   "contact_hero": {
     "title": "N'hésitez pas à nous contacter",
