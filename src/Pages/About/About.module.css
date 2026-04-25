@@ -96,3 +96,42 @@
         background: linear-gradient(to bottom, var(--secondary-bg) 0%, rgba(204, 231, 224, 0.8) 30%, transparent 100%);
     }
 }
+
+
+
+.gallery {
+    background-color: var(--bg-white);
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.galleryItem {
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    aspect-ratio: 16 / 9;
+}
+
+.galleryItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform var(--transition); /* Thabbet eli --transition mawjouda f index.css */
+}
+
+.galleryItem:hover img {
+    transform: scale(1.05);
+}
+
+/* Responsive Grid */
+@media (max-width: 600px) {
+    .galleryGrid {
+        grid-template-columns: 1fr; /* Taswira barka f star fel mobile */
+        gap: 1.5rem;
+    }
+}

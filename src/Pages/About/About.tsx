@@ -2,8 +2,25 @@ import { useTranslation } from 'react-i18next';
 import styles from './About.module.css';
 import doctorImage from '../../assets/images/about_page/about_sarra_image.webp';
 
+import img1 from '../../assets/images/about_page/about_gallery_image_1.webp';
+import img2 from '../../assets/images/about_page/about_gallery_image_2.webp';
+import img3 from '../../assets/images/about_page/about_gallery_image_3.webp';
+import img4 from '../../assets/images/about_page/about_gallery_image_4.webp';
+import FinalCTA from '../../components/FinalCTA/FinalCTA';
+import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
+
+
+
 const About = () => {
   const { t } = useTranslation();
+
+
+  const galleryImages = [
+    { id: 1, src: img1, alt: "Gallery Image 1" },
+    { id: 2, src: img2, alt: "Gallery Image 2" },
+    { id: 3, src: img3, alt: "Gallery Image 3" },
+    { id: 4, src: img4, alt: "Gallery Image 4" },
+  ];
 
   return (
     <div className="about-page">
@@ -29,7 +46,25 @@ const About = () => {
         </div>
       </section>
 
-      {/* Houni tnajjem tzid el sections el okhrin ba3d */}
+      {/* Gallery Section */}
+      <section className={`${styles.gallery} ${styles.sectionPadding}`}>
+        <div className={styles.container}>
+          <div className={styles.galleryGrid}>
+            {galleryImages.map((image) => (
+              <div key={image.id} className={styles.galleryItem}>
+                <img src={image.src} alt={image.alt} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      
+    <ScheduleSection isAltBg={false} />
+
+        
+    <FinalCTA />
+
     </div>
   );
 };
