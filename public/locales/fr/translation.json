@@ -80,15 +80,20 @@
 
 
 
-
-
-
-
+  "ctaSplit": {
+    "titleLine1": "Prêt à faire l'expérience",
+    "titleLine2": "de meilleurs soins",
+    "titleLine3": "dentaires ?",
+    "description": "Planifiez votre visite dès aujourd'hui et faites le premier pas vers un sourire plus sain et plus éclatant.",
+    "button": "Planifiez votre rendez-vous",
+    "imgAlt": "Soins dentaires"
+  },
 
   "cta": {
     "title": "Prêt À Sourire Avec Confiance?",
     "button": "Réserver un rendez-vous"
   },
+
   "finalCta": {
     "title": "Continuez à sourire!",
     "button": "Contactez-nous"

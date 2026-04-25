@@ -100,6 +100,15 @@
     }
   },
 
+  "ctaSplit": {
+    "titleLine1": "Pronto a provare",
+    "titleLine2": "migliori cure",
+    "titleLine3": "dentali?",
+    "description": "Pianifica la tua visita oggi e fai il primo passo verso un sorriso più sano e smagliante.",
+    "button": "Pianifica il tuo appuntamento",
+    "imgAlt": "Cura dentale"
+  },
+
   "cta": {
     "title": "Pronto A Sorridere Con Fiducia?",
     "button": "Prenota un appuntamento"

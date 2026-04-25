@@ -8,6 +8,7 @@ import img3 from '../../assets/images/about_page/about_gallery_image_3.webp';
 import img4 from '../../assets/images/about_page/about_gallery_image_4.webp';
 import FinalCTA from '../../components/FinalCTA/FinalCTA';
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
+import CtaSplit from '../../components/CTASplit/CtaSplit';
 
 
 
@@ -60,7 +61,9 @@ const About = () => {
       </section>
 
       
-    <ScheduleSection isAltBg={false} />
+    <ScheduleSection isAltBg={true} />
+
+    <CtaSplit />
 
         
     <FinalCTA />

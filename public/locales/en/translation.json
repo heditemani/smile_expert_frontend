@@ -116,7 +116,14 @@
   },
 
 
-
+"ctaSplit": {
+    "titleLine1": "Ready to experience",
+    "titleLine2": "better dental",
+    "titleLine3": "care?",
+    "description": "Schedule your visit today and take the first step towards a healthier and brighter smile.",
+    "button": "Schedule your appointment",
+    "imgAlt": "Dental care"
+  },
 
   "cta": {
     "title": "Ready To Smile With Confidence?",
