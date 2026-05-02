@@ -13,7 +13,87 @@
     "orthodontics": "Ortodonzia",
     "pediatric": "Odontoiatria Pediatrica",
     "preventive": "Cure Preventive",
-    "tech": "Tecnologia e Diagnostica"
+    "tech": "Tecnologia e Diagnostica",
+
+    
+   "banner": {
+      "title": "I Nostri Servizi",
+      "subtitle": "Esperienza e tecnologia all'avanguardia al servizio della vostra salute"
+    },
+    "explore_button_text": "Esplora questo servizio",
+    "bucco": {
+      "heading": "Trattamenti Oro-Dentali",
+      "tagline": "Cure preventive ed esami di routine"
+    },
+    "Alignement": {
+      "heading": "Allineamento Gengivale",
+      "tagline": "Cura laser di precisione per le tue gengive"
+    },
+    "Traitement": {
+      "heading": "Trattamento Iperpigmentazione Gengivale",
+      "tagline": "Cure avanzate per il tuo comfort"
+    },
+    "Protheses": {
+      "heading": "Protesi Dentarie",
+      "tagline": "Rivela il tuo miglior sorriso"
+    },
+    "items": {
+      "blanchiment": { 
+        "title": "Sbiancamento Dentale Laser a Diodo", 
+        "subtitle": "Cure preventive e controlli di routine"
+       },
+      "alignement": { 
+        "title": "Allineamento Gengivale Laser a Diodo", 
+        "subtitle": "Cure preventive e controlli di routine"
+       },
+      "hyperpigmentation": { 
+        "title": "Trattamento Iperpigmentazione Laser", 
+        "subtitle": "Cure preventive e controlli di routine"
+       },
+      "examens": {
+         "title": "Esami Regolari", 
+         "subtitle": "Cure preventive e controlli di routine"
+         },
+      "soins": { 
+        "title": "Cure Preventive",
+         "subtitle": "Cure preventive e controlli di routine"
+         },
+      "collage": { 
+        "title": "Bonding in Resina Composita",
+         "subtitle": "Cure preventive e controlli di routine" 
+        },
+      "traitements_endo": { 
+        "title": "Trattamento Endodontico Laser e Otturazione",
+         "subtitle": "Cure preventive e controlli di routine" 
+        },
+      "extraction": {
+         "title": "Estrazione Dentale",
+          "subtitle": "Cure preventive e controlli di routine"
+        },
+      "chirurgie_guidee": {
+         "title": "Chirurgia Implantare Guidata dal Computer", 
+         "subtitle": "Cure preventive e controlli di routine"
+         },
+      "anomalies": { 
+        "title": "Trattamento delle Anomalie", 
+        "subtitle": "Cure preventive e controlli di routine"
+       },
+      "protheses_fixes": { 
+        "title": "Protesi Fisse",
+         "subtitle": "Cure preventive e controlli di routine"
+         },
+      "protheses_amovibles": { 
+        "title": "Protesi Mobili", 
+        "subtitle": "Cure preventive e controlli di routine" 
+      },
+      "facettes": {
+         "title": "Faccette Dentali", 
+         "subtitle": "Cure preventive e controlli di routine"
+         }
+    }
+
+
+
   },
   
 

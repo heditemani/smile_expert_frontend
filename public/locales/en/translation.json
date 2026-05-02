@@ -16,7 +16,94 @@
     "orthodontics": "Orthodontics",
     "pediatric": "Pediatric Dentistry",
     "preventive": "Preventive Care",
-    "tech": "Tech & Diagnostics"
+    "tech": "Tech & Diagnostics",
+
+    "banner": {
+      "title": "Our Services",
+      "subtitle": "State-of-the-art expertise and technology for your health"
+    },
+    "explore_button_text": "Explore this Service",
+    "bucco": {
+      "heading": "Oral-Dental Treatments",
+      "tagline": "Preventive Care and Routine Checkups"
+    },
+    "Alignement": {
+      "heading": "Gingival Alignment",
+      "tagline": "Precision laser care for your gums"
+    },
+    "Traitement": {
+      "heading": "Gingival Hyperpigmentation Treatment",
+      "tagline": "Advanced care for your comfort"
+    },
+    "Protheses": {
+      "heading": "Dental Prosthetics",
+      "tagline": "Reveal your best smile"
+    },
+    "items": {
+      "blanchiment": { 
+        "title": "Laser Diode Teeth Whitening", 
+        "subtitle": "Preventive care and routine checkups" 
+      },
+      "alignement":
+       { 
+        "title": "Gingival Alignment via Laser Diode", 
+      "subtitle": "Preventive care and routine checkups" 
+    },
+      "hyperpigmentation": 
+      { 
+        "title": "Laser Gingival Hyperpigmentation Treatment", 
+        "subtitle": "Preventive care and routine checkups" 
+      },
+      "examens": 
+      { 
+        "title": "Regular Checkups", 
+        "subtitle": "Preventive care and routine checkups" 
+      },
+      "soins": 
+      { 
+        "title": "Preventive Care", 
+        "subtitle": "Preventive care and routine checkups" 
+      },
+      "collage": 
+      { 
+        "title": "Composite Resin Bonding", 
+        "subtitle": "Preventive care and routine checkups" 
+      },
+      "traitements_endo": 
+      { 
+        "title": "Endodontic Laser Treatment and Filling", 
+        "subtitle": "Preventive care and routine checkups"
+       },
+      "extraction": 
+      { 
+        "title": "Tooth Extraction", 
+        "subtitle": "Preventive care and routine checkups" 
+      },
+      "chirurgie_guidee": 
+      { "title": "Computer-Guided Implant Surgery", 
+      "subtitle": "Preventive care and routine checkups" 
+    },
+      "anomalies": 
+      { 
+        "title": "Anomaly Treatments", 
+        "subtitle": "Preventive care and routine checkups" 
+      },
+      "protheses_fixes":
+       {
+         "title": "Fixed Prosthetics", 
+         "subtitle": "Preventive care and routine checkups" 
+        },
+      "protheses_amovibles": 
+      { 
+        "title": "Removable Prosthetics", 
+      "subtitle": "Preventive care and routine checkups"
+     },
+      "facettes": 
+      { 
+        "title": "Dental Veneers",
+         "subtitle": "Preventive care and routine checkups" 
+        }
+    }
   },
 
 

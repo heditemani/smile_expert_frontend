@@ -13,7 +13,99 @@
     "orthodontics": "Orthodontie",
     "pediatric": "Dentisterie pédiatrique",
     "preventive": "Soins préventifs",
-    "tech": "Technologies et diagnostic"
+    "tech": "Technologies et diagnostic",
+
+      
+    "banner": {
+      "title": "Nos Services",
+      "subtitle": "Expertise et technologie de pointe au service de votre santé"
+    },
+    "explore_button_text": "Explorez ce Service",
+    "bucco": {
+      "heading": "Traitements Bucco-Dentaires",
+      "tagline": "Soins Préventifs et Examens de Routine"
+    },
+    "Alignement": {
+      "heading": "Alignement gingival au laser diode",
+      "tagline": "Soins Préventifs et Examens de Routine"
+    },
+    "Traitement ": {
+      "heading": "Traitement de l’hyperpigmentation gingivale par laser",
+      "tagline": "Des soins précis pour votre confort"
+    },
+   
+    "Prothèses":{
+        "title": "Prothèses dentaires",
+        "subtitle": "Révélez votre meilleur sourire"
+      },
+    "items": {
+      "blanchiment": {
+        "title": "Blanchiment des dents par LASER DIODE",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "alignement": {
+        "title": "Alignement gingival au laser diode",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "hyperpigmentation": {
+        "title": "Traitement de l'hyperpigmentation gingivale par laser",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "examens": {
+        "title": "Examens réguliers",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "soins": {
+        "title": "Soins Préventifs",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "Collage ": {
+        "title": "Collage résine Composite",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "Traitements": {
+        "title": "Le Traitements Endodontiques par Laser Diode et Obturation",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "Extraction": {
+        "title": "Extraction",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "chirurgie": {
+        "title": "La Chirurgie Implantaire Guidée par Ordinateur",
+        "subtitle": "preventive care and routine checkups"
+      },
+      " anomalies ": {
+        "title": "Traitements des anomalies",
+        "subtitle": "preventive care and routine checkups"
+      },  
+      "Prothèses Fixes "  : {
+        "title": "Prothèses Fixes",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "Prothèses Amovibles "  : {
+        "title": "La Prothèses Amovibles",
+        "subtitle": "preventive care and routine checkups"
+      },
+        "Facettes ":{
+          "title": "Facettes dentaires",
+          "subtitle": "preventive care and routine checkups"
+        }
+
+      
+
+    }
+
+
+
+
+
+
+
+
+
+
+    
   },
 
 
@@ -87,6 +179,17 @@
       "description": "Le Docteur Sarra Haouet met son expertise et sa passion au service de votre sourire. Toujours à l’écoute, elle associe rigueur médicale et approche humaine pour offrir à chaque patient une expérience de soins unique et rassurante."
     }
   },
+
+  "after_before": {
+    "card1":{
+      "title":"Continuez à sourire!",
+
+       "des": "Découvrez les transformations impressionnantes de nos patients grâce à nos soins dentaires de qualité. Chaque sourire raconte une histoire de confiance retrouvée et de bien-être amélioré."
+  
+    }
+
+    },
+   
 
 
 

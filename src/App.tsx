@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import HomePage from './Pages/Home/home'
 import ContactPage from './Pages/contact/contact'
 import About from './Pages/About/About'
+import Service from './Pages/Services/services'
 import FinalCTA from './components/FinalCTA/FinalCTA'
 
 
@@ -19,7 +20,7 @@ function App() {
         <Route path='/' element={<HomePage />} /> {/* Remplace par <Home /> */}
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<ContactPage />} />
-        
+        <Route path='/services' element={<Service/>} />
         {/* Page 404 */}
         <Route path='*' element={<div>Page non trouvée (404)</div>} />
       </Routes>
