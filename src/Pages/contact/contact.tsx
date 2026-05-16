@@ -3,12 +3,12 @@ import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import { useTranslation } from 'react-i18next';
 
 import locationicon from '../../../public/icons/location.svg';
-import locationicon from '../../../public/icons/location.svg';
-import locationicon from '../../../public/icons/location.svg';
+import emailicon from '../../../public/icons/email.svg';
+import phoneicon from '../../../public/icons/phone.svg';
 
-import locationicon from '../../../public/icons/location.svg';
-import locationicon from '../../../public/icons/location.svg';
-import locationicon from '../../../public/icons/location.svg';
+import facebookicon from '../../../public/icons/facebook.svg';
+import instagramicon from '../../../public/icons/instagram.svg';
+import linkedinicon from '../../../public/icons/linkedin.svg';
 
 
 
@@ -48,7 +48,7 @@ const Contact = () => {
                 </div>
 
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><i className="ph ph-envelope-simple"></i></div>
+                  <div className={styles['contact-info-icon']}><img src={emailicon} alt="Email" /></div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.email_us')}</h4>
                     <p><a href="mailto:dentalclinic.tn@gmail.com">dentalclinic.tn@gmail.com</a></p>
@@ -56,7 +56,7 @@ const Contact = () => {
                 </div>
 
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><i className="ph ph-phone"></i></div>
+                  <div className={styles['contact-info-icon']}><img src={phoneicon} alt="Phone" /></div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.call_us')}</h4>
                     <p>+216 53 99 00 79 / 72 270 888</p>
@@ -67,9 +67,9 @@ const Contact = () => {
               <div className={styles['contact-social']}>
                 <p>{t('contact.follow_us')}</p>
                 <div className={styles['contact-social-icons']}>
-                  <a href="#" className={styles['contact-social-icon']}><i className="ph-fill ph-facebook-logo"></i></a>
-                  <a href="#" className={styles['contact-social-icon']}><i className="ph ph-instagram-logo"></i></a>
-                  <a href="#" className={styles['contact-social-icon']}><i className="ph-fill ph-linkedin-logo"></i></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src={facebookicon} alt="Facebook" /></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src={instagramicon} alt="Instagram" /></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src={linkedinicon} alt="LinkedIn" /></a>
                 </div>
               </div>
             </div>
