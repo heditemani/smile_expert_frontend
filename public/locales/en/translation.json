@@ -178,7 +178,32 @@
 
 
 
-
+  "beforeAfter": {
+    "depigmentation": {
+      "title": "Laser Gum Depigmentation",
+      "description": "Laser treatment effectively removes dark spots and deep pigmentation from the gums, restoring a natural, healthy pink appearance."
+    },
+    "eclaircissement": {
+      "title": "Teeth Brightening",
+      "description": "A professional treatment designed to eliminate deep stains and bring back brightness and freshness to your smile."
+    },
+    "protheseTotale": {
+      "title": "Complete Removable Denture",
+      "description": "A comprehensive and comfortable solution to replace all missing teeth, restoring chewing function and facial aesthetics."
+    },
+    "protheseFlexite": {
+      "title": "Flexite Partial Removable Denture",
+      "description": "A modern, flexible denture made without visible metal clasps, offering absolute discretion and optimal daily comfort."
+    },
+    "strassDentaire": {
+      "title": "Dental Crystal (Strass)",
+      "description": "Safe placement of a subtle and sparkling tooth jewel, done professionally without damaging the tooth enamel."
+    },
+    "blanchiment": {
+      "title": "Teeth Whitening",
+      "description": "In-office whitening treatment to safely brighten your teeth by several shades in just a single session."
+    }
+  },
 
 
 

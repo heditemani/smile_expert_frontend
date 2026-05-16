@@ -167,7 +167,32 @@
 
 
 
-  
+  "beforeAfter": {
+    "depigmentation": {
+      "title": "Depigmentazione Gengivale al Laser",
+      "description": "Il trattamento laser consente di eliminare le macchie scure e le pigmentazioni profonde dalle gengive, restituendo un aspetto rosa naturale e sano."
+    },
+    "eclaircissement": {
+      "title": "Schiarimento Dentale",
+      "description": "Un trattamento professionale per eliminare le macchie profonde e ridonare luminosità e freschezza al tuo sorriso."
+    },
+    "protheseTotale": {
+      "title": "Protesi Totale Mobile",
+      "description": "Una soluzione completa e confortevole per sostituire tutti i denti mancanti, ripristinando la funzione masticatoria e l'estetica del viso."
+    },
+    "protheseFlexite": {
+      "title": "Protesi Parziale Mobile Flexite",
+      "description": "Una protesi moderna, flessibile e senza ganci metallici visibili, che offre assoluta discrezione e un comfort quotidiano ottimale."
+    },
+    "strassDentaire": {
+      "title": "Strass Dentale",
+      "description": "Applicazione sicura di un brillantino dentale discreto e luminoso, eseguita professionalmente senza danneggiare lo smalto del dente."
+    },
+    "blanchiment": {
+      "title": "Sbiancamento Dentale",
+      "description": "Trattamento di sbiancamento in studio per ottenere diverse tonalità di bianco in una sola seduta, in totale sicurezza."
+    }
+  },
 
 
   "about": {
