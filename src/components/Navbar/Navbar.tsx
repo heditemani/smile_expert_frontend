@@ -68,7 +68,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li><Link to="/" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.before_after')}</Link></li>
+            <li><Link to="/Before&After" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.before_after')}</Link></li>
             <li><Link to="/contact" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.contact')}</Link></li>
             
             

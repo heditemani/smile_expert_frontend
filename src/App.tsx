@@ -7,7 +7,7 @@ import ContactPage from './Pages/contact/contact'
 import About from './Pages/About/About'
 import Service from './Pages/Services/services'
 import FinalCTA from './components/FinalCTA/FinalCTA'
-import Beforeafter from './Pages/Before&After/Before&After.jsx'
+import Beforeafter from './Pages/Before&After/Before&After'
 
 
 function App() {
