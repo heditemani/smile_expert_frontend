@@ -3,7 +3,6 @@ import SecondBanner from '../../components/SecondBanner/SecondBanner'
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection'
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import CtaBanner from '../../components/CTAsection/CTA';
-import FinalCTA from '../../components/FinalCTA/FinalCTA';
 const homepage = () => {
 
   const { t } = useTranslation();
@@ -19,7 +18,6 @@ const homepage = () => {
 
 
     <CtaBanner />
-    <FinalCTA />
     </>
   )
 }
