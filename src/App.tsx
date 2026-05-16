@@ -7,6 +7,7 @@ import ContactPage from './Pages/contact/contact'
 import About from './Pages/About/About'
 import Service from './Pages/Services/services'
 import FinalCTA from './components/FinalCTA/FinalCTA'
+import Beforeafter from './Pages/Before&After/Before&After.jsx'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
       {/*  Navbar  */}
       <Navbar />
+      <div style={{ height: '80px' }} /> 
 
       <Routes>
         {/*  Les pages */}
@@ -21,6 +23,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/services' element={<Service/>} />
+        <Route path='/Before&After' element={<Beforeafter />} />
         {/* Page 404 */}
         <Route path='*' element={<div>Page non trouvée (404)</div>} />
       </Routes>

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styles from './ImageSlider.module.css';
 
 const ImageSlider = ({ title, imageBefore, imageAfter, description }) => {
-  // State bch ntb3ou el position mta3 el slider (par défaut 50%)
   const [sliderPosition, setSliderPosition] = useState(50);
 
   const handleSliderChange = (e) => {
