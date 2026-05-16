@@ -1,6 +1,18 @@
 import styles from './contact.module.css';
 import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import { useTranslation } from 'react-i18next';
+
+import locationicon from '../../../public/icons/location.svg';
+import locationicon from '../../../public/icons/location.svg';
+import locationicon from '../../../public/icons/location.svg';
+
+import locationicon from '../../../public/icons/location.svg';
+import locationicon from '../../../public/icons/location.svg';
+import locationicon from '../../../public/icons/location.svg';
+
+
+
+
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import locationMap from '../../assets/images/contact_page/contact_location_image.webp'; 
 
@@ -28,7 +40,7 @@ const Contact = () => {
 
               <div className={styles['contact-info-items']}>
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><i className="ph ph-map-pin"></i></div>
+                  <div className={styles['contact-info-icon']}> <img src={locationicon} alt="Location" /> </div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.location')}</h4>
                     <p>{t('footer.address')}</p>
