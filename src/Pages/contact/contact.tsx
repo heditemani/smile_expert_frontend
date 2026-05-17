@@ -99,7 +99,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Locations Section */}
       <section className={`${styles.locations} section-padding`}>
         <div className="container">
           <h2 className="section-title text-center">{t('contact.locations_title')}</h2>
