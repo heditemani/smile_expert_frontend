@@ -9,11 +9,13 @@ const ServiceCard = ({ bgImage, icon, title, description }) => {
         style={{ backgroundImage: `url(${bgImage})` }}
       ></div>
       <div className={styles.contentWrapper}>
-        <div className={styles.serviceIcon}>
-          <img src={icon} alt="Service Icon" />
+          <div className={styles.icon_container}>
+            <img className={styles.serviceIcon} src={icon} alt="Service Icon" />
+          </div>
+          <div className={styles.overlay}>
+          <h3 className={styles.serviceTitle}>{title}</h3>
+          <p className={styles.serviceDesc}>{description}</p>
         </div>
-        <h3 className={styles.serviceTitle}>{title}</h3>
-        <p className={styles.serviceDesc}>{description}</p>
       </div>
     </div>
   )
