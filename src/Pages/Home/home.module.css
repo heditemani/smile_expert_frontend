@@ -5,10 +5,9 @@
 .servicesGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: auto;
     margin: auto;
     margin-top: 5rem;
-    max-width: 1200px;
 }
 
 .consultation {

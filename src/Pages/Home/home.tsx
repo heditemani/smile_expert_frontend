@@ -5,6 +5,7 @@ import SecondBanner from '../../components/SecondBanner/SecondBanner'
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection'
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import CtaBanner from '../../components/CTAsection/CTA';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
 
 import ServiceCard from '../../components/CardService/ServiceCard.jsx';
 
@@ -34,30 +35,33 @@ const homepage = () => {
         subtitle={t('contact_hero.subtitle')}
         buttonText={t('contact_hero.button')}
       />
-
-      <div className={styles.servicesGrid}>
-      <ServiceCard 
-        bgImage={service1}
-        icon="/icons/teeth.svg"
-        title="Traitements Bucco-Dentaire"
-        description="Des améliorations esthétiques aux soins dentaires fonctionnels adéquats à vos objectifs"
-      />
-      <ServiceCard 
-        bgImage={service2}
-        icon="/icons/teeth.svg"
-        title="Acte de Soins Bucco-Dentaire"
-        description="précis, sécurisé et adapté à chaque patient"
-      />
-      <ServiceCard 
-        bgImage={service3}
-        icon="/icons/teeth.svg"
-        title="Prestations prothétiques dentaire"
-        description="sur mesure pour restaurer l'esthétique et la fonction de votre sourire."
-      />
-    </div>
+      <div className="container">
+        <SectionTitle />
+        <div className={styles.servicesGrid}>
+        <ServiceCard 
+          bgImage={service1}
+          icon="/icons/teeth.svg"
+          title="Traitements Bucco-Dentaire"
+          description="Des améliorations esthétiques aux soins dentaires fonctionnels adéquats à vos objectifs"
+        />
+        <ServiceCard 
+          bgImage={service2}
+          icon="/icons/teeth.svg"
+          title="Acte de Soins Bucco-Dentaire"
+          description="précis, sécurisé et adapté à chaque patient"
+        />
+        <ServiceCard 
+          bgImage={service3}
+          icon="/icons/teeth.svg"
+          title="Prestations prothétiques dentaire"
+          description="sur mesure pour restaurer l'esthétique et la fonction de votre sourire."
+        />
+      </div>
+      </div>
 
 
     <section className="section-padding">
+      
             <div className={styles.stcontainer}>
                 <div className={styles.consultation_wrapper}>
                     <div className={styles.consultation_image}>
