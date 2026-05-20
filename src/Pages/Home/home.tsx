@@ -16,8 +16,9 @@ import service3 from '../../assets/images/general/service_3_indexpage.jpg';
 
 
 //  consultaion
-
 import consultationImg from '../../assets/images/general/consultation_image.jpg';
+
+// 
 
 
 
@@ -56,7 +57,7 @@ const homepage = () => {
     </div>
 
 
-    <section className={styles.consultation}>
+    <section className="section-padding">
             <div className={styles.stcontainer}>
                 <div className={styles.consultation_wrapper}>
                     <div className={styles.consultation_image}>
