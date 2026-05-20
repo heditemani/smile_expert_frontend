@@ -69,7 +69,7 @@ const homepage = () => {
                         <h2>Vous Ne Savez Pas Quel Service Vous Convient ?</h2>
                         <p>Contactez-nous pour une consultation personnalisée nous vous accompagnerons à chaque étape.
                         </p>
-                        <a href="#" className="btn btn-white">Contactez-nous</a>
+                        <a href="/contact" className="btn btn-white">Contactez-nous</a>
                     </div>
                 </div>
             </div>
