@@ -46,8 +46,9 @@
 .contentWrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: space-between;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 2;
     transition: color 0.3s ease;
@@ -59,11 +60,12 @@
 }
 
 .icon_container{
-    background-color: var(--primary-color);
+    background-color: var(--bg-white);
     width: fit-content;
     padding: 0.7rem;
     border-radius: 50%;
-    height: 100%;
+    height: fit-content;
+    margin-bottom: 7rem;
 }
 
 .serviceIcon {
