@@ -105,3 +105,15 @@ button {
     font-size: 0.95rem;
     transition: var(--transition);
 }
+
+.btn-white {
+    background: var(--bg-white);
+    color: var(--text-main);
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.btn-white:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}

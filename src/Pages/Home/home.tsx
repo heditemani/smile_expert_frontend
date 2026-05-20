@@ -15,6 +15,12 @@ import service3 from '../../assets/images/general/service_3_indexpage.jpg';
 
 
 
+//  consultaion
+
+import consultationImg from '../../assets/images/general/consultation_image.jpg';
+
+
+
 
 const homepage = () => {
 
@@ -48,6 +54,25 @@ const homepage = () => {
         description="sur mesure pour restaurer l'esthétique et la fonction de votre sourire."
       />
     </div>
+
+
+    <section className={styles.consultation}>
+            <div className={styles.stcontainer}>
+                <div className={styles.consultation_wrapper}>
+                    <div className={styles.consultation_image}>
+                        <img src={consultationImg} alt="Dentist Consulting"
+                            style={{ aspectRatio: '1/1', objectFit: 'cover', borderRadius: '1rem 0 0 1rem' }}>
+                        </img>
+                    </div>
+                    <div className={styles.consultation_content}>
+                        <h2>Vous Ne Savez Pas Quel Service Vous Convient ?</h2>
+                        <p>Contactez-nous pour une consultation personnalisée nous vous accompagnerons à chaque étape.
+                        </p>
+                        <a href="#" className="btn btn-white">Contactez-nous</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     
 

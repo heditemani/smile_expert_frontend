@@ -10,3 +10,48 @@
     margin-top: 5rem;
     max-width: 1200px;
 }
+
+.consultation {
+    padding: 2rem 0;
+    margin: auto;
+}
+
+.stcontainer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.consultation_wrapper {
+    display: flex;
+    background: var(--secondary-bg);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+}
+
+.consultation_image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.consultation_content {
+    flex: 1.5;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.consultation_content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+    line-height: 1.2;
+}
+
+.consultation_content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-main);
+    opacity: 0.8;
+}
