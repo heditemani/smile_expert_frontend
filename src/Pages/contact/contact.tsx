@@ -2,19 +2,9 @@ import styles from './contact.module.css';
 import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import { useTranslation } from 'react-i18next';
 
-import locationicon from '../../../public/icons/location.svg';
-import emailicon from '../../../public/icons/email.svg';
-import phoneicon from '../../../public/icons/phone.svg';
-
-import facebookicon from '../../../public/icons/facebook.svg';
-import instagramicon from '../../../public/icons/instagram.svg';
-import linkedinicon from '../../../public/icons/linkedin.svg';
-
-
-
-
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import locationMap from '../../assets/images/contact_page/contact_location_image.webp'; 
+
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -40,7 +30,7 @@ const Contact = () => {
 
               <div className={styles['contact-info-items']}>
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}> <img src={locationicon} alt="Location" /> </div>
+                  <div className={styles['contact-info-icon']}> <img src="/icons/location.svg" alt="Location" /> </div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.location')}</h4>
                     <p>{t('footer.address')}</p>
@@ -48,7 +38,7 @@ const Contact = () => {
                 </div>
 
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><img src={emailicon} alt="Email" /></div>
+                  <div className={styles['contact-info-icon']}><img src="/icons/email.svg" alt="Email" /></div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.email_us')}</h4>
                     <p><a href="mailto:dentalclinic.tn@gmail.com">dentalclinic.tn@gmail.com</a></p>
@@ -56,7 +46,7 @@ const Contact = () => {
                 </div>
 
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><img src={phoneicon} alt="Phone" /></div>
+                  <div className={styles['contact-info-icon']}><img src="/icons/phone.svg" alt="Phone" /></div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.call_us')}</h4>
                     <p>+216 53 99 00 79 / 72 270 888</p>
@@ -67,9 +57,9 @@ const Contact = () => {
               <div className={styles['contact-social']}>
                 <p>{t('contact.follow_us')}</p>
                 <div className={styles['contact-social-icons']}>
-                  <a href="#" className={styles['contact-social-icon']}><img src={facebookicon} alt="Facebook" /></a>
-                  <a href="#" className={styles['contact-social-icon']}><img src={instagramicon} alt="Instagram" /></a>
-                  <a href="#" className={styles['contact-social-icon']}><img src={linkedinicon} alt="LinkedIn" /></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/facebook.svg" alt="Facebook" /></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/instagram.svg" alt="Instagram" /></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/linkedin.svg" alt="LinkedIn" /></a>
                 </div>
               </div>
             </div>
