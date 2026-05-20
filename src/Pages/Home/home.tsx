@@ -61,23 +61,31 @@ const homepage = () => {
 
 
     <section className="section-padding">
-      
-            <div className={styles.stcontainer}>
-                <div className={styles.consultation_wrapper}>
-                    <div className={styles.consultation_image}>
-                        <img src={consultationImg} alt="Dentist Consulting"
-                            style={{ aspectRatio: '1/1', objectFit: 'cover', borderRadius: '1rem 0 0 1rem' }}>
-                        </img>
-                    </div>
-                    <div className={styles.consultation_content}>
-                        <h2>Vous Ne Savez Pas Quel Service Vous Convient ?</h2>
-                        <p>Contactez-nous pour une consultation personnalisée nous vous accompagnerons à chaque étape.
-                        </p>
-                        <a href="/contact" className="btn btn-white">Contactez-nous</a>
-                    </div>
-                </div>
+      <div className={styles.stcontainer}>
+        <div className={styles.consultation_wrapper}>
+            <div className={styles.consultation_image}>
+                <img src={consultationImg} alt="Dentist Consulting"
+                    style={{ aspectRatio: '1/1', objectFit: 'cover', borderRadius: '1rem 0 0 1rem' }}>
+                </img>
             </div>
-        </section>
+            <div className={styles.consultation_content}>
+                <h2>Vous Ne Savez Pas Quel Service Vous Convient ?</h2>
+                <p>Contactez-nous pour une consultation personnalisée nous vous accompagnerons à chaque étape.
+                </p>
+                <a href="/contact" className="btn btn-white">Contactez-nous</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section className={`section-padding ${styles.videoSection}`}>
+      <h2 className={styles.videoSectionTitle}>Notre Vidéo de Présentation</h2>
+      
+
+    </section>
+
+
+    
 
     
 

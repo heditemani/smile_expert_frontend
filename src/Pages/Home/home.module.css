@@ -54,3 +54,15 @@
     color: var(--text-main);
     opacity: 0.8;
 }
+
+.videoSection{
+    height: 80vh;
+}
+
+.videoSectionTitle{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 2rem;
+    text-align: center;
+}
