@@ -4,9 +4,8 @@
 
 .servicesGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: auto;
-    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: max(2rem, 4vw);
     margin-top: 5rem;
 }
 

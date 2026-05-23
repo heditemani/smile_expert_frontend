@@ -6,10 +6,7 @@ import ScheduleSection from '../../components/ScheduleSection/ScheduleSection'
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import CtaBanner from '../../components/CTAsection/CTA';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
-
 import ServiceCard from '../../components/CardService/ServiceCard.jsx';
-
-
 import service1 from '../../assets/images/general/service_1_indexpage.jpg';
 import service2 from '../../assets/images/general/service_2_indexpage.jpg';
 import service3 from '../../assets/images/general/service_3_indexpage.jpg';
