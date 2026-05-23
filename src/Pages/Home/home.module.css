@@ -5,7 +5,7 @@
 .servicesGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: max(2rem, 4vw);
+    gap: max(3rem, 1vw);
     margin-top: 5rem;
 }
 
