@@ -4,9 +4,10 @@
   border-radius: 14px;
   overflow: hidden;
   cursor: pointer;
-  height: 220px;
-  background-color: #e8f5f0; /* Default light green background */
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  height: 511px;
+  background-color: #e8f5f0;
+  border: 2px solid transparent;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .card:hover {
@@ -14,7 +15,13 @@
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
 }
 
-/* ─── Background Image Layer ─── */
+.card:focus-visible {
+  outline: 2px solid #1d9e75;
+  outline-offset: 2px;
+}
+
+
+/* ─── Background image — fades in on hover ─── */
 .hoverBackground {
   position: absolute;
   inset: 0;
@@ -29,7 +36,7 @@
   opacity: 1;
 }
 
-/* ─── Shared Content Layer (Stays fixed) ─── */
+/* ─── Content — always on top, never moves ─── */
 .content {
   position: relative;
   z-index: 2;
@@ -40,6 +47,7 @@
   gap: 8px;
 }
 
+/* ─── Icon ─── */
 .iconWrapper {
   width: 38px;
   height: 38px;
@@ -49,10 +57,16 @@
   align-items: center;
   justify-content: center;
   color: #1d9e75;
-  font-size: 20px;
-  transition: background 0.3s ease, color 0.3s ease, backdrop-filter 0.3s ease;
+  flex-shrink: 0;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* ─── Text ─── */
 .title {
   margin: 0;
   font-size: 13.5px;
@@ -68,10 +82,10 @@
   font-weight: 400;
   color: #0f6e56;
   line-height: 1.45;
-  transition: color 0.3s ease; /* Only the color fades */
+  transition: color 0.3s ease;
 }
 
-/* ─── Hover State Overrides ─── */
+/* ─── Hover overrides ─── */
 .card:hover .title {
   color: #ffffff;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
@@ -82,7 +96,7 @@
 }
 
 .card:hover .iconWrapper {
-  background: #D0E9E5;
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   color: #ffffff;

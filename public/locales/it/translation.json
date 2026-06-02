@@ -17,79 +17,99 @@
 
     
    "banner": {
-      "title": "I Nostri Servizi",
-      "subtitle": "Esperienza e tecnologia all'avanguardia al servizio della vostra salute"
+      "title": "Nos Services",
+      "subtitle": "Expertise et technologie de pointe au service de votre santé"
     },
-    "explore_button_text": "Esplora questo servizio",
-    "bucco": {
-      "heading": "Trattamenti Oro-Dentali",
-      "tagline": "Cure preventive ed esami di routine"
+    "explore_button_text": "Explorez ce Service",
+    "conservative": {
+      "heading": "Odontologie conservatrice",
+      "tagline": "Préserver vos dents naturelles"
     },
-    "Alignement": {
-      "heading": "Allineamento Gengivale",
-      "tagline": "Cura laser di precisione per le tue gengive"
+    "prosthetics": {
+      "heading": "Prothèses dentaires",
+      "tagline": "Retrouver un sourire complet et fonctionnel"
     },
-    "Traitement": {
-      "heading": "Trattamento Iperpigmentazione Gengivale",
-      "tagline": "Cure avanzate per il tuo comfort"
+    "orthodontics": {
+      "heading": "Orthodontie",
+      "tagline": "Aligner vos dents et améliorer votre sourire"
     },
-    "Protheses": {
-      "heading": "Protesi Dentarie",
-      "tagline": "Rivela il tuo miglior sorriso"
+    "surgery": {
+      "heading": "Chirurgie buccale",
+      "tagline": "Des soins précis pour votre santé bucco-dentaire"
+    },
+    "aesthetic": {
+      "heading": "Dentisterie esthétique",
+      "tagline": "Sublimer votre sourire"
+    },
+    "preventive": {
+      "heading": "Soins préventifs",
+      "tagline": "Protéger votre santé bucco-dentaire"
+    },
+    "pediatric": {
+      "heading": "Dentisterie pédiatrique",
+      "tagline": "Accompagner le sourire de votre enfant"
+    },
+    "tech": {
+      "heading": "Technologies et diagnostic",
+      "tagline": "Une précision optimale pour vos soins"
     },
     "items": {
-      "blanchiment": { 
-        "title": "Sbiancamento Dentale Laser a Diodo", 
-        "subtitle": "Cure preventive e controlli di routine"
-       },
-      "alignement": { 
-        "title": "Allineamento Gengivale Laser a Diodo", 
-        "subtitle": "Cure preventive e controlli di routine"
-       },
-      "hyperpigmentation": { 
-        "title": "Trattamento Iperpigmentazione Laser", 
-        "subtitle": "Cure preventive e controlli di routine"
-       },
-      "examens": {
-         "title": "Esami Regolari", 
-         "subtitle": "Cure preventive e controlli di routine"
-         },
-      "soins": { 
-        "title": "Cure Preventive",
-         "subtitle": "Cure preventive e controlli di routine"
-         },
-      "collage": { 
-        "title": "Bonding in Resina Composita",
-         "subtitle": "Cure preventive e controlli di routine" 
-        },
-      "traitements_endo": { 
-        "title": "Trattamento Endodontico Laser e Otturazione",
-         "subtitle": "Cure preventive e controlli di routine" 
-        },
-      "extraction": {
-         "title": "Estrazione Dentale",
-          "subtitle": "Cure preventive e controlli di routine"
-        },
-      "chirurgie_guidee": {
-         "title": "Chirurgia Implantare Guidata dal Computer", 
-         "subtitle": "Cure preventive e controlli di routine"
-         },
-      "anomalies": { 
-        "title": "Trattamento delle Anomalie", 
-        "subtitle": "Cure preventive e controlli di routine"
-       },
-      "protheses_fixes": { 
-        "title": "Protesi Fisse",
-         "subtitle": "Cure preventive e controlli di routine"
-         },
-      "protheses_amovibles": { 
-        "title": "Protesi Mobili", 
-        "subtitle": "Cure preventive e controlli di routine" 
+      "bonding": {
+        "title": "Collage en résine composite",
+        "subtitle": "Restaure la forme et l’esthétique grâce à un matériau biocompatible[cite: 1]"
+      },
+      "endodontic": {
+        "title": "Traitement endodontique",
+        "subtitle": "Élimine la pulpe infectée pour éviter l’extraction et conserver la dent[cite: 1]"
+      },
+      "taches": {
+        "title": "Traitement des taches dentaires",
+        "subtitle": "Solutions pour retrouver un sourire plus uniforme[cite: 1]"
+      },
+      "fixed_pro": {
+        "title": "Prothèses fixes",
+        "subtitle": "Conçues pour s’intégrer parfaitement et restaurer durablement[cite: 1]"
+      },
+      "removable_pro": {
+        "title": "Prothèses amovibles",
+        "subtitle": "Solutions adaptées en cas de perte de plusieurs dents[cite: 1]"
+      },
+      "aligners": {
+        "title": "Aligneurs transparents",
+        "subtitle": "Gouttières amovibles pour déplacer vos dents en toute discrétion[cite: 1]"
+      },
+      "contention": {
+        "title": "Contentions orthodontiques",
+        "subtitle": "Maintient les dents dans leur nouvelle position après traitement[cite: 1]"
+      },
+      "implantology": {
+        "title": "Implantologie",
+        "subtitle": "Solution durable pour remplacer la racine et supporter une couronne[cite: 1]"
+      },
+      "whitening": {
+        "title": "Blanchiment professionnel",
+        "subtitle": "Éclaircit l’émail et élimine les colorations profondes[cite: 1]"
       },
       "facettes": {
-         "title": "Faccette Dentali", 
-         "subtitle": "Cure preventive e controlli di routine"
-         }
+        "title": "Facettes dentaires",
+        "subtitle": "Fines coquilles en céramique pour corriger forme et couleur[cite: 1]"
+      },
+      "scaling": {
+        "title": "Détartrage et polissage",
+        "subtitle": "Élimine le tartre et polit la surface pour limiter les bactéries[cite: 1]"
+      },
+      "bruxism": {
+        "title": "Traitement du bruxisme",
+        "subtitle": "Gouttière personnalisée pour protéger dents et articulations[cite: 1]"
+      },
+      "sealants": {
+        "title": "Sealants dentaires",
+        "subtitle": "Protègent les molaires des enfants contre les caries[cite: 1]"
+      },
+      "scanner_3d": {
+        "title": "Scanner intra-oral 3D",
+        "subtitle": "Empreinte numérique précise sans pâte ni inconfort[cite: 1]"
+      }
     }
 
 

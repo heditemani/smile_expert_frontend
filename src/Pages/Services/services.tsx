@@ -169,6 +169,7 @@ const Services: React.FC = () => {
                 <h2 className={styles.sectionHeading}>{section.heading}</h2>
                 {section.tagline && (
                   <p className={styles.sectionTagline}>{section.tagline}</p>
+                  
                 )}
               </div>
               <button className={styles.exploreBtn}>
