@@ -1,8 +1,10 @@
 import styles from './contact.module.css';
 import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import { useTranslation } from 'react-i18next';
+
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import locationMap from '../../assets/images/contact_page/contact_location_image.webp'; 
+
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -28,7 +30,7 @@ const Contact = () => {
 
               <div className={styles['contact-info-items']}>
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><i className="ph ph-map-pin"></i></div>
+                  <div className={styles['contact-info-icon']}> <img src="/icons/location.svg" alt="Location" /> </div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.location')}</h4>
                     <p>{t('footer.address')}</p>
@@ -36,7 +38,7 @@ const Contact = () => {
                 </div>
 
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><i className="ph ph-envelope-simple"></i></div>
+                  <div className={styles['contact-info-icon']}><img src="/icons/email.svg" alt="Email" /></div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.email_us')}</h4>
                     <p><a href="mailto:dentalclinic.tn@gmail.com">dentalclinic.tn@gmail.com</a></p>
@@ -44,7 +46,7 @@ const Contact = () => {
                 </div>
 
                 <div className={styles['contact-info-item']}>
-                  <div className={styles['contact-info-icon']}><i className="ph ph-phone"></i></div>
+                  <div className={styles['contact-info-icon']}><img src="/icons/phone.svg" alt="Phone" /></div>
                   <div className={styles['contact-info-text']}>
                     <h4>{t('contact.call_us')}</h4>
                     <p>+216 53 99 00 79 / 72 270 888</p>
@@ -55,9 +57,9 @@ const Contact = () => {
               <div className={styles['contact-social']}>
                 <p>{t('contact.follow_us')}</p>
                 <div className={styles['contact-social-icons']}>
-                  <a href="#" className={styles['contact-social-icon']}><i className="ph-fill ph-facebook-logo"></i></a>
-                  <a href="#" className={styles['contact-social-icon']}><i className="ph ph-instagram-logo"></i></a>
-                  <a href="#" className={styles['contact-social-icon']}><i className="ph-fill ph-linkedin-logo"></i></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/facebook.svg" alt="Facebook" /></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/instagram.svg" alt="Instagram" /></a>
+                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/linkedin.svg" alt="LinkedIn" /></a>
                 </div>
               </div>
             </div>
@@ -87,7 +89,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Locations Section */}
       <section className={`${styles.locations} section-padding`}>
         <div className="container">
           <h2 className="section-title text-center">{t('contact.locations_title')}</h2>

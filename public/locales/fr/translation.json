@@ -187,8 +187,35 @@
        "des": "Découvrez les transformations impressionnantes de nos patients grâce à nos soins dentaires de qualité. Chaque sourire raconte une histoire de confiance retrouvée et de bien-être amélioré."
   
     }
-
     },
+
+
+    "beforeAfter": {
+    "depigmentation": {
+      "title": "Dépigmentation Gingivale au Laser",
+      "description": "Le traitement au laser permet d'éliminer les taches brunes et les pigmentations foncées sur les gencives pour leur redonner un aspect rose naturel et sain."
+    },
+    "eclaircissement": {
+      "title": "Éclaircissement Dentaire",
+      "description": "Un soin professionnel pour éliminer les colorations profondes et redonner de l'éclat et de la fraîcheur à votre sourire."
+    },
+    "protheseTotale": {
+      "title": "Prothèse Totale Amovible",
+      "description": "Une solution complète et confortable pour remplacer l'ensemble des dents manquantes, restaurant ainsi la fonction masticatoire et l'esthétique du visage."
+    },
+    "protheseFlexite": {
+      "title": "Prothèse Partielle Amovible Flexite",
+      "description": "Une prothèse moderne, flexible et sans crochets métalliques visibles, offrant une discrétion absolue et un confort optimal au quotidien."
+    },
+    "strassDentaire": {
+      "title": "Strass Dentaire",
+      "description": "Pose d'un bijou dentaire discret et scintillant, réalisée en toute sécurité sans altérer ni abîmer l'émail de la dent."
+    },
+    "blanchiment": {
+      "title": "Blanchiment Dentaire",
+      "description": "Traitement de blanchiment au fauteuil pour gagner plusieurs teintes de blancheur en une seule séance, de manière totalement sécurisée."
+    }
+  },
    
 
 
