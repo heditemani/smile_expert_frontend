@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './ScannerIntraoral.module.css';
-
-// Sala7na esm el variable mta3 el import bch ma yedkholch f 7et m3a esm el Component
 import scannerImg from '../../assets/images/general/scanner_intraorale.jpg';
 
 const ScannerIntraoral = () => {
