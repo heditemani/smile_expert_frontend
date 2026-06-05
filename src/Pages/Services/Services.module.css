@@ -68,7 +68,6 @@
   gap: 16px;
 }
 
-/* matches TSX: className={styles.sectionHeader} */
 .sectionHeader {
   display: flex;
   flex-direction: row;
@@ -83,7 +82,6 @@
   min-width: 0;
 }
 
-/* matches TSX: className={styles.sectionHeading} */
 .sectionHeading {
   margin: 0 0 4px;
   font-size: 20px;
@@ -92,14 +90,12 @@
   letter-spacing: -0.2px;
 }
 
-/* matches TSX: className={styles.sectionTagline} */
 .sectionTagline {
   margin: 0;
   font-size: 13px;
   color: #6b7280;
 }
 
-/* matches TSX: className={styles.exploreBtn} */
 .exploreBtn {
   flex: 0 0 auto;
   align-self: flex-start;
@@ -111,13 +107,13 @@
   padding: 5px 14px;
   cursor: pointer;
   white-space: nowrap;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
 .exploreBtn:hover {
   background-color: #007573;
   border-color: #007573;
-   color: white;
+  color: white;
 }
 
 .exploreBtn:focus-visible {
@@ -128,12 +124,12 @@
 /* ─── Cards grid ─── */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 14px;
 }
 
 /* ─── Responsive ─── */
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .hero {
     height: 240px;
   }
@@ -143,7 +139,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .grid {
     grid-template-columns: 1fr;
   }
