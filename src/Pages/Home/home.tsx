@@ -14,6 +14,8 @@ import service3 from '../../assets/images/general/service_3_indexpage.jpg';
 // Consultation image
 import consultationImg from '../../assets/images/general/consultation_image.jpg';
 
+import receptionImg from '../../assets/images/general/reception.png';
+
 const Homepage = () => {
   const { t } = useTranslation();
 
@@ -27,7 +29,14 @@ const Homepage = () => {
       />
       
       <div className="container">
-        <SectionTitle />
+        
+        <SectionTitle 
+          title={t('home.sectionTitle.title')}
+          description={t('home.sectionTitle.desc')}
+          buttonText={t('home.sectionTitle.button')}
+          href="/services"
+        />
+
         <div className={styles.servicesGrid}>
           <ServiceCard 
             bgImage={service1}
@@ -74,6 +83,50 @@ const Homepage = () => {
       </section>
 
       <ScheduleSection isAltBg={true} />
+
+
+      <section className={styles.howItWorks}>
+        <div className="container">
+          <div className={styles.hiwWrapper}>
+            <div className={styles.hiwContent}>
+              <h2 className={styles.sectionTitle}>{t('home.hiw.title')}</h2>
+              <p className={`${styles.sectionSubtitle} mb-4`}>{t('home.hiw.subtitle')}</p>
+
+              <div className={styles.hiwSteps}>
+                <div className={styles.step}>
+                  <span className={styles.stepNum}>01</span>
+                  <span className={styles.stepText}>{t('home.hiw.step1')}</span>
+                </div>
+                <div className={styles.step}>
+                  <span className={styles.stepNum}>02</span>
+                  <span className={styles.stepText}>{t('home.hiw.step2')}</span>
+                </div>
+                <div className={styles.step}>
+                  <span className={styles.stepNum}>03</span>
+                  <span className={styles.stepText}>{t('home.hiw.step3')}</span>
+                </div>
+                <div className={styles.step}>
+                  <span className={styles.stepNum}>04</span>
+                  <span className={styles.stepText}>{t('home.hiw.step4')}</span>
+                </div>
+                <div className={styles.step}>
+                  <span className={styles.stepNum}>05</span>
+                  <span className={styles.stepText}>{t('home.hiw.step5')}</span>
+                </div>
+              </div>
+            </div>
+            
+            <div className={styles.hiwImage}>
+              <img 
+                src={receptionImg} 
+                alt="Dentist working"
+                style={{ borderRadius: 'var(--border-radius-md)', objectFit: 'cover', aspectRatio: '4/3', width: '100%' }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <CtaBanner />
     </>
   );

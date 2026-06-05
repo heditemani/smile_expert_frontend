@@ -116,6 +116,11 @@
 
   },
   "home": {
+    "sectionTitle": {
+      "title": "I Nostri Servizi Principali",
+      "desc": "Cure dentali di alta qualità personalizzate per le vostre esigenze e un sorriso smagliante.",
+      "button": "Esplora i nostri servizi"
+    },
     "services": {
       "service1": {
         "title": "Trattamenti Orali e Dentali",
@@ -137,8 +142,19 @@
     },
     "video": {
       "title": "Il Nostro Video di Presentazione"
-    }
+    },
+    "hiw": {
+      "title": "Come Funziona",
+      "subtitle": "Semplici passaggi per un sorriso più sano e splendente",
+      "step1": "Prenota Una Visita",
+      "step2": "Incontra Il Tuo Dentista",
+      "step3": "Ricevi La Diagnosi",
+      "step4": "Ricevi Il Trattamento",
+      "step5": "Sorridi"
+      }
   },
+
+  
   
 
 

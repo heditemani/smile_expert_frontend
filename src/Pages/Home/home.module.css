@@ -65,3 +65,66 @@
     margin-bottom: 2rem;
     text-align: center;
 }
+
+
+.howItWorks {
+    padding: 5rem 0;
+    background-color: var(--bg-offwhite);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.hiwWrapper {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.hiwContent {
+    flex: 1;
+}
+
+.hiwImage {
+    flex: 1;
+}
+
+.hiwSteps {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.step:last-child {
+    border-bottom: none;
+}
+
+.stepNum {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    min-width: 30px;
+}
+
+.stepText {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .hiwWrapper {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .hiwImage {
+        width: 100%;
+    }
+}

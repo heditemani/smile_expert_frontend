@@ -1,16 +1,18 @@
 import React from 'react'
 import styles from './SectionTitle.module.css'
 
-const SectionTitle = () => {
+const SectionTitle = ({ title, description, buttonText, href }) => {
   return (
-    <div  className={styles.sectionTitleContainer}>
-        <div>
-            <h2>Section Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien augue.</p>
-        </div>
-
-        <a href="/services" className="btn btn-outline">Explorez nos services</a>
-      
+    <div className={styles.sectionTitleContainer}>
+      <div>
+        <h2>{title}</h2>
+        {description && <p>{description}</p>}
+      </div>
+      {buttonText && href && (
+        <a href={href} className="btn btn-outline">
+          {buttonText}
+        </a>
+      )}
     </div>
   )
 }

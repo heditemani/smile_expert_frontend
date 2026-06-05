@@ -97,6 +97,11 @@
     }
   },
   "home": {
+    "sectionTitle": {
+      "title": "Nos Services Principaux",
+      "desc": "Des soins de haute qualité adaptés à vos besoins pour un sourire éclatant.",
+      "button": "Explorez nos services"
+    },
     "services": {
       "service1": {
         "title": "Traitements Bucco-Dentaire",
@@ -118,8 +123,19 @@
     },
     "video": {
       "title": "Notre Vidéo de Présentation"
-    }
+    },
+    "hiw": {
+      "title": "Comment ça Marche",
+      "subtitle": "Des étapes simples pour un sourire plus sain et plus éclatant",
+      "step1": "Réserver Une Visite",
+      "step2": "Rencontrez Votre Dentiste",
+      "step3": "Être Diagnostiqué",
+      "step4": "Recevoir Un Traitement",
+      "step5": "Sourire"
+      }
   },
+
+  
 
 
 
