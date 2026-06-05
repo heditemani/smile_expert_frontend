@@ -105,6 +105,30 @@
         }
     }
   },
+  "home": {
+    "services": {
+      "service1": {
+        "title": "Oral & Dental Treatments",
+        "description": "From aesthetic enhancements to functional dental care tailored to your goals."
+      },
+      "service2": {
+        "title": "Oral & Dental Care Procedures",
+        "description": "Precise, safe, and fully customized for each patient."
+      },
+      "service3": {
+        "title": "Dental Prosthetic Services",
+        "description": "Custom-made solutions to restore both the aesthetics and function of your smile."
+      }
+    },
+    "consultation": {
+      "title": "Not Sure Which Service Is Right For You?",
+      "description": "Get in touch with us for a personalized consultation, we will guide you every step of the way.",
+      "button": "Contact Us"
+    },
+    "video": {
+      "title": "Our Presentation Video"
+    }
+  },
 
 
 

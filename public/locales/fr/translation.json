@@ -95,17 +95,30 @@
       
 
     }
-
-
-
-
-
-
-
-
-
-
-    
+  },
+  "home": {
+    "services": {
+      "service1": {
+        "title": "Traitements Bucco-Dentaire",
+        "description": "Des améliorations esthétiques aux soins dentaires fonctionnels adéquats à vos objectifs"
+      },
+      "service2": {
+        "title": "Acte de Soins Bucco-Dentaire",
+        "description": "Précis, sécurisé et adapté à chaque patient"
+      },
+      "service3": {
+        "title": "Prestations prothétiques dentaire",
+        "description": "Sur mesure pour restaurer l'esthétique et la fonction de votre sourire."
+      }
+    },
+    "consultation": {
+      "title": "Vous Ne Savez Pas Quel Service Vous Convient ?",
+      "description": "Contactez-nous pour une consultation personnalisée nous vous accompagnerons à chaque étape.",
+      "button": "Contactez-nous"
+    },
+    "video": {
+      "title": "Notre Vidéo de Présentation"
+    }
   },
 
 

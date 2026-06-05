@@ -95,6 +95,30 @@
 
 
   },
+  "home": {
+    "services": {
+      "service1": {
+        "title": "Trattamenti Orali e Dentali",
+        "description": "Dai miglioramenti estetici alle cure dentali funzionali su misura per i vostri obiettivi."
+      },
+      "service2": {
+        "title": "Procedure di Cura Dentale",
+        "description": "Precise, sicure e personalizzate per ogni singolo paziente."
+      },
+      "service3": {
+        "title": "Servizi di Protesi Dentale",
+        "description": "Soluzioni su misura per ripristinare l'estetica e la funzionalità del vostro sorriso."
+      }
+    },
+    "consultation": {
+      "title": "Non Sapete Quale Servizio Fa Per Voi?",
+      "description": "Contattateci per una consulenza personalizzata, vi accompagneremo in ogni fase del percorso.",
+      "button": "Contattaci"
+    },
+    "video": {
+      "title": "Il Nostro Video di Presentazione"
+    }
+  },
   
 
 
