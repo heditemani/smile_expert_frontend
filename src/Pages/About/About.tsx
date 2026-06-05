@@ -36,19 +36,19 @@ const About = () => {
       id: 1,
       image: techImg1,
       key: 'laserDiode',
-      link: '/laser-diode'
+      link: '/laser'
     },
     {
       id: 2,
       image: techImg2,
       key: 'scannerIntraoral',
-      link: '/scanner-intraoral'
+      link: '/scanner.intraoral'
     },
     {
       id: 3,
       image: techImg3,
       key: 'scannerFacial',
-      link: '/scanner-facial'
+      link: '/scanner.facial'
     }
   ];
 
