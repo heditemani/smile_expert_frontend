@@ -51,10 +51,12 @@
 
 .serviceDescLarge {
     color: var(--text-main);
-    line-height: 1.8;
-    font-size: 1.1rem;
+    line-height: 200%;
+    font-size: 30px;
     margin: 0;
+    letter-spacing: 5%;
     opacity: 0.85;
+    text-align: justify;
 }
 
 /* Advantages Section */
@@ -68,15 +70,7 @@
     font-size: 1.8rem;
     color: var(--text-main);
     font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-.advantagesSubtitle {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .advantagesList {
@@ -91,14 +85,10 @@
 .advantagesList li {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 25px;
     font-size: 1.1rem;
     color: var(--text-main);
-}
-
-.advantagesList li i {
-    color: var(--primary-color);
-    font-size: 1.4rem;
+    magin-left: 20px;
 }
 
 /* Responsive Layout for Mobile and Tablets */

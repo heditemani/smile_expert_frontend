@@ -210,20 +210,20 @@
   "scanner_intraoral": {
     "hero": {
       "title": "Scanner Intraorale",
-      "subtitle": "Scopri il futuro dell'imaging dentale"
+      "subtitle": "La Precisione 3D al Servizio del Tuo Sorriso"
     },
     "content": {
-      "description": "Nel nostro studio, situato a Nabeul, Tunisia, integriamo lo scanner intraorale, una tecnologia all'avanguardia che sostituisce le tradizionali e fastidiose impronte dentali con una modellazione digitale 3D ultra-precisa. Garantisce un processo diagnostico più rapido, accurato e totalmente confortevole."
+      "description": "Lo scanner intraorale è una tecnologia digitale avanzata che consente di acquisire impronte dentali in 3D, in modo rapido e senza alcun fastidio. Sostituisce le tradizionali impronte in pasta, spesso sgradevoli, offrendo una visualizzazione istantanea della bocca del paziente. Questa tecnologia è indispensabile nell'odontoiatria moderna, in particolare per i trattamenti estetici, implantari e protesici."
     },
     "advantages": {
-      "title": "I Vantaggi dello Scanner Intraorale:",
-      "subtitle": "comfort, precisione, rapidità"
+      "title": "I Vantaggi dello Scanner Intraorale:"
     },
     "advantages_items": {
-      "item1": "Comfort ottimale (senza fastidiose paste per impronte)",
-      "item2": "Modellazione digitale 3D istantanea e precisa",
-      "item3": "Notevole risparmio di tempo durante le sedute",
-      "item4": "Migliore visualizzazione e comprensione del trattamento"
+      "item1": "Visualizzazione immediata sullo schermo",
+      "item2": "Un comfort incomparabile",
+      "item3": "Igiene impeccabile",
+      "item4": "Notevole risparmio di tempo",
+      "item5": "Eccezionale precisione 3D"
     }
   },
 

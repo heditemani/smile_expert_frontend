@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import styles from './ScannerIntraoral.module.css';
+import styles from './ScannerFacial.module.css';
 import scannerImg from '../../assets/images/general/scanner_intraorale.jpg';
 
-const ScannerIntraoral = () => {
+const ScannerFacial = () => {
     const { t } = useTranslation();
 
     return (
@@ -57,4 +57,4 @@ const ScannerIntraoral = () => {
     );
 };
 
-export default ScannerIntraoral;
+export default ScannerFacial;

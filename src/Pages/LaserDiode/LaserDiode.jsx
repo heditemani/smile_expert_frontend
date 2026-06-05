@@ -28,7 +28,6 @@ const LaserDiode = () => {
 
             <div className={styles.serviceAdvantages}>
             <h3 className={styles.advantagesTitle}>{t('laser.advantages.title')}</h3>
-            <p className={styles.advantagesSubtitle}>{t('laser.advantages.subtitle')}</p>
             
             <ul className={styles.advantagesList}>
                 <li><img src="/icons/service_green_check.svg" alt="" /> {t('laser.advantages_items.item1')}</li>
