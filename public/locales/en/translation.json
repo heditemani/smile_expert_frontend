@@ -141,6 +141,10 @@
       "step3": "Get Diagnosed",
       "step4": "Receive Treatment",
       "step5": "Smile"
+    },
+    "locations": {
+      "title": "Our Locations",
+      "subtitle": "Come visit us in our calm and welcoming space"
     }
   },
 

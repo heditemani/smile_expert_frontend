@@ -16,6 +16,8 @@ import consultationImg from '../../assets/images/general/consultation_image.jpg'
 
 import receptionImg from '../../assets/images/general/reception.png';
 
+import mapPlaceholder from '../../assets/images/general/map_placeholder.png';
+
 const Homepage = () => {
   const { t } = useTranslation();
 
@@ -29,7 +31,7 @@ const Homepage = () => {
       />
       
       <div className="container">
-        
+
         <SectionTitle 
           title={t('home.sectionTitle.title')}
           description={t('home.sectionTitle.desc')}
@@ -128,6 +130,23 @@ const Homepage = () => {
       </section>
 
       <CtaBanner />
+
+      <section className={styles.locations}>
+        <div className="container">
+          <h2 className={styles.sectionTitle}>{t('home.locations.title')}</h2>
+          <p className={`${styles.sectionSubtitle} mb-4`}>{t('home.locations.subtitle')}</p>
+
+          <div className={styles.mapContainer}>
+            <img 
+              src={mapPlaceholder} 
+              alt="Map Location"
+              style={{ width: '100%', borderRadius: 'var(--border-radius-md)', boxShadow: 'var(--shadow-sm)', aspectRatio: '16/9', objectFit: 'cover' }}
+            />
+          </div>
+        </div>
+      </section>
+
+      
     </>
   );
 };

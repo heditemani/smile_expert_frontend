@@ -128,3 +128,14 @@
         width: 100%;
     }
 }
+
+
+.locations {
+    padding: 5rem 0;
+}
+
+.mapContainer {
+    margin-top: 2rem;
+    overflow: hidden;
+    border-radius: var(--border-radius-md);
+}

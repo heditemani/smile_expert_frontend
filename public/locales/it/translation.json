@@ -151,6 +151,10 @@
       "step3": "Ricevi La Diagnosi",
       "step4": "Ricevi Il Trattamento",
       "step5": "Sorridi"
+      },
+      "locations": {
+        "title": "Le Nostre Sedi",
+        "subtitle": "Venite a trovarci nel nostro spazio calmo e accogliente"
       }
   },
 

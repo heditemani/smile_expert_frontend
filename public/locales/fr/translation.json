@@ -132,6 +132,10 @@
       "step3": "Être Diagnostiqué",
       "step4": "Recevoir Un Traitement",
       "step5": "Sourire"
+      },
+      "locations": {
+        "title": "Localisations",
+        "subtitle": "Venez nous rendre visite dans notre espace calme et accueillant"
       }
   },
 
