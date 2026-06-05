@@ -197,6 +197,26 @@
     }
   },
 
+  "scanner_intraoral": {
+    "hero": {
+      "title": "Intraoral Scanner",
+      "subtitle": "Experience the future of dental imaging"
+    },
+    "content": {
+      "description": "In our clinic, located in Nabeul, Tunisia, we integrate the intraoral scanner, a cutting-edge technology that replaces traditional, uncomfortable impression molds with ultra-precise 3D digital imaging. It ensures a faster, highly accurate, and completely comfortable diagnostic process for modern dental care."
+    },
+    "advantages": {
+      "title": "Advantages of the Intraoral Scanner:",
+      "subtitle": "comfort, precision, speed"
+    },
+    "advantages_items": {
+      "item1": "Optimal comfort (no messy impression pastes)",
+      "item2": "Ultra-precise and instant 3D digital imaging",
+      "item3": "Saves time with immediate digital records",
+      "item4": "Better communication and visualization of your smile"
+    }
+  },
+
 
 
 

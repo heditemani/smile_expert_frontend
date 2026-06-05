@@ -188,6 +188,26 @@
     }
   },
 
+  "scanner_intraoral": {
+    "hero": {
+      "title": "Scanner Intraoral",
+      "subtitle": "Découvrez le futur de l'imagerie dentaire"
+    },
+    "content": {
+      "description": "Au sein de notre cabinet, situé à Nabeul, Tunisie, nous intégrons le scanner intraoral, une technologie de pointe qui remplace les prises d’empreintes traditionnelles inconfortables par une modélisation numérique 3D ultra-précise. Cela garantit un diagnostic plus rapide, précis et totalement indolore."
+    },
+    "advantages": {
+      "title": "Les Avantages du Scanner Intraoral :",
+      "subtitle": "confort, précision, rapidité"
+    },
+    "advantages_items": {
+      "item1": "Confort optimal (fini la pâte d'empreinte désagréable)",
+      "item2": "Modélisation 3D instantanée et haute précision",
+      "item3": "Gain de temps majeur lors de vos rendez-vous",
+      "item4": "Meilleure visualisation et simulation de votre sourire"
+    }
+  },
+
   
 
 

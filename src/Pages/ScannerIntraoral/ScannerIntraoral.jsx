@@ -1,44 +1,61 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './ScannerIntraoral.module.css';
-import dentalChairImg from '../../assets/images/general/dental_chair_1773460614969.png';
+
+// Sala7na esm el variable mta3 el import bch ma yedkholch f 7et m3a esm el Component
+import scannerImg from '../../assets/images/general/scanner_intraorale.jpg';
 
 const ScannerIntraoral = () => {
     const { t } = useTranslation();
 
     return (
         <section className={styles.serviceDetails}>
-        <div className="container">
-            
-            <div className={styles.serviceDetailsHeader}>
-            <h2 className={styles.serviceDetailsTitle}>{t('laser.hero.title')}</h2>
-            <p className={styles.serviceDetailsSubtitle}>{t('laser.hero.subtitle')}</p>
-            </div>
+            <div className="container">
+                
+                {/* Header Section */}
+                <div className={styles.serviceDetailsHeader}>
+                    <h2 className={styles.serviceDetailsTitle}>{t('scanner_intraoral.hero.title')}</h2>
+                    <p className={styles.serviceDetailsSubtitle}>{t('scanner_intraoral.hero.subtitle')}</p>
+                </div>
 
-            <div className={styles.serviceDetailsContent}>
-            <div className={styles.serviceImage}>
-                <img src={dentalChairImg} alt="Laser Diode Service" />
-            </div>
-            <div className={styles.serviceText}>
-                <p className={styles.serviceDescLarge}>
-                {t('laser.content.description')}
-                </p>
-            </div>
-            </div>
+                {/* Content Section */}
+                <div className={styles.serviceDetailsContent}>
+                    <div className={styles.serviceImage}>
+                        <img src={scannerImg} alt="Scanner Intraoral Service" />
+                    </div>
+                    <div className={styles.serviceText}>
+                        <p className={styles.serviceDescLarge}>
+                            {t('scanner_intraoral.content.description')}
+                        </p>
+                    </div>
+                </div>
 
-            <div className={styles.serviceAdvantages}>
-            <h3 className={styles.advantagesTitle}>{t('laser.advantages.title')}</h3>
-            <p className={styles.advantagesSubtitle}>{t('laser.advantages.subtitle')}</p>
-            
-            <ul className={styles.advantagesList}>
-                <li><img src="/icons/service_green_check.svg" alt="" /> {t('laser.advantages_items.item1')}</li>
-                <li><img src="/icons/service_green_check.svg" alt="" /> {t('laser.advantages_items.item2')}</li>
-                <li><img src="/icons/service_green_check.svg" alt="" /> {t('laser.advantages_items.item3')}</li>
-                <li><img src="/icons/service_green_check.svg" alt="" /> {t('laser.advantages_items.item4')}</li>
-            </ul>
-            </div>
+                {/* Advantages Section */}
+                <div className={styles.serviceAdvantages}>
+                    <h3 className={styles.advantagesTitle}>{t('scanner_intraoral.advantages.title')}</h3>
+                    <p className={styles.advantagesSubtitle}>{t('scanner_intraoral.advantages.subtitle')}</p>
+                    
+                    <ul className={styles.advantagesList}>
+                        <li>
+                            <img src="/icons/service_green_check.svg" alt="check" /> 
+                            {t('scanner_intraoral.advantages_items.item1')}
+                        </li>
+                        <li>
+                            <img src="/icons/service_green_check.svg" alt="check" /> 
+                            {t('scanner_intraoral.advantages_items.item2')}
+                        </li>
+                        <li>
+                            <img src="/icons/service_green_check.svg" alt="check" /> 
+                            {t('scanner_intraoral.advantages_items.item3')}
+                        </li>
+                        <li>
+                            <img src="/icons/service_green_check.svg" alt="check" /> 
+                            {t('scanner_intraoral.advantages_items.item4')}
+                        </li>
+                    </ul>
+                </div>
 
-        </div>
+            </div>
         </section>
     );
 };
