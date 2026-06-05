@@ -8,6 +8,7 @@ import About from './Pages/About/About'
 import Service from './Pages/Services/services'
 import FinalCTA from './components/FinalCTA/FinalCTA'
 import Beforeafter from './Pages/Before&After/Before&After'
+import LaserDiode from './Pages/LaserDiode/LaserDiode'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/services' element={<Service/>} />
         <Route path='/Before&After' element={<Beforeafter />} />
+        <Route path='/laser' element={<LaserDiode />} />
         {/* Page 404 */}
         <Route path='*' element={<div>Page non trouvée (404)</div>} />
       </Routes>

@@ -97,6 +97,16 @@
     }
   },
   "home": {
+
+    "hero": {
+      "subtitle": "Dr Sarra Haouet",
+      "titleHighlight": "+10 ans",
+      "titlePart1": "d'expérience",
+      "titlePart2": "+20 formations et diplômes",
+      "description": "Réservez Votre Rendez-vous Sur med.tn",
+      "button": "Prenez Rendez-vous"
+    },
+
     "sectionTitle": {
       "title": "Nos Services Principaux",
       "desc": "Des soins de haute qualité adaptés à vos besoins pour un sourire éclatant.",
@@ -136,7 +146,46 @@
       "locations": {
         "title": "Localisations",
         "subtitle": "Venez nous rendre visite dans notre espace calme et accueillant"
+      },
+      "testimonials": {
+        "title": "Témoignages Clients :\nIls Nous Font Confiance",
+        "subtitle": "La satisfaction de nos patients est notre plus belle réussite.",
+        "reviews": {
+          "r1": {
+            "name": "Amine Mansour",
+            "text": "La clinique est nickel, l'équipe est très pro, et mes soins ont été faits sans aucune douleur. Je me sens toujours chouchouté."
+          },
+          "r2": {
+            "name": "Elena Rossi",
+            "text": "Un service exceptionnel ! Des explications claires avant le traitement et un résultat parfait pour mon blanchiment dentaire."
+          },
+          "r3": {
+            "name": "Sarah Ben Ali",
+            "text": "Très satisfaite de mon expérience. L'accueil est chaleureux et la technologie utilisée est très moderne. Je recommande vivement !"
+          }
+        }
       }
+  },
+
+
+  "laser": {
+    "hero": {
+      "title": "Laser Diode",
+      "subtitle": "Révélez votre meilleur sourire"
+    },
+    "content": {
+      "description": "Au sein de notre cabinet, situé à Nabeul, Tunisie, nous intégrons le laser diode, une technologie dentaire moderne qui permet d’effectuer des traitements moins invasifs, rapides et indolores. C’est aujourd’hui un outil incontournable en dentisterie moderne, notamment pour les soins gingivaux et parodontaux."
+    },
+    "advantages": {
+      "title": "Les Avantages du Laser Diode :",
+      "subtitle": "confort, précision, cicatrisation"
+    },
+    "advantages_items": {
+      "item1": "Confort optimal pour le patient",
+      "item2": "Cicatrisation plus rapide",
+      "item3": "Désinfection en profondeur",
+      "item4": "Précision et esthétique améliorée"
+    }
   },
 
   

@@ -116,6 +116,16 @@
 
   },
   "home": {
+
+    "hero": {
+      "subtitle": "Dr Sarra Haouet",
+      "titleHighlight": "+10 Anni",
+      "titlePart1": "di Esperienza",
+      "titlePart2": "+20 Corsi di Formazione e Diplomi",
+      "description": "Prenota Il Tuo Appuntamento Su med.tn",
+      "button": "Fissa un Appuntamento"
+    },
+
     "sectionTitle": {
       "title": "I Nostri Servizi Principali",
       "desc": "Cure dentali di alta qualità personalizzate per le vostre esigenze e un sorriso smagliante.",
@@ -155,7 +165,46 @@
       "locations": {
         "title": "Le Nostre Sedi",
         "subtitle": "Venite a trovarci nel nostro spazio calmo e accogliente"
+      },
+      "testimonials": {
+        "title": "Testimonianze dei Clienti:\nSi Fidano di Noi",
+        "subtitle": "La soddisfazione dei nostri pazienti è il nostro più grande successo.",
+        "reviews": {
+          "r1": {
+            "name": "Amine Mansour",
+            "text": "La clinica è impeccabile, il team è molto professionale e le mie cure sono state eseguite senza alcun dolore. Mi sento sempre coccolato."
+          },
+          "r2": {
+            "name": "Elena Rossi",
+            "text": "Servizio eccezionale! Spiegazioni chiare prima del trattamento e un risultato perfetto per il mio sbiancamento dentale."
+          },
+          "r3": {
+            "name": "Sarah Ben Ali",
+            "text": "Molto soddisfatta della mia esperienza. L'accoglienza è calorosa e la tecnologia utilizzata è modernissima. Lo consiglio vivamente!"
+          }
+        }
       }
+  },
+
+
+  "laser": {
+    "hero": {
+      "title": "Laser a Diodi",
+      "subtitle": "Rivela il tuo sorriso migliore"
+    },
+    "content": {
+      "description": "Nel nostro studio, situato a Nabeul, Tunisia, integriamo il laser a diodi, una moderna tecnologia dentale che consente trattamenti meno invasivi, rapidi e indolori. Oggi è uno strumento indispensabile nell'odontoiatria moderna, in particolare per la cura gengivale e parodontale."
+    },
+    "advantages": {
+      "title": "I Vantaggi del Laser a Diodi:",
+      "subtitle": "comfort, precisione, cicatrizzazione"
+    },
+    "advantages_items": {
+      "item1": "Comfort ottimale per il paziente",
+      "item2": "Guarigione e cicatrizzazione più rapida",
+      "item3": "Disinfezione profonda e accurata",
+      "item4": "Maggiore precisione ed estetica migliorata"
+    }
   },
 
   

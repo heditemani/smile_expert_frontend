@@ -106,6 +106,16 @@
     }
   },
   "home": {
+
+    "hero": {
+      "subtitle": "Dr Sarra Haouet",
+      "titleHighlight": "+10 Years",
+      "titlePart1": "of Experience",
+      "titlePart2": "+20 Trainings & Degrees",
+      "description": "Book Your Appointment Online via med.tn",
+      "button": "Book an Appointment"
+    },
+
     "sectionTitle": {
       "title": "Our Main Services",
       "desc": "High-quality dental care tailored to your needs for a brilliant smile.",
@@ -145,6 +155,45 @@
     "locations": {
       "title": "Our Locations",
       "subtitle": "Come visit us in our calm and welcoming space"
+    },
+    "testimonials": {
+      "title": "Client Testimonials:\nThey Trust Us",
+      "subtitle": "Our patients' satisfaction is our greatest success.",
+      "reviews": {
+        "r1": {
+          "name": "Amine Mansour",
+          "text": "The clinic is spotless, the team is very professional, and my treatment was completely painless. I always feel well taken care of."
+        },
+        "r2": {
+          "name": "Elena Rossi",
+          "text": "Exceptional service! Clear explanations before the treatment and a perfect result for my teeth whitening."
+        },
+        "r3": {
+          "name": "Sarah Ben Ali",
+          "text": "Very satisfied with my experience. The welcome is warm and the technology used is very modern. Highly recommend!"
+        }
+      }
+    }
+  },
+
+
+  "laser": {
+    "hero": {
+      "title": "Diode Laser",
+      "subtitle": "Reveal your best smile"
+    },
+    "content": {
+      "description": "In our clinic, located in Nabeul, Tunisia, we integrate the diode laser, a modern dental technology that enables less invasive, fast, and painless treatments. Today, it is an essential tool in modern dentistry, particularly for gum and periodontal care."
+    },
+    "advantages": {
+      "title": "Advantages of the Diode Laser:",
+      "subtitle": "comfort, precision, healing"
+    },
+    "advantages_items": {
+      "item1": "Optimal comfort for the patient",
+      "item2": "Faster healing times",
+      "item3": "Deep and effective disinfection",
+      "item4": "Enhanced precision and aesthetics"
     }
   },
 

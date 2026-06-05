@@ -1,9 +1,8 @@
 import { useTranslation } from 'react-i18next';
 
 import styles from './home.module.css';
-import SecondBanner from '../../components/SecondBanner/SecondBanner';
+import heroBg from '../../assets/homepagebanner.png';
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
-import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import CtaBanner from '../../components/CTAsection/CTA';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
 import ServiceCard from '../../components/CardService/ServiceCard.jsx';
@@ -23,12 +22,35 @@ const Homepage = () => {
 
   return (
     <>
-      <SecondBanner 
-        slides={[bannerImg, bannerImg, bannerImg]}
-        title={t('contact_hero.title')}
-        subtitle={t('contact_hero.subtitle')}
-        buttonText={t('contact_hero.button')}
-      />
+
+      <section className={styles.hero}>
+        <div className={`container ${styles.heroContainer}`}>
+          
+          <div className={styles.heroContent}>
+            <p className={styles.heroSubtitle}>{t('home.hero.subtitle')}</p>
+            <h1 className={styles.heroTitle}>
+              <span className={styles.highlight}>{t('home.hero.titleHighlight')}</span> {t('home.hero.titlePart1')}<br />
+              <span>{t('home.hero.titlePart2')}</span>
+            </h1>
+            <p className={styles.heroDescription}>
+              {t('home.hero.description')}
+            </p>
+            <a href="https://www.med.tn" target="_blank" rel="noreferrer" className="btn btn-primary btn-large">
+              {t('home.hero.button')}
+            </a>
+          </div>
+
+          <div className={styles.heroImageWrapper}>
+            <img 
+              src={heroBg} 
+              alt="Dr Sarra Haouet Cabinet" 
+              className={styles.heroImage}
+            />
+          </div>
+
+        </div>
+      </section>
+      
       
       <div className="container">
 
@@ -142,6 +164,38 @@ const Homepage = () => {
               alt="Map Location"
               style={{ width: '100%', borderRadius: 'var(--border-radius-md)', boxShadow: 'var(--shadow-sm)', aspectRatio: '16/9', objectFit: 'cover' }}
             />
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.testimonials}>
+        <div className="container">
+          <div className={styles.testimonialsWrapper}>
+            <div className={styles.testimonialsHeader}>
+              <h2 className={styles.sectionTitle} style={{ fontSize: '2.5rem', lineHeight: '1.2' }}>
+                {t('home.testimonials.title')}
+              </h2>
+              <p className={styles.sectionSubtitle} style={{ marginTop: '1rem' }}>
+                {t('home.testimonials.subtitle')}
+              </p>
+            </div>
+
+            <div className={styles.reviewsList}>
+              {[1, 2, 3].map((num) => (
+                <div key={num} className={styles.reviewCard}>
+                  <div className={styles.reviewHead}>
+                    <div className={styles.reviewUser}>
+                      <div className={styles.avatar}></div>
+                      <h4>{t(`home.testimonials.reviews.r${num}.name`)}</h4>
+                    </div>
+                    <div className={styles.stars}>★★★★★</div>
+                  </div>
+                  <p className={styles.reviewText}>
+                    {t(`home.testimonials.reviews.r${num}.text`)}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
