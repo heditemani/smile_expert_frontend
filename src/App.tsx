@@ -11,6 +11,7 @@ import Beforeafter from './Pages/Before&After/Before&After'
 import LaserDiode from './Pages/LaserDiode/LaserDiode'
 import ScannerIntraoral from './Pages/ScannerIntraoral/ScannerIntraoral'
 import ScannerFacial from './Pages/ScannerFacial/ScannerFacial'
+import BuccoDentaire from './Pages/buccoDentaire/BuccoDentaire'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/laser' element={<LaserDiode />} />
         <Route path='/scanner.intraoral' element={<ScannerIntraoral />} />
         <Route path='/scanner.facial' element={<ScannerFacial />} />
+        <Route path='/bucco-dentaire' element={<BuccoDentaire />} />
         {/* Page 404 */}
         <Route path='*' element={<div>Page non trouvée (404)</div>} />
       </Routes>

@@ -305,5 +305,28 @@
   "footer": {
     "address": "1st Floor App, above Hamadi Abid store, Imm Takwa, 105, Nabeul 8000",
     "copyright": "Copyright © 2025 Smile Expert. All rights reserved."
+  },
+
+  "buccoDentaire": {
+  "facettes": {
+    "title": "Dental Veneers",
+    "subtitle": "Reveal your best smile",
+    "description": "Dental veneers allow you to achieve a harmonious smile in record time. Thanks to digital smile design and CAD/CAM systems, the result is precise, fast, and durable.\nWith proper maintenance, they can last a decade or more."
+  },
+  "blanchiment": {
+    "title": "Teeth Whitening by DIODE LASER",
+    "subtitle": "Reveal your best smile",
+    "description": "This is a cosmetic dental procedure aimed at removing stains and lightening tooth enamel. It is a personalized process, adapted to the original shade and preferences of the patient.\nWhitening is an act that motivates you to adopt good habits to maintain good oral hygiene."
+  },
+  "alignement": {
+    "title": "Gingival Alignment with Diode Laser",
+    "subtitle": "Reveal your best smile",
+    "description": "Gingival reshaping corrects smile irregularities while promoting gum health. Thanks to the diode laser, the procedure is gentle, precise, and painless, with a fast recovery."
+  },
+  "hyperpigmentation": {
+    "title": "Laser Treatment of Gingival Hyperpigmentation",
+    "subtitle": "Reveal your best smile",
+    "description": "Gingival hyperpigmentation is a dark coloration of the gums, often due to an accumulation of melanin. The dental laser is a modern, minimally invasive, and effective solution for this type of pigmentation.\nThis technique ensures precise control and a fast, comfortable treatment for the patient."
   }
+}
 }

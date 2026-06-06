@@ -305,5 +305,28 @@
   "footer": {
     "address": "1° piano App, sopra il negozio Hamadi Abid, Imm Takwa, 105, Nabeul 8000",
     "copyright": "Copyright © 2025 Smile Expert. Tutti i diritti riservati."
+  },
+
+  "buccoDentaire": {
+  "facettes": {
+    "title": "Faccette Dentali",
+    "subtitle": "Rivelate il vostro miglior sorriso",
+    "description": "Le faccette dentali consentono di ottenere un sorriso armonioso in tempo record. Grazie alla progettazione digitale del sorriso e ai sistemi CAD/CAM, il risultato è preciso, rapido e duraturo.\nCon una corretta manutenzione, possono durare un decennio o più."
+  },
+  "blanchiment": {
+    "title": "Sbiancamento Dentale con LASER A DIODO",
+    "subtitle": "Rivelate il vostro miglior sorriso",
+    "description": "Si tratta di una procedura dentale estetica finalizzata a rimuovere le macchie e a schiarire lo smalto dei denti. È un processo personalizzato, adattato alla tonalità originale e alle preferenze del paziente.\nLo sbiancamento è un atto che vi motiva ad adottare buone abitudini per mantenere una buona igiene orale."
+  },
+  "alignement": {
+    "title": "Allineamento Gengivale con Laser a Diodo",
+    "subtitle": "Rivelate il vostro miglior sorriso",
+    "description": "Il rimodellamento gengivale corregge le irregolarità del sorriso promuovendo al contempo la salute delle gengive. Grazie al laser a diodo, la procedura è delicata, precisa e indolore, con un recupero rapido."
+  },
+  "hyperpigmentation": {
+    "title": "Trattamento dell'Iperpigmentazione Gengivale con Laser",
+    "subtitle": "Rivelate il vostro miglior sorriso",
+    "description": "L'iperpigmentazione gengivale è una colorazione scura delle gengive, spesso dovuta a un accumulo di melanina. Il laser dentale costituisce una soluzione moderna, minimamente invasiva ed efficace per questo tipo di pigmentazione.\nQuesta tecnica garantisce un controllo preciso e un trattamento rapido e confortevole per il paziente."
   }
+}
 }
