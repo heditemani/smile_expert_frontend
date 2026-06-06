@@ -44,18 +44,15 @@
         "title": "Laser Diode Teeth Whitening", 
         "subtitle": "Preventive care and routine checkups" 
       },
-      "alignement":
-       { 
+      "Alignement": { 
         "title": "Gingival Alignment via Laser Diode", 
       "subtitle": "Preventive care and routine checkups" 
     },
-      "hyperpigmentation": 
-      { 
+      "hyperpigmentation": { 
         "title": "Laser Gingival Hyperpigmentation Treatment", 
         "subtitle": "Preventive care and routine checkups" 
       },
-      "examens": 
-      { 
+      "examens": { 
         "title": "Regular Checkups", 
         "subtitle": "Preventive care and routine checkups" 
       },
@@ -69,7 +66,7 @@
         "title": "Composite Resin Bonding", 
         "subtitle": "Preventive care and routine checkups" 
       },
-      "traitements_endo": 
+      "Traitement": 
       { 
         "title": "Endodontic Laser Treatment and Filling", 
         "subtitle": "Preventive care and routine checkups"
