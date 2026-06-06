@@ -59,10 +59,10 @@ const Navbar = () => {
                 {t('nav.services')} <i className="ph ph-caret-down"></i>
               </Link>
               <ul className={styles['dropdown-menu']}>
-                <li><Link to="/bucco-dentaire" onClick={() => setIsMenuOpen(false)}>{t('services.implants_surgery')}</Link></li>
-                <li><Link to="/soins-bucco-dentaires" onClick={() => setIsMenuOpen(false)}>{t('services.cosmetic_dentistry')}</Link></li>
-                <li><Link to="/therapeutique" onClick={() => setIsMenuOpen(false)}>{t('services.orthodontics')}</Link></li> 
-                <li><Link to="/protheses-dentaires" onClick={() => setIsMenuOpen(false)}>{t('services.pediatric_preventive')}</Link></li>
+                <li><Link to="/services/bucco-dentaire" onClick={() => setIsMenuOpen(false)}>{t('services.implants_surgery')}</Link></li>
+                <li><Link to="/services/soins-bucco-dentaires" onClick={() => setIsMenuOpen(false)}>{t('services.cosmetic_dentistry')}</Link></li>
+                <li><Link to="/services/therapeutique" onClick={() => setIsMenuOpen(false)}>{t('services.orthodontics')}</Link></li> 
+                <li><Link to="/services/protheses-dentaires" onClick={() => setIsMenuOpen(false)}>{t('services.pediatric_preventive')}</Link></li>
               </ul>
             </li>
 
