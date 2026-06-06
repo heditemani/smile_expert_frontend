@@ -14,7 +14,7 @@ const Services = () => {
     setActiveId((prev) => (prev === id ? null : id));
   };
 
-  // Sections mapped exact m3a el JSON structure mte3ek
+  // Les sections mapped match exact m3a el root keys fil JSON translation mte3ek
   const sections = [
     {
       id: "bucco",
@@ -31,14 +31,14 @@ const Services = () => {
         },
         {
           id: "b2",
-          title: t('services.items.Alignement.title'), // uppercase 'A' kima fil JSON mte3ek
+          title: t('services.items.Alignement.title'),
           subtitle: t('services.items.Alignement.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth2.svg" alt="Icon" className={styles.icon} />,
         },
         {
           id: "b3",
-          title: t('services.items.hyperpigmentation.title'), // Salla7t-ha mel JSON (kenet 'Traitement')
+          title: t('services.items.hyperpigmentation.title'),
           subtitle: t('services.items.hyperpigmentation.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
@@ -47,7 +47,7 @@ const Services = () => {
     },
     {
       id: "alignement-section",
-      heading: t('services.Alignement.heading'), // uppercase 'A'
+      heading: t('services.Alignement.heading'),
       tagline: t('services.Alignement.tagline'),
       link: "soins-bucco-dentaires",
       items: [
@@ -69,34 +69,34 @@ const Services = () => {
     },
     {
       id: "traitement-section",
-      heading: t('services.Traitement.heading'), // uppercase 'T'
+      heading: t('services.Traitement.heading'),
       tagline: t('services.Traitement.tagline'),
-      link: "therapeutique",
+      link: "therapeutique", // Match exact m3a "Therapeutique" (Uppercase 'T')
       items: [
         {
           id: "e1",
-          title: t('services.items.Collage.title'), // uppercase 'C'
+          title: t('services.items.Collage.title'),
           subtitle: t('services.items.Collage.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth3.svg" alt="Icon" className={styles.icon} />,
         },
         {
           id: "e2",
-          title: t('services.items.Traitement.title'), // match exact m3a "Traitement" f west nested items
+          title: t('services.items.Traitement.title'),
           subtitle: t('services.items.Traitement.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
         },
         {
           id: "e3",
-          title: t('services.items.Extraction.title'), // uppercase 'E'
+          title: t('services.items.Extraction.title'),
           subtitle: t('services.items.Extraction.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
         },
         {
           id: "e4",
-          title: t('services.items.chirurgie.title'), // Salla7t-ha men 'chirurgie_guidee' l 'chirurgie' kima fil JSON mte3ek
+          title: t('services.items.chirurgie.title'),
           subtitle: t('services.items.chirurgie.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
@@ -112,27 +112,27 @@ const Services = () => {
     },
     {
       id: "protheses-section",
-      heading: t('services.Prothèses.title'), // 'Prothèses' (b l-accent accentué) kima upper level key
+      heading: t('services.Prothèses.title'),
       tagline: t('services.Prothèses.subtitle'),
-      link: "protheses-dentaires",
+      link: "protheses-dentaires", // Match exact m3a "Prothesesdentaires" (Uppercase 'P')
       items: [
         {
           id: "f1",
-          title: t('services.items.Prothèses Fixes.title'), // match exact m3a el composite key "Prothèses Fixes"
+          title: t('services.items.Prothèses Fixes.title'),
           subtitle: t('services.items.Prothèses Fixes.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />, 
         },
         {
           id: "f2",
-          title: t('services.items.Prothèses Amovibles.title'), // match exact m3a "Prothèses Amovibles"
+          title: t('services.items.Prothèses Amovibles.title'),
           subtitle: t('services.items.Prothèses Amovibles.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
         },
         {
           id: "f3",
-          title: t('services.items.Facettes.title'), // uppercase 'F' kima fil JSON mte3ek
+          title: t('services.items.Facettes.title'),
           subtitle: t('services.items.Facettes.subtitle'),
           image: "/icons/box1.png",
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
@@ -145,7 +145,7 @@ const Services = () => {
     <main className={styles.page}>
       <SecondBanner 
         slides={[bannerImg, bannerImg, bannerImg]}
-        title={t('services.banner.title')} // Raj3at l nos services kima fel JSON
+        title={t('services.banner.title')}
         subtitle={t('services.banner.subtitle')}
         buttonText={t('nav.book_now')}
       />
@@ -157,7 +157,7 @@ const Services = () => {
               title={section.heading}
               description={section.tagline}
               buttonText={t('services.explore_button_text')}
-              href={`${section.link}`}
+              href={`/services/${section.link}`}
             />
 
             <div className={styles.grid}>

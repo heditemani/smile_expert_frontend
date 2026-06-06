@@ -20,12 +20,12 @@ import NotFound from './Pages/NotFound/NotFound'
 function App() {
   return (
     <BrowserRouter>
-      {/*  Navbar  */}
+      {/* Navbar  */}
       <Navbar />
       <div style={{ height: '80px' }} /> 
 
       <Routes>
-        {/*  Les pages */}
+        {/* Les pages principales */}
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<ContactPage />} />
@@ -34,19 +34,19 @@ function App() {
         <Route path='/laser' element={<LaserDiode />} />
         <Route path='/scanner.intraoral' element={<ScannerIntraoral />} />
         <Route path='/scanner.facial' element={<ScannerFacial />} />
-        <Route path='/bucco-dentaire' element={<BuccoDentaire />} />
-        <Route path='/soins-bucco-dentaires' element={<SoinsBuccoDentaires />} />
-        <Route path='/therapeutique' element={<Therapeutique />} />
-        <Route path='/protheses-dentaires' element={<Prothesesdentaires />} />
+        
+        {/* Les sous-pages mta3 el services bch yemshiw kima fil link exact */}
+        <Route path='/services/bucco-dentaire' element={<BuccoDentaire />} />
+        <Route path='/services/soins-bucco-dentaires' element={<SoinsBuccoDentaires />} />
+        <Route path='/services/therapeutique' element={<Therapeutique />} />
+        <Route path='/services/protheses-dentaires' element={<Prothesesdentaires />} />
         
         {/* Page 404 fully styled w multilingue */}
         <Route path='*' element={<NotFound />} />
       </Routes>
 
-      {/* <Footer /> */}
       <FinalCTA />
       <Footer />
-
     </BrowserRouter>
   )
 }
