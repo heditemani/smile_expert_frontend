@@ -9,6 +9,7 @@ import ServiceCard from '../../components/CardService/ServiceCard.jsx';
 import service1 from '../../assets/images/general/service_1_indexpage.jpg';
 import service2 from '../../assets/images/general/service_2_indexpage.jpg';
 import service3 from '../../assets/images/general/service_3_indexpage.jpg';
+import VideoExperience from '../../components/VideoExperience/VideoExperience.jsx';
 
 // Consultation image
 import consultationImg from '../../assets/images/general/consultation_image.jpg';
@@ -102,9 +103,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className={`section-padding ${styles.videoSection}`}>
-        <h2 className={styles.videoSectionTitle}>{t('home.video.title')}</h2>
-      </section>
+      <VideoExperience />
 
       <ScheduleSection isAltBg={false} />
 

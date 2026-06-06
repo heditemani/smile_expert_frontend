@@ -408,5 +408,9 @@
     "subtitle": "Pagina Non Trovata",
     "description": "La pagina che stai cercando non esiste o è stata trasferita in un'altra sezione del sito.",
     "button": "Torna Indietro"
+  },
+  "video_experience": {
+    "title": "Scopri l'Esperienza del Dentista",
+    "subtitle": "Scopri come rendiamo ogni visita confortevole ed efficiente"
   }
 }

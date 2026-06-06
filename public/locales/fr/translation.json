@@ -410,7 +410,11 @@
   "subtitle": "Page introuvable",
   "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
   "button": "Retourner"
-}
+},
+"video_experience": {
+    "title": "Découvrez l'expérience du dentiste",
+    "subtitle": "Découvrez comment nous rendons chaque visite confortable et efficace"
+  }
 
 
 

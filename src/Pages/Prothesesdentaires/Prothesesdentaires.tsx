@@ -3,6 +3,8 @@ import Style from './Prothesesdentaires.module.css';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import { useTranslation } from 'react-i18next';
 
+import VideoExperience from '../../components/VideoExperience/VideoExperience.jsx';
+
 import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
 import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
 import facetimage2 from '../../assets/images/services/service1/facetimage2.jpg';
@@ -15,6 +17,8 @@ const Prothesesdentaires = () => {
 
   return (
     <div className={Style.container}>
+
+      <VideoExperience />
       
       {/* 1. Prothèses Fixes */}
       <SectionTitle 

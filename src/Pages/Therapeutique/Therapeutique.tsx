@@ -2,6 +2,7 @@ import React from 'react';
 import Style from './Therapeutique.module.css';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import { useTranslation } from 'react-i18next';
+import VideoExperience from '../../components/VideoExperience/VideoExperience.jsx';
 
 import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
 import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
@@ -10,11 +11,12 @@ import facetimage2 from '../../assets/images/services/service1/facetimage2.jpg';
 const Therapeutique = () => {
   const { t } = useTranslation();
 
-  // Traitements anomalies items helpers bch na9rawhom dynamic mel JSON mte3ek
   const anomaliesItems = ['item1', 'item2', 'item3', 'item4', 'item5', 'item6'];
 
   return (
     <div className={Style.container}>
+
+      <VideoExperience />
       
       {/* 1. Collage résine Composite */}
       <SectionTitle 

@@ -408,5 +408,9 @@
     "subtitle": "Page Not Found",
     "description": "The page you are looking for does not exist or has been moved to another digital location.",
     "button": "Go Back"
+  },
+  "video_experience": {
+    "title": "Discover the Dentist's Experience",
+    "subtitle": "Discover how we make every visit comfortable and efficient"
   }
 }

@@ -2,12 +2,15 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './ScannerIntraoral.module.css';
 import scannerImg from '../../assets/images/general/scanner_intraorale.jpg';
+import VideoExperience from '../../components/VideoExperience/VideoExperience';
 
 const ScannerIntraoral = () => {
     const { t } = useTranslation();
 
     return (
         <section className={styles.serviceDetails}>
+
+            <VideoExperience />
             <div className="container">
                 
                 {/* Header Section */}
