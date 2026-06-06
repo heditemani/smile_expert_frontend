@@ -1,294 +1,297 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "services": "Services",
     "before_after": "Before & After",
     "contact": "Contact",
-    "book_now": "Book Now"
+    "book_now": "Book Online"
   },
   "services": {
     "conservative": "Conservative Dentistry",
-    "prosthetics": "Dental Prosthesics",
+    "prosthetics": "Dental Prostheses",
     "orthodontics": "Orthodontics",
     "pediatric": "Pediatric Dentistry",
     "preventive": "Preventive Care",
-    "tech": "Technologies and Diagnosis",
+    "tech": "Advanced Diagnostics & Tech",
     "banner": {
       "title": "Our Services",
-      "subtitle": "Expertise and cutting-edge technology at the service of your health"
+      "subtitle": "State-of-the-art dental expertise dedicated to your oral health"
     },
-    "explore_button_text": "Explore this Service",
+    "explore_button_text": "Discover this Treatment",
     "bucco": {
-      "heading": "Oral-Dental Treatments",
-      "tagline": "Preventive Care and Routine Checkups"
+      "heading": "Cosmetic Laser Treatments",
+      "tagline": "Advanced laser solutions for an enhanced smile aesthetics"
     },
     "Alignement": {
-      "heading": "Oral and Preventive Care",
-      "tagline": "Preventive Care and Routine Checkups"
+      "heading": "Preventive & Routine Oral Care",
+      "tagline": "Comprehensive checkups and long-term oral health protection"
     },
     "Traitement": {
-      "heading": "Therapeutics and Endodontic Treatments",
-      "tagline": "Precise care for your comfort"
+      "heading": "Therapeutics & Endodontics",
+      "tagline": "Precision micro-treatments focused on tooth preservation"
     },
     "Prothèses": {
-      "title": "Dental Prostheses",
-      "subtitle": "Reveal your best smile"
+      "title": "Prosthodontics",
+      "subtitle": "Restoring natural appearance and functional harmony"
     },
     "items": {
       "blanchiment": {
-        "title": "Teeth Whitening by DIODE LASER",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Laser Diode Teeth Whitening",
+        "subtitle": "Safe, medical-grade stain removal for an instantly brighter smile"
       },
       "Alignement": {
-        "title": "Gingival Alignment with Diode Laser",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Laser Diode Gum Contouring",
+        "subtitle": "Precision reshaping to correct uneven or gummy smiles smoothly"
       },
       "hyperpigmentation": {
-        "title": "Laser Treatment of Gingival Hyperpigmentation",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Laser Gum Depigmentation",
+        "subtitle": "Advanced dark spot removal for naturally even, pink gums"
       },
       "examens": {
-        "title": "Regular Checkups",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Regular Examinations",
+        "subtitle": "Thorough professional diagnostic checks to protect your teeth"
       },
       "soins": {
         "title": "Preventive Care",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Deep scaling, polishing, and enamel strengthening therapies"
       },
       "Collage": {
         "title": "Composite Resin Bonding",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Minimalist aesthetic restorations for chipped or spaced teeth"
       },
       "Traitement": {
-        "title": "Laser Treatment of Gingival Hyperpigmentation",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Laser Endodontic Therapy & Sealing",
+        "subtitle": "High-precision root canal sterilization to save compromised teeth"
       },
       "Extraction": {
-        "title": "Extraction",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Tooth Extraction",
+        "subtitle": "Gentle, non-invasive extractions when preservation is impossible"
       },
       "chirurgie": {
         "title": "Computer-Guided Implant Surgery",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Ultra-precise 3D planned implant placement without incisions"
       },
       "anomalies": {
-        "title": "Treatments of Anomalies",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Oral Pathologies & Anomalies",
+        "subtitle": "Specialized clinical solutions for complex structural conditions"
       },
       "Prothèses Fixes": {
         "title": "Fixed Prostheses",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Durable crowns, bridges, and implant-supported restorations"
       },
       "Prothèses Amovibles": {
         "title": "Removable Prostheses",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Flexible, custom-engineered full or partial dentures"
       },
       "Facettes": {
         "title": "Dental Veneers",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Ultra-thin ceramic layers for a seamless, radiant smile transformation"
       }
     }
   },
   "home": {
     "hero": {
       "subtitle": "Dr. Sarra Haouet",
-      "titleHighlight": "+10 years",
-      "titlePart1": "of experience",
-      "titlePart2": "+20 trainings and diplomas",
-      "description": "Book Your Appointment On med.tn",
+      "titleHighlight": "10+ Years",
+      "titlePart1": "of Clinical Excellence",
+      "titlePart2": "20+ Advanced Degrees & Certifications",
+      "description": "Schedule your consultation instantly on med.tn",
       "button": "Book an Appointment"
     },
     "sectionTitle": {
-      "title": "Our Main Services",
-      "desc": "High-quality care tailored to your needs for a radiant smile.",
-      "button": "Explore our services"
+      "title": "Our Specialized Services",
+      "desc": "Bespoke, high-end dental treatments designed around your needs and comfort.",
+      "button": "View All Services"
     },
     "services": {
       "service1": {
-        "title": "Oral-Dental Treatments",
-        "description": "From aesthetic improvements to functional dental care suited to your goals"
+        "title": "Advanced Laser Therapies",
+        "subtitle": "High-precision cosmetic and soft tissue modifications",
+        "description": "From aesthetic gum balancing to quick clinical transformations using state-of-the-art diode laser technology."
       },
       "service2": {
-        "title": "Oral-Dental Care Acts",
-        "description": "Precise, secure, and adapted to each patient"
+        "title": "Preventive & Routine Dentistry",
+        "subtitle": "Maintaining lifelong dental health and bright smiles",
+        "description": "Comprehensive diagnostics, regular prophylaxis, and specialized micro-treatments tailored to every patient."
       },
       "service3": {
-        "title": "Dental Prosthetic Services",
-        "description": "Custom-made to restore the aesthetics and function of your smile."
+        "title": "Premium Prosthodontics",
+        "subtitle": "Custom teeth replacement and cosmetic structural updates",
+        "description": "Tailor-made veneers, crowns, and digital implant restorations designed to restore both speech and natural beauty."
       }
     },
     "consultation": {
-      "title": "Don't Know Which Service Suits You?",
-      "description": "Contact us for a personalized consultation, we will guide you through every step.",
-      "button": "Contact Us"
+      "title": "Unsure Which Treatment Fits Your Goals?",
+      "description": "Get in touch for a bespoke consultation. Our expert team will guide you through your personalized smile plan.",
+      "button": "Contact Our Clinic"
     },
     "video": {
-      "title": "Our Presentation Video"
+      "title": "Take a Virtual Tour of Our Practice"
     },
     "hiw": {
-      "title": "How It Works",
-      "subtitle": "Simple steps for a healthier and more radiant smile",
-      "step1": "Book a Visit",
-      "step2": "Meet Your Dentist",
-      "step3": "Get Diagnosed",
-      "step4": "Receive Treatment",
+      "title": "Your Journey with Us",
+      "subtitle": "Simple, transparent steps toward flawless oral health and confidence",
+      "step1": "Book an Appointment",
+      "step2": "Meet Your Specialist",
+      "step3": "Digital Assessment",
+      "step4": "Tailored Treatment",
       "step5": "Smile"
     },
     "locations": {
-      "title": "Locations",
-      "subtitle": "Come visit us in our calm and welcoming space"
+      "title": "Our Locations",
+      "subtitle": "We welcome you into a refined, tranquil, and modern clinical environment"
     },
     "testimonials": {
-      "title": "Client Testimonials:\nThey Trust Us",
-      "subtitle": "Our patients' satisfaction is our greatest success.",
+      "title": "What Our Patients Say About Us",
+      "subtitle": "Earning your trust and enhancing your confidence is our ultimate reward.",
       "reviews": {
         "r1": {
           "name": "Amine Mansour",
-          "text": "The clinic is spotless, the team is very professional, and my treatments were completely painless. I always feel pampered."
+          "text": "Impeccable practice, highly professional staff, and completely pain-free procedures. I felt genuinely taken care of from start to finish."
         },
         "r2": {
           "name": "Elena Rossi",
-          "text": "Exceptional service! Clear explanations before the treatment and a perfect result for my teeth whitening."
+          "text": "Exceptional service! They provided clear, comprehensive explanations before starting, and my whitening results are absolutely perfect."
         },
         "r3": {
           "name": "Sarah Ben Ali",
-          "text": "Very satisfied with my experience. The welcome is warm and the technology used is very modern. I highly recommend!"
+          "text": "An outstanding experience. The atmosphere is warm and comforting, and they utilize the latest dental technology. Highly recommended!"
         }
       }
     }
   },
   "laser": {
     "hero": {
-      "title": "Laser Diode",
-      "subtitle": "Reveal your best smile"
+      "title": "Laser Diode Technology",
+      "subtitle": "The standard of modern, comfortable dentistry"
     },
     "content": {
-      "description": "In our clinic, located in Nabeul, Tunisia, we integrate the diode laser, a modern dental technology that allows for less invasive, fast, and painless treatments. Today, it is an essential tool in modern dentistry, especially for gingival and periodontal care."
+      "description": "At our modern practice in Nabeul, Tunisia, we actively leverage advanced diode laser systems. This allows us to deliver minimally invasive, faster, and virtually painless procedures, making it a cornerstone for optimal periodontal and cosmetic gum care."
     },
     "advantages": {
-      "title": "Advantages of the Diode Laser:",
-      "subtitle": "comfort, precision, healing"
+      "title": "Key Clinical Advantages:",
+      "subtitle": "maximum comfort, structural precision, accelerated healing"
     },
     "advantages_items": {
-      "item1": "Optimal comfort for the patient",
-      "item2": "Faster healing",
-      "item3": "Deep disinfection",
-      "item4": "Improved precision and aesthetics"
+      "item1": "Unmatched patient comfort throughout the session",
+      "item2": "Significantly faster soft-tissue recovery and healing",
+      "item3": "Deep, highly efficient bacterial decontamination",
+      "item4": "Microscopic precision ensuring superior aesthetic results"
     }
   },
   "scanner_intraoral": {
     "hero": {
-      "title": "Intraoral Scanner",
-      "subtitle": "3D Precision at the Service of Your Smile"
+      "title": "Intraoral 3D Scanner",
+      "subtitle": "Digital Precision Without the Discomfort"
     },
     "content": {
-      "description": "The intraoral scanner is an advanced digital technology that allows for 3D dental impressions, quickly and without discomfort. It replaces traditional paste impressions, which are often unpleasant, and provides an instant visualization of the patient's mouth. This technology is essential in modern dentistry, particularly for aesthetic, implant, and prosthetic treatments."
+      "description": "Our high-resolution intraoral scanner generates highly detailed 3D digital impressions in seconds. Completely replacing traditional, messy impression pastes, it provides instant visualization of your dental anatomy, facilitating seamless prosthetic and aesthetic planning."
     },
     "advantages": {
-      "title": "Advantages of the Intraoral Scanner:"
+      "title": "Why We Choose Digital Impressions:"
     },
     "advantages_items": {
-      "item1": "Immediate visualization on screen",
-      "item2": "Incomparable comfort",
-      "item3": "Irreproachable hygiene",
-      "item4": "Significant time savings",
-      "item5": "Exceptional 3D precision"
+      "item1": "Instantaneous high-definition 3D visualization",
+      "item2": "Superior comfort with zero gag reflex triggers",
+      "item3": "Impeccable clinical hygiene and touchless data creation",
+      "item4": "Saves considerable time during design and clinical phases",
+      "item5": "Exceptional micro-level margins for a flawless fit"
     }
   },
   "about": {
     "intro": {
-      "title": "Smile Expert?",
-      "boldText": "is a dental clinic where you will feel both relaxed (or safe) and well supported.",
-      "expertise": "With around 10 years of expertise, we offer comprehensive dental care in an environment filled with vitality, energy, and well-being.",
-      "services": "Whether you need a simple routine checkup, preventive care, aesthetic treatments, cellular regeneration, or more complex procedures, our experienced Doctor is at your service to meet all your needs.",
-      "imgAlt": "Doctor Sarra"
+      "title": "Why Choose Smile Expert?",
+      "boldText": "A boutique dental clinic where clinical precision meets absolute patient serenity.",
+      "expertise": "Backed by over a decade of continuous advanced expertise, we offer state-of-the-art treatments inside a welcoming environment designed to promote wellness.",
+      "services": "From fundamental routine maintenance and non-invasive laser updates to complex surgical and implant rehabilitations, our lead doctor takes the time to construct the perfect treatment scheme for you.",
+      "imgAlt": "Dr. Sarra"
     },
     "tech": {
-      "sectionTitle": "Our Clinic Features the Latest Technologies",
-      "learnMore": "Learn more",
+      "sectionTitle": "Equipped with Premier Digital Dental Technologies",
+      "learnMore": "Explore Technology",
       "items": {
-        "laserDiode": { "name": "Diode Laser" },
-        "scannerIntraoral": { "name": "Intraoral Scanner" },
-        "scannerFacial": { "name": "Facial Scanner" }
+        "laserDiode": { "name": "Diode Laser Systems" },
+        "scannerIntraoral": { "name": "3D Intraoral Scanning" },
+        "scannerFacial": { "name": "3D Facial Scanning" }
       }
     },
     "expertise": {
-      "sectionTitle": "Our Expertise",
+      "sectionTitle": "Clinical Profile",
       "doctorName": "Dr. Sarra Haouet",
-      "description": "Dr. Sarra Haouet puts her expertise and passion at the service of your smile. Always listening, she combines medical rigor with a human approach to offer each patient a unique and reassuring care experience."
+      "description": "Dr. Sarra Haouet combines advanced medical training with a dedicated passion for cosmetic architecture. Known for her gentle touch, she blends scientific rigor with empathetic patient communication to ensure a secure, customized dental experience."
     }
   },
   "after_before": {
     "card1": {
-      "title": "Keep smiling!",
-      "des": "Discover the impressive transformations of our patients thanks to our high-quality dental care. Each smile tells a story of regained confidence and improved well-being."
+      "title": "Keep Smiling with Pride",
+      "des": "Explore the life-changing transformations achieved for our patients. Every case demonstrates a carefully restored functional balance and a beautifully renewed sense of personal confidence."
     }
   },
   "beforeAfter": {
     "depigmentation": {
-      "title": "Laser Gingival Depigmentation",
-      "description": "Laser treatment eliminates dark spots and dark pigmentations on the gums to restore a natural and healthy pink appearance."
+      "title": "Laser Gum Depigmentation",
+      "description": "Advanced laser targets and gently breaks down dark melanin spots on the gum tissues, quickly restoring a uniform, healthy pink tone."
     },
     "eclaircissement": {
-      "title": "Teeth Lightening",
-      "description": "A professional care to remove deep stains and bring back brightness and freshness to your smile."
+      "title": "Deep Stain Teeth Whitening",
+      "description": "Medical-grade whitening targeting deep internal discoloration to reveal a bright, youthful, and naturally radiant shade."
     },
     "protheseTotale": {
-      "title": "Full Removable Prosthesis",
-      "description": "A complete and comfortable solution to replace all missing teeth, thus restoring chewing function and facial aesthetics."
+      "title": "Full Removable Denture",
+      "description": "Comprehensive functional reconstruction restoring full masticatory balance and underlying natural facial muscle support."
     },
     "protheseFlexite": {
-      "title": "Flexite Partial Removable Prosthesis",
-      "description": "A modern, flexible prosthesis without visible metal clasps, offering absolute discretion and optimal daily comfort."
+      "title": "Flexite Partial Denture",
+      "description": "Ultra-lightweight, flexible polymer partial prosthesis crafted without metal clasps for premium comfort and seamless invisibility."
     },
     "strassDentaire": {
-      "title": "Dental Crystal",
-      "description": "Placement of a discreet and sparkling dental jewel, performed safely without altering or damaging the tooth enamel."
+      "title": "Aesthetic Dental Crystal",
+      "description": "Safe, non-destructive surface placement of a brilliant aesthetic gem without modifying or damaging the underlying enamel."
     },
     "blanchiment": {
-      "title": "Teeth Whitening",
-      "description": "In-office whitening treatment to gain several shades of whiteness in a single session, in a completely safe manner."
+      "title": "In-Office Fast Whitening",
+      "description": "Chairside clinical whitening protocol that safely brightens teeth by multiple shades in a single session."
     }
   },
   "ctaSplit": {
     "titleLine1": "Ready to experience",
-    "titleLine2": "better dental",
-    "titleLine3": "care?",
-    "description": "Schedule your visit today and take the first step toward a healthier, brighter smile.",
-    "button": "Schedule your appointment",
-    "imgAlt": "Dental care"
+    "titleLine2": "premium dental care",
+    "titleLine3": "redefined?",
+    "description": "Book your appointment today and take the definitive step toward a healthier, more beautiful smile.",
+    "button": "Request a Priority Appointment",
+    "imgAlt": "Premium dental treatment"
   },
   "cta": {
-    "title": "Ready To Smile With Confidence?",
-    "button": "Book an appointment"
+    "title": "Ready to Smile with Total Confidence?",
+    "button": "Book Your Visit Now"
   },
   "finalCta": {
-    "title": "Keep smiling!",
-    "button": "Contact Us"
+    "title": "Let your smile talk!",
+    "button": "Get in Touch"
   },
   "contact_hero": {
-    "title": "Do not hesitate to contact us",
-    "subtitle": "Book Your Appointment On med.tn",
-    "button": "Book an Appointment"
+    "title": "We are here to assist you",
+    "subtitle": "Book your priority consultation securely via med.tn",
+    "button": "Schedule Your Consultation"
   },
   "contact": {
-    "info_title": "Do not hesitate to contact us",
-    "info_desc": "Your smile is our priority. Contact us for any information or to make an appointment.",
-    "location": "Location",
-    "email_us": "Write to us",
-    "call_us": "Call us",
-    "follow_us": "Follow us on social media",
-    "form_title": "Contact Us",
-    "name_placeholder": "Name *",
-    "email_placeholder": "Email",
-    "phone_placeholder": "Phone number *",
-    "message_placeholder": "Your message...",
-    "send": "SEND",
-    "locations_title": "Locations",
-    "locations_subtitle": "Come visit us in our calm and welcoming space",
-    "schedule_title": "Our Schedule",
-    "schedule_subtitle": "Find a time that suits you — our doors are open all week"
+    "info_title": "Reach Out to Our Specialists",
+    "info_desc": "Your health and comfort are our top priorities. Contact us to coordinate your visit or ask any specialized question.",
+    "location": "Our Location",
+    "email_us": "Email Our Office",
+    "call_us": "Call Us Directly",
+    "follow_us": "Connect with us on social media",
+    "form_title": "Send a Direct Message",
+    "name_placeholder": "Full Name *",
+    "email_placeholder": "Email Address",
+    "phone_placeholder": "Phone Number *",
+    "message_placeholder": "How can we help you?",
+    "send": "SUBMIT REQUEST",
+    "locations_title": "Practice Location",
+    "locations_subtitle": "Step into a calm, modern, and perfectly organized healing space",
+    "schedule_title": "Clinical Hours",
+    "schedule_subtitle": "Find a convenient slot—our office operates throughout the week to fit your schedule"
   },
   "days": {
     "monday": "Monday",
@@ -303,30 +306,102 @@
     "closed": "Closed"
   },
   "footer": {
-    "address": "1st Floor App, above Hamadi Abid store, Imm Takwa, 105, Nabeul 8000",
+    "address": "1st Floor, Above Hamadi Abid, Imm Takwa, 105, Nabeul 8000",
     "copyright": "Copyright © 2025 Smile Expert. All rights reserved."
   },
-
   "buccoDentaire": {
-  "facettes": {
-    "title": "Dental Veneers",
-    "subtitle": "Reveal your best smile",
-    "description": "Dental veneers allow you to achieve a harmonious smile in record time. Thanks to digital smile design and CAD/CAM systems, the result is precise, fast, and durable.\nWith proper maintenance, they can last a decade or more."
+    "facettes": {
+      "title": "Premium Veneers",
+      "subtitle": "A flawless, long-lasting transformation",
+      "description": "Dental veneers allow us to redesign your smile alignment and shade in record time. Utilizing high-end digital smile design (DSD) and precise CAD/CAM manufacturing, the results look beautifully natural and are engineered to last a decade or more with proper care."
+    },
+    "blanchiment": {
+      "title": "Laser Diode Teeth Whitening",
+      "subtitle": "Professional shade lifting",
+      "description": "A medical-grade aesthetic treatment formulated to safely dissolve embedded organic stains and brighten enamel. Fully customized to match your baseline biology, it provides a dramatic, fresh appearance while motivating advanced personal oral habits."
+    },
+    "alignement": {
+      "title": "Laser Diode Gum Contouring",
+      "subtitle": "Symmetrical smile geometry",
+      "description": "Gingival reshaping elegantly balances asymmetrical gum lines, instantly improving smile proportions while protecting overall tissue health. Controlled laser energy guarantees a gentle, bloodless process with rapid recovery."
+    },
+    "hyperpigmentation": {
+      "title": "Laser Gingival Melanin Regulation",
+      "subtitle": "Uniform, healthy tissue tone",
+      "description": "Gingival hyperpigmentation appears as darker shades due to focal melanin concentration. Our modern diode laser offers a micro-precise, highly successful outpatient technique that unifies gum tones comfortably with absolute clinical safety."
+    }
   },
-  "blanchiment": {
-    "title": "Teeth Whitening by DIODE LASER",
-    "subtitle": "Reveal your best smile",
-    "description": "This is a cosmetic dental procedure aimed at removing stains and lightening tooth enamel. It is a personalized process, adapted to the original shade and preferences of the patient.\nWhitening is an act that motivates you to adopt good habits to maintain good oral hygiene."
+  "SoinsbuccoDentaire": {
+    "Examensreguliers": {
+      "title": "Preventive Diagnostics & Cleanings",
+      "subtitle": "Securing your smile baseline",
+      "description": "Excellent prophylaxis is the absolute foundation of long-term health. Our preventive sessions incorporate advanced ultrasonic scaling, air-polishing stain removal, and therapeutic remineralization treatments to strengthen enamel."
+    },
+    "SoinsPreventifs": {
+      "title": "Conservative Tooth Protection",
+      "subtitle": "Preserving natural tooth structures",
+      "description": "From biomimetic composite bonding to advanced laser-assisted endodontics, our clinical goal is always tooth preservation. Every procedure is performed under meticulous magnification protocols to eliminate unnecessary discomfort."
+    }
   },
-  "alignement": {
-    "title": "Gingival Alignment with Diode Laser",
-    "subtitle": "Reveal your best smile",
-    "description": "Gingival reshaping corrects smile irregularities while promoting gum health. Thanks to the diode laser, the procedure is gentle, precise, and painless, with a fast recovery."
+  "Therapeutique": {
+    "Collage": {
+      "title": "Biomimetic Composite Bonding",
+      "subtitle": "Seamless structural adjustments",
+      "description": "If you present with chipped margins, minor developmental spaces, light decay, or localized structural wear, advanced composite layering provides an immediate aesthetic fix. This minimally invasive technique requires zero healthy tooth removal and is typically performed without anesthesia."
+    },
+    "TraitementsEndodontiques": {
+      "title": "Laser-Assisted Root Canal Therapy & Obturation",
+      "subtitle": "Saving severely compromised teeth",
+      "description": "Often the ultimate alternative to save a deeply decayed or traumatized tooth from extraction. Performed under effective local anesthesia to ensure absolute comfort, our technique integrates laser sterilization within the root canals followed by hermetic sealing to guard against reinfection."
+    },
+    "Extraction": {
+      "title": "Clinical Extractions",
+      "subtitle": "Controlled, atraumatic tissue removal",
+      "description": "When extensive radiographic and clinical evaluation reveals that a tooth can no longer meet biological conservation criteria, a gentle extraction is safely performed to neutralize systemic infectious risks."
+    },
+    "ChirurgieImplantaire": {
+      "title": "Digital Computer-Guided Implantology",
+      "subtitle": "Flawless computer-assisted planning",
+      "description": "Using high-definition Cone Beam CT scans merged with 3D digital oral maps, we fully simulate ideal implant placement in software prior to surgery. A customized static surgical guide is then manufactured, allowing us to place implants safely with no scalpel cuts or stitches."
+    },
+    "Traitementsanomalies ": {
+      "title": "Specialized Complex Micro-Treatments",
+      "subtitle": "Advanced care for unique diagnoses",
+      "items": {
+        "item1": "Laser Diode Frenectomy",
+        "item2": "Black Stains Elimination",
+        "item3": "Bruxism & Occlusal Management",
+        "item4": "Malocclusion Assessment",
+        "item5": "Advanced Periodontitis Control",
+        "item6": "Mucosal Pigmentation Treatments"
+      }
+    }
   },
-  "hyperpigmentation": {
-    "title": "Laser Treatment of Gingival Hyperpigmentation",
-    "subtitle": "Reveal your best smile",
-    "description": "Gingival hyperpigmentation is a dark coloration of the gums, often due to an accumulation of melanin. The dental laser is a modern, minimally invasive, and effective solution for this type of pigmentation.\nThis technique ensures precise control and a fast, comfortable treatment for the patient."
+  "Prothesesdentaires": {
+    "ProthèsesFixes": {
+      "title": "Fixed Biomimetic Prostheses",
+      "subtitle": "Durable, high-end tooth restorations",
+      "items": {
+        "item1": "Metal-Free Aesthetic Crowns",
+        "item2": "Structural Bridge Systems",
+        "item3": "Implant-Supported Ceramic Units"
+      }
+    },
+    "ProthèsesAmovibles": {
+      "title": "Advanced Removable Prostheses",
+      "subtitle": "Flexible, high-stability dental solutions",
+      "description": "Crafted using premium biocompatible resins, our removable complete and partial solutions provide a highly adaptable, natural-looking fix for tooth loss. They offer high structural comfort, easy maintenance, and restore full facial symmetry."
+    },
+    "FacettesDentaires": {
+      "title": "Custom Ceramic Veneers",
+      "subtitle": "Elite cosmetic engineering",
+      "description": "Custom fabricated, ultra-thin ceramic shells meticulously bonded over the teeth surfaces. Designed to instantly mask underlying structural defects, color deviations, or minor spacing, giving you a perfectly tailored, bright smile."
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved to another digital location.",
+    "button": "Go Back"
   }
-}
 }

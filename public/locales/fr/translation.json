@@ -398,7 +398,14 @@
       "subtitle": "Révélez votre meilleur sourire",
       "description": "Les facettes dentaires sont des coquilles fines en céramique ou en composite qui sont collées à la surface des dents pour améliorer leur apparence. Elles sont idéales pour corriger les imperfections esthétiques telles que les dents ébréchées, décolorées ou légèrement mal alignées, offrant ainsi un sourire éclatant et naturel."
     }
-  }
+  },
+
+  "notFound": {
+  "title": "404",
+  "subtitle": "Page introuvable",
+  "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+  "button": "Retourner"
+}
 
 
 

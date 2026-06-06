@@ -15,7 +15,7 @@ import BuccoDentaire from './Pages/buccoDentaire/BuccoDentaire'
 import SoinsBuccoDentaires from './Pages/SoinsBuccoDentaires/BuccoDentaire'
 import Therapeutique from './Pages/Therapeutique/Therapeutique'
 import Prothesesdentaires from './Pages/Prothesesdentaires/Prothesesdentaires'
-
+import NotFound from './Pages/NotFound/NotFound'
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
 
       <Routes>
         {/*  Les pages */}
-        <Route path='/' element={<HomePage />} /> {/* Remplace par <Home /> */}
+        <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/services' element={<Service/>} />
@@ -38,8 +38,9 @@ function App() {
         <Route path='/soins-bucco-dentaires' element={<SoinsBuccoDentaires />} />
         <Route path='/therapeutique' element={<Therapeutique />} />
         <Route path='/protheses-dentaires' element={<Prothesesdentaires />} />
-        {/* Page 404 */}
-        <Route path='*' element={<div>Page non trouvée (404)</div>} />
+        
+        {/* Page 404 fully styled w multilingue */}
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
       {/* <Footer /> */}

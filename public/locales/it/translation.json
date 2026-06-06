@@ -5,290 +5,293 @@
     "services": "Servizi",
     "before_after": "Prima & Dopo",
     "contact": "Contatti",
-    "book_now": "Prenota"
+    "book_now": "Prenota Online"
   },
   "services": {
     "conservative": "Odontoiatria Conservativa",
     "prosthetics": "Protesi Dentarie",
     "orthodontics": "Ortodonzia",
     "pediatric": "Odontoiatria Pediatrica",
-    "preventive": "Cure Preventive",
-    "tech": "Tecnologie e Diagnostica",
+    "preventive": "Prevenzione e Igiene",
+    "tech": "Diagnostica e Tecnologie",
     "banner": {
       "title": "I Nostri Servizi",
-      "subtitle": "Esperienza e tecnologia all'avanguardia al servizio della vostra salute"
+      "subtitle": "Esperienza clinica e tecnologie d'avanguardia al servizio del tuo sorriso"
     },
-    "explore_button_text": "Esplora questo Servizio",
+    "explore_button_text": "Scopri il Trattamento",
     "bucco": {
-      "heading": "Trattamenti Oro-Dentali",
-      "tagline": "Cure Preventive e Visite di Routine"
+      "heading": "Trattamenti Estetici a Laser",
+      "tagline": "Tecnologia laser avanzata per l'estetica del sorriso"
     },
     "Alignement": {
-      "heading": "Cure Oro-Dentali e Preventive",
-      "tagline": "Cure Preventive e Visite di Routine"
+      "heading": "Igiene e Cure Preventive",
+      "tagline": "Prevenzione costante e check-up completi per la salute orale"
     },
     "Traitement": {
-      "heading": "Terapeutica e Trattamenti Endodontici",
-      "tagline": "Cure precise per il vostro comfort"
+      "heading": "Terapia ed Endodonzia",
+      "tagline": "Trattamenti di microscopica precisione per salvare i denti naturali"
     },
     "Prothèses": {
-      "title": "Protesi Dentarie",
-      "subtitle": "Rivelate il vostro miglior sorriso"
+      "title": "Protesi Dentaria",
+      "subtitle": "Ripristina la funzione e l'estetica naturale"
     },
     "items": {
       "blanchiment": {
-        "title": "Sbiancamento Dentale con LASER A DIODO",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Sbiancamento Dentale a Laser a Diodo",
+        "subtitle": "Trattamento professionale per un sorriso visibilmente più luminoso"
       },
       "Alignement": {
-        "title": "Allineamento Gengivale con Laser a Diodo",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Rimodellamento Gengivale a Laser",
+        "subtitle": "Correzione precisa della linea gengivale per un sorriso armonioso"
       },
       "hyperpigmentation": {
-        "title": "Trattamento Laser dell'Iperpigmentazione Gengivale",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Depigmentazione Gengivale a Laser",
+        "subtitle": "Rimozione delle macchie scure per gengive dal colorito sano e roseo"
       },
       "examens": {
-        "title": "Esami Regolari",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Check-up e Visite di Controllo",
+        "subtitle": "Esami diagnostici regolari per prevenire patologie future"
       },
       "soins": {
-        "title": "Cure Preventive",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Igiene Orale Professionale",
+        "subtitle": "Ablazione del tartaro, air-polishing e protezione dello smalto"
       },
       "Collage": {
-        "title": "Incollaggio in Resina Composita",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Restauro in Resina Composita",
+        "subtitle": "Correzioni estetiche mininvasive per scheggiature o diastemi"
       },
       "Traitement": {
-        "title": "Trattamento dell'Iperpigmentazione Gengivale con Laser",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Trattamento Endodontico a Laser e Otturazione",
+        "subtitle": "Sterilizzazione canalare profonda per il salvataggio dell'elemento dentale"
       },
       "Extraction": {
-        "title": "Estrazione",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Estrazione Dentale",
+        "subtitle": "Chirurgia estrattiva delicata quando la conservazione non è possibile"
       },
       "chirurgie": {
         "title": "Chirurgia Implantare Guidata dal Computer",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Inserimento implantare con pianificazione 3D senza bisturi né suture"
       },
       "anomalies": {
-        "title": "Trattamento delle Anomalie",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Trattamento delle Anomalie Orali",
+        "subtitle": "Soluzioni cliniche mirate per patologie e disordini complessi"
       },
       "Prothèses Fixes": {
         "title": "Protesi Fisse",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Corone, ponti e restauri su impianti di altissima precisione"
       },
       "Prothèses Amovibles": {
-        "title": "Protesi Mobili",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Protesi Mobili Avanzate",
+        "subtitle": "Dispositivi totali o parziali flessibili e ad alta stabilità"
       },
       "Facettes": {
         "title": "Faccette Dentali",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": "Sottili sfoglie in ceramica per una trasformazione estetica radicale"
       }
     }
   },
   "home": {
     "hero": {
       "subtitle": "Dr.ssa Sarra Haouet",
-      "titleHighlight": "+10 anni",
-      "titlePart1": "di esperienza",
-      "titlePart2": "+20 corsi di formazione e diplomi",
-      "description": "Prenota Il Tuo Appuntamento Su med.tn",
-      "button": "Prendi un Appuntamento"
+      "titleHighlight": "Oltre 10 Anni",
+      "titlePart1": "di Esperienza Clinica",
+      "titlePart2": "Più di 20 Master e Specializzazioni",
+      "description": "Prenota la tua visita in pochi clic su med.tn",
+      "button": "Richiedi un Appuntamento"
     },
     "sectionTitle": {
       "title": "I Nostri Servizi Principali",
-      "desc": "Cure di alta qualità adattate alle vostre esigenze per un sorriso splendente.",
-      "button": "Esplora i nostri servizi"
+      "desc": "Trattamenti odontoiatrici d'élite progettati attorno alla salute e al comfort del paziente.",
+      "button": "Esplora i Servizi"
     },
     "services": {
       "service1": {
-        "title": "Trattamenti Oro-Dentali",
-        "description": "Dai miglioramenti estetici alle cure dentali funzionali adatte ai vostri obiettivi"
+        "title": "Terapie Laser Avanzate",
+        "subtitle": "Estetica gengivale e microchirurgia mininvasiva",
+        "description": "Trattamenti gengivali ultra-precisi e correzioni estetiche rapide grazie all'uso del laser a diodo di ultima generazione."
       },
       "service2": {
-        "title": "Atti di Cura Oro-Dentale",
-        "description": "Precisi, sicuri e adattati a ciascun paziente"
+        "title": "Odontoiatria Preventiva",
+        "subtitle": "Protezione a lungo termine della salute orale",
+        "description": "Diagnostica avanzata, profilassi personalizzata e cure conservative per mantenere il tuo sorriso sano e forte."
       },
       "service3": {
-        "title": "Prestazioni Protesiche Dentarie",
-        "description": "Su misura per ripristinare l'estetica e la funzione del vostro sorriso."
+        "title": "Protesi e Riabilitazioni D'Élite",
+        "subtitle": "Restauri personalizzati ed estetica funzionale",
+        "description": "Faccette in ceramica, corone prive di metallo e impianti digitali su misura per ripristinare bellezza e funzionalità."
       }
     },
     "consultation": {
-      "title": "Non Sapete Quale Servizio Fa Per Voi?",
-      "description": "Contattateci per una consulenza personalizzata, vi accompagneremo in ogni fase.",
-      "button": "Contattaci"
+      "title": "Non Sai Quale Trattamento Sia Ideale per Te?",
+      "description": "Contattaci per un consulto personalizzato. Il nostro team ti accompagnerà passo dopo passo verso il tuo obiettivo.",
+      "button": "Contatta lo Studio"
     },
     "video": {
-      "title": "Il Nostro Video di Presentazione"
+      "title": "Scopri il Nostro Studio — Video di Presentazione"
     },
     "hiw": {
       "title": "Come Funziona",
-      "subtitle": "Semplici passaggi per un sorriso più sano e brillante",
-      "step1": "Prenota una Visita",
-      "step2": "Incontra il Tuo Dentista",
-      "step3": "Ricevi la Diagnosi",
-      "step4": "Ricevi il Trattamento",
+      "subtitle": "Pochi e semplici passi per ottenere un sorriso sano e sicuro",
+      "step1": "Prenota la Visita",
+      "step2": "Incontra lo Specialista",
+      "step3": "Analisi Digitale",
+      "step4": "Trattamento Mirato",
       "step5": "Sorridi"
     },
     "locations": {
-      "title": "Sedi",
-      "subtitle": "Venite a trovarci nel nostro spazio calmo e accogliente"
+      "title": "Dove Trovarci",
+      "subtitle": "Ti accogliamo in un ambiente raffinato, rilassante e tecnologicamente all'avanguardia"
     },
     "testimonials": {
-      "title": "Testimonianze dei Clienti:\nSi Fidano di Noi",
-      "subtitle": "La soddisfazione dei nostri pazienti è il nostro più grande successo.",
+      "title": "Le Recensioni dei Nostri Pazienti",
+      "subtitle": "La tua fiducia e la tua serenità sono il nostro traguardo più importante.",
       "reviews": {
         "r1": {
           "name": "Amine Mansour",
-          "text": "La clinica è impeccabile, il team è molto professionale e i miei trattamenti sono stati eseguiti senza alcun dolore. Mi sento sempre coccolato."
+          "text": "Studio impeccabile, staff estremamente professionale e cure totalmente indolore. Mi sono sentito coccolato e al sicuro."
         },
         "r2": {
           "name": "Elena Rossi",
-          "text": "Servizio eccezionale! Spiegazioni chiare prima del trattamento e un risultato perfetto per il mio sbiancamento dentale."
+          "text": "Servizio eccezionale! Spiegazioni chiarissime prima del trattamento e un risultato fantastico per il mio sbiancamento dentale."
         },
         "r3": {
           "name": "Sarah Ben Ali",
-          "text": "Molto soddisfatta della mia esperienza. L'accoglienza è calorosa e la tecnologia utilizzata è modernissima. Lo consiglio vivamente!"
+          "text": "Un'esperienza eccellente. L'accoglienza è calorosa e le tecnologie utilizzate sono modernissime. Lo consiglio vivamente!"
         }
       }
     }
   },
   "laser": {
     "hero": {
-      "title": "Laser a Diodo",
-      "subtitle": "Rivelate il vostro miglior sorriso"
+      "title": "Tecnologia Laser a Diodo",
+      "subtitle": "L'eccellenza dell'odontoiatria moderna e confortevole"
     },
     "content": {
-      "description": "Nel nostro studio, situato a Nabeul, Tunisia, integriamo il laser a diodo, una moderna tecnologia dentale che consente trattamenti meno invasivi, rapidi e indolori. È oggi uno strumento indispensabile nell'odontoiatria moderna, in particolare per la cura gengivale e parodontale."
+      "description": "Presso il nostro studio a Nabeul, in Tunisia, integriamo il laser a diodo: una tecnologia avanzata che consente trattamenti mininvasivi, rapidi e praticamente indolore, fondamentale per la cura parodontale ed estetica."
     },
     "advantages": {
-      "title": "I Vantaggi del Laser a Diodo:",
-      "subtitle": "comfort, precisione, guarigione"
+      "title": "I Vantaggi Clinici del Laser:",
+      "subtitle": "comfort assoluto, massima precisione, guarigione accelerata"
     },
     "advantages_items": {
-      "item1": "Comfort ottimale per il paziente",
-      "item2": "Guarigione più rapida",
-      "item3": "Disinfezione profonda",
-      "item4": "Precisione ed estetica migliorate"
+      "item1": "Comfort eccellente per il paziente durante ogni seduta",
+      "item2": "Tempi di guarigione e rigenerazione dei tessuti molto più rapidi",
+      "item3": "Decontaminazione batterica profonda e altamente efficace",
+      "item4": "Precisione microscopica per risultati estetici superiori"
     }
   },
   "scanner_intraoral": {
     "hero": {
-      "title": "Scanner Intraorale",
-      "subtitle": "La Precisione 3D al Servizio del Vostro Sorriso"
+      "title": "Scanner Intraorale 3D",
+      "subtitle": "La Precisione Digitale senza Inconfort"
     },
     "content": {
-      "description": "Lo scanner intraorale è una tecnologia digitale avanzata che consente di realizzare impronte dentali in 3D, in modo rapido e senza disagi. Sostituisce le tradizionali impronte in pasta, spesso sgradevoli, e offre una visualizzazione istantanea della bocca del paziente. Questa tecnologia è indispensabile nell'odontoiatria moderna, in particolare per i trattamenti estetici, implantari e protesici."
+      "description": "Lo scanner intraorale è uno strumento digitale che acquisisce impronte dentali in 3D in pochi secondi. Sostituisce completamente le vecchie e fastidiose paste tradizionali, offrendo una mappa tridimensionale immediata per una progettazione protesica perfetta."
     },
     "advantages": {
-      "title": "I Vantaggi dello Scanner Intraorale:"
+      "title": "Perché Utilizziamo l'Impronta Digitale:"
     },
     "advantages_items": {
-      "item1": "Visualizzazione immediata sullo schermo",
-      "item2": "Un comfort incomparabile",
-      "item3": "Igiene impeccabile",
-      "item4": "Notevole risparmio di tempo",
-      "item5": "Una precisione 3D eccezionale"
+      "item1": "Visualizzazione 3D istantanea ad alta definizione su schermo",
+      "item2": "Comfort insuperabile, eliminando il riflesso del vomito",
+      "item3": "Massimo livello di igiene clinica e precisione dei dati",
+      "item4": "Notevole risparmio di tempo per il paziente e il laboratorio",
+      "item5": "Precisione millimetrica per restauri stabili e duraturi"
     }
   },
   "about": {
     "intro": {
-      "title": "Smile Expert?",
-      "boldText": "è uno studio dentistico dove vi sentirete rilassati (o al sicuro) e ben assistiti.",
-      "expertise": "Con circa 10 anni di esperienza, offriamo cure dentali complete in un ambiente pieno di vitalità, energia e benessere.",
-      "services": "Sia che abbiate bisogno di un semplice controllo di routine, di cure preventive, di trattamenti estetici, di rigenerazione cellulare o di procedure più complesse, la nostra dottoressa esperta è a vostra disposizione per soddisfare ogni esigenza.",
-      "imgAlt": "Dottoressa Sarra"
+      "title": "Perché Scegliere Smile Expert?",
+      "boldText": "Un centro odontoiatrico dove l'eccellenza clinica incontra la massima serenità del paziente.",
+      "expertise": "Con oltre un decennio di esperienza internazionale, offriamo cure dentali complete all'interno di uno spazio progettato per il tuo benessere.",
+      "services": "Che si tratti di una seduta di igiene orale, di trattamenti laser estetici o di complessi interventi di chirurgia implantare, la nostra dottoressa saprà strutturare il piano terapeutico perfetto per te.",
+      "imgAlt": "Dr.ssa Sarra"
     },
     "tech": {
-      "sectionTitle": "Il Nostro Studio Dispone delle Ultime Tecnologie",
-      "learnMore": "Scopri di più",
+      "sectionTitle": "Dotato delle Ultime Tecnologie Odontoiatriche Digitali",
+      "learnMore": "Scopri la Tecnologia",
       "items": {
-        "laserDiode": { "name": "Laser a Diodo" },
-        "scannerIntraoral": { "name": "Scanner Intraorale" },
-        "scannerFacial": { "name": "Scanner Facciale" }
+        "laserDiode": { "name": "Sistemi Laser a Diodo" },
+        "scannerIntraoral": { "name": "Scanner Intraorale 3D" },
+        "scannerFacial": { "name": "Scanner Facciale 3D" }
       }
     },
     "expertise": {
-      "sectionTitle": "La Nostra Esperienza",
+      "sectionTitle": "Profilo Professionale",
       "doctorName": "Dr.ssa Sarra Haouet",
-      "description": "La Dottoressa Sarra Haouet mette la sua esperienza e la sua passione al servizio del vostro sorriso. Sempre pronta all'ascolto, unisce il rigore medico a un approccio umano per offrire a ciascun paziente un'esperienza di cura unica e rassicurante."
+      "description": "La Dr.ssa Sarra Haouet unisce una rigorosa formazione medica a una grande passione per l'estetica del sorriso. Attenta e orientata al paziente, combina rigore scientifico e un approccio profondamente umano per garantire un'esperienza di cura sicura e personalizzata."
     }
   },
   "after_before": {
     "card1": {
-      "title": "Continuate a sorridere!",
-      "des": "Scoprite le straordinarie trasformazioni dei nostri pazienti grazie alle nostre cure dentali di alta qualità. Ogni sorriso racconta una storia di ritrovata fiducia e miglior benessere."
+      "title": "Continua a Sorridere con Orgoglio",
+      "des": "Esplora le straordinarie trasformazioni dei nostri pazienti. Ogni caso clinico racconta una storia di armonia funzionale ripristinata e di una ritrovata fiducia in se stessi."
     }
   },
   "beforeAfter": {
     "depigmentation": {
-      "title": "Depigmentazione Gengivale al Laser",
-      "description": "Il trattamento al laser consente di eliminare le macchie scure e le pigmentazioni scure sulle gengive per restituire loro un aspetto rosa naturale e sano."
+      "title": "Depigmentazione Gengivale a Laser",
+      "description": "Il raggio laser elimina selettivamente le macchie melaniniche scure dalle gengive, restituendo un colorito rosa naturale, sano e uniforme."
     },
     "eclaircissement": {
-      "title": "Schiarimento Dentale",
-      "description": "Una cura professionale per eliminare le colorazioni profonde e ridonare lucentezza e freschezza al vostro sorriso."
+      "title": "Sbiancamento Dentale Profondo",
+      "description": "Trattamento professionale volto a rimuovere le pigmentazioni interne dello smalto, ridonando freschezza e luminosità al sorriso."
     },
     "protheseTotale": {
       "title": "Protesi Totale Mobile",
-      "description": "Una soluzione completa e confortevole per sostituire tutti i denti mancanti, ripristinando così la funzione masticatoria e l'estetica del viso."
+      "description": "Riabilitazione completa e confortevole per sostituire l'intera arcata dentale, ripristinando la masticazione e il sostegno dei tessuti facciali."
     },
     "protheseFlexite": {
-      "title": "Protesi Parziale Mobile Flexite",
-      "description": "Una protesi moderna, flessibile e senza ganci metallici visibili, che offre un'assoluta discrezione e un comfort ottimale quotidiano."
+      "title": "Protesi Parziale Flessibile Flexite",
+      "description": "Protesi moderna in polimero flessibile, priva di ganci metallici visibili, per una totale invisibilità estetica e un comfort eccezionale."
     },
     "strassDentaire": {
-      "title": "Brillantino Dentale",
-      "description": "Applicazione di un gioiello dentale discreto e scintillante, eseguita in totale sicurezza senza alterare o danneggiare lo smalto del dente."
+      "title": "Applicazione Brillantante Dentale",
+      "description": "Posizionamento sicuro di un cristallo estetico sulla superficie del dente, senza intaccare né danneggiare minimamente lo smalto."
     },
     "blanchiment": {
-      "title": "Sbiancamento Dentale",
-      "description": "Trattamento di sbiancamento in studio per guadagnare diverse tonalità di bianco in un'unica seduta, in modo totalmente sicuro."
+      "title": "Sbiancamento Rapido in Studio",
+      "description": "Protocollo di sbiancamento alla poltrona che permette di guadagnare diverse tonalità in una sola seduta, in totale sicurezza."
     }
   },
   "ctaSplit": {
-    "titleLine1": "Pronti a sperimentare",
-    "titleLine2": "migliori cure",
-    "titleLine3": "dentali?",
-    "description": "Pianificate la vostra visita oggi stesso e fate il primo passo verso un sorriso più sano e splendente.",
-    "button": "Pianificate il vostro appuntamento",
-    "imgAlt": "Cure dentali"
+    "titleLine1": "Pronto a vivere",
+    "titleLine2": "un'esperienza di cura",
+    "titleLine3": "odontoiatrica superiore?",
+    "description": "Pianifica la tua visita oggi stesso e fai il primo passo verso un sorriso sano, luminoso e sicuro.",
+    "button": "Richiedi un Appuntamento Prioritario",
+    "imgAlt": "Trattamenti odontoiatrici d'élite"
   },
   "cta": {
-    "title": "Pronti A Sorridere Con Fiducia?",
-    "button": "Prenota un appuntamento"
+    "title": "Pronto a Sorridere con Piena Sicurezza?",
+    "button": "Prenota la Tua Visita Ora"
   },
   "finalCta": {
-    "title": "Continuate a sorridere!",
+    "title": "Esprimi la tua felicità!",
     "button": "Contattaci"
   },
   "contact_hero": {
-    "title": "Non esitate a contattarci",
-    "subtitle": "Prenota Il Tuo Appuntamento Su med.tn",
-    "button": "Prendi un Appuntamento"
+    "title": "Siamo a tua completa disposizione",
+    "subtitle": "Prenota il tuo appuntamento in modo sicuro su med.tn",
+    "button": "Fissa un Consulto"
   },
   "contact": {
-    "info_title": "Non esitate a contattarci",
-    "info_desc": "Il vostro sorriso è la nostra priorità. Contattateci per qualsiasi informazione o per fissare un appuntamento.",
-    "location": "Sede",
-    "email_us": "Scriveteci",
-    "call_us": "Chiamateci",
-    "follow_us": "Seguiteci sui social media",
-    "form_title": "Contattaci",
-    "name_placeholder": "Nome *",
-    "email_placeholder": "Email",
-    "phone_placeholder": "Numero di telefono *",
-    "message_placeholder": "Il vostro messaggio...",
-    "send": "INVIA",
-    "locations_title": "Sedi",
-    "locations_subtitle": "Venite a trovarci nel nostro spazio calmo e accogliente",
-    "schedule_title": "I Nostri Orari",
-    "schedule_subtitle": "Trovate un momento adatto a voi — le nostre porte sono aperte tutta la settimana"
+    "info_title": "Contatta i Nostri Specialisti",
+    "info_desc": "La tua salute è la nostra priorità. Contattaci per organizzare la tua visita o per richiedere qualsiasi informazione clinica.",
+    "location": "Sede dello Studio",
+    "email_us": "Scrivici una Email",
+    "call_us": "Chiamaci Direttamente",
+    "follow_us": "Seguici sui nostri canali social",
+    "form_title": "Invia un Messaggio Diretto",
+    "name_placeholder": "Nome e Cognome *",
+    "email_placeholder": "Indirizzo Email",
+    "phone_placeholder": "Numero di Telefono *",
+    "message_placeholder": "Come possiamo aiutarti?",
+    "send": "INVIA RICHIESTA",
+    "locations_title": "Sede dello Studio",
+    "locations_subtitle": "Entra in uno spazio accogliente, moderno e perfettamente organizzato",
+    "schedule_title": "Orari dello Studio",
+    "schedule_subtitle": "Scegli l'orario più comodo per te — i nostri specialisti sono operativi tutta la settimana"
   },
   "days": {
     "monday": "Lunedì",
@@ -303,30 +306,102 @@
     "closed": "Chiuso"
   },
   "footer": {
-    "address": "1° piano App, sopra il negozio Hamadi Abid, Imm Takwa, 105, Nabeul 8000",
+    "address": "1° Piano, Sopra Hamadi Abid, Imm Takwa, 105, Nabeul 8000",
     "copyright": "Copyright © 2025 Smile Expert. Tutti i diritti riservati."
   },
-
   "buccoDentaire": {
-  "facettes": {
-    "title": "Faccette Dentali",
-    "subtitle": "Rivelate il vostro miglior sorriso",
-    "description": "Le faccette dentali consentono di ottenere un sorriso armonioso in tempo record. Grazie alla progettazione digitale del sorriso e ai sistemi CAD/CAM, il risultato è preciso, rapido e duraturo.\nCon una corretta manutenzione, possono durare un decennio o più."
+    "facettes": {
+      "title": "Faccette Cliniche Premium",
+      "subtitle": "Un cambio radicale e duraturo",
+      "description": "Le faccette dentali consentono di riallineare e illuminare il sorriso in tempi record. Grazie alla progettazione digitale del sorriso (DSD) e alla tecnologia CAD/CAM, il risultato è incredibilmente naturale e progettato per durare oltre un decennio."
+    },
+    "blanchiment": {
+      "title": "Sbiancamento Dentale a Laser a Diodo",
+      "subtitle": "Trattamento d'élite delle discromie",
+      "description": "Un intervento estetico professionale studiato per eliminare le macchie profonde e schiarire lo smalto. Adattato alla tonalità biologica di partenza del paziente, dona un aspetto fresco e stimola il mantenimento di un'ottima igiene orale."
+    },
+    "alignement": {
+      "title": "Rimodellamento Gengivale a Laser",
+      "subtitle": "Geometria e armonia del sorriso",
+      "description": "Questo trattamento corregge le asimmetrie del sorriso migliorando le proporzioni dei tessuti e promuovendo la salute gengivale. L'uso del laser garantisce una procedura mininvasiva, indolore e con tempi di recupero rapidissimi."
+    },
+    "hyperpigmentation": {
+      "title": "Regolazione della Melanina Gengivale a Laser",
+      "subtitle": "Tessuti omogenei e sani",
+      "description": "L'iperpigmentazione consiste in zone gengivali più scure dovute all'accumulo di melanina. Il nostro laser a diodo offre una soluzione ambulatoriale moderna ed estremamente efficace, unificando il colorito in totale comfort e sicurezza."
+    }
   },
-  "blanchiment": {
-    "title": "Sbiancamento Dentale con LASER A DIODO",
-    "subtitle": "Rivelate il vostro miglior sorriso",
-    "description": "Si tratta di una procedura dentale estetica finalizzata a rimuovere le macchie e a schiarire lo smalto dei denti. È un processo personalizzato, adattato alla tonalità originale e alle preferenze del paziente.\nLo sbiancamento è un atto che vi motiva ad adottare buone abitudini per mantenere una buona igiene orale."
+  "SoinsbuccoDentaire": {
+    "Examensreguliers": {
+      "title": "Diagnostica e Profilassi Professionale",
+      "subtitle": "La base della salute orale",
+      "description": "Una corretta prevenzione è il pilastro di un sorriso duraturo. Le nostre sedute includono ablazione del tartaro a ultrasuoni, air-polishing per la rimozione delle macchie e terapie di rimineralizzazione dello smalto al fluoro."
+    },
+    "SoinsPreventifs": {
+      "title": "Odontoiatria Conservativa Protettrice",
+      "subtitle": "Preservare la struttura naturale",
+      "description": "Dai restauri diretti in composito all'endodonzia assistita da laser, il nostro obiettivo clinico è sempre la conservazione degli elementi dentali. Ogni intervento viene eseguito con sistemi di ingrandimento per azzerare i fastidi."
+    }
   },
-  "alignement": {
-    "title": "Allineamento Gengivale con Laser a Diodo",
-    "subtitle": "Rivelate il vostro miglior sorriso",
-    "description": "Il rimodellamento gengivale corregge le irregolarità del sorriso promuovendo al contempo la salute delle gengive. Grazie al laser a diodo, la procedura è delicata, precisa e indolore, con un recupero rapido."
+  "Therapeutique": {
+    "Collage": {
+      "title": "Restauro Biomimetico in Composito",
+      "subtitle": "Ricostruzioni strutturali invisibili",
+      "description": "In caso di elementi scheggiati, lievi diastemi, piccole lesioni cariose o usura dei margini, la stratificazione in resina composita rappresenta la scelta ideale. Questo trattamento mininvasivo non richiede la rimozione di tessuto sano e si esegue solitamente senza anestesia."
+    },
+    "TraitementsEndodontiques": {
+      "title": "Terapia Canalare a Laser e Otturazione",
+      "subtitle": "Salvare elementi gravemente compromessi",
+      "description": "Rappresenta l'ultima risorsa clinica per evitare l'estrazione di un dente danneggiato da carie profonde o traumi. Eseguito in anestesia locale per garantire la totale assenza di dolore, il trattamento sfrutta il laser per sterilizzare i canali prima della sigillatura ermetica."
+    },
+    "Extraction": {
+      "title": "Estrazioni Cliniche Controllate",
+      "subtitle": "Chirurgia estrattiva atraumatica",
+      "description": "Quando le analisi radiografiche e cliniche indicano che un dente non soddisfa più i criteri biologici di conservazione, si procede all'estrazione per prevenire complicanze infettive e proteggere l'osso circostante."
+    },
+    "ChirurgieImplantaire": {
+      "title": "Implantologia Digitale Computer-Guidata",
+      "subtitle": "Pianificazione virtuale d'avanguardia",
+      "description": "Utilizzando i dati TC Cone Beam combinati con l'impronta digitale 3D, pianifichiamo virtualmente la posizione perfetta degli impianti nel software. Viene poi prodotta una dima chirurgica che permette l'inserimento senza tagli con bisturi né punti di sutura."
+    },
+    "Traitementsanomalies ": {
+      "title": "Micro-Trattamenti Specialistici Complessi",
+      "subtitle": "Cure avanzate per quadri clinici specifici",
+      "items": {
+        "item1": "Frenectomia con Laser a Diodo",
+        "item2": "Eliminazione delle Macchie Nere (Black Stains)",
+        "item3": "Gestione del Bruxismo e Bite",
+        "item4": "Valutazione delle Malocclusioni",
+        "item5": "Controllo della Parodontite Avanzata",
+        "item6": "Trattamento delle Pigmentazioni Mucose"
+      }
+    }
   },
-  "hyperpigmentation": {
-    "title": "Trattamento dell'Iperpigmentazione Gengivale con Laser",
-    "subtitle": "Rivelate il vostro miglior sorriso",
-    "description": "L'iperpigmentazione gengivale è una colorazione scura delle gengive, spesso dovuta a un accumulo di melanina. Il laser dentale costituisce una soluzione moderna, minimamente invasiva ed efficace per questo tipo di pigmentazione.\nQuesta tecnica garantisce un controllo preciso e un trattamento rapido e confortevole per il paziente."
+  "Prothesesdentaires": {
+    "ProthèsesFixes": {
+      "title": "Protesi Fisse Biomimetiche",
+      "subtitle": "Restauri strutturali d'alta gamma",
+      "items": {
+        "item1": "Corone Estetiche Metal-Free",
+        "item2": "Ponti ad Alta Resistenza",
+        "item3": "Elementi in Ceramica su Impianti"
+      }
+    },
+    "ProthèsesAmovibles": {
+      "title": "Protesi Rimovibili di Nuova Generazione",
+      "subtitle": "Soluzioni dentali flessibili e stabili",
+      "description": "Realizzate con resine biocompatibili di alta qualità, le nostre soluzioni mobili totali o parziali offrono un adattamento perfetto e un aspetto estremamente naturale, ripristinando la masticazione e la simmetria del viso."
+    },
+    "FacettesDentaires": {
+      "title": "Faccette in Ceramica Personalizzate",
+      "subtitle": "Ingegneria estetica del sorriso",
+      "description": "Sottilissimi gusci in ceramica personalizzati, cementati stabilmente sulla superficie anteriore dei denti. Progettati per mascherare istantaneamente difetti di forma, variazioni di colore o leggeri disallineamenti, regalando un sorriso radioso."
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Pagina Non Trovata",
+    "description": "La pagina che stai cercando non esiste o è stata trasferita in un'altra sezione del sito.",
+    "button": "Torna Indietro"
   }
-}
 }
