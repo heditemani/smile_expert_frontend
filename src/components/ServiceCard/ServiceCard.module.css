@@ -12,7 +12,6 @@
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
 }
 
 .card:focus-visible {
@@ -21,7 +20,7 @@
 }
 
 
-/* ─── Background image — fades in on hover ─── */
+
 .hoverBackground {
   position: absolute;
   inset: 0;
@@ -36,7 +35,6 @@
   opacity: 1;
 }
 
-/* ─── Content — always on top, never moves ─── */
 .content {
   position: relative;
   z-index: 2;
@@ -47,7 +45,6 @@
   gap: 8px;
 }
 
-/* ─── Icon ─── */
 .iconWrapper {
   width: fit-content;
   background-color: var(--bg-white);
@@ -86,17 +83,17 @@
 
 /* ─── Hover overrides ─── */
 .card:hover .title {
-  color: #ffffff;
+  color: var(--bg-white);
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
 }
 
 .card:hover .subtitle {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--bg-white);
 }
 
 .card:hover .iconWrapper {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  color: #ffffff;
+  color: var(--bg-white);
 }

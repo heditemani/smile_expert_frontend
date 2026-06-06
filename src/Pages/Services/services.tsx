@@ -20,6 +20,7 @@ const Services = () => {
       id: "bucco",
       heading: t('services.bucco.heading'),
       tagline: t('services.bucco.tagline'),
+      link: "bucco-dentaire",
       items: [
         {
           id: "b1",
@@ -48,6 +49,7 @@ const Services = () => {
       id: "alignement-section",
       heading: t('services.Alignement.heading'), // uppercase 'A'
       tagline: t('services.Alignement.tagline'),
+      link: "soins-bucco-dentaires",
       items: [
         {
           id: "p1",
@@ -69,6 +71,7 @@ const Services = () => {
       id: "traitement-section",
       heading: t('services.Traitement.heading'), // uppercase 'T'
       tagline: t('services.Traitement.tagline'),
+      link: "therapeutique",
       items: [
         {
           id: "e1",
@@ -111,6 +114,7 @@ const Services = () => {
       id: "protheses-section",
       heading: t('services.Prothèses.title'), // 'Prothèses' (b l-accent accentué) kima upper level key
       tagline: t('services.Prothèses.subtitle'),
+      link: "protheses-dentaires",
       items: [
         {
           id: "f1",
@@ -153,7 +157,7 @@ const Services = () => {
               title={section.heading}
               description={section.tagline}
               buttonText={t('services.explore_button_text')}
-              href={`#${section.id}`}
+              href={`${section.link}`}
             />
 
             <div className={styles.grid}>
