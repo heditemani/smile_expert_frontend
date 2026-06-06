@@ -328,7 +328,57 @@
       "subtitle": "Révélez votre meilleur sourire",
       "description": "L’hyperpigmentation gingivale est une coloration foncée des gencives, souvent due à une accumulation de mélanine. Le laser dentaire constitue une solution moderne, minimement invasive et efficace pour ce type de pigmentation.\nCette technique assure un contrôle précis et un traitement rapide et confortable pour le patient."
     }
+  },
+
+  "SoinsbuccoDentaire": {
+    "Examensreguliers": {
+      "title": "Examens réguliers",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "L’hygiène bucco-dentaire est la base d’un sourire sain. Nos soins préventifs incluent le détartrage, l’aéropolissage et l’application de fluorure pour renforcer l’émail et prévenir les maladies."
+    },
+    "SoinsPreventifs": {
+      "title": "Soins Préventifs",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "Du collage résine à l’endodontie au laser, nos traitements visent à préserver vos dents naturelles. Chaque acte est réalisé avec minutie pour garantir confort et efficacité, tout en évitant les douleurs inutiles."
+    }
+  },
+
+  "Therapeutique": {
+    "Collage": {
+      "title": "Collage résine Composite",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "Le diagnostic du docteur dévoile que vous avez des dents ébréchées, espaces inter-dentaire gênant, caries légères, bords courts ou usés ainsi torsions mineurs, le collage résine ou composite s’avère un excellant choix pour résoudre ces petits soucis dentaires. Ce traitement n’exige pas d’anesthésie."
+    },
+    "TraitementsEndodontiques": {
+      "title": "Le Traitements Endodontiques par Laser Diode et Obturation ",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "est souvent la dernière solution pour sauver les dents, ayant une carie profonde ou un choc qui l’a endommagé, avant d’envisager une extraction. Le traitement endodontique se réalise sous anesthésie locale pour garantir l'absence de douleur. L'obturation, qui en constitue la dernière étape, est indispensable pour sceller le canal dentaire et prévenir les récidives infectieuses. Bien qu’essentielle, cette procédure reste simple, rapide et sans douleur."
+    },
+    "Extraction": {
+      "title": "Extraction",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "le dentist réalise l’évaluation clinique et radiographique et conclu que la dent ne présente plus les critères de conservation, une extraction est désormais indiquée afin de prévenir toute complication infectieuse."
+    },
+    "ChirurgieImplantaire": {
+      "title": "La Chirurgie Implantaire",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "Ordinateur  consiste à utiliser les données d’un scanner spécifique le Cone Beam du patient, combinées à une empreinte numérique ou traditionnelle, pour créer une planification virtuelle de l’emplacement optimal des implants dans l’os. Ensuite, un guide chirurgical est fabriqué pour reproduire cette planification en bouche lors de l’intervention. Cette procédure se fait sans ouverture de la peau ni points de suture, elle ne nécessite pas l’usage d’un scalpel."
+    },
+    "Traitementsanomalies ": {
+      "title": "Traitements des anomalies ",
+      "subtitle": "Révélez votre meilleur sourire",
+      "items": {
+        "item1": "Frénectomie avec Laser Diode",
+        "item2": "Les Black Stains",
+        "item3": "Le Bruxisme",
+        "item4": "La Malocclusion Dentaire",
+        "item5": "La Parodontite",
+        "item6": "La Coloration Bleutée de la Muqueuse Bucco-Dentaire"
+      }
+    }
   }
+
+  
 
 
   

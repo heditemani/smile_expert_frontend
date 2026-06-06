@@ -12,6 +12,8 @@ import LaserDiode from './Pages/LaserDiode/LaserDiode'
 import ScannerIntraoral from './Pages/ScannerIntraoral/ScannerIntraoral'
 import ScannerFacial from './Pages/ScannerFacial/ScannerFacial'
 import BuccoDentaire from './Pages/buccoDentaire/BuccoDentaire'
+import SoinsBuccoDentaires from './Pages/SoinsBuccoDentaires/BuccoDentaire'
+import Therapeutique from './Pages/Therapeutique/Therapeutique'
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
         <Route path='/scanner.intraoral' element={<ScannerIntraoral />} />
         <Route path='/scanner.facial' element={<ScannerFacial />} />
         <Route path='/bucco-dentaire' element={<BuccoDentaire />} />
+        <Route path='/soins-bucco-dentaires' element={<SoinsBuccoDentaires />} />
+        <Route path='/therapeutique' element={<Therapeutique />} />
         {/* Page 404 */}
         <Route path='*' element={<div>Page non trouvée (404)</div>} />
       </Routes>
