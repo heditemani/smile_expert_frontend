@@ -157,10 +157,10 @@ const Homepage = () => {
             <h2 className={styles.sectionTitle}>{t('home.locations.title')}</h2>
             <p className={`${styles.sectionSubtitle} mb-4`}>{t('home.locations.subtitle')}</p>
 
-            {/* El Map Container jdid fully interactive */}
+            {/* El Map Container mragal b Zoom a9wa 50% */}
             <div className={styles.mapContainer}>
                 <iframe
-                    src="https://maps.app.goo.gl/YgC5GC7mTuwYiXtq8"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1127.61206929441!2d10.6915595!3d36.4348777!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x130298c96939a449%3A0xe8edae1e7360dd5b!2sDentiste%20-%20Dr%20Sarra%20Haouet%20Nabeul%20Mrezga%20Hammamet!5e0!3m2!1sfr!2stn!4v1780717038232!5m2!1sfr!2stn"
                     className={styles.googleMap}
                     allowFullScreen=""
                     loading="lazy"

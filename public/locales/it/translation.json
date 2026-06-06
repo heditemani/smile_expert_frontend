@@ -8,12 +8,10 @@
     "book_now": "Prenota Online"
   },
   "services": {
-    "conservative": "Odontoiatria Conservativa",
-    "prosthetics": "Protesi Dentarie",
-    "orthodontics": "Ortodonzia",
-    "pediatric": "Odontoiatria Pediatrica",
-    "preventive": "Prevenzione e Igiene",
-    "tech": "Diagnostica e Tecnologie",
+    "implants_surgery": "Trattamenti Oro-Dentali",
+    "cosmetic_dentistry": "Cure Oro-Dentali e Preventive",
+    "orthodontics": "Trattamenti Terapeutici ed Endodontici",
+    "pediatric_preventive": "Protesi Dentarie",
     "banner": {
       "title": "I Nostri Servizi",
       "subtitle": "Esperienza clinica e tecnologie d'avanguardia al servizio del tuo sorriso"

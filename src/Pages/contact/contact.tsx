@@ -194,14 +194,24 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className={`${styles.locations} section-padding`}>
+      <section className={styles.locations}>
         <div className="container">
-          <h2 className="section-title text-center">{t('contact.locations_title')}</h2>
-          <div className={styles['map-container']}>
-            <img src={locationMap} alt="Location" className={styles['map-img']} />
-          </div>
+            <h2 className={styles.sectionTitle}>{t('home.locations.title')}</h2>
+            <p className={`${styles.sectionSubtitle} mb-4`}>{t('home.locations.subtitle')}</p>
+
+            {/* El Map Container mragal b Zoom a9wa 50% */}
+            <div className={styles.mapContainer}>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1127.61206929441!2d10.6915595!3d36.4348777!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x130298c96939a449%3A0xe8edae1e7360dd5b!2sDentiste%20-%20Dr%20Sarra%20Haouet%20Nabeul%20Mrezga%20Hammamet!5e0!3m2!1sfr!2stn!4v1780717038232!5m2!1sfr!2stn"
+                    className={styles.googleMap}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Cabinet Dentaire Location"
+                ></iframe>
+            </div>
         </div>
-      </section>
+    </section>
 
       <ScheduleSection isAltBg={false} />
     </div>

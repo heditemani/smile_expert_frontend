@@ -213,3 +213,26 @@
         position: static; /* Disable sticky on smaller screens for mobile ergonomics */
     }
 }
+
+.mapContainer {
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--border-radius-md); /* 32px kima tkhdem dima */
+    box-shadow: var(--shadow-sm);
+    aspect-ratio: 16 / 9; /* Perfect display landscape look */
+    background-color: #f8f9fa;
+}
+
+.googleMap {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Mobile Responsiveness look */
+@media (max-width: 768px) {
+    .mapContainer {
+        aspect-ratio: 4 / 3; /* Tji a9wa w tban vertical look fi sha7et el talifounat */
+    }
+}

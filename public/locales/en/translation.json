@@ -8,12 +8,10 @@
     "book_now": "Book Online"
   },
   "services": {
-    "conservative": "Conservative Dentistry",
-    "prosthetics": "Dental Prostheses",
-    "orthodontics": "Orthodontics",
-    "pediatric": "Pediatric Dentistry",
-    "preventive": "Preventive Care",
-    "tech": "Advanced Diagnostics & Tech",
+    "implants_surgery": "Oral and Dental Treatments",
+    "cosmetic_dentistry": "Oral and Preventive Care",
+    "orthodontics": "Therapeutic and Endodontic Treatments",
+    "pediatric_preventive": "Dental Prostheses",
     "banner": {
       "title": "Our Services",
       "subtitle": "State-of-the-art dental expertise dedicated to your oral health"

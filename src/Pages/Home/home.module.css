@@ -244,13 +244,12 @@
 }
 
 .mapContainer {
-    margin-top: 2rem;
     width: 100%;
     overflow: hidden;
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-md); /* 32px kima tkhdem dima */
     box-shadow: var(--shadow-sm);
-    aspect-ratio: 16 / 9; /* T7afeth 100% 3al proporation mte3ek */
-    background-color: var(--bg-offwhite);
+    aspect-ratio: 16 / 9; /* Perfect display landscape look */
+    background-color: #f8f9fa;
 }
 
 .googleMap {
@@ -260,10 +259,10 @@
     display: block;
 }
 
-/* Responsive bch tji a9wa 3al portable */
+/* Mobile Responsiveness look */
 @media (max-width: 768px) {
     .mapContainer {
-        aspect-ratio: 4 / 3; /* Talli t-choufha a7san f vertical screens mta3 el talifounat */
+        aspect-ratio: 4 / 3; /* Tji a9wa w tban vertical look fi sha7et el talifounat */
     }
 }
 

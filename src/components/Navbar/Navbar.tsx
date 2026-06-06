@@ -12,9 +12,9 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
-  const langRef = useRef<HTMLDivElement>(null);
+  const langRef = useRef(null); // Cleaned from TypeScript types
 
-  const changeLanguage = (lang: string) => {
+  const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
     setIsLangOpen(false);
     setIsMenuOpen(false); 
@@ -23,8 +23,8 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (langRef.current && !langRef.current.contains(event.target as Node)) {
+    const handleClickOutside = (event) => {
+      if (langRef.current && !langRef.current.contains(event.target)) {
         setIsLangOpen(false);
       }
     };
@@ -53,24 +53,21 @@ const Navbar = () => {
             <li><Link to="/" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.home')}</Link></li>
             <li><Link to="/about" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.about')}</Link></li>
             
-            {/* Services Dropdown - بدون تغيير في المنطق */}
+            {/* Services Dropdown - Updated with the 4 main high-end categories */}
             <li className={styles.dropdown}>
               <Link to="/services" className={styles['nav-link']}>
                 {t('nav.services')} <i className="ph ph-caret-down"></i>
               </Link>
               <ul className={styles['dropdown-menu']}>
-                <li><Link to="/" onClick={() => setIsMenuOpen(false)}>{t('services.conservative')}</Link></li>
-                <li><Link to="/" onClick={() => setIsMenuOpen(false)}>{t('services.prosthetics')}</Link></li>
-                <li><Link to="/" onClick={() => setIsMenuOpen(false)}>{t('services.orthodontics')}</Link></li> 
-                <li><Link to="/" onClick={() => setIsMenuOpen(false)}>{t('services.pediatric')}</Link></li>
-                <li><Link to="/" onClick={() => setIsMenuOpen(false)}>{t('services.preventive')}</Link></li>
-                <li><Link to="/" onClick={() => setIsMenuOpen(false)}>{t('services.tech')}</Link></li>
+                <li><Link to="/bucco-dentaire" onClick={() => setIsMenuOpen(false)}>{t('services.implants_surgery')}</Link></li>
+                <li><Link to="/soins-bucco-dentaires" onClick={() => setIsMenuOpen(false)}>{t('services.cosmetic_dentistry')}</Link></li>
+                <li><Link to="/therapeutique" onClick={() => setIsMenuOpen(false)}>{t('services.orthodontics')}</Link></li> 
+                <li><Link to="/protheses-dentaires" onClick={() => setIsMenuOpen(false)}>{t('services.pediatric_preventive')}</Link></li>
               </ul>
             </li>
 
             <li><Link to="/Before&After" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.before_after')}</Link></li>
             <li><Link to="/contact" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.contact')}</Link></li>
-            
             
             <li className={styles.langWrapper} ref={langRef}>
               <div className={styles.langSelected} onClick={() => setIsLangOpen(!isLangOpen)}>

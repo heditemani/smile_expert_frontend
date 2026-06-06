@@ -8,12 +8,11 @@
     "book_now": "Réserver"
   },
   "services": {
-    "conservative": "Odontologie conservatrice",
-    "prosthetics": "Prothèses dentaires",
-    "orthodontics": "Orthodontie",
-    "pediatric": "Dentisterie pédiatrique",
-    "preventive": "Soins préventifs",
-    "tech": "Technologies et diagnostic",
+
+    "implants_surgery": "Traitements Bucco-Dentaires",
+    "cosmetic_dentistry": "Soins bucco-dentaires et préventifs",
+    "orthodontics": "Thérapeutique et traitements endodontiques",
+    "pediatric_preventive": "Prothèses dentaires",
     "banner": {
       "title": "Nos Services",
       "subtitle": "Expertise et technologie de pointe au service de votre santé"
