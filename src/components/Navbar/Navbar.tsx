@@ -53,7 +53,7 @@ const Navbar = () => {
             <li><Link to="/" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.home')}</Link></li>
             <li><Link to="/about" className={styles['nav-link']} onClick={() => setIsMenuOpen(false)}>{t('nav.about')}</Link></li>
             
-            {/* Services Dropdown - Updated with the 4 main high-end categories */}
+            
             <li className={styles.dropdown}>
               <Link to="/services" className={styles['nav-link']}>
                 {t('nav.services')} <i className="ph ph-caret-down"></i>
@@ -94,7 +94,7 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <Link to="https://www.med.tn/..." target='_blank' className={`btn ${styles['btn-primary']}`}>
+        <Link to="https://www.med.tn/medecin/dentiste/nabeul/dr-sarra-haouet-164499.html" target='_blank' className={`btn ${styles['btn-primary']}`}>
           {t('nav.book_now')}
         </Link>
 

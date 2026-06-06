@@ -13,10 +13,7 @@ import VideoExperience from '../../components/VideoExperience/VideoExperience.js
 
 // Consultation image
 import consultationImg from '../../assets/images/general/consultation_image.jpg';
-
 import receptionImg from '../../assets/images/general/reception.png';
-
-import mapPlaceholder from '../../assets/images/general/map_placeholder.png';
 
 const Homepage = () => {
   const { t } = useTranslation();
@@ -36,7 +33,7 @@ const Homepage = () => {
             <p className={styles.heroDescription}>
               {t('home.hero.description')}
             </p>
-            <a href="https://www.med.tn" target="_blank" rel="noreferrer" className="btn btn-primary btn-large">
+            <a href="https://www.med.tn/medecin/dentiste/nabeul/dr-sarra-haouet-164499.html" target="_blank" rel="noreferrer" className="btn btn-primary btn-large">
               {t('home.hero.button')}
             </a>
           </div>
