@@ -376,9 +376,31 @@
         "item6": "La Coloration Bleutée de la Muqueuse Bucco-Dentaire"
       }
     }
+  },
+
+  "Prothesesdentaires" : {
+    "ProthèsesFixes": {
+      "title": "Prothèses Fixes",
+      "subtitle": "Révélez votre meilleur sourire",
+      "items": {
+        "item1": "La Couronne dentaire",
+        "item2": "Le Bridge dentaire",
+        "item3": "L’Implant dentaire"
+      }
+    },
+    "ProthèsesAmovibles": {
+      "title": "Prothèses Amovibles",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "Les prothèses amovibles, qu'elles soient totales ou partielles, offrent une solution flexible pour remplacer les dents manquantes. Elles sont faciles à entretenir et peuvent être retirées pour le nettoyage, tout en assurant une restauration esthétique et fonctionnelle de votre sourire."
+    },
+    "FacettesDentaires": {
+      "title": "Facettes Dentaires",
+      "subtitle": "Révélez votre meilleur sourire",
+      "description": "Les facettes dentaires sont des coquilles fines en céramique ou en composite qui sont collées à la surface des dents pour améliorer leur apparence. Elles sont idéales pour corriger les imperfections esthétiques telles que les dents ébréchées, décolorées ou légèrement mal alignées, offrant ainsi un sourire éclatant et naturel."
+    }
   }
 
-  
+
 
 
   

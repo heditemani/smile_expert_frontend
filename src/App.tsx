@@ -14,6 +14,7 @@ import ScannerFacial from './Pages/ScannerFacial/ScannerFacial'
 import BuccoDentaire from './Pages/buccoDentaire/BuccoDentaire'
 import SoinsBuccoDentaires from './Pages/SoinsBuccoDentaires/BuccoDentaire'
 import Therapeutique from './Pages/Therapeutique/Therapeutique'
+import Prothesesdentaires from './Pages/Prothesesdentaires/Prothesesdentaires'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path='/bucco-dentaire' element={<BuccoDentaire />} />
         <Route path='/soins-bucco-dentaires' element={<SoinsBuccoDentaires />} />
         <Route path='/therapeutique' element={<Therapeutique />} />
+        <Route path='/protheses-dentaires' element={<Prothesesdentaires />} />
         {/* Page 404 */}
         <Route path='*' element={<div>Page non trouvée (404)</div>} />
       </Routes>

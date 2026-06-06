@@ -10,65 +10,60 @@ import facetimage2 from '../../assets/images/services/service1/facetimage2.jpg';
 const Prothesesdentaires = () => {
   const { t } = useTranslation();
 
+  // Helper arrays lil items mta3 Prothèses Fixes
+  const fixesItems = ['item1', 'item2', 'item3'];
+
   return (
     <div className={Style.container}>
-      {/* 1. Facettes */}
+      
+      {/* 1. Prothèses Fixes */}
       <SectionTitle 
-        title={t('buccoDentaire.facettes.title')} 
-        description={t('buccoDentaire.facettes.subtitle')} 
+        title={t('Prothesesdentaires.ProthèsesFixes.title')} 
+        description={t('Prothesesdentaires.ProthèsesFixes.subtitle')} 
       />
-      <p className={Style.description}>
-        {t('buccoDentaire.facettes.description')}
-      </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.facettes.title')} />
+      <div className={Style.description}>
+        <ul style={{ paddingLeft: '20px', margin: '0 0 50px 0' }}>
+          {fixesItems.map((item) => (
+            <li key={item}>{t(`Prothesesdentaires.ProthèsesFixes.items.${item}`)}</li>
+          ))}
+        </ul>
+      </div>
+      <img className={Style.image_big} src={facetimage_big} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.facettes.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.facettes.title')} />
+        <img src={facetimage1} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
+        <img src={facetimage2} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
       </div>
 
-      {/* 2. Blanchiment des dents par LASER DIODE */}
+      {/* 2. Prothèses Amovibles */}
       <SectionTitle 
-        title={t('buccoDentaire.blanchiment.title')} 
-        description={t('buccoDentaire.blanchiment.subtitle')} 
+        title={t('Prothesesdentaires.ProthèsesAmovibles.title')} 
+        description={t('Prothesesdentaires.ProthèsesAmovibles.subtitle')} 
       />
       <p className={Style.description}>
-        {t('buccoDentaire.blanchiment.description')}
+        {t('Prothesesdentaires.ProthèsesAmovibles.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.blanchiment.title')} />
+      <img className={Style.image_big} src={facetimage_big} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.blanchiment.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.blanchiment.title')} />
+        <img src={facetimage1} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
+        <img src={facetimage2} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
       </div>
 
-      {/* 3. Alignement gingival au laser diode */}
+      {/* 3. Facettes Dentaires */}
       <SectionTitle 
-        title={t('buccoDentaire.alignement.title')} 
-        description={t('buccoDentaire.alignement.subtitle')} 
+        title={t('Prothesesdentaires.FacettesDentaires.title')} 
+        description={t('Prothesesdentaires.FacettesDentaires.subtitle')} 
       />
       <p className={Style.description}>
-        {t('buccoDentaire.alignement.description')}
+        {t('Prothesesdentaires.FacettesDentaires.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.alignement.title')} />
+      <img className={Style.image_big} src={facetimage_big} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.alignement.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.alignement.title')} />
+        <img src={facetimage1} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
+        <img src={facetimage2} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
       </div>
 
-      {/* 4. Traitement de l’hyperpigmentation gingivale par laser */}
-      <SectionTitle 
-        title={t('buccoDentaire.hyperpigmentation.title')} 
-        description={t('buccoDentaire.hyperpigmentation.subtitle')} 
-      />
-      <p className={Style.description}>
-        {t('buccoDentaire.hyperpigmentation.description')}
-      </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.hyperpigmentation.title')} />
-      <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.hyperpigmentation.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.hyperpigmentation.title')} />
-      </div>
     </div>
   );
 };
 
-export default BuccoDentaire;
+export default Prothesesdentaires;
