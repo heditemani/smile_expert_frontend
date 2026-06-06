@@ -11,16 +11,14 @@ import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 const Contact = () => {
   const { t } = useTranslation();
 
-  // State state variables for form inputs
   const [formData, setFormData] = useState({ name: '', email: '', tel: '', message: '' });
   const [errors, setErrors] = useState({});
-  const [status, setStatus] = useState({ type: '', msg: '' }); // Handles success/error messages
+  const [status, setStatus] = useState({ type: '', msg: '' });
 
-  // Validation function (Contrôle de saisie)
   const validateForm = () => {
     let localErrors = {};
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const phoneRegex = /^[0-9\s+]{8,15}$/; // Standard global pattern for safe entry
+    const phoneRegex = /^[0-9\s+]{8,15}$/;
 
     if (!formData.name.trim()) localErrors.name = t('contact.error_name_required') || 'Le nom est obligatoire.';
     
@@ -40,7 +38,7 @@ const Contact = () => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-    if (errors[e.target.name]) setErrors({ ...errors, [e.target.name]: '' }); // clear error while typing
+    if (errors[e.target.name]) setErrors({ ...errors, [e.target.name]: '' });
   };
 
   const handleSubmit = async (e) => {
@@ -52,7 +50,6 @@ const Contact = () => {
     setStatus({ type: 'loading', msg: 'Envoi en cours...' });
 
     try {
-      // Endpoint calling the secure PHP processing server setup
       const response = await fetch('/api/contact.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -63,7 +60,7 @@ const Contact = () => {
 
       if (response.ok && result.success) {
         setStatus({ type: 'success', msg: t('contact.success_msg') || 'Votre message a été envoyé avec succès !' });
-        setFormData({ name: '', email: '', tel: '', message: '' }); // reset
+        setFormData({ name: '', email: '', tel: '', message: '' });
       } else {
         setStatus({ type: 'error', msg: result.message || 'Une erreur est survenue.' });
       }
@@ -87,6 +84,7 @@ const Contact = () => {
         <div className="container">
           <div className={styles['contact-split-wrapper']}>
             
+            {/* Left Column */}
             <div className={styles['contact-info-col']}>
               <h2 className={styles['contact-info-title']}>{t('contact.info_title')}</h2>
               <p className={styles['contact-info-desc']}>{t('contact.info_desc')}</p>
@@ -127,6 +125,7 @@ const Contact = () => {
               </div>
             </div>
 
+            {/* Right Column (El Form el Jdid Sticky) */}
             <div className={styles['contact-form-col']}>
               <div className={styles['contact-form-box']}>
                 <h3 className={styles['contact-form-title']}>{t('contact.form_title')}</h3>
@@ -205,7 +204,6 @@ const Contact = () => {
       </section>
 
       <ScheduleSection isAltBg={false} />
-
     </div>
   );
 };

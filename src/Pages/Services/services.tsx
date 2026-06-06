@@ -14,7 +14,6 @@ const Services = () => {
     setActiveId((prev) => (prev === id ? null : id));
   };
 
-  // Les sections mapped match exact m3a el root keys fil JSON translation mte3ek
   const sections = [
     {
       id: "bucco",
