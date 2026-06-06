@@ -154,18 +154,22 @@ const Homepage = () => {
 
       <section className={styles.locations}>
         <div className="container">
-          <h2 className={styles.sectionTitle}>{t('home.locations.title')}</h2>
-          <p className={`${styles.sectionSubtitle} mb-4`}>{t('home.locations.subtitle')}</p>
+            <h2 className={styles.sectionTitle}>{t('home.locations.title')}</h2>
+            <p className={`${styles.sectionSubtitle} mb-4`}>{t('home.locations.subtitle')}</p>
 
-          <div className={styles.mapContainer}>
-            <img 
-              src={mapPlaceholder} 
-              alt="Map Location"
-              style={{ width: '100%', borderRadius: 'var(--border-radius-md)', boxShadow: 'var(--shadow-sm)', aspectRatio: '16/9', objectFit: 'cover' }}
-            />
-          </div>
+            {/* El Map Container jdid fully interactive */}
+            <div className={styles.mapContainer}>
+                <iframe
+                    src="https://maps.app.goo.gl/YgC5GC7mTuwYiXtq8"
+                    className={styles.googleMap}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Cabinet Dentaire Location"
+                ></iframe>
+            </div>
         </div>
-      </section>
+    </section>
 
       <section className={styles.testimonials}>
         <div className="container">

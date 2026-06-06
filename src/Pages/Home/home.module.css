@@ -245,8 +245,26 @@
 
 .mapContainer {
     margin-top: 2rem;
+    width: 100%;
     overflow: hidden;
     border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-sm);
+    aspect-ratio: 16 / 9; /* T7afeth 100% 3al proporation mte3ek */
+    background-color: var(--bg-offwhite);
+}
+
+.googleMap {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Responsive bch tji a9wa 3al portable */
+@media (max-width: 768px) {
+    .mapContainer {
+        aspect-ratio: 4 / 3; /* Talli t-choufha a7san f vertical screens mta3 el talifounat */
+    }
 }
 
 
