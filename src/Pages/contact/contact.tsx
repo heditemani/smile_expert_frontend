@@ -1,22 +1,42 @@
-import React, { useState } from 'react';
+import { useState, ChangeEvent, FormEvent } from 'react';
 import styles from './contact.module.css';
 import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import { useTranslation } from 'react-i18next';
 
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
-import locationMap from '../../assets/images/contact_page/contact_location_image.webp'; 
 
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
+
+// 1. Defini l-interfaces mta3 TypeScript mel-fou9 bech ysket l-compiler
+interface FormDataState {
+  name: string;
+  email: string;
+  tel: string;
+  message: string;
+}
+
+interface FormErrors {
+  name?: string;
+  email?: string;
+  tel?: string;
+  [key: string]: string | undefined;
+}
+
+interface FormStatus {
+  type: 'loading' | 'success' | 'error' | '';
+  msg: string;
+}
 
 const Contact = () => {
   const { t } = useTranslation();
 
-  const [formData, setFormData] = useState({ name: '', email: '', tel: '', message: '' });
-  const [errors, setErrors] = useState({});
-  const [status, setStatus] = useState({ type: '', msg: '' });
+  // 2. Explicit types lil-useState kol wa7da blastha mregla
+  const [formData, setFormData] = useState<FormDataState>({ name: '', email: '', tel: '', message: '' });
+  const [errors, setErrors] = useState<FormErrors>({});
+  const [status, setStatus] = useState<FormStatus>({ type: '', msg: '' });
 
   const validateForm = () => {
-    let localErrors = {};
+    let localErrors: FormErrors = {};
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const phoneRegex = /^[0-9\s+]{8,15}$/;
 
@@ -36,12 +56,12 @@ const Contact = () => {
     return Object.keys(localErrors).length === 0;
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
     if (errors[e.target.name]) setErrors({ ...errors, [e.target.name]: '' });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus({ type: '', msg: '' });
 

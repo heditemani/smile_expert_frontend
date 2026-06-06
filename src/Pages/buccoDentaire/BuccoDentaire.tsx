@@ -1,8 +1,8 @@
 import React from 'react';
 import Style from './BuccoDentaire.module.css';
-import SectionTitle from '../../Components/SectionTitle/SectionTitle';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 import { useTranslation } from 'react-i18next';
-import VideoExperience from '../../components/VideoExperience/VideoExperience.jsx';
+import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
 import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
 import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
@@ -19,7 +19,8 @@ const BuccoDentaire = () => {
       {/* 1. Facettes */}
       <SectionTitle 
         title={t('buccoDentaire.facettes.title')} 
-        description={t('buccoDentaire.facettes.subtitle')} 
+        description={t('buccoDentaire.facettes.subtitle')}
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('buccoDentaire.facettes.description')}
@@ -33,7 +34,8 @@ const BuccoDentaire = () => {
       {/* 2. Blanchiment des dents par LASER DIODE */}
       <SectionTitle 
         title={t('buccoDentaire.blanchiment.title')} 
-        description={t('buccoDentaire.blanchiment.subtitle')} 
+        description={t('buccoDentaire.blanchiment.subtitle')}
+        buttonText="" href="" 
       />
       <p className={Style.description}>
         {t('buccoDentaire.blanchiment.description')}
@@ -47,7 +49,8 @@ const BuccoDentaire = () => {
       {/* 3. Alignement gingival au laser diode */}
       <SectionTitle 
         title={t('buccoDentaire.alignement.title')} 
-        description={t('buccoDentaire.alignement.subtitle')} 
+        description={t('buccoDentaire.alignement.subtitle')}
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('buccoDentaire.alignement.description')}
@@ -61,7 +64,8 @@ const BuccoDentaire = () => {
       {/* 4. Traitement de l’hyperpigmentation gingivale par laser */}
       <SectionTitle 
         title={t('buccoDentaire.hyperpigmentation.title')} 
-        description={t('buccoDentaire.hyperpigmentation.subtitle')} 
+        description={t('buccoDentaire.hyperpigmentation.subtitle')}
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('buccoDentaire.hyperpigmentation.description')}

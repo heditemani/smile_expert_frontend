@@ -4,7 +4,7 @@ import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import { ServiceCard } from "../../components/ServiceCard/ServiceCard";
 import { useTranslation } from 'react-i18next';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 
 const Services = () => {
   const { t } = useTranslation();

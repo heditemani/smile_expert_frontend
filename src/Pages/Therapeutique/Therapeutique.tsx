@@ -1,8 +1,8 @@
 import React from 'react';
 import Style from './Therapeutique.module.css';
-import SectionTitle from '../../Components/SectionTitle/SectionTitle';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 import { useTranslation } from 'react-i18next';
-import VideoExperience from '../../components/VideoExperience/VideoExperience.jsx';
+import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
 import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
 import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
@@ -22,6 +22,7 @@ const Therapeutique = () => {
       <SectionTitle 
         title={t('Therapeutique.Collage.title')} 
         description={t('Therapeutique.Collage.subtitle')} 
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('Therapeutique.Collage.description')}
@@ -35,7 +36,8 @@ const Therapeutique = () => {
       {/* 2. Traitements Endodontiques */}
       <SectionTitle 
         title={t('Therapeutique.TraitementsEndodontiques.title')} 
-        description={t('Therapeutique.TraitementsEndodontiques.subtitle')} 
+        description={t('Therapeutique.TraitementsEndodontiques.subtitle')}
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('Therapeutique.TraitementsEndodontiques.description')}
@@ -50,6 +52,7 @@ const Therapeutique = () => {
       <SectionTitle 
         title={t('Therapeutique.Extraction.title')} 
         description={t('Therapeutique.Extraction.subtitle')} 
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('Therapeutique.Extraction.description')}
@@ -64,6 +67,7 @@ const Therapeutique = () => {
       <SectionTitle 
         title={t('Therapeutique.ChirurgieImplantaire.title')} 
         description={t('Therapeutique.ChirurgieImplantaire.subtitle')} 
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('Therapeutique.ChirurgieImplantaire.description')}
@@ -78,6 +82,7 @@ const Therapeutique = () => {
       <SectionTitle 
         title={t('Therapeutique.Traitementsanomalies\u00a0.title')} 
         description={t('Therapeutique.Traitementsanomalies\u00a0.subtitle')} 
+        buttonText="" href=""
       />
       <div className={Style.description}>
         <ul style={{ paddingLeft: '20px', margin: '0 0 50px 0' }}>

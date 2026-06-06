@@ -1,9 +1,9 @@
 import React from 'react';
 import Style from './Prothesesdentaires.module.css';
-import SectionTitle from '../../Components/SectionTitle/SectionTitle';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 import { useTranslation } from 'react-i18next';
 
-import VideoExperience from '../../components/VideoExperience/VideoExperience.jsx';
+import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
 import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
 import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
@@ -24,6 +24,7 @@ const Prothesesdentaires = () => {
       <SectionTitle 
         title={t('Prothesesdentaires.ProthèsesFixes.title')} 
         description={t('Prothesesdentaires.ProthèsesFixes.subtitle')} 
+        buttonText="" href=""
       />
       <div className={Style.description}>
         <ul style={{ paddingLeft: '20px', margin: '0 0 50px 0' }}>
@@ -41,7 +42,8 @@ const Prothesesdentaires = () => {
       {/* 2. Prothèses Amovibles */}
       <SectionTitle 
         title={t('Prothesesdentaires.ProthèsesAmovibles.title')} 
-        description={t('Prothesesdentaires.ProthèsesAmovibles.subtitle')} 
+        description={t('Prothesesdentaires.ProthèsesAmovibles.subtitle')}
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('Prothesesdentaires.ProthèsesAmovibles.description')}
@@ -55,7 +57,8 @@ const Prothesesdentaires = () => {
       {/* 3. Facettes Dentaires */}
       <SectionTitle 
         title={t('Prothesesdentaires.FacettesDentaires.title')} 
-        description={t('Prothesesdentaires.FacettesDentaires.subtitle')} 
+        description={t('Prothesesdentaires.FacettesDentaires.subtitle')}
+        buttonText="" href=""
       />
       <p className={Style.description}>
         {t('Prothesesdentaires.FacettesDentaires.description')}

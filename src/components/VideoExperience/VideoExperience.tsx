@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import styles from './VideoExperience.module.css';
 import { useTranslation } from 'react-i18next';
 
-import introductionVideo from '../../assets/video/introduction.mp4'; 
+import introductionVideo from "../../assets/video/Introduction.mp4";
 import background_video_image from '../../assets/images/general/background_video_image.jpg';
 
 const VideoExperience = () => {
