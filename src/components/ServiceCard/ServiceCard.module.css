@@ -1,7 +1,7 @@
 /* ─── Card shell ─── */
 .card {
   position: relative;
-  border-radius: 14px;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   height: 511px;
@@ -49,39 +49,38 @@
 
 /* ─── Icon ─── */
 .iconWrapper {
-  width: 38px;
-  height: 38px;
-  background-color: #ffffff;
-  border-radius: 9px;
+  width: fit-content;
+  background-color: var(--bg-white);
+  padding: 14px;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #1d9e75;
-  flex-shrink: 0;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 .icon {
   width: 20px;
   height: 20px;
+
 }
 
-/* ─── Text ─── */
+
 .title {
   margin: 0;
-  font-size: 13.5px;
+  font-size: 30px;
   font-weight: 600;
-  color: #085041;
-  line-height: 1.35;
+  color: var(--primary-color);
+  line-height: 1.10;
   transition: color 0.3s ease;
 }
 
 .subtitle {
   margin: 0;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 400;
-  color: #0f6e56;
-  line-height: 1.45;
+  color: var(--primary-color);
+  line-height: 1.10;
   transition: color 0.3s ease;
 }
 

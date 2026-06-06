@@ -106,7 +106,7 @@ const Homepage = () => {
         <h2 className={styles.videoSectionTitle}>{t('home.video.title')}</h2>
       </section>
 
-      <ScheduleSection isAltBg={true} />
+      <ScheduleSection isAltBg={false} />
 
 
       <section className={styles.howItWorks}>

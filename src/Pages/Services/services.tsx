@@ -4,6 +4,7 @@ import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import { ServiceCard } from "../../components/ServiceCard/ServiceCard";
 import { useTranslation } from 'react-i18next';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
 
 // Interfaces remain the same
 interface ServiceItem {
@@ -29,7 +30,6 @@ const Services: React.FC = () => {
     setActiveId((prev) => (prev === id ? null : id));
   };
 
-  // Define data inside the component so t() is available
   const sections: ServiceSection[] = [
   {
     id: "bucco",
@@ -41,21 +41,21 @@ const Services: React.FC = () => {
         title: t('services.items.blanchiment.title'),
         subtitle: t('services.items.blanchiment.subtitle'),
         image: "/icons/box1.png",
-        icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />, 
+        icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />, 
       },
       {
         id: "b2",
         title: t('services.items.Alignement.title'),
         subtitle: t('services.items.Alignement.subtitle'),
         image: "/icons/box1.png",
-        icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
+        icon: <img src="/icons/blanchiment_laser_diode_icon_teeth2.svg" alt="Icon" className={styles.icon} />,
       },
       {
         id: "b3",
         title: t('services.items.Traitement.title'),
         subtitle: t('services.items.Traitement.subtitle'),
         image: "/icons/box1.png",
-        icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
+        icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
       },
     ],
   },
@@ -69,14 +69,14 @@ const Services: React.FC = () => {
         title: t('services.items.examens.title'),
         subtitle: t('services.items.examens.subtitle'),
         image: "/icons/box1.png",
-        icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
+        icon: <img src="/icons/blanchiment_laser_diode_icon_teeth2.svg" alt="Icon" className={styles.icon} />,
       },
       {
         id: "p2",
         title: t('services.items.soins.title'),
         subtitle: t('services.items.soins.subtitle'),
         image: "/icons/box1.png",
-        icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
+        icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
       },
     ],
   },
@@ -90,7 +90,7 @@ const Services: React.FC = () => {
         title: t('services.items.collage.title'),
         subtitle: t('services.items.collage.subtitle'),
         image: "/icons/box1.png",
-        icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
+        icon: <img src="/icons/blanchiment_laser_diode_icon_teeth3.svg" alt="Icon" className={styles.icon} />,
       },
       {
         id: "e2",
@@ -164,18 +164,12 @@ const Services: React.FC = () => {
       <div className={styles.container}>
         {sections.map((section) => (
           <section key={section.id} className={styles.section}>
-            <div className={styles.sectionHeader}>
-              <div>
-                <h2 className={styles.sectionHeading}>{section.heading}</h2>
-                {section.tagline && (
-                  <p className={styles.sectionTagline}>{section.tagline}</p>
-                  
-                )}
-              </div>
-              <button className={styles.exploreBtn}>
-                {t('services.explore_button_text', 'Explorez ce Service')}
-              </button>
-            </div>
+            <SectionTitle 
+              title={section.heading}
+              description={section.tagline}
+              buttonText={t('services.explore_button_text', 'Explorez ce Service')}
+              href={`#${section.id}`}
+              />
 
             <div className={styles.grid}>
               {section.items.map((item) => (

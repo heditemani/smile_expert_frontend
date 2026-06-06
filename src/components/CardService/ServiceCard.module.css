@@ -62,7 +62,7 @@
 .icon_container{
     background-color: var(--bg-white);
     width: fit-content;
-    padding: 0.7rem;
+    padding: 14px;
     border-radius: 50%;
     height: fit-content;
     margin-bottom: 7rem;

@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import locationMap from '../../assets/images/contact_page/contact_location_image.webp'; 
 
+import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
+
 const Contact = () => {
   const { t } = useTranslation();
 
@@ -196,12 +198,14 @@ const Contact = () => {
       <section className={`${styles.locations} section-padding`}>
         <div className="container">
           <h2 className="section-title text-center">{t('contact.locations_title')}</h2>
-          <p className="section-subtitle text-center mb-4">{t('contact.locations_subtitle')}</p>
           <div className={styles['map-container']}>
             <img src={locationMap} alt="Location" className={styles['map-img']} />
           </div>
         </div>
       </section>
+
+      <ScheduleSection isAltBg={false} />
+
     </div>
   );
 };
