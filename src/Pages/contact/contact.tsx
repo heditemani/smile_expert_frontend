@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import styles from './contact.module.css';
 import SecondBanner from '../../components/SecondBanner/SecondBanner';
 import { useTranslation } from 'react-i18next';
@@ -5,9 +6,69 @@ import { useTranslation } from 'react-i18next';
 import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
 import locationMap from '../../assets/images/contact_page/contact_location_image.webp'; 
 
-
 const Contact = () => {
   const { t } = useTranslation();
+
+  // State state variables for form inputs
+  const [formData, setFormData] = useState({ name: '', email: '', tel: '', message: '' });
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState({ type: '', msg: '' }); // Handles success/error messages
+
+  // Validation function (Contrôle de saisie)
+  const validateForm = () => {
+    let localErrors = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneRegex = /^[0-9\s+]{8,15}$/; // Standard global pattern for safe entry
+
+    if (!formData.name.trim()) localErrors.name = t('contact.error_name_required') || 'Le nom est obligatoire.';
+    
+    if (formData.email && !emailRegex.test(formData.email)) {
+      localErrors.email = t('contact.error_email_invalid') || 'Email non valide.';
+    }
+    
+    if (!formData.tel.trim()) {
+      localErrors.tel = t('contact.error_phone_required') || 'Le téléphone est obligatoire.';
+    } else if (!phoneRegex.test(formData.tel)) {
+      localErrors.tel = t('contact.error_phone_invalid') || 'Numéro de téléphone non valide.';
+    }
+
+    setErrors(localErrors);
+    return Object.keys(localErrors).length === 0;
+  };
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+    if (errors[e.target.name]) setErrors({ ...errors, [e.target.name]: '' }); // clear error while typing
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus({ type: '', msg: '' });
+
+    if (!validateForm()) return;
+
+    setStatus({ type: 'loading', msg: 'Envoi en cours...' });
+
+    try {
+      // Endpoint calling the secure PHP processing server setup
+      const response = await fetch('/api/contact.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        setStatus({ type: 'success', msg: t('contact.success_msg') || 'Votre message a été envoyé avec succès !' });
+        setFormData({ name: '', email: '', tel: '', message: '' }); // reset
+      } else {
+        setStatus({ type: 'error', msg: result.message || 'Une erreur est survenue.' });
+      }
+    } catch (err) {
+      setStatus({ type: 'error', msg: 'Erreur de connexion au serveur.' });
+    }
+  };
 
   return (
     <div className={styles.contactPage}>
@@ -67,20 +128,63 @@ const Contact = () => {
             <div className={styles['contact-form-col']}>
               <div className={styles['contact-form-box']}>
                 <h3 className={styles['contact-form-title']}>{t('contact.form_title')}</h3>
-                <form className={styles['contact-form']}>
-                  <div className={styles['form-group']}>
-                    <input type="text" className={styles['form-input']} placeholder={t('contact.name_placeholder')} required />
+                
+                {status.msg && (
+                  <div className={`${styles.statusMessage} ${styles[status.type]}`}>
+                    {status.msg}
                   </div>
+                )}
+
+                <form className={styles['contact-form']} onSubmit={handleSubmit} noValidate>
                   <div className={styles['form-group']}>
-                    <input type="email" className={styles['form-input']} placeholder={t('contact.email_placeholder')} />
+                    <input 
+                      type="text" 
+                      name="name"
+                      className={`${styles['form-input']} ${errors.name ? styles.inputError : ''}`} 
+                      placeholder={t('contact.name_placeholder')} 
+                      value={formData.name}
+                      onChange={handleChange}
+                    />
+                    {errors.name && <span className={styles.errorText}>{errors.name}</span>}
                   </div>
+                  
                   <div className={styles['form-group']}>
-                    <input type="tel" className={styles['form-input']} placeholder={t('contact.phone_placeholder')} required />
+                    <input 
+                      type="email" 
+                      name="email"
+                      className={`${styles['form-input']} ${errors.email ? styles.inputError : ''}`} 
+                      placeholder={t('contact.email_placeholder')} 
+                      value={formData.email}
+                      onChange={handleChange}
+                    />
+                    {errors.email && <span className={styles.errorText}>{errors.email}</span>}
                   </div>
+
                   <div className={styles['form-group']}>
-                    <textarea className={`${styles['form-input']} ${styles['form-textarea']}`} placeholder={t('contact.message_placeholder')}></textarea>
+                    <input 
+                      type="tel" 
+                      name="tel"
+                      className={`${styles['form-input']} ${errors.tel ? styles.inputError : ''}`} 
+                      placeholder={t('contact.phone_placeholder')} 
+                      value={formData.tel}
+                      onChange={handleChange}
+                    />
+                    {errors.tel && <span className={styles.errorText}>{errors.tel}</span>}
                   </div>
-                  <button type="submit" className={`btn btn-primary ${styles['contact-submit-btn']}`}>{t('contact.send')}</button>
+
+                  <div className={styles['form-group']}>
+                    <textarea 
+                      name="message"
+                      className={`${styles['form-input']} ${styles['form-textarea']}`} 
+                      placeholder={t('contact.message_placeholder')}
+                      value={formData.message}
+                      onChange={handleChange}
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" className={`btn btn-primary ${styles['contact-submit-btn']}`}>
+                    {t('contact.send')}
+                  </button>
                 </form>
               </div>
             </div>
@@ -98,8 +202,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-      
     </div>
   );
 };

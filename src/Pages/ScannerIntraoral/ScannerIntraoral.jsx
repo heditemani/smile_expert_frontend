@@ -49,6 +49,10 @@ const ScannerIntraoral = () => {
                             <img src="/icons/service_green_check.svg" alt="check" /> 
                             {t('scanner_intraoral.advantages_items.item4')}
                         </li>
+                        <li>
+                            <img src="/icons/service_green_check.svg" alt="check" /> 
+                            {t('scanner_intraoral.advantages_items.item5')}
+                        </li>
                     </ul>
                 </div>
 
