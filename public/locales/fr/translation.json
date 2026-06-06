@@ -14,8 +14,6 @@
     "pediatric": "Dentisterie pédiatrique",
     "preventive": "Soins préventifs",
     "tech": "Technologies et diagnostic",
-
-      
     "banner": {
       "title": "Nos Services",
       "subtitle": "Expertise et technologie de pointe au service de votre santé"
@@ -26,18 +24,17 @@
       "tagline": "Soins Préventifs et Examens de Routine"
     },
     "Alignement": {
-      "heading": "Alignement gingival au laser diode",
+      "heading": "Soins bucco-dentaires et préventifs",
       "tagline": "Soins Préventifs et Examens de Routine"
     },
-    "Traitement ": {
-      "heading": "Traitement de l’hyperpigmentation gingivale par laser",
+    "Traitement": {
+      "heading": "Thérapeutique et traitements endodontiques",
       "tagline": "Des soins précis pour votre confort"
     },
-   
-    "Prothèses":{
-        "title": "Prothèses dentaires",
-        "subtitle": "Révélez votre meilleur sourire"
-      },
+    "Prothèses": {
+      "title": "Prothèses dentaires",
+      "subtitle": "Révélez votre meilleur sourire"
+    },
     "items": {
       "blanchiment": {
         "title": "Blanchiment des dents par LASER DIODE",
@@ -59,12 +56,12 @@
         "title": "Soins Préventifs",
         "subtitle": "preventive care and routine checkups"
       },
-      "Collage ": {
+      "Collage": {
         "title": "Collage résine Composite",
         "subtitle": "preventive care and routine checkups"
       },
       "Traitement": {
-        "title": "Le Traitements Endodontiques par Laser Diode et Obturation",
+        "title": "Traitement de l’hyperpigmentation gingivale par laser",
         "subtitle": "preventive care and routine checkups"
       },
       "Extraction": {
@@ -75,29 +72,25 @@
         "title": "La Chirurgie Implantaire Guidée par Ordinateur",
         "subtitle": "preventive care and routine checkups"
       },
-      " anomalies ": {
+      "anomalies": {
         "title": "Traitements des anomalies",
         "subtitle": "preventive care and routine checkups"
-      },  
-      "Prothèses Fixes "  : {
+      },
+      "Prothèses Fixes": {
         "title": "Prothèses Fixes",
         "subtitle": "preventive care and routine checkups"
       },
-      "Prothèses Amovibles "  : {
+      "Prothèses Amovibles": {
         "title": "La Prothèses Amovibles",
         "subtitle": "preventive care and routine checkups"
       },
-        "Facettes ":{
-          "title": "Facettes dentaires",
-          "subtitle": "preventive care and routine checkups"
-        }
-
-      
-
+      "Facettes": {
+        "title": "Facettes dentaires",
+        "subtitle": "preventive care and routine checkups"
+      }
     }
   },
   "home": {
-
     "hero": {
       "subtitle": "Dr Sarra Haouet",
       "titleHighlight": "+10 ans",
@@ -106,7 +99,6 @@
       "description": "Réservez Votre Rendez-vous Sur med.tn",
       "button": "Prenez Rendez-vous"
     },
-
     "sectionTitle": {
       "title": "Nos Services Principaux",
       "desc": "Des soins de haute qualité adaptés à vos besoins pour un sourire éclatant.",
@@ -115,7 +107,7 @@
     "services": {
       "service1": {
         "title": "Traitements Bucco-Dentaire",
-        "description": "Des améliorations esthétiques aux soins dentaires fonctionnels adéquats à vos objectifs"
+        "description": "Des améliorations esthétiques aux soins dentaires functional adéquats à vos objectifs"
       },
       "service2": {
         "title": "Acte de Soins Bucco-Dentaire",
@@ -142,32 +134,30 @@
       "step3": "Être Diagnostiqué",
       "step4": "Recevoir Un Traitement",
       "step5": "Sourire"
-      },
-      "locations": {
-        "title": "Localisations",
-        "subtitle": "Venez nous rendre visite dans notre espace calme et accueillant"
-      },
-      "testimonials": {
-        "title": "Témoignages Clients :\nIls Nous Font Confiance",
-        "subtitle": "La satisfaction de nos patients est notre plus belle réussite.",
-        "reviews": {
-          "r1": {
-            "name": "Amine Mansour",
-            "text": "La clinique est nickel, l'équipe est très pro, et mes soins ont été faits sans aucune douleur. Je me sens toujours chouchouté."
-          },
-          "r2": {
-            "name": "Elena Rossi",
-            "text": "Un service exceptionnel ! Des explications claires avant le traitement et un résultat parfait pour mon blanchiment dentaire."
-          },
-          "r3": {
-            "name": "Sarah Ben Ali",
-            "text": "Très satisfaite de mon expérience. L'accueil est chaleureux et la technologie utilisée est très moderne. Je recommande vivement !"
-          }
+    },
+    "locations": {
+      "title": "Localisations",
+      "subtitle": "Venez nous rendre visite dans notre espace calme et accueillant"
+    },
+    "testimonials": {
+      "title": "Témoignages Clients :\nIls Nous Font Confiance",
+      "subtitle": "La satisfaction de nos patients est notre plus belle réussite.",
+      "reviews": {
+        "r1": {
+          "name": "Amine Mansour",
+          "text": "La clinique est nickel, l'équipe est très pro, et mes soins ont été faits sans aucune douleur. Je me sens toujours chouchouté."
+        },
+        "r2": {
+          "name": "Elena Rossi",
+          "text": "Un service exceptionnel ! Des explications claires avant le traitement et un résultat parfait pour mon blanchiment dentaire."
+        },
+        "r3": {
+          "name": "Sarah Ben Ali",
+          "text": "Très satisfaite de mon expérience. L'accueil est chaleureux et la technologie utilisée est très moderne. Je recommande vivement !"
         }
       }
+    }
   },
-
-
   "laser": {
     "hero": {
       "title": "Laser Diode",
@@ -187,14 +177,13 @@
       "item4": "Précision et esthétique améliorée"
     }
   },
-
   "scanner_intraoral": {
     "hero": {
       "title": "Scanner Intraoral",
       "subtitle": "La Précision 3D au Service de Votre Sourire"
     },
     "content": {
-      "description": "Le scanner intraoral est une technologie numérique avancée qui permet de réaliser des empreintes dentaires en 3D, rapidement et sans inconfort. Il remplace les empreintes traditionnelles en pâte, souvent désagréables, et offre une visualisation instantanée de la bouche du patient. Cette technologie est indispensable en dentisterie moderne, notamment pour les traitements esthétiques, implantaires et prothétiques."
+      "description": "Le scanner intraoral est une technologie numérique avancée qui permet de réaliser des empreintes dentaires en 3D, rapidement et sans inconfort. Il remplace les empreintes traditionnelles en pâte, souvent désagréables, et offre une visualisation instantanée de la bouche du patient. Cette technologie est indispensable en dentisterie moderne, notamment pour les traitements esthétiques, implantaires et prothétiques."
     },
     "advantages": {
       "title": "Les Avantages du Scanner Intraoral :"
@@ -207,57 +196,6 @@
       "item5": "Une précision 3D exceptionnelle"
     }
   },
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   "about": {
     "intro": {
       "title": "Smile Expert ?",
@@ -281,18 +219,13 @@
       "description": "Le Docteur Sarra Haouet met son expertise et sa passion au service de votre sourire. Toujours à l’écoute, elle associe rigueur médicale et approche humaine pour offrir à chaque patient une expérience de soins unique et rassurante."
     }
   },
-
   "after_before": {
-    "card1":{
-      "title":"Continuez à sourire!",
-
-       "des": "Découvrez les transformations impressionnantes de nos patients grâce à nos soins dentaires de qualité. Chaque sourire raconte une histoire de confiance retrouvée et de bien-être amélioré."
-  
+    "card1": {
+      "title": "Continuez à sourire!",
+      "des": "Découvrez les transformations impressionnantes de nos patients grâce à nos soins dentaires de qualité. Chaque sourire raconte une histoire de confiance retrouvée et de bien-être amélioré."
     }
-    },
-
-
-    "beforeAfter": {
+  },
+  "beforeAfter": {
     "depigmentation": {
       "title": "Dépigmentation Gingivale au Laser",
       "description": "Le traitement au laser permet d'éliminer les taches brunes et les pigmentations foncées sur les gencives pour leur redonner un aspect rose naturel et sain."
@@ -318,14 +251,6 @@
       "description": "Traitement de blanchiment au fauteuil pour gagner plusieurs teintes de blancheur en une seule séance, de manière totalement sécurisée."
     }
   },
-   
-
-
-
-
-
-
-
   "ctaSplit": {
     "titleLine1": "Prêt à faire l'expérience",
     "titleLine2": "de meilleurs soins",
@@ -334,23 +259,19 @@
     "button": "Planifiez votre rendez-vous",
     "imgAlt": "Soins dentaires"
   },
-
   "cta": {
     "title": "Prêt À Sourire Avec Confiance?",
     "button": "Réserver un rendez-vous"
   },
-
   "finalCta": {
     "title": "Continuez à sourire!",
     "button": "Contactez-nous"
   },
-
   "contact_hero": {
     "title": "N'hésitez pas à nous contacter",
     "subtitle": "Réservez Votre Rendez-vous Sur med.tn",
     "button": "Prenez Rendez-vous"
-    },
-    
+  },
   "contact": {
     "info_title": "N'hésitez pas à nous contacter",
     "info_desc": "Votre sourire est notre priorité. Contactez-nous pour toute information ou pour prendre rendez-vous.",
@@ -369,7 +290,6 @@
     "schedule_title": "Nos Horaires",
     "schedule_subtitle": "Trouvez un moment qui vous convient — nos portes sont ouvertes toute la semaine"
   },
-
   "days": {
     "monday": "Lundi",
     "tuesday": "Mardi",
@@ -378,11 +298,10 @@
     "friday": "Vendredi",
     "saturday": "Samedi",
     "sunday": "Dimanche"
-    },
+  },
   "common": {
     "closed": "Fermé"
   },
-
   "footer": {
     "address": "1er étage App, au-dessus de l'enseigne Hamadi Abid, Imm Takwa, 105, Nabeul 8000",
     "copyright": "Copyright © 2025 Smile Expert. Tous droits réservés."

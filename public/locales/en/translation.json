@@ -1,10 +1,7 @@
-
-
-
 {
   "nav": {
     "home": "Home",
-    "about": "About Us",
+    "about": "About",
     "services": "Services",
     "before_after": "Before & After",
     "contact": "Contact",
@@ -12,15 +9,14 @@
   },
   "services": {
     "conservative": "Conservative Dentistry",
-    "prosthetics": "Dental Prosthetics",
+    "prosthetics": "Dental Prosthesics",
     "orthodontics": "Orthodontics",
     "pediatric": "Pediatric Dentistry",
     "preventive": "Preventive Care",
-    "tech": "Tech & Diagnostics",
-
+    "tech": "Technologies and Diagnosis",
     "banner": {
       "title": "Our Services",
-      "subtitle": "State-of-the-art expertise and technology for your health"
+      "subtitle": "Expertise and cutting-edge technology at the service of your health"
     },
     "explore_button_text": "Explore this Service",
     "bucco": {
@@ -28,113 +24,103 @@
       "tagline": "Preventive Care and Routine Checkups"
     },
     "Alignement": {
-      "heading": "Gingival Alignment",
-      "tagline": "Precision laser care for your gums"
+      "heading": "Oral and Preventive Care",
+      "tagline": "Preventive Care and Routine Checkups"
     },
     "Traitement": {
-      "heading": "Gingival Hyperpigmentation Treatment",
-      "tagline": "Advanced care for your comfort"
+      "heading": "Therapeutics and Endodontic Treatments",
+      "tagline": "Precise care for your comfort"
     },
-    "Protheses": {
-      "heading": "Dental Prosthetics",
-      "tagline": "Reveal your best smile"
+    "Prothèses": {
+      "title": "Dental Prostheses",
+      "subtitle": "Reveal your best smile"
     },
     "items": {
-      "blanchiment": { 
-        "title": "Laser Diode Teeth Whitening", 
-        "subtitle": "Preventive care and routine checkups" 
+      "blanchiment": {
+        "title": "Teeth Whitening by DIODE LASER",
+        "subtitle": "preventive care and routine checkups"
       },
-      "Alignement": { 
-        "title": "Gingival Alignment via Laser Diode", 
-      "subtitle": "Preventive care and routine checkups" 
-    },
-      "hyperpigmentation": { 
-        "title": "Laser Gingival Hyperpigmentation Treatment", 
-        "subtitle": "Preventive care and routine checkups" 
+      "Alignement": {
+        "title": "Gingival Alignment with Diode Laser",
+        "subtitle": "preventive care and routine checkups"
       },
-      "examens": { 
-        "title": "Regular Checkups", 
-        "subtitle": "Preventive care and routine checkups" 
+      "hyperpigmentation": {
+        "title": "Laser Treatment of Gingival Hyperpigmentation",
+        "subtitle": "preventive care and routine checkups"
       },
-      "soins": 
-      { 
-        "title": "Preventive Care", 
-        "subtitle": "Preventive care and routine checkups" 
+      "examens": {
+        "title": "Regular Checkups",
+        "subtitle": "preventive care and routine checkups"
       },
-      "collage": 
-      { 
-        "title": "Composite Resin Bonding", 
-        "subtitle": "Preventive care and routine checkups" 
+      "soins": {
+        "title": "Preventive Care",
+        "subtitle": "preventive care and routine checkups"
       },
-      "Traitement": 
-      { 
-        "title": "Endodontic Laser Treatment and Filling", 
-        "subtitle": "Preventive care and routine checkups"
-       },
-      "extraction": 
-      { 
-        "title": "Tooth Extraction", 
-        "subtitle": "Preventive care and routine checkups" 
+      "Collage": {
+        "title": "Composite Resin Bonding",
+        "subtitle": "preventive care and routine checkups"
       },
-      "chirurgie_guidee": 
-      { "title": "Computer-Guided Implant Surgery", 
-      "subtitle": "Preventive care and routine checkups" 
-    },
-      "anomalies": 
-      { 
-        "title": "Anomaly Treatments", 
-        "subtitle": "Preventive care and routine checkups" 
+      "Traitement": {
+        "title": "Laser Treatment of Gingival Hyperpigmentation",
+        "subtitle": "preventive care and routine checkups"
       },
-      "protheses_fixes":
-       {
-         "title": "Fixed Prosthetics", 
-         "subtitle": "Preventive care and routine checkups" 
-        },
-      "protheses_amovibles": 
-      { 
-        "title": "Removable Prosthetics", 
-      "subtitle": "Preventive care and routine checkups"
-     },
-      "facettes": 
-      { 
+      "Extraction": {
+        "title": "Extraction",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "chirurgie": {
+        "title": "Computer-Guided Implant Surgery",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "anomalies": {
+        "title": "Treatments of Anomalies",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "Prothèses Fixes": {
+        "title": "Fixed Prostheses",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "Prothèses Amovibles": {
+        "title": "Removable Prostheses",
+        "subtitle": "preventive care and routine checkups"
+      },
+      "Facettes": {
         "title": "Dental Veneers",
-         "subtitle": "Preventive care and routine checkups" 
-        }
+        "subtitle": "preventive care and routine checkups"
+      }
     }
   },
   "home": {
-
     "hero": {
-      "subtitle": "Dr Sarra Haouet",
-      "titleHighlight": "+10 Years",
-      "titlePart1": "of Experience",
-      "titlePart2": "+20 Trainings & Degrees",
-      "description": "Book Your Appointment Online via med.tn",
+      "subtitle": "Dr. Sarra Haouet",
+      "titleHighlight": "+10 years",
+      "titlePart1": "of experience",
+      "titlePart2": "+20 trainings and diplomas",
+      "description": "Book Your Appointment On med.tn",
       "button": "Book an Appointment"
     },
-
     "sectionTitle": {
       "title": "Our Main Services",
-      "desc": "High-quality dental care tailored to your needs for a brilliant smile.",
+      "desc": "High-quality care tailored to your needs for a radiant smile.",
       "button": "Explore our services"
     },
     "services": {
       "service1": {
-        "title": "Oral & Dental Treatments",
-        "description": "From aesthetic enhancements to functional dental care tailored to your goals."
+        "title": "Oral-Dental Treatments",
+        "description": "From aesthetic improvements to functional dental care suited to your goals"
       },
       "service2": {
-        "title": "Oral & Dental Care Procedures",
-        "description": "Precise, safe, and fully customized for each patient."
+        "title": "Oral-Dental Care Acts",
+        "description": "Precise, secure, and adapted to each patient"
       },
       "service3": {
         "title": "Dental Prosthetic Services",
-        "description": "Custom-made solutions to restore both the aesthetics and function of your smile."
+        "description": "Custom-made to restore the aesthetics and function of your smile."
       }
     },
     "consultation": {
-      "title": "Not Sure Which Service Is Right For You?",
-      "description": "Get in touch with us for a personalized consultation, we will guide you every step of the way.",
+      "title": "Don't Know Which Service Suits You?",
+      "description": "Contact us for a personalized consultation, we will guide you through every step.",
       "button": "Contact Us"
     },
     "video": {
@@ -142,15 +128,15 @@
     },
     "hiw": {
       "title": "How It Works",
-      "subtitle": "Simple steps to a healthier and brighter smile",
-      "step1": "Book A Visit",
+      "subtitle": "Simple steps for a healthier and more radiant smile",
+      "step1": "Book a Visit",
       "step2": "Meet Your Dentist",
       "step3": "Get Diagnosed",
       "step4": "Receive Treatment",
       "step5": "Smile"
     },
     "locations": {
-      "title": "Our Locations",
+      "title": "Locations",
       "subtitle": "Come visit us in our calm and welcoming space"
     },
     "testimonials": {
@@ -159,7 +145,7 @@
       "reviews": {
         "r1": {
           "name": "Amine Mansour",
-          "text": "The clinic is spotless, the team is very professional, and my treatment was completely painless. I always feel well taken care of."
+          "text": "The clinic is spotless, the team is very professional, and my treatments were completely painless. I always feel pampered."
         },
         "r2": {
           "name": "Elena Rossi",
@@ -167,20 +153,18 @@
         },
         "r3": {
           "name": "Sarah Ben Ali",
-          "text": "Very satisfied with my experience. The welcome is warm and the technology used is very modern. Highly recommend!"
+          "text": "Very satisfied with my experience. The welcome is warm and the technology used is very modern. I highly recommend!"
         }
       }
     }
   },
-
-
   "laser": {
     "hero": {
-      "title": "Diode Laser",
+      "title": "Laser Diode",
       "subtitle": "Reveal your best smile"
     },
     "content": {
-      "description": "In our clinic, located in Nabeul, Tunisia, we integrate the diode laser, a modern dental technology that enables less invasive, fast, and painless treatments. Today, it is an essential tool in modern dentistry, particularly for gum and periodontal care."
+      "description": "In our clinic, located in Nabeul, Tunisia, we integrate the diode laser, a modern dental technology that allows for less invasive, fast, and painless treatments. Today, it is an essential tool in modern dentistry, especially for gingival and periodontal care."
     },
     "advantages": {
       "title": "Advantages of the Diode Laser:",
@@ -188,151 +172,36 @@
     },
     "advantages_items": {
       "item1": "Optimal comfort for the patient",
-      "item2": "Faster healing times",
-      "item3": "Deep and effective disinfection",
-      "item4": "Enhanced precision and aesthetics"
+      "item2": "Faster healing",
+      "item3": "Deep disinfection",
+      "item4": "Improved precision and aesthetics"
     }
   },
-
   "scanner_intraoral": {
     "hero": {
       "title": "Intraoral Scanner",
-      "subtitle": "3D Precision for Your Smile"
+      "subtitle": "3D Precision at the Service of Your Smile"
     },
     "content": {
-      "description": "The intraoral scanner is an advanced digital technology that captures 3D dental impressions quickly and without discomfort. It replaces traditional, often unpleasant putty molds, offering an instant visualization of the patient's mouth. This technology is essential in modern dentistry, particularly for cosmetic, implant, and prosthetic treatments."
+      "description": "The intraoral scanner is an advanced digital technology that allows for 3D dental impressions, quickly and without discomfort. It replaces traditional paste impressions, which are often unpleasant, and provides an instant visualization of the patient's mouth. This technology is essential in modern dentistry, particularly for aesthetic, implant, and prosthetic treatments."
     },
     "advantages": {
       "title": "Advantages of the Intraoral Scanner:"
     },
     "advantages_items": {
-      "item1": "Immediate on-screen visualization",
-      "item2": "Incomparable patient comfort",
-      "item3": "Impeccable hygiene",
+      "item1": "Immediate visualization on screen",
+      "item2": "Incomparable comfort",
+      "item3": "Irreproachable hygiene",
       "item4": "Significant time savings",
       "item5": "Exceptional 3D precision"
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  "beforeAfter": {
-    "depigmentation": {
-      "title": "Laser Gum Depigmentation",
-      "description": "Laser treatment effectively removes dark spots and deep pigmentation from the gums, restoring a natural, healthy pink appearance."
-    },
-    "eclaircissement": {
-      "title": "Teeth Brightening",
-      "description": "A professional treatment designed to eliminate deep stains and bring back brightness and freshness to your smile."
-    },
-    "protheseTotale": {
-      "title": "Complete Removable Denture",
-      "description": "A comprehensive and comfortable solution to replace all missing teeth, restoring chewing function and facial aesthetics."
-    },
-    "protheseFlexite": {
-      "title": "Flexite Partial Removable Denture",
-      "description": "A modern, flexible denture made without visible metal clasps, offering absolute discretion and optimal daily comfort."
-    },
-    "strassDentaire": {
-      "title": "Dental Crystal (Strass)",
-      "description": "Safe placement of a subtle and sparkling tooth jewel, done professionally without damaging the tooth enamel."
-    },
-    "blanchiment": {
-      "title": "Teeth Whitening",
-      "description": "In-office whitening treatment to safely brighten your teeth by several shades in just a single session."
-    }
-  },
-
-
-
-
-
-
-
-
-  
-
-
-
-  
   "about": {
     "intro": {
-      "title": "Smile Expert ?",
-      "boldText": "is a dental clinic where you will feel both relaxed (or secure) and well accompanied.",
-      "expertise": "With about 10 years of expertise, we offer comprehensive dental care in an environment filled with vitality, energy, and well-being.",
-      "services": "Whether you need a routine check-up, preventive treatment, aesthetic care, cellular regeneration, or more complex treatments, our experienced doctor is here to listen and meet all your needs.",
+      "title": "Smile Expert?",
+      "boldText": "is a dental clinic where you will feel both relaxed (or safe) and well supported.",
+      "expertise": "With around 10 years of expertise, we offer comprehensive dental care in an environment filled with vitality, energy, and well-being.",
+      "services": "Whether you need a simple routine checkup, preventive care, aesthetic treatments, cellular regeneration, or more complex procedures, our experienced Doctor is at your service to meet all your needs.",
       "imgAlt": "Doctor Sarra"
     },
     "tech": {
@@ -347,45 +216,77 @@
     "expertise": {
       "sectionTitle": "Our Expertise",
       "doctorName": "Dr. Sarra Haouet",
-      "description": "Dr. Sarra Haouet brings her expertise and passion to your smile. Always attentive, she combines medical precision with a human approach to offer each patient a unique and reassuring care experience."
+      "description": "Dr. Sarra Haouet puts her expertise and passion at the service of your smile. Always listening, she combines medical rigor with a human approach to offer each patient a unique and reassuring care experience."
     }
-
   },
-
-
-"ctaSplit": {
+  "after_before": {
+    "card1": {
+      "title": "Keep smiling!",
+      "des": "Discover the impressive transformations of our patients thanks to our high-quality dental care. Each smile tells a story of regained confidence and improved well-being."
+    }
+  },
+  "beforeAfter": {
+    "depigmentation": {
+      "title": "Laser Gingival Depigmentation",
+      "description": "Laser treatment eliminates dark spots and dark pigmentations on the gums to restore a natural and healthy pink appearance."
+    },
+    "eclaircissement": {
+      "title": "Teeth Lightening",
+      "description": "A professional care to remove deep stains and bring back brightness and freshness to your smile."
+    },
+    "protheseTotale": {
+      "title": "Full Removable Prosthesis",
+      "description": "A complete and comfortable solution to replace all missing teeth, thus restoring chewing function and facial aesthetics."
+    },
+    "protheseFlexite": {
+      "title": "Flexite Partial Removable Prosthesis",
+      "description": "A modern, flexible prosthesis without visible metal clasps, offering absolute discretion and optimal daily comfort."
+    },
+    "strassDentaire": {
+      "title": "Dental Crystal",
+      "description": "Placement of a discreet and sparkling dental jewel, performed safely without altering or damaging the tooth enamel."
+    },
+    "blanchiment": {
+      "title": "Teeth Whitening",
+      "description": "In-office whitening treatment to gain several shades of whiteness in a single session, in a completely safe manner."
+    }
+  },
+  "ctaSplit": {
     "titleLine1": "Ready to experience",
     "titleLine2": "better dental",
     "titleLine3": "care?",
-    "description": "Schedule your visit today and take the first step towards a healthier and brighter smile.",
+    "description": "Schedule your visit today and take the first step toward a healthier, brighter smile.",
     "button": "Schedule your appointment",
     "imgAlt": "Dental care"
   },
-
   "cta": {
     "title": "Ready To Smile With Confidence?",
     "button": "Book an appointment"
   },
   "finalCta": {
-    "title": "Keep Smiling!",
+    "title": "Keep smiling!",
     "button": "Contact Us"
   },
-
+  "contact_hero": {
+    "title": "Do not hesitate to contact us",
+    "subtitle": "Book Your Appointment On med.tn",
+    "button": "Book an Appointment"
+  },
   "contact": {
-    "info_title": "Feel free to contact us",
-    "info_desc": "Your smile is our priority. Contact us for any information or to book an appointment.",
+    "info_title": "Do not hesitate to contact us",
+    "info_desc": "Your smile is our priority. Contact us for any information or to make an appointment.",
     "location": "Location",
-    "email_us": "Email Us",
-    "call_us": "Call Us",
+    "email_us": "Write to us",
+    "call_us": "Call us",
     "follow_us": "Follow us on social media",
     "form_title": "Contact Us",
     "name_placeholder": "Name *",
     "email_placeholder": "Email",
-    "phone_placeholder": "Phone Number *",
+    "phone_placeholder": "Phone number *",
     "message_placeholder": "Your message...",
     "send": "SEND",
     "locations_title": "Locations",
-    "locations_subtitle": "Visit us in our calm and welcoming space",
+    "locations_subtitle": "Come visit us in our calm and welcoming space",
     "schedule_title": "Our Schedule",
     "schedule_subtitle": "Find a time that suits you — our doors are open all week"
   },
@@ -401,14 +302,8 @@
   "common": {
     "closed": "Closed"
   },
-  "contact_hero": {
-    "title": "Feel free to contact us",
-    "subtitle": "Book Your Appointment On med.tn",
-    "button": "Book an Appointment"
-  },
-
   "footer": {
-    "address": "1st Floor App, above Hamadi Abid store, Takwa Bldg, 105, Nabeul 8000",
+    "address": "1st Floor App, above Hamadi Abid store, Imm Takwa, 105, Nabeul 8000",
     "copyright": "Copyright © 2025 Smile Expert. All rights reserved."
   }
 }
