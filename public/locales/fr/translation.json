@@ -118,7 +118,7 @@
       }
     },
     "consultation": {
-      "title": "Vous Ne Savez Pas Quel Service Vous Convient ?",
+      "title": "Vous ne savez pas quel service vous convient ?",
       "description": "Contactez-nous pour une consultation personnalisée nous vous accompagnerons à chaque étape.",
       "button": "Contactez-nous"
     },
@@ -135,7 +135,7 @@
       "step5": "Sourire"
     },
     "locations": {
-      "title": "Localisations",
+      "title": "Localisation",
       "subtitle": "Venez nous rendre visite dans notre espace calme et accueillant"
     },
     "testimonials": {
@@ -411,7 +411,7 @@
   "button": "Retourner"
 },
 "video_experience": {
-    "title": "Découvrez l'expérience du dentiste",
+    "title": "Découvrez Smile Expert",
     "subtitle": "Découvrez comment nous rendons chaque visite confortable et efficace"
   }
 
