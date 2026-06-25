@@ -1,9 +1,11 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
 import styles from './contact.module.css';
-import SecondBanner from '../../components/SecondBanner/SecondBanner';
+
 import { useTranslation } from 'react-i18next';
 
-import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
+import BannerSlider from '../../components/BannerSlider/BannerSlider';
+import banner1 from '../../assets/images/contact_page/contact_banner1.webp';
+
 
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 
@@ -92,11 +94,12 @@ const Contact = () => {
   return (
     <div className={styles.contactPage}>
       {/* Banner */}
-      <SecondBanner 
-        slides={[bannerImg, bannerImg, bannerImg]}
-        title={t('contact_hero.title')}
-        subtitle={t('contact_hero.subtitle')}
-        buttonText={t('contact_hero.button')}
+      <BannerSlider 
+        images={[banner1]} 
+        title={t('about.banner.title')} 
+        subtitle={t('about.banner.subtitle')} 
+        buttonText={t('nav.book_now')}
+        onButtonClick={() => {/* Add navigation logic here */}}
       />
 
       {/* Contact Info & Form */}

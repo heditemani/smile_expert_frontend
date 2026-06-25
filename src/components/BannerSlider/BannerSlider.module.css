@@ -1,0 +1,55 @@
+.bannerContainer {
+  position: relative;
+  width: 100%;
+  height: 689px; /* Matches your design */
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  
+  /* Updated based on image_7691a2.png */
+  width: 930px;
+  height: 281px;;
+  border-radius: 32px;
+  
+  /* Updated background color with 10% opacity as per image_7691a2.png */
+  background-color: rgba(0, 117, 115, 0.1); 
+  
+  /* Centering the content inside the overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ctaButton {
+  background-color: #007573; /* Brand color */
+  color: #FFFFFF;
+  padding: 12px 32px;
+  border-radius: 24.5px; /* Matches Figma corner radius */
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  width: 256px; /* Matches Figma width */
+  height: 48px; /* Matches Figma height */
+  transition: opacity 0.3s ease;
+}
+
+.ctaButton:hover {
+  opacity: 0.9;
+}

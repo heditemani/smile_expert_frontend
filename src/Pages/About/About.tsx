@@ -7,7 +7,6 @@ import img2 from '../../assets/images/about_page/about_gallery_image_2.webp';
 import img3 from '../../assets/images/about_page/about_gallery_image_3.webp';
 import img4 from '../../assets/images/about_page/about_gallery_image_4.webp';
 
-
 import techImg1 from '../../assets/images/about_page/technologie_image_1.webp';
 import techImg2 from '../../assets/images/about_page/technologie_image_2.webp';
 import techImg3 from '../../assets/images/about_page/technologie_image_1.webp';
@@ -17,11 +16,12 @@ import expertiseImg from '../../assets/images/about_page/expertise_image.webp';
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 import CtaSplit from '../../components/CTASplit/CtaSplit';
 
-
+import BannerSlider from '../../components/BannerSlider/BannerSlider';
+import banner1 from '../../assets/images/about_page/img1.webp';
+import banner2 from '../../assets/images/about_page/img2.webp';
 
 const About = () => {
   const { t } = useTranslation();
-
 
   const galleryImages = [
     { id: 1, src: img1, alt: "Gallery Image 1" },
@@ -29,7 +29,6 @@ const About = () => {
     { id: 3, src: img3, alt: "Gallery Image 3" },
     { id: 4, src: img4, alt: "Gallery Image 4" },
   ];
-
 
   const technologies = [
     {
@@ -54,6 +53,12 @@ const About = () => {
 
   return (
     <div className="about-page">
+      <BannerSlider 
+        images={[banner1, banner2]} 
+        title={t('about.banner.title')} 
+        subtitle={t('about.banner.subtitle')} 
+      />
+
       <section className={`${styles.aboutIntro} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.aboutIntroWrapper}>
@@ -89,13 +94,12 @@ const About = () => {
         </div>
       </section>
 
-
-    <CtaSplit />
+      <CtaSplit />
       
-    <ScheduleSection isAltBg={true} />
+      <ScheduleSection isAltBg={true} />
 
-    {/* Technologies Section */}
-    <section className={`${styles.technologies} ${styles.sectionPadding}`}>
+      {/* Technologies Section */}
+      <section className={`${styles.technologies} ${styles.sectionPadding}`}>
         <div className={`${styles.container} ${styles.textCenter}`}>
           <div className={styles.techWrapper}>
             <h2 className={styles.sectionTitle} style={{ maxWidth: '600px', margin: '0 auto 3rem auto' }}>
@@ -138,13 +142,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-
-    
-
-        
-    
-
     </div>
   );
 };

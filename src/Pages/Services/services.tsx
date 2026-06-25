@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Services.module.css";
-import SecondBanner from '../../components/SecondBanner/SecondBanner';
-import bannerImg from '../../assets/images/contact_page/contact_banner1.webp';
+
+
 import { ServiceCard } from "../../components/ServiceCard/ServiceCard";
 import { useTranslation } from 'react-i18next';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
@@ -17,10 +17,13 @@ import Collagerésine from "../../assets/images/services/service1/Collage résin
 import LeTraitementsEndodontiques from "../../assets/images/services/service1/Prothèses Fixes.webp";
 import Extraction from "../../assets/images/services/service1/extraction.webp";
 import ChirurgieImplantaire  from "../../assets/images/services/service1/La Chirurgie Implantaire Guidée par Ordinateur.webp";
-import Traitementsdesanomalies from "../../assets/images/services/service1/traitement des anomalies.webp";
+import Traitementsdesanomalies from "../../assets/images/services/service1/Traitement des anomalies.webp";
 import ProthèsesFixes from "../../assets/images/services/service1/Prothèses Fixes.webp";
 import ProthèsesAmovibles from "../../assets/images/services/service1/La Prothèses Amovibles.webp";
 import Facettesdentaire from "../../assets/images/services/service1/Facettes dentaires.webp";
+import BannerSlider from '../../components/BannerSlider/BannerSlider';
+import banner1 from '../../assets/images/services/banner/img1.webp';
+import banner2 from '../../assets/images/services/banner/img2.webp';
 
 const Services = () => {
   const { t } = useTranslation();
@@ -55,7 +58,7 @@ const Services = () => {
           id: "b3",
           title: t('services.items.hyperpigmentation.title'),
           subtitle: t('services.items.hyperpigmentation.subtitle'),
-          image: Traitementdelhyper,
+          image:  Traitementdelhyper, 
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
         },
       ],
@@ -86,7 +89,7 @@ const Services = () => {
       id: "traitement-section",
       heading: t('services.Traitement.heading'),
       tagline: t('services.Traitement.tagline'),
-      link: "therapeutique", // Match exact m3a "Therapeutique" (Uppercase 'T')
+      link: "therapeutique",
       items: [
         {
           id: "e1",
@@ -129,7 +132,7 @@ const Services = () => {
       id: "protheses-section",
       heading: t('services.Prothèses.title'),
       tagline: t('services.Prothèses.subtitle'),
-      link: "protheses-dentaires", // Match exact m3a "Prothesesdentaires" (Uppercase 'P')
+      link: "protheses-dentaires",
       items: [
         {
           id: "f1",
@@ -158,11 +161,10 @@ const Services = () => {
 
   return (
     <main className={styles.page}>
-      <SecondBanner 
-        slides={[bannerImg, bannerImg, bannerImg]}
-        title={t('services.banner.title')}
-        subtitle={t('services.banner.subtitle')}
-        buttonText={t('nav.book_now')}
+      <BannerSlider 
+        images={[banner1, banner2]} 
+        title={t('about.banner.title')} 
+        subtitle={t('about.banner.subtitle')} 
       />
 
       <div className={styles.container}>

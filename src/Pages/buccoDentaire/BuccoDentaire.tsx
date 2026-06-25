@@ -4,9 +4,10 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 import { useTranslation } from 'react-i18next';
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
-import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
-import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
-import facetimage2 from '../../assets/images/services/service1/facetimage2.jpg';
+import facetimage_big from '../../assets/images/services/bucco/facette/img3.webp';
+import facetimage1 from '../../assets/images/services/bucco/facette/img2.webp';
+import facetimage2 from '../../assets/images/services/bucco/facette/img1.webp';
+
 
 const BuccoDentaire = () => {
   const { t } = useTranslation();
