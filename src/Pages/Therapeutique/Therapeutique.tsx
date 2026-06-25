@@ -4,9 +4,9 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 import { useTranslation } from 'react-i18next';
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
-import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
-import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
-import facetimage2 from '../../assets/images/services/service1/facetimage2.jpg';
+import TraitementsEndoimg1 from '../../assets/images/services/Therapeutique/img1.webp';
+import TraitementsEndoimg2 from '../../assets/images/services/Therapeutique/img2.webp';
+import TraitementsEndoimg3 from '../../assets/images/services/Therapeutique/img3.webp';
 
 const Therapeutique = () => {
   const { t } = useTranslation();
@@ -27,10 +27,10 @@ const Therapeutique = () => {
       <p className={Style.description}>
         {t('Therapeutique.Collage.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Therapeutique.Collage.title')} />
+      <img className={Style.image_big} src={TraitementsEndoimg1} alt={t('Therapeutique.Collage.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Therapeutique.Collage.title')} />
-        <img src={facetimage2} alt={t('Therapeutique.Collage.title')} />
+        <img src={TraitementsEndoimg2} alt={t('Therapeutique.Collage.title')} />
+        <img src={TraitementsEndoimg3} alt={t('Therapeutique.Collage.title')} />
       </div>
 
       {/* 2. Traitements Endodontiques */}
@@ -42,10 +42,10 @@ const Therapeutique = () => {
       <p className={Style.description}>
         {t('Therapeutique.TraitementsEndodontiques.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Therapeutique.TraitementsEndodontiques.title')} />
+      <img className={Style.image_big} src={TraitementsEndoimg1} alt={t('Therapeutique.TraitementsEndodontiques.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Therapeutique.TraitementsEndodontiques.title')} />
-        <img src={facetimage2} alt={t('Therapeutique.TraitementsEndodontiques.title')} />
+        <img src={TraitementsEndoimg2} alt={t('Therapeutique.TraitementsEndodontiques.title')} />
+        <img src={TraitementsEndoimg3} alt={t('Therapeutique.TraitementsEndodontiques.title')} />
       </div>
 
       {/* 3. Extraction */}
@@ -57,10 +57,10 @@ const Therapeutique = () => {
       <p className={Style.description}>
         {t('Therapeutique.Extraction.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Therapeutique.Extraction.title')} />
+      <img className={Style.image_big} src={TraitementsEndoimg1} alt={t('Therapeutique.Extraction.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Therapeutique.Extraction.title')} />
-        <img src={facetimage2} alt={t('Therapeutique.Extraction.title')} />
+        <img src={TraitementsEndoimg2} alt={t('Therapeutique.Extraction.title')} />
+        <img src={TraitementsEndoimg3} alt={t('Therapeutique.Extraction.title')} />
       </div>
 
       {/* 4. La Chirurgie Implantaire */}
@@ -72,10 +72,10 @@ const Therapeutique = () => {
       <p className={Style.description}>
         {t('Therapeutique.ChirurgieImplantaire.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Therapeutique.ChirurgieImplantaire.title')} />
+      <img className={Style.image_big} src={TraitementsEndoimg1} alt={t('Therapeutique.ChirurgieImplantaire.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Therapeutique.ChirurgieImplantaire.title')} />
-        <img src={facetimage2} alt={t('Therapeutique.ChirurgieImplantaire.title')} />
+        <img src={TraitementsEndoimg2} alt={t('Therapeutique.ChirurgieImplantaire.title')} />
+        <img src={TraitementsEndoimg3} alt={t('Therapeutique.ChirurgieImplantaire.title')} />
       </div>
 
       {/* 5. Traitements des anomalies */}
@@ -91,10 +91,10 @@ const Therapeutique = () => {
           ))}
         </ul>
       </div>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
+      <img className={Style.image_big} src={TraitementsEndoimg1} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
-        <img src={facetimage2} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
+        <img src={TraitementsEndoimg2} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
+        <img src={TraitementsEndoimg3} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
       </div>
 
     </div>
