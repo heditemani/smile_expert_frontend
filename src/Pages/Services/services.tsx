@@ -7,8 +7,10 @@ import { useTranslation } from 'react-i18next';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 
 
+import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import banner1 from '../../assets/images/services/banner/img1.webp';
 import banner2 from '../../assets/images/services/banner/img2.webp';
+
 
 
 
@@ -33,7 +35,6 @@ import ProthÃ¨sesAmovibles from "../../assets/images/services/service1/La ProthÃ
 import Facettesdentaire from "../../assets/images/services/service1/Facettes dentaires.webp";
 
 
-import BannerSlider from '../../components/BannerSlider/BannerSlider';
 
 
 const Services = () => {
