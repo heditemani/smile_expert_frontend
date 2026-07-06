@@ -27,3 +27,7 @@
   width: 48%;
   height: auto;
 }
+
+.section_container img{
+  border-radius: 32px;
+}
