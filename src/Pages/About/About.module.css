@@ -121,7 +121,7 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform var(--transition); /* Thabbet eli --transition mawjouda f index.css */
+    transition: transform var(--transition);
 }
 
 .galleryItem:hover img {
@@ -131,7 +131,7 @@
 /* Responsive Grid */
 @media (max-width: 600px) {
     .galleryGrid {
-        grid-template-columns: 1fr; /* Taswira barka f star fel mobile */
+        grid-template-columns: 1fr; 
         gap: 1.5rem;
     }
 }
@@ -286,7 +286,7 @@
     display: block;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
     .expertiseWrapper {
         flex-direction: column;
@@ -295,7 +295,7 @@
     
     .expertiseContent {
         padding: 2.5rem 2rem;
-        order: 1; /* Texte yji ta7t el taswira ken t7eb, walla order: 2 */
+        order: 1; 
     }
 
     .expertiseImage {
