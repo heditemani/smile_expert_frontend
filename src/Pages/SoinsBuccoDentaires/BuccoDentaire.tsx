@@ -7,9 +7,9 @@ import VideoExperience from '../../components/VideoExperience/VideoExperience.js
 
 // Examens réguliers
 
-import examens_image_1 from '../../assets/images/soins bucco dentaire et prévntif/Examens réguliers/examens_image_1.webp';
-import examens_image_2 from '../../assets/images/soins bucco dentaire et prévntif/Examens réguliers/examens_image_2.webp';
-import examens_image_3 from '../../assets/images/soins bucco dentaire et prévntif/Examens réguliers/examens_image_3.webp';
+import examens_image_1 from '../../assets/images/soins bucco dentaire et Prévntif/Examens réguliers/examens_image_1.webp';
+import examens_image_2 from '../../assets/images/soins bucco dentaire et Prévntif/Examens réguliers/examens_image_2.webp';
+import examens_image_3 from '../../assets/images/soins bucco dentaire et Prévntif/Examens réguliers/examens_image_3.webp';
 
 // Soins préventifs
 
