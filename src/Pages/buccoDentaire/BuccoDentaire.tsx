@@ -30,6 +30,8 @@ import traitement_image_1 from '../../assets/images/traitement bucco-dentaire/Tr
 import traitement_image_2 from '../../assets/images/traitement bucco-dentaire/Traitement de l’hyperpigmentation gingivale par laser/traitement_image_2.webp';
 import traitement_image_3 from '../../assets/images/traitement bucco-dentaire/Traitement de l’hyperpigmentation gingivale par laser/traitement_image_3.webp';
 
+
+
 const BuccoDentaire = () => {
   const { t } = useTranslation();
 
