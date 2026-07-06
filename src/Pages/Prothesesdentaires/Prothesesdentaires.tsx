@@ -5,9 +5,24 @@ import { useTranslation } from 'react-i18next';
 
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
-import facetimage_big from '../../assets/images/services/service1/facetimage_big.jpg';
-import facetimage1 from '../../assets/images/services/service1/facetimage1.jpg';
-import facetimage2 from '../../assets/images/services/service1/facetimage2.jpg';
+// Prothèses Fixes
+
+import prothesesfixes_image_1 from '../../assets/images/Prothèses dentaires/Prothèses Fixes/prothesesfixes_image_1.webp';
+import prothesesfixes_image_2 from '../../assets/images/Prothèses dentaires/Prothèses Fixes/prothesesfixes_image_2.webp';
+import prothesesfixes_image_3 from '../../assets/images/Prothèses dentaires/Prothèses Fixes/prothesesfixes_image_3.webp';
+
+
+// Prothèses Amovibles
+
+import prothesesamovibles_image_1 from '../../assets/images/Prothèses dentaires/Prothèses Amovibles/prothesesamovibles_image_1.webp';
+import prothesesamovibles_image_2 from '../../assets/images/Prothèses dentaires/Prothèses Amovibles/prothesesamovibles_image_2.webp';
+import prothesesamovibles_image_3 from '../../assets/images/Prothèses dentaires/Prothèses Amovibles/prothesesamovibles_image_3.webp';
+
+// Facettes Dentaires
+
+import facettesdentaires_image_1 from '../../assets/images/Prothèses dentaires/Facettes Dentaires/facettesdentaires_image_1.webp';
+import facettesdentaires_image_2 from '../../assets/images/Prothèses dentaires/Facettes Dentaires/facettesdentaires_image_2.webp';
+import facettesdentaires_image_3 from '../../assets/images/Prothèses dentaires/Facettes Dentaires/facettesdentaires_image_3.webp';
 
 const Prothesesdentaires = () => {
   const { t } = useTranslation();
@@ -16,7 +31,7 @@ const Prothesesdentaires = () => {
   const fixesItems = ['item1', 'item2', 'item3'];
 
   return (
-    <div className={Style.container}>
+    <div className={`${Style.container} ${Style.section_container}`}>
 
       <VideoExperience />
       
@@ -33,10 +48,10 @@ const Prothesesdentaires = () => {
           ))}
         </ul>
       </div>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
+      <img className={Style.image_big} src={prothesesfixes_image_1} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
-        <img src={facetimage2} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
+        <img src={prothesesfixes_image_2} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
+        <img src={prothesesfixes_image_3} alt={t('Prothesesdentaires.ProthèsesFixes.title')} />
       </div>
 
       {/* 2. Prothèses Amovibles */}
@@ -48,10 +63,10 @@ const Prothesesdentaires = () => {
       <p className={Style.description}>
         {t('Prothesesdentaires.ProthèsesAmovibles.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
+      <img className={Style.image_big} src={prothesesamovibles_image_1} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
-        <img src={facetimage2} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
+        <img src={prothesesamovibles_image_2} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
+        <img src={prothesesamovibles_image_3} alt={t('Prothesesdentaires.ProthèsesAmovibles.title')} />
       </div>
 
       {/* 3. Facettes Dentaires */}
@@ -63,10 +78,10 @@ const Prothesesdentaires = () => {
       <p className={Style.description}>
         {t('Prothesesdentaires.FacettesDentaires.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
+      <img className={Style.image_big} src={facettesdentaires_image_1} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
-        <img src={facetimage2} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
+        <img src={facettesdentaires_image_2} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
+        <img src={facettesdentaires_image_3} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
       </div>
 
     </div>
