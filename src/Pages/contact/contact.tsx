@@ -217,6 +217,16 @@ const Contact = () => {
         </div>
       </section>
 
+
+
+
+
+
+
+
+
+      
+
       <section className={styles.locations}>
         <div className="container">
             <h2 className={styles.sectionTitle}>{t('home.locations.title')}</h2>
