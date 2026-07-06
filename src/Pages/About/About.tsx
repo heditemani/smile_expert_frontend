@@ -17,8 +17,8 @@ import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 import CtaSplit from '../../components/CTASplit/CtaSplit';
 
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
-import banner1 from '../../assets/images/about_page/img1.webp';
-import banner2 from '../../assets/images/about_page/img2.webp';
+import banner1 from '../../assets/images/about_page/banner/1.webp';
+import banner2 from '../../assets/images/about_page/banner/2.webp';
 
 const About = () => {
   const { t } = useTranslation();

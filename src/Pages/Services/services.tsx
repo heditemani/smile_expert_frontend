@@ -7,23 +7,34 @@ import { useTranslation } from 'react-i18next';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 
 
-// --- Import your images directly from src/assets so Vite can bundle them safely ---
-import Blanchimentdesdents from "../../assets/images/services/service1/Alignement gingival au laser diode.webp";
+import banner1 from '../../assets/images/services/banner/img1.webp';
+import banner2 from '../../assets/images/services/banner/img2.webp';
+
+
+
+import Blanchimentdesdents from "../../assets/images/services/service1/Blanchiment des dents par LASER DIODE.webp";
 import Alignementgingival from "../../assets/images/services/service1/Alignement gingival au laser diode.webp";
-import Traitementdelhyper  from "../../assets/images/services/service1/Traitement de l'hyperpigmentation gingivale par laser.webp";
-import Examensréguliers from "../../assets/images/services/service1/Facettes dentaires.webp";
+import Traitementdelhyper  from "../../assets/images/services/service1/Traitement hyprpigmntation par lasr.webp";
+
+
+import Examensréguliers from "../../assets/images/services/service1/xamns réguliers.webp";
 import SoinsPréventifs from "../../assets/images/services/service1/soins préventifs.webp";
+
+
 import Collagerésine from "../../assets/images/services/service1/Collage résine Composite.webp";
-import LeTraitementsEndodontiques from "../../assets/images/services/service1/Prothèses Fixes.webp";
+import LeTraitementsEndodontiques from "../../assets/images/services/service1/Traitement hyprpigmntation par lasr.webp";
 import Extraction from "../../assets/images/services/service1/extraction.webp";
 import ChirurgieImplantaire  from "../../assets/images/services/service1/La Chirurgie Implantaire Guidée par Ordinateur.webp";
 import Traitementsdesanomalies from "../../assets/images/services/service1/Traitement des anomalies.webp";
+
+
 import ProthèsesFixes from "../../assets/images/services/service1/Prothèses Fixes.webp";
 import ProthèsesAmovibles from "../../assets/images/services/service1/La Prothèses Amovibles.webp";
 import Facettesdentaire from "../../assets/images/services/service1/Facettes dentaires.webp";
+
+
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
-import banner1 from '../../assets/images/services/banner/img1.webp';
-import banner2 from '../../assets/images/services/banner/img2.webp';
+
 
 const Services = () => {
   const { t } = useTranslation();
