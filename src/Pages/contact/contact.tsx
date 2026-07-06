@@ -2,6 +2,8 @@ import { useState, ChangeEvent, FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './contact.module.css';
 
+// Importing components 
+
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import banner1 from '../../assets/images/contact_page/contact_banner1.webp';
 
