@@ -6,16 +6,35 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
-import facetimage_big from '../../assets/images/services/bucco/facette/img3.webp';
-import facetimage1 from '../../assets/images/services/bucco/facette/img2.webp';
-import facetimage2 from '../../assets/images/services/bucco/facette/img1.webp';
+// Alignement gingival au laser diode
 
+import facette_image_1 from '../../assets/images/traitement bucco-dentaire/facettes/facette_image_1.webp';
+import facette_image_2 from '../../assets/images/traitement bucco-dentaire/facettes/facette_image_2.webp';
+import facette_image_3 from '../../assets/images/traitement bucco-dentaire/facettes/facette_image_3.webp';
+
+// Blanchiment des dents par LASER DIODE
+
+import blanchiment_image_1 from '../../assets/images/traitement bucco-dentaire/Blanchiment des dents par LASER DIODE/blanchiment_image_1.webp';
+import blanchiment_image_2 from '../../assets/images/traitement bucco-dentaire/Blanchiment des dents par LASER DIODE/blanchiment_image_2.webp';
+import blanchiment_image_3 from '../../assets/images/traitement bucco-dentaire/Blanchiment des dents par LASER DIODE/blanchiment_image_3.webp';
+
+// Alignement gingival au laser diode
+
+import alignement_image_1 from '../../assets/images/traitement bucco-dentaire/Alignement gingival au laser diode/alignement_image_1.webp';
+import alignement_image_2 from '../../assets/images/traitement bucco-dentaire/Alignement gingival au laser diode/alignement_image_2.webp';
+import alignement_image_3 from '../../assets/images/traitement bucco-dentaire/Alignement gingival au laser diode/alignement_image_3.webp';
+
+// Traitement de l’hyperpigmentation gingivale par laser
+
+import traitement_image_1 from '../../assets/images/traitement bucco-dentaire/Traitement de l’hyperpigmentation gingivale par laser/traitement_image_1.webp';
+import traitement_image_2 from '../../assets/images/traitement bucco-dentaire/Traitement de l’hyperpigmentation gingivale par laser/traitement_image_2.webp';
+import traitement_image_3 from '../../assets/images/traitement bucco-dentaire/Traitement de l’hyperpigmentation gingivale par laser/traitement_image_3.webp';
 
 const BuccoDentaire = () => {
   const { t } = useTranslation();
 
   return (
-    <div className={Style.container}>
+    <div className={`${Style.container} ${Style.section_container}`}>
 
       <VideoExperience />
 
@@ -28,10 +47,10 @@ const BuccoDentaire = () => {
       <p className={Style.description}>
         {t('buccoDentaire.facettes.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.facettes.title')} />
+      <img className={Style.image_big} src={facette_image_1} alt={t('buccoDentaire.facettes.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.facettes.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.facettes.title')} />
+        <img src={facette_image_2} alt={t('buccoDentaire.facettes.title')} />
+        <img src={facette_image_3} alt={t('buccoDentaire.facettes.title')} />
       </div>
 
       {/* 2. Blanchiment des dents par LASER DIODE */}
@@ -43,10 +62,10 @@ const BuccoDentaire = () => {
       <p className={Style.description}>
         {t('buccoDentaire.blanchiment.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.blanchiment.title')} />
+      <img className={Style.image_big} src={blanchiment_image_1} alt={t('buccoDentaire.blanchiment.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.blanchiment.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.blanchiment.title')} />
+        <img src={blanchiment_image_2} alt={t('buccoDentaire.blanchiment.title')} />
+        <img src={blanchiment_image_3} alt={t('buccoDentaire.blanchiment.title')} />
       </div>
 
       {/* 3. Alignement gingival au laser diode */}
@@ -58,10 +77,10 @@ const BuccoDentaire = () => {
       <p className={Style.description}>
         {t('buccoDentaire.alignement.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.alignement.title')} />
+      <img className={Style.image_big} src={alignement_image_1} alt={t('buccoDentaire.alignement.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.alignement.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.alignement.title')} />
+        <img src={alignement_image_2} alt={t('buccoDentaire.alignement.title')} />
+        <img src={alignement_image_3} alt={t('buccoDentaire.alignement.title')} />
       </div>
 
       {/* 4. Traitement de l’hyperpigmentation gingivale par laser */}
@@ -73,10 +92,10 @@ const BuccoDentaire = () => {
       <p className={Style.description}>
         {t('buccoDentaire.hyperpigmentation.description')}
       </p>
-      <img className={Style.image_big} src={facetimage_big} alt={t('buccoDentaire.hyperpigmentation.title')} />
+      <img className={Style.image_big} src={traitement_image_1} alt={t('buccoDentaire.hyperpigmentation.title')} />
       <div className={Style.images_container}>
-        <img src={facetimage1} alt={t('buccoDentaire.hyperpigmentation.title')} />
-        <img src={facetimage2} alt={t('buccoDentaire.hyperpigmentation.title')} />
+        <img src={traitement_image_2} alt={t('buccoDentaire.hyperpigmentation.title')} />
+        <img src={traitement_image_3} alt={t('buccoDentaire.hyperpigmentation.title')} />
       </div>
     </div>
   );
