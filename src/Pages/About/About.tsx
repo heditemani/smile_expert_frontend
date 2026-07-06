@@ -1,7 +1,10 @@
 import { useTranslation } from 'react-i18next';
+
+// styles
 import styles from './About.module.css';
 
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
+
 import banner1 from '../../assets/images/about_page/banner/1.webp';
 import banner2 from '../../assets/images/about_page/banner/2.webp';
 
