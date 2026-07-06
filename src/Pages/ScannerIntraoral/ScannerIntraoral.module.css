@@ -3,7 +3,6 @@
     background-color: var(--bg-white);
 }
 
-/* Header styling based on image_6ce7c2.png */
 .serviceDetailsHeader {
     margin-bottom: 3rem;
 }
@@ -21,7 +20,7 @@
     margin: 0;
 }
 
-/* Split Content Grid (Image Left / Text Right) */
+
 .serviceDetailsContent {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -59,7 +58,7 @@
     text-align: justify;
 }
 
-/* Advantages Section */
+
 .serviceAdvantages {
     margin-top: 4rem;
     padding-top: 3rem;
@@ -91,7 +90,7 @@
     magin-left: 20px;
 }
 
-/* Responsive Layout for Mobile and Tablets */
+
 @media (max-width: 991px) {
     .serviceDetailsContent {
         grid-template-columns: 1fr;

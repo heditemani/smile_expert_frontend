@@ -3,30 +3,36 @@ import { useTranslation } from 'react-i18next'
 import ImageSlider from '../../components/ImageSlider/ImageSlider'
 
 import before1 from '../../assets/images/BeforeAfter_Page/before1.webp';
-import before2 from '../../assets/images/BeforeAfter_Page/before2.webp';
-import before3 from '../../assets/images/BeforeAfter_Page/before3.webp';
-import before4 from '../../assets/images/BeforeAfter_Page/before4.webp';
-import before5 from '../../assets/images/BeforeAfter_Page/before5.webp';
-import before6 from '../../assets/images/BeforeAfter_Page/before6.webp';
-import before7 from '../../assets/images/BeforeAfter_Page/before7.webp';
-import before8 from '../../assets/images/BeforeAfter_Page/before8.webp';
-import before9 from '../../assets/images/BeforeAfter_Page/before9.webp';
-
-
 import after1 from '../../assets/images/BeforeAfter_Page/after1.webp';
+
+import before2 from '../../assets/images/BeforeAfter_Page/before2.webp';
 import after2 from '../../assets/images/BeforeAfter_Page/after2.webp';
+
+import before3 from '../../assets/images/BeforeAfter_Page/before3.webp';
 import after3 from '../../assets/images/BeforeAfter_Page/after3.webp';
+
+import before4 from '../../assets/images/BeforeAfter_Page/before4.webp';
 import after4 from '../../assets/images/BeforeAfter_Page/after4.webp';
+
+import before5 from '../../assets/images/BeforeAfter_Page/before5.webp';
 import after5 from '../../assets/images/BeforeAfter_Page/after5.webp';
+
+import before6 from '../../assets/images/BeforeAfter_Page/before6.webp';
 import after6 from '../../assets/images/BeforeAfter_Page/after6.webp';
+
+import before7 from '../../assets/images/BeforeAfter_Page/before7.webp';
 import after7 from '../../assets/images/BeforeAfter_Page/after7.webp';
+
+import before8 from '../../assets/images/BeforeAfter_Page/before8.webp';
 import after8 from '../../assets/images/BeforeAfter_Page/after8.webp';
+
+import before9 from '../../assets/images/BeforeAfter_Page/before9.webp';
 import after9 from '../../assets/images/BeforeAfter_Page/after9.webp';
+
 
 const BeforeAfter = () => {
   const { t } = useTranslation();
 
-  
   const Exemples = [
     {
       id: 1,
@@ -84,9 +90,12 @@ const BeforeAfter = () => {
     }
   ];
 
+  
+
   return (
     <>
       {Exemples.map((ex) => (
+
         <ImageSlider 
           key={ex.id}
           title={t(`beforeAfter.${ex.key}.title`)}
@@ -94,6 +103,7 @@ const BeforeAfter = () => {
           imageAfter={ex.imageAfter} 
           description={t(`beforeAfter.${ex.key}.description`)}
         />
+        
       ))}
     </>
   )

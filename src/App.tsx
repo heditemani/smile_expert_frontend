@@ -1,19 +1,26 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+
+
 import HomePage from './Pages/Home/home'
 import ContactPage from './Pages/contact/contact'
 import About from './Pages/About/About'
 import Service from './Pages/Services/services'
-import FinalCTA from './components/FinalCTA/FinalCTA'
 import Beforeafter from './Pages/Before&After/Before&After'
+
+
 import LaserDiode from './Pages/LaserDiode/LaserDiode'
 import ScannerIntraoral from './Pages/ScannerIntraoral/ScannerIntraoral'
 import ScannerFacial from './Pages/ScannerFacial/ScannerFacial'
+
+
 import BuccoDentaire from './Pages/buccoDentaire/BuccoDentaire'
 import SoinsBuccoDentaires from './Pages/SoinsBuccoDentaires/BuccoDentaire'
 import Therapeutique from './Pages/Therapeutique/Therapeutique'
 import Prothesesdentaires from './Pages/Prothesesdentaires/Prothesesdentaires'
+
+
 import NotFound from './Pages/NotFound/NotFound'
 
 function App() {

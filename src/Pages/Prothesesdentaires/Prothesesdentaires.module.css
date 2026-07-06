@@ -7,7 +7,7 @@
   font-size: 24px;
   line-height: 200%;
   letter-spacing: 5%;
-  color: #475C6F;
+  color: var(--description-color);
   margin-bottom: 50px;
 }
 
