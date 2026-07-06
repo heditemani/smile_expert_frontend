@@ -35,13 +35,13 @@ function App() {
         <Route path='/scanner.intraoral' element={<ScannerIntraoral />} />
         <Route path='/scanner.facial' element={<ScannerFacial />} />
         
-        {/* Les sous-pages mta3 el services bch yemshiw kima fil link exact */}
+        {/* Les sous-pages services */}
         <Route path='/services/bucco-dentaire' element={<BuccoDentaire />} />
         <Route path='/services/soins-bucco-dentaires' element={<SoinsBuccoDentaires />} />
         <Route path='/services/therapeutique' element={<Therapeutique />} />
         <Route path='/services/protheses-dentaires' element={<Prothesesdentaires />} />
         
-        {/* Page 404 fully styled w multilingue */}
+        {/* Page 404  */}
         <Route path='*' element={<NotFound />} />
       </Routes>
 

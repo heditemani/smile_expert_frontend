@@ -1,7 +1,10 @@
 import React from 'react';
 import Style from './Therapeutique.module.css';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
+
 import { useTranslation } from 'react-i18next';
+
+import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
+
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
 import TraitementsEndoimg1 from '../../assets/images/services/Therapeutique/img1.webp';

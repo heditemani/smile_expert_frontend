@@ -7,7 +7,6 @@ const NotFound = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
-  // Traj3ek win kont direct
   const handleGoBack = () => {
     navigate(-1);
   };

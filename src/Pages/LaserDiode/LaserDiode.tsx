@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from './LaserDiode.module.css';
+
+
 import dentalChairImg from '../../assets/images/general/dental_chair_1773460614969.png';
 import VideoExperience from '../../components/VideoExperience/VideoExperience';
 

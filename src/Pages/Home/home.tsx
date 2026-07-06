@@ -1,14 +1,19 @@
 import { useTranslation } from 'react-i18next';
 
 import styles from './home.module.css';
+
 import heroBg from '../../assets/homepagebanner.png';
+
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
+
 import CtaBanner from '../../components/CTAsection/CTA';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 import ServiceCard from '../../components/CardService/ServiceCard.js';
+
 import service1 from '../../assets/images/general/service_1_indexpage.jpg';
 import service2 from '../../assets/images/general/service_2_indexpage.jpg';
 import service3 from '../../assets/images/general/service_3_indexpage.jpg';
+
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
 // Consultation image

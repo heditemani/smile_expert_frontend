@@ -1,7 +1,6 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
-import styles from './contact.module.css';
-
 import { useTranslation } from 'react-i18next';
+import styles from './contact.module.css';
 
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import banner1 from '../../assets/images/contact_page/contact_banner1.webp';
@@ -9,7 +8,7 @@ import banner1 from '../../assets/images/contact_page/contact_banner1.webp';
 
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 
-// 1. Defini l-interfaces mta3 TypeScript mel-fou9 bech ysket l-compiler
+
 interface FormDataState {
   name: string;
   email: string;
@@ -32,7 +31,7 @@ interface FormStatus {
 const Contact = () => {
   const { t } = useTranslation();
 
-  // 2. Explicit types lil-useState kol wa7da blastha mregla
+
   const [formData, setFormData] = useState<FormDataState>({ name: '', email: '', tel: '', message: '' });
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<FormStatus>({ type: '', msg: '' });
@@ -148,7 +147,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Right Column (El Form el Jdid Sticky) */}
+            {/* right Column */}
             <div className={styles['contact-form-col']}>
               <div className={styles['contact-form-box']}>
                 <h3 className={styles['contact-form-title']}>{t('contact.form_title')}</h3>
@@ -222,7 +221,7 @@ const Contact = () => {
             <h2 className={styles.sectionTitle}>{t('home.locations.title')}</h2>
             <p className={`${styles.sectionSubtitle} mb-4`}>{t('home.locations.subtitle')}</p>
 
-            {/* El Map Container mragal b Zoom a9wa 50% */}
+            {/* Map Container */}
             <div className={styles.mapContainer}>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1127.61206929441!2d10.6915595!3d36.4348777!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x130298c96939a449%3A0xe8edae1e7360dd5b!2sDentiste%20-%20Dr%20Sarra%20Haouet%20Nabeul%20Mrezga%20Hammamet!5e0!3m2!1sfr!2stn!4v1780717038232!5m2!1sfr!2stn"
