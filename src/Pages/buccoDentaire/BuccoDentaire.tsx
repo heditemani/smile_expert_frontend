@@ -1,7 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import Style from './BuccoDentaire.module.css';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
-import { useTranslation } from 'react-i18next';
+
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
 import facetimage_big from '../../assets/images/services/bucco/facette/img3.webp';
