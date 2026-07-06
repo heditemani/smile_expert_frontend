@@ -1,5 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import styles from './About.module.css';
+
+import BannerSlider from '../../components/BannerSlider/BannerSlider';
+import banner1 from '../../assets/images/about_page/banner/1.webp';
+import banner2 from '../../assets/images/about_page/banner/2.webp';
+
+
 import doctorImage from '../../assets/images/about_page/about_sarra_image.webp';
 
 import img1 from '../../assets/images/about_page/about_gallery_image_1.webp';
@@ -7,18 +13,20 @@ import img2 from '../../assets/images/about_page/about_gallery_image_2.webp';
 import img3 from '../../assets/images/about_page/about_gallery_image_3.webp';
 import img4 from '../../assets/images/about_page/about_gallery_image_4.webp';
 
+
 import techImg1 from '../../assets/images/about_page/technologie_image_1.webp';
 import techImg2 from '../../assets/images/about_page/technologie_image_2.webp';
 import techImg3 from '../../assets/images/about_page/technologie_image_1.webp';
 
+
 import expertiseImg from '../../assets/images/about_page/expertise_image.webp';
+
 
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 import CtaSplit from '../../components/CTASplit/CtaSplit';
 
-import BannerSlider from '../../components/BannerSlider/BannerSlider';
-import banner1 from '../../assets/images/about_page/banner/1.webp';
-import banner2 from '../../assets/images/about_page/banner/2.webp';
+
+
 
 const About = () => {
   const { t } = useTranslation();
