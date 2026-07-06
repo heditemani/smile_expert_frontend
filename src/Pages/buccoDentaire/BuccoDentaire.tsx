@@ -55,6 +55,8 @@ const BuccoDentaire = () => {
         <img src={facette_image_3} alt={t('buccoDentaire.facettes.title')} />
       </div>
 
+
+
       {/* 2. Blanchiment des dents par LASER DIODE */}
       <SectionTitle 
         title={t('buccoDentaire.blanchiment.title')} 
@@ -70,6 +72,8 @@ const BuccoDentaire = () => {
         <img src={blanchiment_image_3} alt={t('buccoDentaire.blanchiment.title')} />
       </div>
 
+
+
       {/* 3. Alignement gingival au laser diode */}
       <SectionTitle 
         title={t('buccoDentaire.alignement.title')} 
@@ -84,6 +88,8 @@ const BuccoDentaire = () => {
         <img src={alignement_image_2} alt={t('buccoDentaire.alignement.title')} />
         <img src={alignement_image_3} alt={t('buccoDentaire.alignement.title')} />
       </div>
+
+      
 
       {/* 4. Traitement de l’hyperpigmentation gingivale par laser */}
       <SectionTitle 

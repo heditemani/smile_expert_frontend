@@ -5,7 +5,6 @@ import styles from './contact.module.css';
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import banner1 from '../../assets/images/contact_page/contact_banner1.webp';
 
-
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 
 
