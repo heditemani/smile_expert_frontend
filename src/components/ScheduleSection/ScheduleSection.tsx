@@ -16,8 +16,8 @@ const ScheduleSection = ({ isAltBg = false }) => {
   ];
 
   return (
-    <section className={`${styles.schedule} ${isAltBg ? styles.altBg : ''} section-padding`}>
-      <div className="container">
+    <section className={`${styles.schedule} ${isAltBg ? styles.altBg : ''}  `}>
+      <div className={`container  section-padding `}>
         <div className={styles.scheduleWrapper}>
           
           <div className={styles.scheduleContent}>

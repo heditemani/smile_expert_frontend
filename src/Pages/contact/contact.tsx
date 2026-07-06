@@ -235,7 +235,7 @@ const Contact = () => {
         </div>
     </section>
 
-      <ScheduleSection isAltBg={false} />
+      <ScheduleSection isAltBg={true} />
     </div>
   );
 };

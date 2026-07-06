@@ -151,6 +151,10 @@
     margin-top: 0.5rem;
 }
 
+.locations{
+    margin-bottom: 64px;
+}
+
 /* Map Design */
 .map-container {
     width: 100%;
