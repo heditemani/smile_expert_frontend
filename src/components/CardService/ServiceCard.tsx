@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './ServiceCard.module.css'
 
-const ServiceCard = ({ bgImage, icon, title, description, Link }) => {
+const ServiceCard = ({ bgImage, icon, title, description, Link, isFirst }) => {
   return (
     <a href={Link}>
-      <div className={styles.serviceHoverCard} >
+      <div className={`${styles.serviceHoverCard} ${isFirst ? styles.activeCard : ''}`} >
         <div 
           className={styles.serviceBg} 
           style={{ backgroundImage: `url(${bgImage})` }}

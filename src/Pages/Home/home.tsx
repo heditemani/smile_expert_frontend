@@ -71,6 +71,7 @@ const Homepage = () => {
             title={t('home.services.service1.title')}
             description={t('home.services.service1.description')}
             Link="/services/soins-bucco-dentaires"
+            isFirst={true}
           />
           <ServiceCard 
             bgImage={service2}
@@ -78,6 +79,7 @@ const Homepage = () => {
             title={t('home.services.service2.title')}
             description={t('home.services.service2.description')}
             Link="/services/soins-bucco-dentaires"
+            isFirst={false}
           />
           <ServiceCard 
             bgImage={service3}
@@ -85,6 +87,7 @@ const Homepage = () => {
             title={t('home.services.service3.title')}
             description={t('home.services.service3.description')}
             Link="/services/therapeutique"
+            isFirst={false}
           />
         </div>
       </div>

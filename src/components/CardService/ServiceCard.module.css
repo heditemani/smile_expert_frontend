@@ -44,6 +44,21 @@
     opacity: 1;
 }
 
+.activeCard .serviceBg,
+.activeCard::after {
+    opacity: 1;
+}
+
+.activeCard .serviceTitle,
+.activeCard .serviceDesc {
+    color: var(--bg-white);
+}
+
+.activeCard {
+    box-shadow: var(--shadow-md);
+}
+
+
 .contentWrapper {
     display: flex;
     flex-direction: column;
