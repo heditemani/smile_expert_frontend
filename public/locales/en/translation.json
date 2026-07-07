@@ -198,6 +198,10 @@
     }
   },
   "about": {
+    "banner": {
+      "title": "About Smile Expert",
+      "subtitle": "Your smile, our priority"
+    },
     "intro": {
       "title": "Why Choose Smile Expert?",
       "boldText": "A boutique dental clinic where clinical precision meets absolute patient serenity.",

@@ -196,6 +196,10 @@
     }
   },
   "about": {
+    "banner": {
+      "title": "À propos de Smile Expert",
+      "subtitle": "Votre sourire, notre priorité"
+    },
     "intro": {
       "title": "Smile Expert ?",
       "boldText": "est un cabinet dentaire où vous vous sentirez à la fois détendu (ou en sécurité) et bien accompagné.",

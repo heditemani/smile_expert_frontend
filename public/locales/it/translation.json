@@ -198,6 +198,10 @@
     }
   },
   "about": {
+    "banner": {
+      "title": "Informazioni sull'esperto del sorriso",
+      "subtitle": "Il tuo sorriso, la nostra priorità"
+    },
     "intro": {
       "title": "Perché Scegliere Smile Expert?",
       "boldText": "Un centro odontoiatrico dove l'eccellenza clinica incontra la massima serenità del paziente.",
