@@ -18,9 +18,9 @@ const NotFound = () => {
         <div className={Style.divider} />
         <h2 className={Style.subtitle}>{t('notFound.subtitle')}</h2>
         <p className={Style.description}>{t('notFound.description')}</p>
-        <button onClick={handleGoBack} className={Style.backButton}>
-          {t('notFound.button')}
-        </button>
+          <button onClick={handleGoBack} className={Style.backButton}>
+            {t('notFound.button')}
+          </button>
       </div>
     </div>
   );
