@@ -109,10 +109,27 @@
         padding: 0 1rem;
     }
     .servicesGrid{
-        display: flex;
         justify-content: center;
         align-items: center;
+        margin:auto;
+        width: fit-content;
         
+    }
+    .consultation_wrapper{
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .consultation_image{
+        width: auto;
+        height: 100%;
+    }
+    .consultation_image img{
+        width: auto;
+        height: 100%;
     }
 }
 
@@ -122,10 +139,16 @@
 }
 
 .servicesGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: max(3rem, 1vw);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; 
     margin-top: 5rem;
+}
+
+.servicesGrid > div { 
+    flex: 1 1 350px; 
+    max-width: 350px;
 }
 
 .consultation {
