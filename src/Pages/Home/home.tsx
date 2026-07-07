@@ -23,6 +23,27 @@ import receptionImg from '../../assets/images/general/reception.png';
 const Homepage = () => {
   const { t } = useTranslation();
 
+  const servicesData = [
+  {
+    bgImage: service1,
+    title: t('home.services.service1.title'),
+    description: t('home.services.service1.description'),
+    link: "/services/soins-bucco-dentaires"
+  },
+  {
+    bgImage: service2,
+    title: t('home.services.service2.title'),
+    description: t('home.services.service2.description'),
+    link: "/services/soins-bucco-dentaires"
+  },
+  {
+    bgImage: service3,
+    title: t('home.services.service3.title'),
+    description: t('home.services.service3.description'),
+    link: "/services/therapeutique"
+  }
+];
+
   return (
     <>
 
@@ -65,30 +86,17 @@ const Homepage = () => {
         />
 
         <div className={styles.servicesGrid}>
-          <ServiceCard 
-            bgImage={service1}
-            icon="/icons/teeth.svg"
-            title={t('home.services.service1.title')}
-            description={t('home.services.service1.description')}
-            Link="/services/soins-bucco-dentaires"
-            isFirst={true}
-          />
-          <ServiceCard 
-            bgImage={service2}
-            icon="/icons/teeth.svg"
-            title={t('home.services.service2.title')}
-            description={t('home.services.service2.description')}
-            Link="/services/soins-bucco-dentaires"
-            isFirst={false}
-          />
-          <ServiceCard 
-            bgImage={service3}
-            icon="/icons/teeth.svg"
-            title={t('home.services.service3.title')}
-            description={t('home.services.service3.description')}
-            Link="/services/therapeutique"
-            isFirst={false}
-          />
+          {servicesData.map((service, index) => (
+            <ServiceCard 
+              key={index}
+              bgImage={service.bgImage}
+              icon="/icons/teeth.svg" 
+              title={service.title}
+              description={service.description}
+              Link={service.link}
+              isFirst={index === 0} 
+            />
+          ))}
         </div>
       </div>
 
