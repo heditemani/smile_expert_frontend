@@ -34,10 +34,6 @@ const BuccoDentaire = () => {
 
       <VideoExperience />
 
-
-
-
-
       {/* 1. Blanchiment des dents par LASER DIODE */}
       <SectionTitle 
         title={t('buccoDentaire.blanchiment.title')} 
