@@ -89,7 +89,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <section className="section-padding">
+      <section className="section-padding container mt">
         <div className={styles.stcontainer}>
           <div className={styles.consultation_wrapper}>
             <div className={styles.consultation_image}>
@@ -108,7 +108,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <VideoExperience />
+      <VideoExperience  />
 
       <ScheduleSection isAltBg={false} />
 

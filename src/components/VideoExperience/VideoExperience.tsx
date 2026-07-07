@@ -86,7 +86,7 @@ const VideoExperience = () => {
     };
 
     return (
-        <section className={styles.videoSection}>
+        <section className={`${styles.videoSection} container section-padding`}>
             <div className={styles.container}>
                 
                 <div className={styles.header}>
