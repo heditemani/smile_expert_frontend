@@ -4,8 +4,7 @@
   justify-content: center;
   min-height: 80vh;
   padding: 20px;
-  background-color: #ffffff;
-  font-family: 'Playfair Display', 'Didot', 'Georgia', serif; /* Te5ou style editorial */
+  background-color: var(--bg-white);
 }
 
 .content {
@@ -19,7 +18,7 @@
 .code {
   font-size: 120px;
   font-weight: 300;
-  color: #1c2b38;
+  color: var(--primary-dark);
   margin: 0;
   line-height: 1;
   letter-spacing: -2px;
@@ -28,42 +27,40 @@
 .divider {
   width: 40px;
   height: 1px;
-  background-color: #475C6F;
+  background-color: var(--text-secondary);
   margin: 20px 0;
 }
 
 .subtitle {
-  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #475C6F;
+  color: var(--text-secondary);
   margin: 0 0 15px 0;
 }
 
 .description {
-  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.6;
-  color: #6c7a89;
+  color: var(--text-secondary);
   margin-bottom: 40px;
 }
 
 .backButton {
-  font-family: 'Montserrat', sans-serif;
   background: none;
-  border: 1px solid #1c2b38;
-  color: #1c2b38;
+  border: 1px solid var(--primary-dark);
+  color: var(--primary-dark);
   padding: 12px 30px;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 50px;
 }
 
 .backButton:hover {
-  background-color: #1c2b38;
-  color: #ffffff;
+  background-color: var(--primary-dark);
+  color: var(--bg-white);
 }
