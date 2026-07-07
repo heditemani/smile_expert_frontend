@@ -70,18 +70,21 @@ const Homepage = () => {
             icon="/icons/teeth.svg"
             title={t('home.services.service1.title')}
             description={t('home.services.service1.description')}
+            Link="/services/soins-bucco-dentaires"
           />
           <ServiceCard 
             bgImage={service2}
             icon="/icons/teeth.svg"
             title={t('home.services.service2.title')}
             description={t('home.services.service2.description')}
+            Link="/services/soins-bucco-dentaires"
           />
           <ServiceCard 
             bgImage={service3}
             icon="/icons/teeth.svg"
             title={t('home.services.service3.title')}
             description={t('home.services.service3.description')}
+            Link="/services/therapeutique"
           />
         </div>
       </div>

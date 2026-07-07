@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './ServiceCard.module.css'
 
-const ServiceCard = ({ bgImage, icon, title, description }) => {
+const ServiceCard = ({ bgImage, icon, title, description, Link }) => {
   return (
-    <div className={styles.serviceHoverCard}>
+    <a href={Link}>
+    <div className={styles.serviceHoverCard} >
       <div 
         className={styles.serviceBg} 
         style={{ backgroundImage: `url(${bgImage})` }}
@@ -18,6 +19,7 @@ const ServiceCard = ({ bgImage, icon, title, description }) => {
         </div>
       </div>
     </div>
+    </a>
   )
 }
 
