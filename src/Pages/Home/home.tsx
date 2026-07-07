@@ -55,7 +55,7 @@ const Homepage = () => {
       </section>
       
       
-      <div className="container">
+      <div className={` ${styles.services_section} container`}>
 
         <SectionTitle 
           title={t('home.sectionTitle.title')}

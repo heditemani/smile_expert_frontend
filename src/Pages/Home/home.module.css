@@ -104,6 +104,16 @@
     .heroImage {
         max-width: 100%;
     }
+    .services_section{
+        margin: auto;
+        padding: 0 1rem;
+    }
+    .servicesGrid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 
 
