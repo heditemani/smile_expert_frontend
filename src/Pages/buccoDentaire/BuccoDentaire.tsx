@@ -6,12 +6,6 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
-// Alignement gingival au laser diode
-
-import facette_image_1 from '../../assets/images/traitement bucco-dentaire/facettes/facette_image_1.webp';
-import facette_image_2 from '../../assets/images/traitement bucco-dentaire/facettes/facette_image_2.webp';
-import facette_image_3 from '../../assets/images/traitement bucco-dentaire/facettes/facette_image_3.webp';
-
 // Blanchiment des dents par LASER DIODE
 
 import blanchiment_image_1 from '../../assets/images/traitement bucco-dentaire/Blanchiment des dents par LASER DIODE/blanchiment_image_1.webp';
@@ -40,24 +34,11 @@ const BuccoDentaire = () => {
 
       <VideoExperience />
 
-      {/* 1. Facettes */}
-      <SectionTitle 
-        title={t('buccoDentaire.facettes.title')} 
-        description={t('buccoDentaire.facettes.subtitle')}
-        buttonText="" href=""
-      />
-      <p className={Style.description}>
-        {t('buccoDentaire.facettes.description')}
-      </p>
-      <img className={Style.image_big} src={facette_image_1} alt={t('buccoDentaire.facettes.title')} />
-      <div className={Style.images_container}>
-        <img src={facette_image_2} alt={t('buccoDentaire.facettes.title')} />
-        <img src={facette_image_3} alt={t('buccoDentaire.facettes.title')} />
-      </div>
 
 
 
-      {/* 2. Blanchiment des dents par LASER DIODE */}
+
+      {/* 1. Blanchiment des dents par LASER DIODE */}
       <SectionTitle 
         title={t('buccoDentaire.blanchiment.title')} 
         description={t('buccoDentaire.blanchiment.subtitle')}
@@ -74,7 +55,7 @@ const BuccoDentaire = () => {
 
 
 
-      {/* 3. Alignement gingival au laser diode */}
+      {/* 2. Alignement gingival au laser diode */}
       <SectionTitle 
         title={t('buccoDentaire.alignement.title')} 
         description={t('buccoDentaire.alignement.subtitle')}
@@ -91,7 +72,7 @@ const BuccoDentaire = () => {
 
       
 
-      {/* 4. Traitement de l’hyperpigmentation gingivale par laser */}
+      {/* 3. Traitement de l’hyperpigmentation gingivale par laser */}
       <SectionTitle 
         title={t('buccoDentaire.hyperpigmentation.title')} 
         description={t('buccoDentaire.hyperpigmentation.subtitle')}
