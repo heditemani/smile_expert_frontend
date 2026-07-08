@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import styles from './LaserDiode.module.css';
 
 
-import dentalChairImg from '../../assets/images/general/dental_chair_1773460614969.png';
+import LaserDiod from '../../assets/images/technologies/Laser Diode v.webp';
 import VideoExperience from '../../components/VideoExperience/VideoExperience';
 
 const LaserDiode = () => {
@@ -20,7 +20,7 @@ const LaserDiode = () => {
 
             <div className={styles.serviceDetailsContent}>
             <div className={styles.serviceImage}>
-                <img src={dentalChairImg} alt="Laser Diode Service" />
+                <img src={LaserDiod} alt="Laser Diode Service" />
             </div>
             <div className={styles.serviceText}>
                 <p className={styles.serviceDescLarge}>

@@ -1,7 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './ScannerFacial.module.css';
-import scannerImg from '../../assets/images/general/scanner_intraorale.jpg';
+
+
+import scannerFacial from '../../assets/images/technologies/scanner facial v.webp';
 import VideoExperience from '../../components/VideoExperience/VideoExperience';
 
 const ScannerFacial = () => {
@@ -22,7 +24,7 @@ const ScannerFacial = () => {
                 {/* Content Section */}
                 <div className={styles.serviceDetailsContent}>
                     <div className={styles.serviceImage}>
-                        <img src={scannerImg} alt="Scanner Intraoral Service" />
+                        <img src={scannerFacial} alt="Scanner Facial Service" />
                     </div>
                     <div className={styles.serviceText}>
                         <p className={styles.serviceDescLarge}>
