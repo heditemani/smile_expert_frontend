@@ -23,8 +23,8 @@
 
 .serviceDetailsContent {
     display: flex;
-    align-items: stretch; /* Hna el-tswira wel-text yjiw f nafes el-toul EXACT */
-    gap: 3rem; /* El-fadha2 bin el-tswira wel-text */
+    align-items: stretch; 
+    gap: 3rem; 
 }
 
 .serviceImage {
