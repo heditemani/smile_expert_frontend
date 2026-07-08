@@ -17,9 +17,9 @@ import img3 from '../../assets/images/about_page/about_gallery_image_3.webp';
 import img4 from '../../assets/images/about_page/about_gallery_image_4.webp';
 
 
-import techImg1 from '../../assets/images/about_page/technologie_image_1.webp';
-import techImg2 from '../../assets/images/about_page/technologie_image_2.webp';
-import techImg3 from '../../assets/images/about_page/technologie_image_1.webp';
+import techImg1 from '../../assets/images/about_page/laser_diode.webp';
+import techImg2 from '../../assets/images/about_page/scaner_intraoral.webp';
+import techImg3 from '../../assets/images/about_page/scannr_facial.webp';
 
 
 import expertiseImg from '../../assets/images/about_page/expertise_image.webp';

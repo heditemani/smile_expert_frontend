@@ -16,7 +16,6 @@ import service3 from '../../assets/images/general/service_3_indexpage.jpg';
 
 import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
 
-// Consultation image
 import consultationImg from '../../assets/images/general/consultation_image.jpg';
 import receptionImg from '../../assets/images/general/reception.png';
 
