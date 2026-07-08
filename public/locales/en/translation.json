@@ -254,7 +254,19 @@
     "blanchiment": {
       "title": "In-Office Fast Whitening",
       "description": "Chairside clinical whitening protocol that safely brightens teeth by multiple shades in a single session."
-    }
+    },
+    "Détartrage": {
+      "title": "Dental Scaling",
+      "description": "A professional cleaning to remove tartar and plaque, preventing periodontal diseases and maintaining optimal oral health."
+    },
+    "fermeture_diasteme": {
+      "title": "Diastema Closure",
+      "description": "A cosmetic procedure to close gaps or spaces between teeth using composite bonding, veneers, or orthodontic treatments to improve your smile."
+    },
+    "herpes_labial": {
+      "title": "Cold Sore Treatment",
+      "description": "Targeted care and treatments to soothe, heal, and manage outbreaks of oral herpes, reducing discomfort and recovery time."
+    } 
   },
   "ctaSplit": {
     "titleLine1": "Ready to experience",

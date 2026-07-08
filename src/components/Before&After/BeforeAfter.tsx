@@ -17,8 +17,8 @@ const BeforeAfter: React.FC<BeforeAfterProps> = ({
   afterImage,
   beforeAlt = 'Avant',
   afterAlt = 'Après',
-  title = 'Éclaircissement Dentaire',
-  description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+  title = '',
+  description = "",
   initialPosition = 50,
 }) => {
   const [position, setPosition] = useState<number>(initialPosition);

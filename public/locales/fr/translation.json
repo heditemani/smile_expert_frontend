@@ -252,6 +252,18 @@
     "blanchiment": {
       "title": "Blanchiment Dentaire",
       "description": "Traitement de blanchiment au fauteuil pour gagner plusieurs teintes de blancheur en une seule séance, de manière totalement sécurisée."
+    },
+    "Détartrage": {
+      "title": "Détartrage",
+      "description": "Un nettoyage professionnel pour éliminer le tartre et la plaque dentaire, prévenant ainsi les maladies parodontales et maintenant la santé bucco-dentaire."
+    },
+    "fermeture_diasteme": {
+      "title": "Fermeture de Diastème",
+      "description": "Un traitement esthétique pour fermer les espaces entre les dents à l'aide de composites, de facettes ou d'orthodontie pour améliorer le sourire."
+    },
+    "herpes_labial": {
+      "title": "Traitement de l'Herpès Labial",
+      "description": "Soins et traitements ciblés pour apaiser, guérir et gérer les poussées d'herpès buccal, réduisant l'inconfort et le temps de cicatrisation."
     }
   },
   "ctaSplit": {

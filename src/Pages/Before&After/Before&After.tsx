@@ -29,6 +29,17 @@ import after8 from '../../assets/images/BeforeAfter_Page/after8.webp';
 import before9 from '../../assets/images/BeforeAfter_Page/before9.webp';
 import after9 from '../../assets/images/BeforeAfter_Page/after9.webp';
 
+import before10 from '../../assets/images/BeforeAfter_Page/before10.webp';
+import after10 from '../../assets/images/BeforeAfter_Page/after10.webp';
+
+import before11 from '../../assets/images/BeforeAfter_Page/before11.webp';
+import after11 from '../../assets/images/BeforeAfter_Page/after11.webp';
+
+import before12 from '../../assets/images/BeforeAfter_Page/before12.webp';
+import after12 from '../../assets/images/BeforeAfter_Page/after12.webp';
+
+import before13 from '../../assets/images/BeforeAfter_Page/before13.webp';
+import after13 from '../../assets/images/BeforeAfter_Page/after13.webp';
 
 const BeforeAfter = () => {
   const { t } = useTranslation();
@@ -87,7 +98,32 @@ const BeforeAfter = () => {
         key: "blanchiment",
         imageBefore: before7,
         imageAfter: after7,
+    },
+    {
+        id: 10,
+        key: "Détartrage",
+        imageBefore: before10,
+        imageAfter: after10,
+    },
+    {
+        id: 11,
+        key: "fermeture_diasteme",
+        imageBefore: before11,
+        imageAfter: after11,
+    },
+    {
+        id: 12,
+        key: "fermeture_diasteme",
+        imageBefore: before12,
+        imageAfter: after12,
+    },
+    {
+        id: 13,
+        key: "herpes_labial",
+        imageBefore: before13,
+        imageAfter: after13,
     }
+
   ];
 
   

@@ -254,6 +254,18 @@
     "blanchiment": {
       "title": "Sbiancamento Rapido in Studio",
       "description": "Protocollo di sbiancamento alla poltrona che permette di guadagnare diverse tonalità in una sola seduta, in totale sicurezza."
+    },
+    "Détartrage": {
+      "title": "Detartrasi",
+      "description": "Una pulizia professionale per rimuovere tartaro e placca batterica, prevenendo le malattie parodontali e mantenendo la salute orale."
+    },
+    "fermeture_diasteme": {
+      "title": "Chiusura del Diastema",
+      "description": "Un trattamento estetico per chiudere gli spazi o i vuoti tra i denti, utilizzando bonding in composito, faccette o ortodonzia per migliorare il sorriso."
+    },
+    "herpes_labial": {
+      "title": "Trattamento Herpes Labiale",
+      "description": "Cure e trattamenti mirati per lenire, guarire e gestire le manifestazioni dell'herpes labiale, riducendo il fastidio e i tempi di guarigione."
     }
   },
   "ctaSplit": {
