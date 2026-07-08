@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import styles from './LaserDiode.module.css';
+import styles from '../ScannerFacial/ScannerFacial.module.css';
 
 
 import LaserDiod from '../../assets/images/technologies/Laser Diode v.webp';

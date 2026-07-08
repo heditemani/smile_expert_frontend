@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import styles from './ScannerIntraoral.module.css';
+import styles from '../ScannerFacial/ScannerFacial.module.css';
 
 import scannerImg from '../../assets/images/technologies/Scanner Intraoral v.webp';
 import VideoExperience from '../../components/VideoExperience/VideoExperience';

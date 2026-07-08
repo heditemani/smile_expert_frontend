@@ -22,40 +22,37 @@
 
 
 .serviceDetailsContent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3.5rem;
-    align-items: start;
-    margin-bottom: 5rem;
+    display: flex;
+    align-items: stretch; /* Hna el-tswira wel-text yjiw f nafes el-toul EXACT */
+    gap: 3rem; /* El-fadha2 bin el-tswira wel-text */
 }
 
 .serviceImage {
-    width: 100%;
-    border-radius: var(--border-radius-md);
-    overflow: hidden;
+    flex: 1; 
+    display: flex;
 }
 
 .serviceImage img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: cover; 
     display: block;
     border-radius: var(--border-radius-md);
 }
 
 .serviceText {
+    flex: 1.2;
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
+    padding: 1rem 0; 
 }
 
 .serviceDescLarge {
-    color: var(--text-main);
-    line-height: 200%;
-    font-size: 24px;
     margin: 0;
-    letter-spacing: 5%;
-    opacity: 0.85;
-    text-align: justify;
+    line-height: 1.8; 
+    font-size: 1.5rem;
+    text-align: justify; 
 }
 
 
