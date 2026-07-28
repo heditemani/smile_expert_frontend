@@ -106,7 +106,7 @@
     "services": {
       "service1": {
         "title": "Traitements Bucco-Dentaire",
-        "description": "Des améliorations esthétiques aux soins dentaires functional adéquats à vos objectifs"
+        "description": "Des traitements de qualité pour une santé orale optimale et un sourire en confiance"
       },
       "service2": {
         "title": "Acte de Soins Bucco-Dentaire",
@@ -118,8 +118,8 @@
       }
     },
     "consultation": {
-      "title": "Vous ne savez pas quel service vous convient ?",
-      "description": "Contactez-nous pour une consultation personnalisée nous vous accompagnerons à chaque étape.",
+      "title": "Besoin d'une évaluation bucco-dentaire ?",
+      "description": "Lors de la consultation, nous réalisons un examen clinique complet et, si nécessaire, des examens complémentaires afin d'établir un diagnostic précis et un plan de traitement adapté.",
       "button": "Contactez-nous"
     },
     "video": {
@@ -143,16 +143,16 @@
       "subtitle": "La satisfaction de nos patients est notre plus belle réussite.",
       "reviews": {
         "r1": {
-          "name": "Amine Mansour",
-          "text": "La clinique est nickel, l'équipe est très pro, et mes soins ont été faits sans aucune douleur. Je me sens toujours chouchouté."
+          "name": "Majdi Felah",
+          "text": "Honnêtement, je tiens à remercier la Dre Sarra pour son excellent travail et son grand professionnalisme. Elle est vraiment sympathique et douce, et je me suis senti(e) à l'aise pendant tout le rendez-vous. La clinique est propre, hygiénique et bien organisée, et le souci du détail se voit vraiment. Mon traitement a été réalisé avec beaucoup de soin. L'une des meilleures expériences dentaires que j'ai pu avoir ❤️🦷🪥"
         },
         "r2": {
-          "name": "Elena Rossi",
-          "text": "Un service exceptionnel ! Des explications claires avant le traitement et un résultat parfait pour mon blanchiment dentaire."
+          "name": "Tayari wiem",
+          "text": "Je tiens à remercier le Dr Sarra pour son excellent travail et son professionnalisme. La clinique est impeccable et très bien organisée 😍 Mon traitement a été réalisé avec beaucoup d'attention 🙏 Elle est très gentille et vous accueille toujours avec un beau sourire 😊 Merci pour vos excellents services ❤️"
         },
         "r3": {
-          "name": "Sarah Ben Ali",
-          "text": "Très satisfaite de mon expérience. L'accueil est chaleureux et la technologie utilisée est très moderne. Je recommande vivement !"
+          "name": "Nafti Sissa",
+          "text": "Je recommande vivement Dr Sarra Haouet qui fait preuve d'un grand professionnalisme et d'une excellente maîtrise de son domaine. L'accueil est très chaleureux, l'hygiène irréprochable et les soins sont réalisés avec beaucoup de précision. J’ai particulièrement apprécié la clarté des explications et le suivi après le traitement. Une expérience très positive et les résultats obtenus sont à la hauteur mes attentes. Merci infiniment."
         }
       }
     }
@@ -428,7 +428,7 @@
 },
 "video_experience": {
     "title": "Découvrez Smile Expert",
-    "subtitle": "Découvrez comment nous rendons chaque visite confortable et efficace"
+    "subtitle": "Une approche centrée sur la qualité des soins, la précision du diagnostic et le confort du patient, pour une prise en charge bucco-dentaire optimale."
   }
 
 

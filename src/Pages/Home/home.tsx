@@ -106,7 +106,6 @@ const Homepage = () => {
               <img 
                 src={consultationImg} 
                 alt="Dentist Consulting"
-                style={{ aspectRatio: '1/1', objectFit: 'cover', borderRadius: '1rem 0 0 1rem' }}
               />
             </div>
             <div className={styles.consultation_content}>

@@ -61,6 +61,7 @@
     display: block;
 }
 
+
 .heroDescription {
     font-size: 1.1rem;
     color: var(--text-main);
@@ -68,7 +69,7 @@
     opacity: 0.9;
 }
 
-/* Animations */
+
 @keyframes alertFadeInUp {
     from {
         opacity: 0;
@@ -80,7 +81,6 @@
     }
 }
 
-/* Responsive Grid for Tablets & Mobile */
 @media (max-width: 991px) {
     .heroContainer {
         flex-direction: column;
@@ -166,11 +166,20 @@
     background: var(--secondary-bg);
     border-radius: var(--border-radius-md);
     overflow: hidden;
+    align-items: stretch; 
 }
 
 .consultation_image {
-    flex: 1;
+    flex: 1; 
     min-width: 300px;
+    position: relative;
+}
+
+.consultation_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
 }
 
 .consultation_content {
@@ -184,7 +193,6 @@
 
 .consultation_content h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
     color: var(--text-main);
     line-height: 1.2;
 }
@@ -367,6 +375,7 @@
     opacity: 0.8;
     line-height: 1.6;
     margin: 0;
+
 }
 
 /* Responsive for tablets and mobile */
