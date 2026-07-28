@@ -353,9 +353,12 @@
 
 .avatar {
     width: 50px;
+    height: 50%;
     border-radius: 50%;
-    background-color: var(--secondary-bg);
+    padding: 0.25rem;
+    filter: brightness(0) saturate(100%) invert(29%) sepia(61%) saturate(1707%) hue-rotate(152deg) brightness(99%) contrast(102%);
 }
+
 
 .reviewUser h4 {
     font-size: 1.1rem;
