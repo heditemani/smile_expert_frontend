@@ -202,7 +202,7 @@ const Homepage = () => {
                 <div key={num} className={styles.reviewCard}>
                   <div className={styles.reviewHead}>
                     <div className={styles.reviewUser}>
-                      <div className={styles.avatar}></div>
+                      <div ><img src="/icons/avatar.svg" className={styles.avatar} alt="" /></div>
                       <h4>{t(`home.testimonials.reviews.r${num}.name`)}</h4>
                     </div>
                     <div className={styles.stars}>★★★★★</div>
