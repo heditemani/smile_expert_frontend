@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className={styles['footer-links']}>
               <li><Link to="/">{t('nav.home')}</Link></li>
               <li><Link to="/about">{t('nav.about')}</Link></li>
-              <li><Link to="/before-after">{t('nav.before_after')}</Link></li>
+              <li><Link to="/Before&After">{t('nav.before_after')}</Link></li>
               <li><Link to="/services">{t('nav.services')}</Link></li>
               <li><Link to="/contact">{t('nav.contact')}</Link></li>
             </ul>
