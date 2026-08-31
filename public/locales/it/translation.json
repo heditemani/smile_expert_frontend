@@ -197,6 +197,25 @@
       "item5": "Precisione millimetrica per restauri stabili e duraturi"
     }
   },
+  "scanner_facial": {
+  "hero": {
+    "title": "Scanner Facciale",
+    "subtitle": "La Precisione 3D al Servizio del Tuo Viso"
+  },
+  "content": {
+    "description": "Lo scanner faciale è una tecnologia digitale avanzata che consente di catturare in pochi secondi la morfologia completa del viso in 3D con elevata precisione. Sostituisce i metodi tradizionali di valutazione visiva e offre una modellazione tridimensionale realistica e istantanea del paziente. Questa tecnologia sta rivoluzionando l'odontoiatria estetica e la chirurgia maxillo-facciale, permettendo di integrare il sorriso nell'armonia globale del viso."
+  },
+  "advantages": {
+    "title": "I Vantaggi dello Scanner Facciale:"
+  },
+  "advantages_items": {
+    "item1": "Visualizzazione immediata e globale sullo schermo",
+    "item2": "Comfort totale e non invasivo per il paziente",
+    "item3": "Pianificazione su misura dei trattamenti estetici e protesici",
+    "item4": "Notevole risparmio di tempo durante le visite e i controlli",
+    "item5": "Eccezionale precisione 3D per l'armonia del viso"
+  }
+},
   "about": {
     "banner": {
       "title": "Informazioni sull'esperto del sorriso",

@@ -195,6 +195,25 @@
       "item5": "Une précision 3D exceptionnelle"
     }
   },
+  "scanner_facial": {
+  "hero": {
+    "title": "Scanner Facial",
+    "subtitle": "La Précision 3D au Service de Votre Visage"
+  },
+  "content": {
+    "description": "Le scanner facial est une technologie numérique avancée qui permet de capturer en quelques secondes la morphologie complète du visage en 3D avec une haute précision. Il remplace les méthodes traditionnelles d'évaluation visuelle et offre une modélisation tridimensionnelle réaliste et instantanée du patient. Cette technologie révolutionne la dentisterie esthétique et la chirurgie maxillo-faciale, permettant d'intégrer le sourire dans l'harmonie globale du visage."
+  },
+  "advantages": {
+    "title": "Les Avantages du Scanner Facial :"
+  },
+  "advantages_items": {
+    "item1": "Visualisation immédiate et globale sur écran",
+    "item2": "Un confort total et non invasif pour le patient",
+    "item3": "Planification sur-mesure des traitements esthétiques et prothétiques",
+    "item4": "Gain de temps précieux lors des consultations et des suivis",
+    "item5": "Une précision 3D exceptionnelle pour l'harmonie du visage"
+  }
+},
   "about": {
     "banner": {
       "title": "À propos de Smile Expert",

@@ -17,8 +17,8 @@ const ScannerFacial = () => {
                 
                 {/* Header Section */}
                 <div className={styles.serviceDetailsHeader}>
-                    <h2 className={styles.serviceDetailsTitle}>{t('scanner_intraoral.hero.title')}</h2>
-                    <p className={styles.serviceDetailsSubtitle}>{t('scanner_intraoral.hero.subtitle')}</p>
+                    <h2 className={styles.serviceDetailsTitle}>{t('scanner_facial.hero.title')}</h2>
+                    <p className={styles.serviceDetailsSubtitle}>{t('scanner_facial.hero.subtitle')}</p>
                 </div>
 
                 {/* Content Section */}
@@ -28,31 +28,31 @@ const ScannerFacial = () => {
                     </div>
                     <div className={styles.serviceText}>
                         <p className={styles.serviceDescLarge}>
-                            {t('scanner_intraoral.content.description')}
+                            {t('scanner_facial.content.description')}
                         </p>
                     </div>
                 </div>
 
                 {/* Advantages Section */}
                 <div className={styles.serviceAdvantages}>
-                    <h3 className={styles.advantagesTitle}>{t('scanner_intraoral.advantages.title')}</h3>
+                    <h3 className={styles.advantagesTitle}>{t('scanner_facial.advantages.title')}</h3>
                     
                     <ul className={styles.advantagesList}>
                         <li>
                             <img src="/icons/service_green_check.svg" alt="check" /> 
-                            {t('scanner_intraoral.advantages_items.item1')}
+                            {t('scanner_facial.advantages_items.item1')}
                         </li>
                         <li>
                             <img src="/icons/service_green_check.svg" alt="check" /> 
-                            {t('scanner_intraoral.advantages_items.item2')}
+                            {t('scanner_facial.advantages_items.item2')}
                         </li>
                         <li>
                             <img src="/icons/service_green_check.svg" alt="check" /> 
-                            {t('scanner_intraoral.advantages_items.item3')}
+                            {t('scanner_facial.advantages_items.item3')}
                         </li>
                         <li>
                             <img src="/icons/service_green_check.svg" alt="check" /> 
-                            {t('scanner_intraoral.advantages_items.item4')}
+                            {t('scanner_facial.advantages_items.item4')}
                         </li>
                     </ul>
                 </div>

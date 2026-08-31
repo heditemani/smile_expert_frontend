@@ -197,6 +197,25 @@
       "item5": "Exceptional micro-level margins for a flawless fit"
     }
   },
+  "scanner_facial": {
+  "hero": {
+    "title": "Facial Scanner",
+    "subtitle": "3D Precision Dedicated to Your Face"
+  },
+  "content": {
+    "description": "The facial scanner is an advanced digital technology that captures the complete morphology of the face in 3D within seconds and with high precision. It replaces traditional visual evaluation methods and offers realistic, instant three-dimensional modeling of the patient. This technology is revolutionizing aesthetic dentistry and maxillofacial surgery, seamlessly integrating the smile into the overall harmony of the face."
+  },
+  "advantages": {
+    "title": "Benefits of the Facial Scanner:"
+  },
+  "advantages_items": {
+    "item1": "Immediate and comprehensive screen visualization",
+    "item2": "Total and non-invasive patient comfort",
+    "item3": "Custom planning for aesthetic and prosthetic treatments",
+    "item4": "Valuable time saved during consultations and follow-ups",
+    "item5": "Exceptional 3D precision for facial harmony"
+  }
+},
   "about": {
     "banner": {
       "title": "About Smile Expert",
