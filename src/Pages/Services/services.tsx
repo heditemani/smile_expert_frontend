@@ -17,6 +17,7 @@ import banner2 from '../../assets/images/services/banner/img2.webp';
 import Blanchimentdesdents from "../../assets/images/services/service1/Blanchiment des dents par LASER DIODE.webp";
 import Alignementgingival from "../../assets/images/services/service1/Alignement gingival au laser diode.webp";
 import Traitementdelhyper  from "../../assets/images/services/service1/Traitement hyprpigmntation par lasr.webp";
+import Frénectomie from "../../assets/images/services/service1/Frénectomie.webp";
 
 
 import Examensréguliers from "../../assets/images/services/service1/xamns réguliers.webp";
@@ -71,6 +72,13 @@ const Services = () => {
           title: t('services.items.hyperpigmentation.title'),
           subtitle: t('services.items.hyperpigmentation.subtitle'),
           image:  Traitementdelhyper, 
+          icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
+        },
+        {
+          id: "b4",
+          title: t('services.items.Frénectomie.title'),
+          subtitle: t('services.items.Frénectomie.subtitle'),
+          image:  Frénectomie , 
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
         },
       ],

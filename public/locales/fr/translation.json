@@ -36,16 +36,20 @@
     },
     "items": {
       "blanchiment": {
-        "title": "Blanchiment des dents par LASER DIODE",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Blanchiment des dents",
+        "subtitle": "Redonnez de l'éclat à votre sourire"
       },
       "Alignement": {
-        "title": "Alignement gingival au laser diode",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Alignement gingival",
+        "subtitle": "Harmonisez les contours de vos gencives"
       },
       "hyperpigmentation": {
-        "title": "Traitement de l'hyperpigmentation gingivale par laser",
-        "subtitle": "preventive care and routine checkups"
+        "title": "Traitement de l'hyperpigmentation gingivale",
+        "subtitle": "Retrouvez une couleur gingivale naturelle"
+      },
+      "Frénectomie": {
+        "title": "Frénectomie",
+        "subtitle": "Libérez les mouvements des tissus buccaux"
       },
       "examens": {
         "title": "Examens réguliers",
