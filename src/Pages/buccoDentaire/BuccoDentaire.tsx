@@ -25,6 +25,12 @@ import traitement_image_2 from '../../assets/images/traitement bucco-dentaire/Tr
 import traitement_image_3 from '../../assets/images/traitement bucco-dentaire/Traitement de l’hyperpigmentation gingivale par laser/traitement_image_3.webp';
 
 
+// frenectomie
+
+import frenectomie_image_1 from '../../assets/images/traitement bucco-dentaire/Frenectomie/frenectomie_image_1.webp';
+import frenectomie_image_2 from '../../assets/images/traitement bucco-dentaire/Frenectomie/frenectomie_image_2.webp';
+import frenectomie_image_3 from '../../assets/images/traitement bucco-dentaire/Frenectomie/frenectomie_image_3.webp';
+
 
 const BuccoDentaire = () => {
   const { t } = useTranslation();
@@ -92,10 +98,10 @@ const BuccoDentaire = () => {
       <p className={Style.description}>
         {t('buccoDentaire.frenectomie.description')}
       </p>
-      <img className={Style.image_big} src={traitement_image_1} alt={t('buccoDentaire.frenectomie.title')} />
+      <img className={Style.image_big} src={frenectomie_image_1} alt={t('buccoDentaire.frenectomie.title')} />
       <div className={Style.images_container}>
-        <img src={traitement_image_2} alt={t('buccoDentaire.frenectomie.title')} />
-        <img src={traitement_image_3} alt={t('buccoDentaire.frenectomie.title')} />
+        <img src={frenectomie_image_2} alt={t('buccoDentaire.frenectomie.title')} />
+        <img src={frenectomie_image_3} alt={t('buccoDentaire.frenectomie.title')} />
       </div>
     </div>
   );
