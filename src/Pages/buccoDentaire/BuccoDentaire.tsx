@@ -82,6 +82,21 @@ const BuccoDentaire = () => {
         <img src={traitement_image_2} alt={t('buccoDentaire.hyperpigmentation.title')} />
         <img src={traitement_image_3} alt={t('buccoDentaire.hyperpigmentation.title')} />
       </div>
+
+    {/* 4. Frénectomie */}
+      <SectionTitle 
+        title={t('buccoDentaire.frenectomie.title')} 
+        description={t('buccoDentaire.frenectomie.subtitle')}
+        buttonText="" href=""
+      />
+      <p className={Style.description}>
+        {t('buccoDentaire.frenectomie.description')}
+      </p>
+      <img className={Style.image_big} src={traitement_image_1} alt={t('buccoDentaire.frenectomie.title')} />
+      <div className={Style.images_container}>
+        <img src={traitement_image_2} alt={t('buccoDentaire.frenectomie.title')} />
+        <img src={traitement_image_3} alt={t('buccoDentaire.frenectomie.title')} />
+      </div>
     </div>
   );
 };

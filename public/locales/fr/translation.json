@@ -357,19 +357,24 @@
       "description": "Les facettes dentaires permettent d’obtenir un sourire harmonieux en un temps record. Grâce à la conception numérique du sourire et aux systèmes CFAO, le résultat est précis, rapide et durable.\nAvec un entretien approprié, elles peuvent durer une décennie et plus."
     },
     "blanchiment": {
-      "title": "Blanchiment des dents par LASER DIODE",
+      "title": "Blanchiment des dents",
       "subtitle": "Révélez votre meilleur sourire",
       "description": "C’est une intervention dentaire esthétique visant à éliminer les taches et à éclaircir l'émail des dents. C’est un processus personnalisé, adapté à la teinte d'origine et aux préférences du patient.\nLe blanchiment est un acte qui vous motive à adopter de bonnes habitudes pour conserver une bonne hygiène bucco-dentaire"
     },
     "alignement": {
-      "title": "Alignement gingival au laser diode",
+      "title": "Alignement gingival",
       "subtitle": "Révélez votre meilleur sourire",
       "description": "Le remodelage gingival corrige les irrégularités du sourire tout en favorisant la santé des gencives. Grâce au laser diode, la procédure est douce, précise et sans douleur, avec une récupération rapide."
     },
     "hyperpigmentation": {
-      "title": "Traitement de l’hyperpigmentation gingivale par laser",
+      "title": "Traitement de l’hyperpigmentation gingivale",
       "subtitle": "Révélez votre meilleur sourire",
       "description": "L’hyperpigmentation gingivale est une coloration foncée des gencives, souvent due à une accumulation de mélanine. Le laser dentaire constitue une solution moderne, minimement invasive et efficace pour ce type de pigmentation.\nCette technique assure un contrôle précis et un traitement rapide et confortable pour le patient."
+    },
+    "frenectomie": {
+      "title": "Frénectomie",
+      "subtitle": "Libère les mouvements des tissus bucco-dentaires",
+      "description": "La frénectomie est une intervention rapide et précise visant à retirer ou ajuster un frein labial ou lingual trop court. Réalisée au laser, elle libère le mouvement des lèvres ou de la langue, améliore l'élocution et optimise l'alignement dentaire pour un confort parfait."
     }
   },
 
