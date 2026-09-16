@@ -380,14 +380,14 @@
   },
   "SoinsbuccoDentaire": {
     "Examensreguliers": {
-      "title": "Diagnostica e Profilassi Professionale",
-      "subtitle": "La base della salute orale",
-      "description": "Una corretta prevenzione è il pilastro di un sorriso duraturo. Le nostre sedute includono ablazione del tartaro a ultrasuoni, air-polishing per la rimozione delle macchie e terapie di rimineralizzazione dello smalto al fluoro."
+      "title": "Visite di controllo regolari",
+      "subtitle": "Prenditi cura del tuo sorriso",
+      "description": "Controlli dentali regolari aiutano a mantenere denti e gengive sani e permettono di individuare piccoli problemi prima che diventino più importanti. Una semplice visita può fare la differenza per mantenere un sorriso sano e bello nel tempo."
     },
     "SoinsPreventifs": {
-      "title": "Odontoiatria Conservativa Protettrice",
-      "subtitle": "Preservare la struttura naturale",
-      "description": "Dai restauri diretti in composito all'endodonzia assistita da laser, il nostro obiettivo clinico è sempre la conservazione degli elementi dentali. Ogni intervento viene eseguito con sistemi di ingrandimento per azzerare i fastidi."
+      "title": "Cure preventive",
+      "subtitle": "Un sorriso sano nasce dalla cura quotidiana",
+      "description": "La detartrasi, l’air polishing e l’applicazione del fluoro aiutano a mantenere i denti puliti, forti e protetti. Questi semplici trattamenti aiutano a prevenire carie e problemi gengivali, prendendosi cura del tuo sorriso giorno dopo giorno."
     }
   },
   "Therapeutique": {

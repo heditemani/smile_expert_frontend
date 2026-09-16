@@ -380,14 +380,14 @@
   },
   "SoinsbuccoDentaire": {
     "Examensreguliers": {
-      "title": "Preventive Diagnostics & Cleanings",
-      "subtitle": "Securing your smile baseline",
-      "description": "Excellent prophylaxis is the absolute foundation of long-term health. Our preventive sessions incorporate advanced ultrasonic scaling, air-polishing stain removal, and therapeutic remineralization treatments to strengthen enamel."
+      "title": "Regular Check-ups",
+      "subtitle": "Take Care of Your Smile",
+      "description": "Regular dental visits help keep your teeth and gums healthy while allowing us to spot small problems before they become bigger ones. A simple check-up can make a real difference when it comes to maintaining a healthy, confident smile."
     },
     "SoinsPreventifs": {
-      "title": "Conservative Tooth Protection",
-      "subtitle": "Preserving natural tooth structures",
-      "description": "From biomimetic composite bonding to advanced laser-assisted endodontics, our clinical goal is always tooth preservation. Every procedure is performed under meticulous magnification protocols to eliminate unnecessary discomfort."
+      "title": "Preventive Care",
+      "subtitle": "A Healthy Smile Starts with Good Care",
+      "description": "Scaling, air polishing, and fluoride treatments help keep your teeth clean, strong, and protected. These simple treatments can help prevent cavities and gum problems while keeping your smile healthy every day."
     }
   },
   "Therapeutique": {
