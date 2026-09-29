@@ -17,6 +17,45 @@ interface SmileRevealProps {
   caption?: string;
 }
 
+const Arrow = () => (
+  <svg
+    className={styles.arrow}
+    viewBox="0 0 70 50"
+    fill="none"
+    aria-hidden="true"
+  >
+    <path
+      d="M8 42 C14 15, 42 8, 62 24"
+      stroke="white"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+    />
+    <path
+      d="M55 18 L62 24 L54 27"
+      stroke="white"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+const PlusIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none">
+    <circle cx="12" cy="12" r="10" stroke="#2ec4b6" strokeWidth="2" />
+    <line x1="12" y1="7" x2="12" y2="17" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
+    <line x1="7"  y1="12" x2="17" y2="12" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
+  </svg>
+);
+
+const CloseIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none">
+    <circle cx="12" cy="12" r="10" stroke="#2ec4b6" strokeWidth="2" />
+    <line x1="8"  y1="8"  x2="16" y2="16" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
+    <line x1="16" y1="8"  x2="8"  y2="16" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
+  </svg>
+);
+
 const SmileReveal: React.FC<SmileRevealProps> = ({
   beforeSrc,
   afterSrc,
@@ -39,45 +78,6 @@ const SmileReveal: React.FC<SmileRevealProps> = ({
       });
     }
   };
-
-  const Arrow = () => (
-    <svg
-      className={styles.arrow}
-      viewBox="0 0 70 50"
-      fill="none"
-      aria-hidden="true"
-    >
-      <path
-        d="M8 42 C14 15, 42 8, 62 24"
-        stroke="white"
-        strokeWidth="2.2"
-        strokeLinecap="round"
-      />
-      <path
-        d="M55 18 L62 24 L54 27"
-        stroke="white"
-        strokeWidth="2.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-
-  const PlusIcon = () => (
-    <svg viewBox="0 0 24 24" fill="none">
-      <circle cx="12" cy="12" r="10" stroke="#2ec4b6" strokeWidth="2" />
-      <line x1="12" y1="7" x2="12" y2="17" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
-      <line x1="7"  y1="12" x2="17" y2="12" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
-    </svg>
-  );
-
-  const CloseIcon = () => (
-    <svg viewBox="0 0 24 24" fill="none">
-      <circle cx="12" cy="12" r="10" stroke="#2ec4b6" strokeWidth="2" />
-      <line x1="8"  y1="8"  x2="16" y2="16" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
-      <line x1="16" y1="8"  x2="8"  y2="16" stroke="#2ec4b6" strokeWidth="2" strokeLinecap="round" />
-    </svg>
-  );
 
   return (
     <section className={styles.banner}>

@@ -47,13 +47,30 @@
 
 /* Responsive: Fel mobile ywalliw fouq b3adh'hom */
 @media (max-width: 768px) {
+    .finalCta {
+        padding: 3rem 0;
+    }
+
     .finalCtaWrapper {
         flex-direction: column;
         text-align: center;
-        padding: 3rem 2rem;
+        padding: 2.5rem 1.5rem;
+        gap: 1.5rem;
     }
     
     .finalCtaWrapper h2 {
-        font-size: 1.8rem;
+        font-size: clamp(1.4rem, 4vw, 1.8rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .finalCtaWrapper {
+        padding: 2rem 1.25rem;
+        border-radius: var(--border-radius-md);
+    }
+
+    .btnPrimary {
+        width: 100%;
+        text-align: center;
     }
 }

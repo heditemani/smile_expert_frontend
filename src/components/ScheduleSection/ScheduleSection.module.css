@@ -94,3 +94,13 @@
         padding: 1rem 1.5rem;
     }
 }
+
+@media (max-width: 480px) {
+    .schedule {
+        padding: 2rem 0;
+    }
+    .scheduleRow {
+        padding: 0.85rem 1rem;
+        font-size: 0.9rem;
+    }
+}

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, ChangeEvent, MouseEvent } from 'react';
 import styles from './VideoExperience.module.css';
 import { useTranslation } from 'react-i18next';
 
@@ -12,7 +12,7 @@ const VideoExperience = () => {
     const [duration, setDuration] = useState(0);
     const [volume, setVolume] = useState(1);
     const [isMuted, setIsMuted] = useState(false);
-    const videoRef = useRef(null);
+    const videoRef = useRef<HTMLVideoElement>(null);
 
     // Update progress bar timeline
     const handleTimeUpdate = () => {
@@ -29,7 +29,7 @@ const VideoExperience = () => {
     };
 
     // Timeline seek logic
-    const handleTimelineChange = (e) => {
+    const handleTimelineChange = (e: ChangeEvent<HTMLInputElement>) => {
         const time = Number(e.target.value);
         if (videoRef.current) {
             videoRef.current.currentTime = time;
@@ -38,7 +38,7 @@ const VideoExperience = () => {
     };
 
     // Volume change logic
-    const handleVolumeChange = (e) => {
+    const handleVolumeChange = (e: ChangeEvent<HTMLInputElement>) => {
         const vol = Number(e.target.value);
         setVolume(vol);
         if (videoRef.current) {
@@ -61,7 +61,7 @@ const VideoExperience = () => {
         }
     };
 
-    const handlePlayClick = (e) => {
+    const handlePlayClick = (e: MouseEvent) => {
         e.stopPropagation(); 
         if (videoRef.current) {
             videoRef.current.play()

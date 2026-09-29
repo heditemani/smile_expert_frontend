@@ -2,14 +2,12 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './index.css'
 
 // les components
-
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import FinalCTA from './components/FinalCTA/FinalCTA'
+import ScrollToTop from './components/ScrollToTop'
 
 // les pages
-
-
 import HomePage from './Pages/Home/home'
 import ContactPage from './Pages/contact/contact'
 import About from './Pages/About/About'
@@ -24,13 +22,13 @@ import Therapeutique from './Pages/Therapeutique/Therapeutique'
 import Prothesesdentaires from './Pages/Prothesesdentaires/Prothesesdentaires'
 import NotFound from './Pages/NotFound/NotFound'
 
-
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       {/* Navbar  */}
       <Navbar />
-      <div style={{ height: '80px' }} /> 
+      <div style={{ height: '72px' }} /> 
 
       <Routes>
         {/* Les pages principales */}
@@ -39,6 +37,8 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/services' element={<Service/>} />
         <Route path='/Before&After' element={<Beforeafter />} />
+        <Route path='/before-and-after' element={<Beforeafter />} />
+        <Route path='/before&after' element={<Beforeafter />} />
         <Route path='/laser' element={<LaserDiode />} />
         <Route path='/scanner.intraoral' element={<ScannerIntraoral />} />
         <Route path='/scanner.facial' element={<ScannerFacial />} />

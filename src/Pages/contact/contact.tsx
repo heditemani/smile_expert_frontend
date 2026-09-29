@@ -38,7 +38,7 @@ const Contact = () => {
   const [status, setStatus] = useState<FormStatus>({ type: '', msg: '' });
 
   const validateForm = () => {
-    let localErrors: FormErrors = {};
+    const localErrors: FormErrors = {};
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const phoneRegex = /^[0-9\s+]{8,15}$/;
 
@@ -86,7 +86,7 @@ const Contact = () => {
       } else {
         setStatus({ type: 'error', msg: result.message || 'Une erreur est survenue.' });
       }
-    } catch (err) {
+    } catch {
       setStatus({ type: 'error', msg: 'Erreur de connexion au serveur.' });
     }
   };
@@ -96,10 +96,12 @@ const Contact = () => {
       {/* Banner */}
       <BannerSlider 
         images={[banner1]} 
-        title={t('about.banner.title')} 
-        subtitle={t('about.banner.subtitle')} 
-        buttonText={t('nav.book_now')}
-        onButtonClick={() => {/* Add navigation logic here */}}
+        title={t('contact_hero.title')} 
+        subtitle={t('contact_hero.subtitle')} 
+        buttonText={t('contact_hero.button') || t('nav.book_now')}
+        onButtonClick={() => {
+          document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
+        }}
       />
 
       {/* Contact Info & Form */}
@@ -237,7 +239,7 @@ const Contact = () => {
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1127.61206929441!2d10.6915595!3d36.4348777!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x130298c96939a449%3A0xe8edae1e7360dd5b!2sDentiste%20-%20Dr%20Sarra%20Haouet%20Nabeul%20Mrezga%20Hammamet!5e0!3m2!1sfr!2stn!4v1780717038232!5m2!1sfr!2stn"
                     className={styles.googleMap}
-                    allowFullScreen=""
+                    allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     title="Cabinet Dentaire Location"

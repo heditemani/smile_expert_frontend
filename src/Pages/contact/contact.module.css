@@ -212,6 +212,7 @@
 @media (max-width: 992px) {
     .contact-split-wrapper {
         grid-template-columns: 1fr;
+        gap: 2.5rem;
     }
     .contact-form-col {
         position: static; /* Disable sticky on smaller screens for mobile ergonomics */
@@ -236,7 +237,22 @@
 
 /* Mobile Responsiveness look */
 @media (max-width: 768px) {
+    .contact-info-title {
+        font-size: 2rem;
+    }
+    .contact-form-box {
+        padding: 2rem 1.5rem;
+    }
     .mapContainer {
         aspect-ratio: 4 / 3; /* Tji a9wa w tban vertical look fi sha7et el talifounat */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info-title {
+        font-size: 1.7rem;
+    }
+    .contact-form-box {
+        padding: 1.5rem 1rem;
     }
 }

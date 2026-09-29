@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import styles from './FinalCTA.module.css';
 
 const FinalCTA = () => {
@@ -9,9 +10,9 @@ const FinalCTA = () => {
       <div className={styles.container}>
         <div className={styles.finalCtaWrapper}>
           <h2>{t('finalCta.title')}</h2>
-          <a href="/contact" className={`${styles.btnPrimary} btn`}>
+          <Link to="/contact" className={`${styles.btnPrimary} btn`}>
             {t('finalCta.button')}
-          </a>
+          </Link>
         </div>
       </div>
     </section>
