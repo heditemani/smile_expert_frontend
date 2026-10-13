@@ -1,28 +1,21 @@
 import React, { useState } from "react";
 import styles from "./Services.module.css";
 
-
 import { ServiceCard } from "../../components/ServiceCard/ServiceCard";
 import { useTranslation } from 'react-i18next';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
 
-
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import banner1 from '../../assets/images/services/banner/img1.webp';
 import banner2 from '../../assets/images/services/banner/img2.webp';
-
-
-
 
 import Blanchimentdesdents from "../../assets/images/services/service1/Blanchiment des dents par LASER DIODE.webp";
 import Alignementgingival from "../../assets/images/services/service1/Alignement gingival au laser diode.webp";
 import Traitementdelhyper  from "../../assets/images/services/service1/Traitement hyprpigmntation par lasr.webp";
 import Frénectomie from "../../assets/images/services/service1/Frénectomie.webp";
 
-
 import Examensréguliers from "../../assets/images/services/service1/xamns réguliers.webp";
 import SoinsPréventifs from "../../assets/images/services/service1/soins préventifs.webp";
-
 
 import Collagerésine from "../../assets/images/services/service1/Collage résine Composite.webp";
 import LeTraitementsEndodontiques from "../../assets/images/services/service1/Traitement hyprpigmntation par lasr.webp";
@@ -30,13 +23,9 @@ import Extraction from "../../assets/images/services/service1/extraction.webp";
 import ChirurgieImplantaire  from "../../assets/images/services/service1/La Chirurgie Implantaire Guidée par Ordinateur.webp";
 import Traitementsdesanomalies from "../../assets/images/services/service1/Traitement des anomalies.webp";
 
-
 import ProthèsesFixes from "../../assets/images/services/service1/Prothèses Fixes.webp";
 import ProthèsesAmovibles from "../../assets/images/services/service1/La Prothèses Amovibles.webp";
 import Facettesdentaire from "../../assets/images/services/service1/Facettes dentaires.webp";
-
-
-
 
 const Services = () => {
   const { t } = useTranslation();
@@ -55,6 +44,7 @@ const Services = () => {
       items: [
         {
           id: "b1",
+          anchor: "blanchiment",
           title: t('services.items.blanchiment.title'),
           subtitle: t('services.items.blanchiment.subtitle'),
           image: Blanchimentdesdents,
@@ -62,23 +52,26 @@ const Services = () => {
         },
         {
           id: "b2",
+          anchor: "alignement-gingival",
           title: t('services.items.Alignement.title'),
           subtitle: t('services.items.Alignement.subtitle'),
-          image:Alignementgingival,
+          image: Alignementgingival,
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth2.svg" alt="Icon" className={styles.icon} />,
         },
         {
           id: "b3",
+          anchor: "hyperpigmentation",
           title: t('services.items.hyperpigmentation.title'),
           subtitle: t('services.items.hyperpigmentation.subtitle'),
-          image:  Traitementdelhyper, 
+          image: Traitementdelhyper, 
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
         },
         {
           id: "b4",
+          anchor: "frenectomie",
           title: t('services.items.Frénectomie.title'),
           subtitle: t('services.items.Frénectomie.subtitle'),
-          image:  Frénectomie , 
+          image: Frénectomie, 
           icon: <img src="/icons/blanchiment_laser_diode_icon_teeth.svg" alt="Icon" className={styles.icon} />,
         },
       ],
@@ -91,6 +84,7 @@ const Services = () => {
       items: [
         {
           id: "p1",
+          anchor: "examens-reguliers",
           title: t('services.items.examens.title'),
           subtitle: t('services.items.examens.subtitle'),
           image: Examensréguliers,
@@ -98,6 +92,7 @@ const Services = () => {
         },
         {
           id: "p2",
+          anchor: "soins-preventifs",
           title: t('services.items.soins.title'),
           subtitle: t('services.items.soins.subtitle'),
           image: SoinsPréventifs,
@@ -113,6 +108,7 @@ const Services = () => {
       items: [
         {
           id: "e1",
+          anchor: "collage-resine",
           title: t('services.items.Collage.title'),
           subtitle: t('services.items.Collage.subtitle'),
           image: Collagerésine,
@@ -120,20 +116,23 @@ const Services = () => {
         },
         {
           id: "e2",
+          anchor: "traitements-endodontiques",
           title: t('services.items.Traitement.title'),
           subtitle: t('services.items.Traitement.subtitle'),
-          image: LeTraitementsEndodontiques ,
+          image: LeTraitementsEndodontiques,
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
         },
         {
           id: "e3",
+          anchor: "extraction",
           title: t('services.items.Extraction.title'),
           subtitle: t('services.items.Extraction.subtitle'),
-          image:  Extraction ,
+          image: Extraction,
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
         },
         {
           id: "e4",
+          anchor: "chirurgie-implantaire",
           title: t('services.items.chirurgie.title'),
           subtitle: t('services.items.chirurgie.subtitle'),
           image: ChirurgieImplantaire,
@@ -141,9 +140,10 @@ const Services = () => {
         },
         {
           id: "e5",
+          anchor: "anomalies",
           title: t('services.items.anomalies.title'),
           subtitle: t('services.items.anomalies.subtitle'),
-          image:Traitementsdesanomalies,
+          image: Traitementsdesanomalies,
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />,
         },
       ],
@@ -156,13 +156,15 @@ const Services = () => {
       items: [
         {
           id: "f1",
+          anchor: "protheses-fixes",
           title: t('services.items.Prothèses Fixes.title'),
           subtitle: t('services.items.Prothèses Fixes.subtitle'),
-          image:  ProthèsesFixes,
+          image: ProthèsesFixes,
           icon: <img src="/icons/mdi_tooth-outline.png" alt="Icon" className={styles.icon} />, 
         },
         {
           id: "f2",
+          anchor: "protheses-amovibles",
           title: t('services.items.Prothèses Amovibles.title'),
           subtitle: t('services.items.Prothèses Amovibles.subtitle'),
           image: ProthèsesAmovibles,
@@ -170,6 +172,7 @@ const Services = () => {
         },
         {
           id: "f3",
+          anchor: "facettes",
           title: t('services.items.Facettes.title'),
           subtitle: t('services.items.Facettes.subtitle'),
           image: Facettesdentaire,
@@ -207,6 +210,7 @@ const Services = () => {
                   icon={item.icon}
                   active={activeId === item.id}
                   onClick={() => handleCardClick(item.id)}
+                  href={`/services/${section.link}#${item.anchor}`}
                 />
               ))}   
             </div>

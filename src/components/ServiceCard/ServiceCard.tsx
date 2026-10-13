@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './ServiceCard.module.css';
 
 interface ServiceCardProps {
@@ -7,6 +8,7 @@ interface ServiceCardProps {
   icon?: React.ReactNode;
   active?: boolean;
   backgroundImage?: string;
+  href?: string;
   onClick?: () => void;
 }
 
@@ -16,9 +18,10 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
   icon, 
   backgroundImage,
   active = false,
+  href,
   onClick
 }) => {
-  return (
+  const content = (
     <div 
       className={`${styles.card} ${active ? styles.active : ''}`}
       onClick={onClick}
@@ -44,6 +47,16 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({
       </div>
     </div>
   );
+
+  if (href) {
+    return (
+      <Link to={href} style={{ textDecoration: 'none', color: 'inherit' }}>
+        {content}
+      </Link>
+    );
+  }
+
+  return content;
 };
 
 export default ServiceCard;
