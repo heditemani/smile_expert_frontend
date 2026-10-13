@@ -22,9 +22,9 @@ import traitement_image_2 from '../../assets/images/traitement bucco-dentaire/Tr
 import traitement_image_3 from '../../assets/images/traitement bucco-dentaire/Traitement de l’hyperpigmentation gingivale par laser/traitement_image_3.webp';
 
 // Frenectomie
-import frenectomie_image_1 from '../../assets/images/traitement bucco-dentaire/Frenectomie/frenectomie_image_1.webp';
-import frenectomie_image_2 from '../../assets/images/traitement bucco-dentaire/Frenectomie/frenectomie_image_2.webp';
-import frenectomie_image_3 from '../../assets/images/traitement bucco-dentaire/Frenectomie/frenectomie_image_3.webp';
+import frenectomie_image_1 from '../../assets/images/traitement bucco-dentaire/frenectomie/frenectomie_image_1.webp';
+import frenectomie_image_2 from '../../assets/images/traitement bucco-dentaire/frenectomie/frenectomie_image_2.webp';
+import frenectomie_image_3 from '../../assets/images/traitement bucco-dentaire/frenectomie/frenectomie_image_3.webp';
 
 const BuccoDentaire = () => {
   const { t } = useTranslation();

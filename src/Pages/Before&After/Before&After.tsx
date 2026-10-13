@@ -35,9 +35,6 @@ import after9 from '../../assets/images/BeforeAfter_Page/after9.webp';
 import before10 from '../../assets/images/BeforeAfter_Page/before10.webp';
 import after10 from '../../assets/images/BeforeAfter_Page/after10.webp';
 
-import before11 from '../../assets/images/BeforeAfter_Page/before11.webp';
-import after11 from '../../assets/images/BeforeAfter_Page/after11.webp';
-
 import before12 from '../../assets/images/BeforeAfter_Page/before12.webp';
 import after12 from '../../assets/images/BeforeAfter_Page/after12.webp';
 
