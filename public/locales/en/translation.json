@@ -254,6 +254,10 @@
     }
   },
   "beforeAfter": {
+    "banner": {
+      "title": "Before & After Gallery",
+      "subtitle": "Real patient transformations showcasing our expertise"
+    },
     "depigmentation": {
       "title": "Laser Gum Depigmentation",
       "description": "Advanced laser targets and gently breaks down dark melanin spots on the gum tissues, quickly restoring a uniform, healthy pink tone."

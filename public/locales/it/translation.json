@@ -254,6 +254,10 @@
     }
   },
   "beforeAfter": {
+    "banner": {
+      "title": "Prima & Dopo",
+      "subtitle": "Trasformazioni Reali dei Nostri Pazienti"
+    },
     "depigmentation": {
       "title": "Depigmentazione Gengivale a Laser",
       "description": "Il raggio laser elimina selettivamente le macchie melaniniche scure dalle gengive, restituendo un colorito rosa naturale, sano e uniforme."

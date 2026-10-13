@@ -183,8 +183,8 @@ const Services = () => {
     <main className={styles.page}>
       <BannerSlider 
         images={[banner1, banner2]} 
-        title={t('about.banner.title')} 
-        subtitle={t('about.banner.subtitle')} 
+        title={t('services.banner.title')} 
+        subtitle={t('services.banner.subtitle')} 
       />
 
       <div className={styles.container}>

@@ -252,6 +252,10 @@
     }
   },
   "beforeAfter": {
+    "banner": {
+      "title": "Avant & Après",
+      "subtitle": "Transformations Réelles de Nos Patients"
+    },
     "depigmentation": {
       "title": "Dépigmentation Gingivale au Laser",
       "description": "Le traitement au laser permet d'éliminer les taches brunes et les pigmentations foncées sur les gencives pour leur redonner un aspect rose naturel et sain."

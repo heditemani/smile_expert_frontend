@@ -1,5 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+
+import BannerSlider from '../../components/BannerSlider/BannerSlider'
+
 import ImageSlider from '../../components/ImageSlider/ImageSlider'
 
 import before1 from '../../assets/images/BeforeAfter_Page/before1.webp';
@@ -130,6 +133,11 @@ const BeforeAfter = () => {
 
   return (
     <>
+    <BannerSlider 
+        images={[before1, before2]} 
+        title={t('beforeAfter.banner.title')} 
+        subtitle={t('beforeAfter.banner.subtitle')} 
+      />
       {Exemples.map((ex) => (
 
         <ImageSlider 

@@ -73,12 +73,14 @@
 }
 
 .subtitle {
-  margin: 0;
+  margin: 18px 0;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--primary-color);
   line-height: 1.10;
   transition: color 0.3s ease;
+  opacity: 0.7;
+
 }
 
 /* ─── Hover overrides ─── */
