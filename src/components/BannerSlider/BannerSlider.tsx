@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 import styles from './BannerSlider.module.css';
 
 // Define the shape of your props
-interface BannerSliderProps {
+export interface BannerSliderProps {
   images: string[];
   title: string;
   subtitle: string;
@@ -13,7 +13,7 @@ interface BannerSliderProps {
   onButtonClick?: () => void;   // Optional: function to handle clicks
 }
 
-const BannerSlider = ({ images, title, subtitle, buttonText, onButtonClick }: BannerSliderProps) => {
+export const BannerSlider = ({ images, title, subtitle, buttonText, onButtonClick }: BannerSliderProps) => {
   return (
     <div className={styles.bannerContainer}>
       <Swiper
@@ -24,7 +24,7 @@ const BannerSlider = ({ images, title, subtitle, buttonText, onButtonClick }: Ba
         className={styles.swiper}
       >
         {images.map((img, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={`${img}-${index}`}>
             <img src={img} alt="Banner" className={styles.image} />
           </SwiperSlide>
         ))}

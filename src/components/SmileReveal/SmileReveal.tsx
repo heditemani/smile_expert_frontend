@@ -56,7 +56,7 @@ const CloseIcon = () => (
   </svg>
 );
 
-const SmileReveal: React.FC<SmileRevealProps> = ({
+export const SmileReveal: React.FC<SmileRevealProps> = ({
   beforeSrc,
   afterSrc,
   beforeAlt = 'Avant transformation',

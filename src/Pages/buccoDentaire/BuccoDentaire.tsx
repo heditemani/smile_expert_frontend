@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 
 import Style from './BuccoDentaire.module.css';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
-import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import VideoExperience from '../../components/VideoExperience/VideoExperience';
 
 // Blanchiment des dents par LASER DIODE
 import blanchiment_image_1 from '../../assets/images/traitement bucco-dentaire/Blanchiment des dents par LASER DIODE/blanchiment_image_1.webp';
@@ -26,24 +26,25 @@ import frenectomie_image_1 from '../../assets/images/traitement bucco-dentaire/f
 import frenectomie_image_2 from '../../assets/images/traitement bucco-dentaire/frenectomie/frenectomie_image_2.webp';
 import frenectomie_image_3 from '../../assets/images/traitement bucco-dentaire/frenectomie/frenectomie_image_3.webp';
 
-const BuccoDentaire = () => {
+export const BuccoDentaire = () => {
   const { t } = useTranslation();
   const { hash } = useLocation();
 
   useEffect(() => {
     if (hash) {
-      const element = document.querySelector(hash);
+      const targetId = hash.replace('#', '');
+      const element = document.getElementById(targetId);
       if (element) {
-        setTimeout(() => {
+        const timer = setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 100);
+        return () => clearTimeout(timer);
       }
     }
   }, [hash]);
 
   return (
     <div className={`${Style.container} ${Style.section_container}`}>
-
       <VideoExperience />
 
       {/* 1. Blanchiment des dents par LASER DIODE */}
@@ -113,7 +114,6 @@ const BuccoDentaire = () => {
           <img src={frenectomie_image_3} alt={t('buccoDentaire.frenectomie.title')} />
         </div>
       </section>
-
     </div>
   );
 };

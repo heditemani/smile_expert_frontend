@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import introductionVideo from "../../assets/video/Introduction.mp4";
 import background_video_image from '../../assets/images/general/background_video_image.jpg';
 
-const VideoExperience = () => {
+export const VideoExperience = () => {
     const { t } = useTranslation();
     const [isPlaying, setIsPlaying] = useState(false);
     const [currentTime, setCurrentTime] = useState(0);
@@ -67,9 +67,11 @@ const VideoExperience = () => {
             videoRef.current.play()
                 .then(() => setIsPlaying(true))
                 .catch(() => {
-                    videoRef.current.muted = true;
-                    setIsMuted(true);
-                    videoRef.current.play().then(() => setIsPlaying(true));
+                    if (videoRef.current) {
+                        videoRef.current.muted = true;
+                        setIsMuted(true);
+                        videoRef.current.play().then(() => setIsPlaying(true)).catch(() => {});
+                    }
                 });
         }
     };
@@ -80,7 +82,7 @@ const VideoExperience = () => {
                 videoRef.current.pause();
                 setIsPlaying(false);
             } else {
-                videoRef.current.play().then(() => setIsPlaying(true));
+                videoRef.current.play().then(() => setIsPlaying(true)).catch(() => {});
             }
         }
     };

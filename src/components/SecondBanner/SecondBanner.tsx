@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './SecondBanner.module.css';
 
 // 1. Definir el Props
-interface SecondBannerProps {
+export interface SecondBannerProps {
   slides: string[];      
   title: string;         
   subtitle: string;      
@@ -10,12 +10,12 @@ interface SecondBannerProps {
   buttonLink?: string;   
 }
 
-const SecondBanner: React.FC<SecondBannerProps> = ({ 
+export const SecondBanner: React.FC<SecondBannerProps> = ({ 
   slides, 
   title, 
   subtitle, 
   buttonText, 
-  buttonLink = "https://www.med.tn/medecin/dentiste/nabeul/dr-sarra-haouet-164499.html" 
+  buttonLink = 'https://www.med.tn/medecin/dentiste/nabeul/dr-sarra-haouet-164499.html',
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -33,22 +33,27 @@ const SecondBanner: React.FC<SecondBannerProps> = ({
         <div className={styles['carousel-inner']}>
           {slides.map((img, index) => (
             <div
-              key={index}
+              key={`${img}-${index}`}
               className={`${styles['carousel-item']} ${index === currentSlide ? styles.active : ''}`}
               style={{ backgroundImage: `url(${img})` }}
-            ></div>
+            />
           ))}
         </div>
       </div>
 
-      <div className={styles['about-hero-overlay']}></div>
+      <div className={styles['about-hero-overlay']} />
 
       <div className={`container ${styles['contact-hero-container']}`}>
         <div className={styles['contact-hero-content']}>
           <div className={styles['glass-plate']}>
             <h1 className={styles['contact-hero-title']}>{title}</h1>
             <p className={styles['contact-hero-subtitle']}>{subtitle}</p>
-            <a href={buttonLink} target='_blank' className={`btn ${styles['btn-primary']} ${styles['btn-large']}`}>
+            <a 
+              href={buttonLink} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={`btn ${styles['btn-primary']} ${styles['btn-large']}`}
+            >
               {buttonText}
             </a>
           </div>
@@ -59,10 +64,10 @@ const SecondBanner: React.FC<SecondBannerProps> = ({
           <div className={styles['hero-slider-dots']}>
             {slides.map((_, index) => (
               <span
-                key={index}
+                key={`dot-${index}`}
                 className={`${styles.dot} ${index === currentSlide ? styles.active : ''}`}
                 onClick={() => setCurrentSlide(index)}
-              ></span>
+              />
             ))}
           </div>
         )}

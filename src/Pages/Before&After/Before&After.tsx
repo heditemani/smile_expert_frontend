@@ -1,9 +1,7 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next';
 
-import BannerSlider from '../../components/BannerSlider/BannerSlider'
-
-import ImageSlider from '../../components/ImageSlider/ImageSlider'
+import BannerSlider from '../../components/BannerSlider/BannerSlider';
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
 
 import before1 from '../../assets/images/BeforeAfter_Page/before1.webp';
 import after1 from '../../assets/images/BeforeAfter_Page/after1.webp';
@@ -44,102 +42,100 @@ import after13 from '../../assets/images/BeforeAfter_Page/after13.webp';
 import before14 from '../../assets/images/BeforeAfter_Page/before14.webp';
 import after14 from '../../assets/images/BeforeAfter_Page/after14.webp';
 
-const BeforeAfter = () => {
+const EXAMPLES = [
+  {
+    id: 1,
+    key: 'depigmentation',
+    imageBefore: before3,
+    imageAfter: after3,
+  },
+  {
+    id: 2,
+    key: 'eclaircissement',
+    imageBefore: before9,
+    imageAfter: after9,
+  },
+  {
+    id: 3,
+    key: 'protheseTotale',
+    imageBefore: before6,
+    imageAfter: after6,
+  },
+  {
+    id: 4,
+    key: 'depigmentation',
+    imageBefore: before2,
+    imageAfter: after2,
+  },
+  {
+    id: 5,
+    key: 'protheseFlexite',
+    imageBefore: before1,
+    imageAfter: after1,
+  },
+  {
+    id: 6,
+    key: 'depigmentation',
+    imageBefore: before4,
+    imageAfter: after4,
+  },
+  {
+    id: 7,
+    key: 'strassDentaire',
+    imageBefore: before5,
+    imageAfter: after5,
+  },
+  {
+    id: 8,
+    key: 'blanchiment',
+    imageBefore: before8,
+    imageAfter: after8,
+  },
+  {
+    id: 9,
+    key: 'blanchiment',
+    imageBefore: before7,
+    imageAfter: after7,
+  },
+  {
+    id: 10,
+    key: 'Détartrage',
+    imageBefore: before10,
+    imageAfter: after10,
+  },
+  {
+    id: 12,
+    key: 'fermeture_diasteme',
+    imageBefore: before12,
+    imageAfter: after12,
+  },
+  {
+    id: 14,
+    key: 'fermeture_diasteme',
+    imageBefore: before14,
+    imageAfter: after14,
+  },
+  {
+    id: 13,
+    key: 'herpes_labial',
+    imageBefore: before13,
+    imageAfter: after13,
+  },
+];
+
+const BANNER_IMAGES = [before1, before2];
+
+export const BeforeAfter = () => {
   const { t } = useTranslation();
-
-  const Exemples = [
-    {
-      id: 1,
-      key: "depigmentation",
-      imageBefore: before3,
-      imageAfter: after3,
-    },
-    {
-      id: 2,
-      key: "eclaircissement",
-      imageBefore: before9,
-      imageAfter: after9,
-    },
-    {
-        id: 3,
-        key: "protheseTotale",
-        imageBefore: before6,
-        imageAfter: after6,
-    },
-    {
-        id: 4,
-        key: "depigmentation",
-        imageBefore: before2,
-        imageAfter: after2,
-    },
-    {
-        id: 5,
-        key: "protheseFlexite",
-        imageBefore: before1,
-        imageAfter: after1,
-    },
-    {
-        id: 6,
-        key: "depigmentation",
-        imageBefore: before4,
-        imageAfter: after4,
-    },
-    {
-        id: 7,
-        key: "strassDentaire",
-        imageBefore: before5,
-        imageAfter: after5,
-    },
-    {
-        id: 8,
-        key: "blanchiment",
-        imageBefore: before8,
-        imageAfter: after8,
-    },
-    {
-        id: 9,
-        key: "blanchiment",
-        imageBefore: before7,
-        imageAfter: after7,
-    },
-    {
-        id: 10,
-        key: "Détartrage",
-        imageBefore: before10,
-        imageAfter: after10,
-    },
-    {
-        id: 12,
-        key: "fermeture_diasteme",
-        imageBefore: before12,
-        imageAfter: after12,
-    },
-    {
-      id: 14,
-      key: "fermeture_diasteme",
-      imageBefore: before14,
-      imageAfter: after14,
-    },
-    {
-        id: 13,
-        key: "herpes_labial",
-        imageBefore: before13,
-        imageAfter: after13,
-    },
-
-  ];
-
-  
 
   return (
     <>
-    <BannerSlider 
-        images={[before1, before2]} 
+      <BannerSlider 
+        images={BANNER_IMAGES} 
         title={t('beforeAfter.banner.title')} 
         subtitle={t('beforeAfter.banner.subtitle')} 
       />
-      {Exemples.map((ex) => (
-
+      {EXAMPLES.map((ex) => (
         <ImageSlider 
           key={ex.id}
           title={t(`beforeAfter.${ex.key}.title`)}
@@ -147,10 +143,10 @@ const BeforeAfter = () => {
           imageAfter={ex.imageAfter} 
           description={t(`beforeAfter.${ex.key}.description`)}
         />
-        
       ))}
     </>
-  )
-}
+  );
+};
 
-export default BeforeAfter
+export { BeforeAfter as Beforeafter };
+export default BeforeAfter;

@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 
 import Style from './Prothesesdentaires.module.css';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
-import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import VideoExperience from '../../components/VideoExperience/VideoExperience';
 
 // Prothèses Fixes
 import prothesesfixes_image_1 from '../../assets/images/Prothèses dentaires/Prothèses Fixes/prothesesfixes_image_1.webp';
@@ -21,21 +21,21 @@ import facettesdentaires_image_1 from '../../assets/images/Prothèses dentaires/
 import facettesdentaires_image_2 from '../../assets/images/Prothèses dentaires/Facettes Dentaires/facettesdentaires_image_2.webp';
 import facettesdentaires_image_3 from '../../assets/images/Prothèses dentaires/Facettes Dentaires/facettesdentaires_image_3.webp';
 
-const Prothesesdentaires = () => {
+const FIXES_ITEMS = ['item1', 'item2', 'item3'] as const;
+
+export const Prothesesdentaires = () => {
   const { t } = useTranslation();
   const { hash } = useLocation();
-
-  // Helper arrays lil items mta3 Prothèses Fixes
-  const fixesItems = ['item1', 'item2', 'item3'];
 
   useEffect(() => {
     if (hash) {
       const targetId = hash.replace('#', '');
       const element = document.getElementById(targetId);
       if (element) {
-        setTimeout(() => {
+        const timer = setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 200);
+        return () => clearTimeout(timer);
       }
     } else {
       window.scrollTo(0, 0);
@@ -44,7 +44,6 @@ const Prothesesdentaires = () => {
 
   return (
     <div className={`${Style.container} ${Style.section_container}`}>
-
       <VideoExperience />
       
       {/* 1. Prothèses Fixes */}
@@ -56,7 +55,7 @@ const Prothesesdentaires = () => {
         />
         <div className={Style.description}>
           <ul style={{ paddingLeft: '20px', margin: '0 0 50px 0' }}>
-            {fixesItems.map((item) => (
+            {FIXES_ITEMS.map((item) => (
               <li key={item}>{t(`Prothesesdentaires.ProthèsesFixes.items.${item}`)}</li>
             ))}
           </ul>
@@ -101,7 +100,6 @@ const Prothesesdentaires = () => {
           <img src={facettesdentaires_image_3} alt={t('Prothesesdentaires.FacettesDentaires.title')} />
         </div>
       </section>
-
     </div>
   );
 };

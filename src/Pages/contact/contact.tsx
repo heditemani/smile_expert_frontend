@@ -29,7 +29,7 @@ interface FormStatus {
   msg: string;
 }
 
-const Contact = () => {
+export const Contact = () => {
   const { t } = useTranslation();
 
 
@@ -253,4 +253,5 @@ const Contact = () => {
   );
 };
 
+export { Contact as ContactPage };
 export default Contact;

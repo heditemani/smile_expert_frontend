@@ -1,17 +1,16 @@
-
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
-import logo from '/icons/navbar_logo.svg';
-import location from '/icons/location_footer_icon.svg';
-import email from '/icons/email_footer_icon.svg';
-import phone from '/icons/phone_footer_icon.svg';
-import facebook from '/icons/facebook_icon.svg';
-import instagram from '/icons/instagram_icon.svg';
-import linkedin from '/icons/linkedin_icon.svg';
 
+const logo = '/icons/navbar_logo.svg';
+const location = '/icons/location_footer_icon.svg';
+const email = '/icons/email_footer_icon.svg';
+const phone = '/icons/phone_footer_icon.svg';
+const facebook = '/icons/facebook_icon.svg';
+const instagram = '/icons/instagram_icon.svg';
+const linkedin = '/icons/linkedin_icon.svg';
 
-const Footer = () => {
+export const Footer = () => {
   const { t } = useTranslation();
 
   return (
@@ -32,7 +31,7 @@ const Footer = () => {
           </div>
 
           <div className={styles['footer-contact']}>
-            <div className={styles['contact-item'] + ' ' + styles['location-icon']}>
+            <div className={`${styles['contact-item']} ${styles['location-icon']}`}>
               <img src={location} alt="Location" />
               <p>{t('footer.address')}</p>
             </div>
@@ -50,14 +49,14 @@ const Footer = () => {
         <div className={styles['footer-bottom']}>
           <p>{t('footer.copyright')}</p>
           <div className={styles['social-links']}>
-            <a href="https://www.facebook.com/sarra.fischer.1" target="_blank" rel="noreferrer">
-                <img src={facebook} alt="Facebook" />
+            <a href="https://www.facebook.com/sarra.fischer.1" target="_blank" rel="noopener noreferrer">
+              <img src={facebook} alt="Facebook" />
             </a>
-            <a href="https://www.instagram.com/dr.sarra.haouet/" target="_blank" rel="noreferrer">
-                <img src={instagram} alt="Instagram" />
+            <a href="https://www.instagram.com/dr.sarra.haouet/" target="_blank" rel="noopener noreferrer">
+              <img src={instagram} alt="Instagram" />
             </a>
-            <a href="https://www.linkedin.com/in/dr-sarra-haouet-104703380/" target="_blank" rel="noreferrer">
-                <img src={linkedin} alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/dr-sarra-haouet-104703380/" target="_blank" rel="noopener noreferrer">
+              <img src={linkedin} alt="LinkedIn" />
             </a>
           </div>
         </div>

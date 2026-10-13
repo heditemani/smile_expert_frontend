@@ -3,10 +3,16 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
-import logo from '/icons/navbar_logo.svg';
-import enFlag from '/icons/en.svg';
-import frFlag from '/icons/fr.svg';
-import itFlag from '/icons/italy.svg';
+const logo = '/icons/navbar_logo.svg';
+const enFlag = '/icons/en.svg';
+const frFlag = '/icons/fr.svg';
+const itFlag = '/icons/italy.svg';
+
+const LANGUAGES = [
+  { code: 'en', label: 'EN', flag: enFlag },
+  { code: 'fr', label: 'FR', flag: frFlag },
+  { code: 'it', label: 'IT', flag: itFlag },
+] as const;
 
 const CaretIcon = ({ className = '' }: { className?: string }) => (
   <svg
@@ -25,7 +31,7 @@ const CaretIcon = ({ className = '' }: { className?: string }) => (
   </svg>
 );
 
-const Navbar = () => {
+export const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -50,14 +56,8 @@ const Navbar = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const languages = [
-    { code: 'en', label: 'EN', flag: enFlag },
-    { code: 'fr', label: 'FR', flag: frFlag },
-    { code: 'it', label: 'IT', flag: itFlag },
-  ];
-
   const activeLangCode = (i18n.resolvedLanguage || i18n.language || 'en').slice(0, 2);
-  const currentLang = languages.find((l) => l.code === activeLangCode) || languages[0];
+  const currentLang = LANGUAGES.find((l) => l.code === activeLangCode) || LANGUAGES[0];
 
   const handleLinkClick = () => {
     setIsMenuOpen(false);
@@ -145,7 +145,7 @@ const Navbar = () => {
 
               {isLangOpen && (
                 <ul className={styles.langDropdown}>
-                  {languages.map((lang) => (
+                  {LANGUAGES.map((lang) => (
                     <li
                       key={lang.code}
                       className={activeLangCode === lang.code ? styles.activeLang : ''}

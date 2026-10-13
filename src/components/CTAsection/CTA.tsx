@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from './CTA.module.css';
 
-const CtaBanner = () => {
+export const CtaBanner = () => {
   const { t } = useTranslation();
   return (
     <section className={styles.sectionPadding}>

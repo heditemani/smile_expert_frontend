@@ -1,25 +1,29 @@
+import React from 'react';
 import styles from './ScheduleSection.module.css';
 import { useTranslation } from 'react-i18next';
 import scheduleImg from '../../assets/images/schedulesection/schedule1.webp';
 
-const ScheduleSection = ({ isAltBg = false }) => {
+export interface ScheduleSectionProps {
+  isAltBg?: boolean;
+}
+
+export const ScheduleSection: React.FC<ScheduleSectionProps> = ({ isAltBg = false }) => {
   const { t } = useTranslation();
 
   const scheduleData = [
-    { day: t('days.monday'), time: "09:00 AM - 03:00 PM" },
-    { day: t('days.tuesday'), time: "09:00 AM - 03:00 PM" },
-    { day: t('days.wednesday'), time: "09:00 AM - 03:00 PM" },
-    { day: t('days.thursday'), time: "09:00 AM - 03:00 PM" },
-    { day: t('days.friday'), time: "09:00 AM - 03:00 PM" },
-    { day: t('days.saturday'), time: "09:00 AM - 01:00 PM" },
+    { day: t('days.monday'), time: '09:00 AM - 03:00 PM', isClosed: false },
+    { day: t('days.tuesday'), time: '09:00 AM - 03:00 PM', isClosed: false },
+    { day: t('days.wednesday'), time: '09:00 AM - 03:00 PM', isClosed: false },
+    { day: t('days.thursday'), time: '09:00 AM - 03:00 PM', isClosed: false },
+    { day: t('days.friday'), time: '09:00 AM - 03:00 PM', isClosed: false },
+    { day: t('days.saturday'), time: '09:00 AM - 01:00 PM', isClosed: false },
     { day: t('days.sunday'), time: t('common.closed'), isClosed: true },
   ];
 
   return (
-    <section className={`${styles.schedule} ${isAltBg ? styles.altBg : ''}  `}>
-      <div className={`container  section-padding `}>
+    <section className={`${styles.schedule} ${isAltBg ? styles.altBg : ''}`}>
+      <div className="container section-padding">
         <div className={styles.scheduleWrapper}>
-          
           <div className={styles.scheduleContent}>
             <h2 className="section-title">{t('contact.schedule_title')}</h2>
             <p className="section-subtitle mb-4">
@@ -35,9 +39,9 @@ const ScheduleSection = ({ isAltBg = false }) => {
           </div>
 
           <div className={styles.scheduleTable}>
-            {scheduleData.map((item, index) => (
+            {scheduleData.map((item) => (
               <div 
-                key={index} 
+                key={item.day} 
                 className={`${styles.scheduleRow} ${isAltBg ? styles.altrowbg : ''} ${item.isClosed ? styles.closed : ''}`}
               >
                 <span>{item.day}</span>
@@ -45,7 +49,6 @@ const ScheduleSection = ({ isAltBg = false }) => {
               </div>
             ))}
           </div>
-
         </div>
       </div>
     </section>

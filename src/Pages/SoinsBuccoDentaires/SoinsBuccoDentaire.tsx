@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 
 import Style from './BuccoDentaire.module.css';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
-import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import VideoExperience from '../../components/VideoExperience/VideoExperience';
 
 // Examens réguliers
 import examens_image_1 from '../../assets/images/soins bucco dentaire et prévntif/Examens réguliers/examens_image_1.webp';
@@ -16,24 +16,25 @@ import soins_image_1 from '../../assets/images/soins bucco dentaire et prévntif
 import soins_image_2 from '../../assets/images/soins bucco dentaire et prévntif/Soins Préventifs/soins_image_2.webp';
 import soins_image_3 from '../../assets/images/soins bucco dentaire et prévntif/Soins Préventifs/soins_image_3.webp';
 
-const SoinsBuccoDentaires = () => {
+export const SoinsBuccoDentaires = () => {
   const { t } = useTranslation();
   const { hash } = useLocation();
 
   useEffect(() => {
     if (hash) {
-      const element = document.querySelector(hash);
+      const targetId = hash.replace('#', '');
+      const element = document.getElementById(targetId);
       if (element) {
-        setTimeout(() => {
+        const timer = setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 100);
+        return () => clearTimeout(timer);
       }
     }
   }, [hash]);
 
   return (
     <div className={`${Style.container} ${Style.section_container}`}>
-
       <VideoExperience />
 
       {/* 1. Examens réguliers */}
@@ -69,7 +70,6 @@ const SoinsBuccoDentaires = () => {
           <img src={soins_image_3} alt={t('SoinsbuccoDentaire.SoinsPreventifs.title')} />
         </div>
       </section>
-
     </div>
   );
 };

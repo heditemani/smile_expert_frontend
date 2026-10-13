@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState, useCallback } from "react";
 import styles from "./Services.module.css";
 
 import { ServiceCard } from "../../components/ServiceCard/ServiceCard";
 import { useTranslation } from 'react-i18next';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import banner1 from '../../assets/images/services/banner/img1.webp';
@@ -27,13 +27,13 @@ import ProthèsesFixes from "../../assets/images/services/service1/Prothèses Fi
 import ProthèsesAmovibles from "../../assets/images/services/service1/La Prothèses Amovibles.webp";
 import Facettesdentaire from "../../assets/images/services/service1/Facettes dentaires.webp";
 
-const Services = () => {
+export const Services = () => {
   const { t } = useTranslation();
-  const [activeId, setActiveId] = useState(null);
+  const [activeId, setActiveId] = useState<string | null>(null);
 
-  const handleCardClick = (id) => {
+  const handleCardClick = useCallback((id: string) => {
     setActiveId((prev) => (prev === id ? null : id));
-  };
+  }, []);
 
   const sections = [
     {
@@ -221,4 +221,5 @@ const Services = () => {
   );
 };
 
+export { Services as Service };
 export default Services;

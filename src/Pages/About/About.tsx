@@ -8,7 +8,6 @@ import BannerSlider from '../../components/BannerSlider/BannerSlider';
 import banner1 from '../../assets/images/about_page/banner/1.webp';
 import banner2 from '../../assets/images/about_page/banner/2.webp';
 
-
 import doctorImage from '../../assets/images/about_page/about_sarra_image.webp';
 
 import img1 from '../../assets/images/about_page/about_gallery_image_1.webp';
@@ -16,56 +15,52 @@ import img2 from '../../assets/images/about_page/about_gallery_image_2.webp';
 import img3 from '../../assets/images/about_page/about_gallery_image_3.webp';
 import img4 from '../../assets/images/about_page/about_gallery_image_4.webp';
 
-
 import techImg1 from '../../assets/images/about_page/laser_diode.webp';
 import techImg2 from '../../assets/images/about_page/scaner_intraoral.webp';
 import techImg3 from '../../assets/images/about_page/scannr_facial.webp';
 
-
 import expertiseImg from '../../assets/images/about_page/expertise_image.webp';
-
 
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 import CtaSplit from '../../components/CTASplit/CtaSplit';
 
+const BANNER_IMAGES = [banner1, banner2];
 
+const GALLERY_IMAGES = [
+  { id: 1, src: img1, alt: 'Gallery Image 1' },
+  { id: 2, src: img2, alt: 'Gallery Image 2' },
+  { id: 3, src: img3, alt: 'Gallery Image 3' },
+  { id: 4, src: img4, alt: 'Gallery Image 4' },
+];
 
+const TECHNOLOGIES = [
+  {
+    id: 1,
+    image: techImg1,
+    key: 'laserDiode',
+    link: '/laser',
+  },
+  {
+    id: 2,
+    image: techImg2,
+    key: 'scannerIntraoral',
+    link: '/scanner.intraoral',
+  },
+  {
+    id: 3,
+    image: techImg3,
+    key: 'scannerFacial',
+    link: '/scanner.facial',
+  },
+];
 
-const About = () => {
+export const About = () => {
   const { t } = useTranslation();
-
-  const galleryImages = [
-    { id: 1, src: img1, alt: "Gallery Image 1" },
-    { id: 2, src: img2, alt: "Gallery Image 2" },
-    { id: 3, src: img3, alt: "Gallery Image 3" },
-    { id: 4, src: img4, alt: "Gallery Image 4" },
-  ];
-
-  const technologies = [
-    {
-      id: 1,
-      image: techImg1,
-      key: 'laserDiode',
-      link: '/laser'
-    },
-    {
-      id: 2,
-      image: techImg2,
-      key: 'scannerIntraoral',
-      link: '/scanner.intraoral'
-    },
-    {
-      id: 3,
-      image: techImg3,
-      key: 'scannerFacial',
-      link: '/scanner.facial'
-    }
-  ];
 
   return (
     <div className="about-page">
       <BannerSlider 
-        images={[banner1, banner2]} 
+        images={BANNER_IMAGES} 
         title={t('about.banner.title')} 
         subtitle={t('about.banner.subtitle')} 
       />
@@ -96,7 +91,7 @@ const About = () => {
       <section className={`${styles.gallery} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.galleryGrid}>
-            {galleryImages.map((image) => (
+            {GALLERY_IMAGES.map((image) => (
               <div key={image.id} className={styles.galleryItem}>
                 <img src={image.src} alt={image.alt} />
               </div>
@@ -117,7 +112,7 @@ const About = () => {
               {t('about.tech.sectionTitle')}
             </h2>
             <div className={styles.techGrid}>
-              {technologies.map((tech) => (
+              {TECHNOLOGIES.map((tech) => (
                 <div key={tech.id} className={styles.techCard}>
                   <div className={styles.techImageWrapper}>
                     <img src={tech.image} alt={t(`about.tech.items.${tech.key}.name`)} />
@@ -139,7 +134,7 @@ const About = () => {
       {/* Expertise Section */}
       <section className={styles.expertiseSection} style={{ backgroundColor: 'var(--bg-offwhite)' }}>
         <div className={styles.container}>
-          <h2 className={`section-title mb-4`}>{t('about.expertise.sectionTitle')}</h2>
+          <h2 className="section-title mb-4">{t('about.expertise.sectionTitle')}</h2>
           <div className={styles.expertiseWrapper}>
             <div className={styles.expertiseContent}>
               <h3>{t('about.expertise.doctorName')}</h3>

@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Style from './Therapeutique.module.css';
 
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 
-import SectionTitle from '../../components/SectionTitle/SectionTitle.js';
-import VideoExperience from '../../components/VideoExperience/VideoExperience.js';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import VideoExperience from '../../components/VideoExperience/VideoExperience';
 
 // Collage résine Composite
 import collage_image_1 from '../../assets/images/Thérapeutique et traitements endodontiques/Collage résine Composite/collage_image_1.webp';
@@ -32,20 +32,21 @@ import anomalies_image_1 from '../../assets/images/Thérapeutique et traitements
 import anomalies_image_2 from '../../assets/images/Thérapeutique et traitements endodontiques/Traitements des anomalies/anomalies_image_2.webp';
 import anomalies_image_3 from '../../assets/images/Thérapeutique et traitements endodontiques/Traitements des anomalies/anomalies_image_3.webp';
 
-const Therapeutique = () => {
+const ANOMALIES_ITEMS = ['item1', 'item2', 'item3', 'item4', 'item5', 'item6'] as const;
+
+export const Therapeutique = () => {
   const { t } = useTranslation();
   const { hash } = useLocation();
-
-  const anomaliesItems = ['item1', 'item2', 'item3', 'item4', 'item5', 'item6'];
 
   useEffect(() => {
     if (hash) {
       const targetId = hash.replace('#', '');
       const element = document.getElementById(targetId);
       if (element) {
-        setTimeout(() => {
+        const timer = setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 200);
+        return () => clearTimeout(timer);
       }
     } else {
       window.scrollTo(0, 0);
@@ -54,7 +55,6 @@ const Therapeutique = () => {
 
   return (
     <div className={`${Style.container} ${Style.section_container}`}>
-
       <VideoExperience />
       
       {/* 1. Collage résine Composite */}
@@ -134,7 +134,7 @@ const Therapeutique = () => {
         />
         <div className={Style.description}>
           <ul style={{ paddingLeft: '20px', margin: '0 0 50px 0' }}>
-            {anomaliesItems.map((item) => (
+            {ANOMALIES_ITEMS.map((item) => (
               <li key={item}>{t(`Therapeutique.Traitementsanomalies\u00a0.items.${item}`)}</li>
             ))}
           </ul>
@@ -145,7 +145,6 @@ const Therapeutique = () => {
           <img src={anomalies_image_3} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
         </div>
       </section>
-
     </div>
   );
 };

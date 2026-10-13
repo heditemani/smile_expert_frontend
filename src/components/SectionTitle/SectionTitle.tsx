@@ -1,7 +1,13 @@
-import React from 'react'
-import styles from './SectionTitle.module.css'
+import styles from './SectionTitle.module.css';
 
-const SectionTitle = ({ title, description, buttonText, href }) => {
+export interface SectionTitleProps {
+  title: string;
+  description?: string;
+  buttonText?: string;
+  href?: string;
+}
+
+export const SectionTitle = ({ title, description, buttonText, href }: SectionTitleProps) => {
   return (
     <div className={styles.sectionTitleContainer}>
       <div>
@@ -14,7 +20,7 @@ const SectionTitle = ({ title, description, buttonText, href }) => {
         </a>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default SectionTitle
+export default SectionTitle;

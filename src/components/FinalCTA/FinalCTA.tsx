@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './FinalCTA.module.css';
 
-const FinalCTA = () => {
+export const FinalCTA = () => {
   const { t } = useTranslation();
 
   return (
