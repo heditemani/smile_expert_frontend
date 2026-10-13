@@ -44,6 +44,9 @@ import after12 from '../../assets/images/BeforeAfter_Page/after12.webp';
 import before13 from '../../assets/images/BeforeAfter_Page/before13.webp';
 import after13 from '../../assets/images/BeforeAfter_Page/after13.webp';
 
+import before14 from '../../assets/images/BeforeAfter_Page/before14.webp';
+import after14 from '../../assets/images/BeforeAfter_Page/after14.webp';
+
 const BeforeAfter = () => {
   const { t } = useTranslation();
 
@@ -109,23 +112,23 @@ const BeforeAfter = () => {
         imageAfter: after10,
     },
     {
-        id: 11,
-        key: "fermeture_diasteme",
-        imageBefore: before11,
-        imageAfter: after11,
-    },
-    {
         id: 12,
         key: "fermeture_diasteme",
         imageBefore: before12,
         imageAfter: after12,
     },
     {
+      id: 14,
+      key: "fermeture_diasteme",
+      imageBefore: before14,
+      imageAfter: after14,
+    },
+    {
         id: 13,
         key: "herpes_labial",
         imageBefore: before13,
         imageAfter: after13,
-    }
+    },
 
   ];
 
