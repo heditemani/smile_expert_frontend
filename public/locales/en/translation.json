@@ -419,12 +419,9 @@
       "title": "Specialized Complex Micro-Treatments",
       "subtitle": "Advanced care for unique diagnoses",
       "items": {
-        "item1": "Laser Diode Frenectomy",
-        "item2": "Black Stains Elimination",
-        "item3": "Bruxism & Occlusal Management",
-        "item4": "Malocclusion Assessment",
-        "item5": "Advanced Periodontitis Control",
-        "item6": "Mucosal Pigmentation Treatments"
+        "item1": "Black Stains Elimination",
+        "item2": "Bruxism & Occlusal Management",
+        "item3": "Malocclusion Assessment"
       }
     }
   },

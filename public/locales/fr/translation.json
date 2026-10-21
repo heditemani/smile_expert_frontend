@@ -421,12 +421,9 @@
       "title": "Traitements des anomalies ",
       "subtitle": "Révélez votre meilleur sourire",
       "items": {
-        "item1": "Frénectomie avec Laser Diode",
-        "item2": "Les Black Stains",
-        "item3": "Le Bruxisme",
-        "item4": "La Malocclusion Dentaire",
-        "item5": "La Parodontite",
-        "item6": "La Coloration Bleutée de la Muqueuse Bucco-Dentaire"
+        "item1": "Les Black Stains",
+        "item2": "Le Bruxisme",
+        "item3": "La Malocclusion Dentaire"
       }
     }
   },

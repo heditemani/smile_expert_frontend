@@ -419,12 +419,10 @@
       "title": "Micro-Trattamenti Specialistici Complessi",
       "subtitle": "Cure avanzate per quadri clinici specifici",
       "items": {
-        "item1": "Frenectomia con Laser a Diodo",
-        "item2": "Eliminazione delle Macchie Nere (Black Stains)",
-        "item3": "Gestione del Bruxismo e Bite",
-        "item4": "Valutazione delle Malocclusioni",
-        "item5": "Controllo della Parodontite Avanzata",
-        "item6": "Trattamento delle Pigmentazioni Mucose"
+        "item1": "Eliminazione delle Macchie Nere (Black Stains)",
+        "item2": "Gestione del Bruxismo e Bite",
+        "item3": "Valutazione delle Malocclusioni"
+
       }
     }
   },
