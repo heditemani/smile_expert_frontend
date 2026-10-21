@@ -37,59 +37,59 @@
     "items": {
       "blanchiment": {
         "title": "Blanchiment des dents",
-        "subtitle": "Redonnez de l'éclat à votre sourire"
+        "subtitle": ""
       },
       "Alignement": {
         "title": "Alignement gingival",
-        "subtitle": "Harmonisez les contours de vos gencives"
+        "subtitle": ""
       },
       "hyperpigmentation": {
         "title": "Traitement de l'hyperpigmentation gingivale",
-        "subtitle": "Retrouvez une couleur gingivale naturelle"
+        "subtitle": ""
       },
       "Frénectomie": {
         "title": "Frénectomie",
-        "subtitle": "Libérez les mouvements des tissus buccaux"
+        "subtitle": ""
       },
       "examens": {
         "title": "Examens réguliers",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "soins": {
         "title": "Soins Préventifs",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "Collage": {
         "title": "Collage résine Composite",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "Traitement": {
         "title": "Traitement de l’hyperpigmentation gingivale par laser",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "Extraction": {
         "title": "Extraction",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "chirurgie": {
         "title": "La Chirurgie Implantaire Guidée par Ordinateur",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "anomalies": {
         "title": "Traitements des anomalies",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "Prothèses Fixes": {
         "title": "Prothèses Fixes",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "Prothèses Amovibles": {
         "title": "La Prothèses Amovibles",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       },
       "Facettes": {
         "title": "Facettes dentaires",
-        "subtitle": "preventive care and routine checkups"
+        "subtitle": ""
       }
     }
   },

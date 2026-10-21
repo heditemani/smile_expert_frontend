@@ -36,59 +36,59 @@
     "items": {
       "blanchiment": {
         "title": "Sbiancamento Dentale a Laser a Diodo",
-        "subtitle": "Trattamento professionale per un sorriso visibilmente più luminoso"
+        "subtitle": ""
       },
       "Alignement": {
         "title": "Rimodellamento Gengivale a Laser",
-        "subtitle": "Correzione precisa della linea gengivale per un sorriso armonioso"
+        "subtitle": ""
       },
       "hyperpigmentation": {
         "title": "Depigmentazione Gengivale a Laser",
-        "subtitle": "Rimozione delle macchie scure per gengive dal colorito sano e roseo"
+        "subtitle": ""
       },
       "Frénectomie": {
         "title": "Frenulectomia",
-        "subtitle": "Libera i movimenti dei tessuti orali"
+        "subtitle": ""
       },
       "examens": {
         "title": "Check-up e Visite di Controllo",
-        "subtitle": "Esami diagnostici regolari per prevenire patologie future"
+        "subtitle": ""
       },
       "soins": {
         "title": "Igiene Orale Professionale",
-        "subtitle": "Ablazione del tartaro, air-polishing e protezione dello smalto"
+        "subtitle": ""
       },
       "Collage": {
         "title": "Restauro in Resina Composita",
-        "subtitle": "Correzioni estetiche mininvasive per scheggiature o diastemi"
+        "subtitle": ""
       },
       "Traitement": {
         "title": "Trattamento Endodontico a Laser e Otturazione",
-        "subtitle": "Sterilizzazione canalare profonda per il salvataggio dell'elemento dentale"
+        "subtitle": ""
       },
       "Extraction": {
         "title": "Estrazione Dentale",
-        "subtitle": "Chirurgia estrattiva delicata quando la conservazione non è possibile"
+        "subtitle": ""
       },
       "chirurgie": {
         "title": "Chirurgia Implantare Guidata dal Computer",
-        "subtitle": "Inserimento implantare con pianificazione 3D senza bisturi né suture"
+        "subtitle": ""
       },
       "anomalies": {
         "title": "Trattamento delle Anomalie Orali",
-        "subtitle": "Soluzioni cliniche mirate per patologie e disordini complessi"
+        "subtitle": ""
       },
       "Prothèses Fixes": {
         "title": "Protesi Fisse",
-        "subtitle": "Corone, ponti e restauri su impianti di altissima precisione"
+        "subtitle": ""
       },
       "Prothèses Amovibles": {
         "title": "Protesi Mobili Avanzate",
-        "subtitle": "Dispositivi totali o parziali flessibili e ad alta stabilità"
+        "subtitle": ""
       },
       "Facettes": {
         "title": "Faccette Dentali",
-        "subtitle": "Sottili sfoglie in ceramica per una trasformazione estetica radicale"
+        "subtitle": ""
       }
     }
   },

@@ -36,59 +36,59 @@
     "items": {
       "blanchiment": {
         "title": "Laser Diode Teeth Whitening",
-        "subtitle": "Safe, medical-grade stain removal for an instantly brighter smile"
+        "subtitle": ""
       },
       "Alignement": {
         "title": "Laser Diode Gum Contouring",
-        "subtitle": "Precision reshaping to correct uneven or gummy smiles smoothly"
+        "subtitle": ""
       },
       "hyperpigmentation": {
         "title": "Laser Gum Depigmentation",
-        "subtitle": "Advanced dark spot removal for naturally even, pink gums"
+        "subtitle": ""
       },
       "Frénectomie": {
         "title": "Frenectomy",
-        "subtitle": "Release oral tissue movement"
+        "subtitle": ""
       },
       "examens": {
         "title": "Regular Examinations",
-        "subtitle": "Thorough professional diagnostic checks to protect your teeth"
+        "subtitle": ""
       },
       "soins": {
         "title": "Preventive Care",
-        "subtitle": "Deep scaling, polishing, and enamel strengthening therapies"
+        "subtitle": ""
       },
       "Collage": {
         "title": "Composite Resin Bonding",
-        "subtitle": "Minimalist aesthetic restorations for chipped or spaced teeth"
+        "subtitle": ""
       },
       "Traitement": {
         "title": "Laser Endodontic Therapy & Sealing",
-        "subtitle": "High-precision root canal sterilization to save compromised teeth"
+        "subtitle": ""
       },
       "Extraction": {
         "title": "Tooth Extraction",
-        "subtitle": "Gentle, non-invasive extractions when preservation is impossible"
+        "subtitle": ""
       },
       "chirurgie": {
         "title": "Computer-Guided Implant Surgery",
-        "subtitle": "Ultra-precise 3D planned implant placement without incisions"
+        "subtitle": ""
       },
       "anomalies": {
         "title": "Oral Pathologies & Anomalies",
-        "subtitle": "Specialized clinical solutions for complex structural conditions"
+        "subtitle": ""
       },
       "Prothèses Fixes": {
         "title": "Fixed Prostheses",
-        "subtitle": "Durable crowns, bridges, and implant-supported restorations"
+        "subtitle": ""
       },
       "Prothèses Amovibles": {
         "title": "Removable Prostheses",
-        "subtitle": "Flexible, custom-engineered full or partial dentures"
+        "subtitle": ""
       },
       "Facettes": {
         "title": "Dental Veneers",
-        "subtitle": "Ultra-thin ceramic layers for a seamless, radiant smile transformation"
+        "subtitle": ""
       }
     }
   },
