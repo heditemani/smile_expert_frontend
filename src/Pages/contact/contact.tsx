@@ -143,9 +143,11 @@ export const Contact = () => {
               <div className={styles['contact-social']}>
                 <p>{t('contact.follow_us')}</p>
                 <div className={styles['contact-social-icons']}>
-                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/facebook.svg" alt="Facebook" /></a>
-                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/instagram.svg" alt="Instagram" /></a>
-                  <a href="#" className={styles['contact-social-icon']}><img src="/icons/linkedin.svg" alt="LinkedIn" /></a>
+                  <a href="https://www.facebook.com/p/Dr-Sarra-Haouet-61580013081128" target="_blank" rel="noopener noreferrer" className={styles['contact-social-icon']}><img src="/icons/facebook.svg" alt="Facebook" /></a>
+                  <a href="https://www.instagram.com/dr.sarra.haouet/" target="_blank" rel="noopener noreferrer" className={styles['contact-social-icon']}><img src="/icons/instagram.svg" alt="Instagram" /></a>
+                  <a href="https://www.linkedin.com/in/dr-sarra-haouet-104703380/" target="_blank" rel="noopener noreferrer" className={styles['contact-social-icon']}><img src="/icons/linkedin.svg" alt="LinkedIn" /></a>
+                  <a href="https://www.tiktok.com/@dr.sarrahaouet" target="_blank" rel="noopener noreferrer" className={styles['contact-social-icon']}><img src="/icons/tiktok.svg" alt="TikTok" /></a>
+                  <a href="https://wa.me/21658184597" target="_blank" rel="noopener noreferrer" className={styles['contact-social-icon']}><img src="/icons/whatsapp.svg" alt="WhatsApp" /></a>
                 </div>
               </div>
             </div>
