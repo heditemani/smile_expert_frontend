@@ -41,6 +41,10 @@
 
 @media (max-width: 768px) {
     .sectionPadding {
-        padding: 3rem 0;
+        padding: 2rem 0;
+    }
+
+    .ctaBox {
+        padding: 2.5rem 1.5rem;
     }
 }

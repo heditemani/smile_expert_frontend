@@ -103,7 +103,17 @@ button {
 }
 @media (max-width: 768px) {
     .section-padding {
-        padding: 3rem 0;
+        padding: 2.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-padding {
+        padding: 2rem 0;
+    }
+
+    .mt {
+        margin-top: 24px !important;
     }
 }
 

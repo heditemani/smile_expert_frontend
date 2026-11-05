@@ -80,7 +80,7 @@
     }
 
     .ctaSplitContent {
-        padding: 2.5rem 2rem;
+        padding: 2rem 1.5rem;
         align-items: center;
         text-align: center;
     }
@@ -88,5 +88,9 @@
     .ctaSplitImage {
         width: 100%;
         min-height: 250px;
+    }
+
+    .sectionPadding {
+        padding: 2rem 0;
     }
 }

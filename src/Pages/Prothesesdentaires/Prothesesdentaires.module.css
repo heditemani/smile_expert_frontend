@@ -31,3 +31,24 @@
 .section_container img{
   border-radius: 32px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  .image_big,
+  .images_container {
+    margin-bottom: 24px;
+  }
+
+  .images_container {
+    gap: 12px;
+  }
+}

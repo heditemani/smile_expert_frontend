@@ -99,14 +99,19 @@
 
 @media (max-width: 768px) {
   .section {
-    padding: 36px 16px;
+    padding: 24px 16px;
   }
 
   .title {
     font-size: 24px;
+    margin-bottom: 24px;
   }
 
   .imageContainer {
-    height: 260px;
+    height: 240px;
+  }
+
+  .sliderWrapper {
+    margin-bottom: 24px;
   }
 }

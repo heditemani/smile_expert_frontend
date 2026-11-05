@@ -212,10 +212,16 @@
 @media (max-width: 992px) {
     .contact-split-wrapper {
         grid-template-columns: 1fr;
-        gap: 2.5rem;
+        gap: 1.75rem;
     }
     .contact-form-col {
         position: static; /* Disable sticky on smaller screens for mobile ergonomics */
+    }
+    .contact-info-col {
+        gap: 1.25rem;
+    }
+    .contact-info-items {
+        gap: 1.25rem;
     }
 }
 
@@ -253,6 +259,14 @@
         font-size: 1.7rem;
     }
     .contact-form-box {
-        padding: 1.5rem 1rem;
+        padding: 1.25rem 1rem;
+    }
+
+    .contact-form-title {
+        margin-bottom: 1.25rem;
+    }
+
+    .locations {
+        margin-bottom: 32px;
     }
 }

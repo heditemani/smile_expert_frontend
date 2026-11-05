@@ -185,6 +185,14 @@
 
 /* Responsive adjustment layer */
 @media (max-width: 768px) {
+    .videoSection {
+        padding: 2.5rem 0;
+    }
+
+    .header {
+        margin-bottom: 1.5rem;
+    }
+
     .title {
         font-size: 1.75rem;
     }
@@ -192,6 +200,20 @@
         opacity: 1 !important; /* Keep visible on mobile tactile streams */
         transform: translateY(0) !important;
         pointer-events: auto !important;
+    }
+
+    @media (max-width: 480px) {
+        .videoSection {
+            padding: 2rem 0;
+        }
+
+        .container {
+            padding: 0 1rem;
+        }
+
+        .header {
+            margin-bottom: 1.25rem;
+        }
     }
     .volumeSlider {
         width: 60px;

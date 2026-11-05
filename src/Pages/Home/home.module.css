@@ -84,9 +84,14 @@
 @media (max-width: 991px) {
     .heroContainer {
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
         text-align: center;
         align-items: center;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 2rem 0;
     }
 
     .heroContent {
@@ -104,6 +109,11 @@
     .heroImage {
         max-width: 100%;
     }
+
+    .heroDescription {
+        margin-bottom: 1.5rem;
+    }
+
     .services_section{
         margin: auto;
         padding: 0 1rem;
@@ -113,6 +123,7 @@
         align-items: center;
         margin:auto;
         width: fit-content;
+        gap: 1.25rem;
         
     }
     .consultation_wrapper{
@@ -305,6 +316,26 @@
     .mapContainer {
         aspect-ratio: 4 / 3; /* Tji a9wa w tban vertical look fi sha7et el talifounat */
     }
+
+    @media (max-width: 480px) {
+        .heroTitle {
+            font-size: 2rem;
+        }
+
+        .servicesGrid {
+            margin-top: 2rem;
+        }
+
+        .consultation_content {
+            padding: 1.5rem 1.25rem;
+        }
+
+        .howItWorks,
+        .locations,
+        .testimonials {
+            padding: 2.5rem 0;
+        }
+    }
 }
 
 
@@ -387,5 +418,4 @@
         gap: 1.5rem;
     }
 }
-
 

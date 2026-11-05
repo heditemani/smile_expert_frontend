@@ -10,7 +10,7 @@
     min-width: 0;
 }
 
-h2{
+.sectionTitleContainer h2 {
     font-size: 32px;
     line-height: 110%;
     margin-top: 60px;
@@ -28,7 +28,8 @@ h2{
     }
 
     .sectionTitleContainer h2 {
-        margin-top: 1.5rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.25rem;
         font-size: clamp(1.5rem, 7vw, 2rem);
         overflow-wrap: anywhere;
     }

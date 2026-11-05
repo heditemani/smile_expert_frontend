@@ -92,11 +92,19 @@
 
 /* ================= Mobile Responsiveness ================= */
 @media (max-width: 768px) {
+    .footer {
+        padding: 2.5rem 0 1.5rem;
+    }
+
     .footer-top {
         flex-direction: column;
-        gap: 2.5rem;
+        gap: 1.75rem;
         text-align: center;
         align-items: center;
+    }
+
+    .footer-nav .logo {
+        margin-bottom: 1rem;
     }
 
     .footer-links {
@@ -111,7 +119,8 @@
 
     .footer-bottom {
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
         text-align: center;
+        padding-top: 1.25rem;
     }
 }

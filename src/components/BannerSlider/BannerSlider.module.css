@@ -84,6 +84,10 @@
 }
 
 @media (max-width: 576px) {
+  .bannerContainer {
+    height: clamp(280px, 45vh, 360px);
+  }
+
   .overlay {
     border-radius: 16px;
     padding: 1.5rem 1rem;
