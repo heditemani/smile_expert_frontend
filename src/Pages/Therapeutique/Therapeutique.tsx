@@ -32,7 +32,7 @@ import anomalies_image_1 from '../../assets/images/Thérapeutique et traitements
 import anomalies_image_2 from '../../assets/images/Thérapeutique et traitements endodontiques/Traitements des anomalies/anomalies_image_2.webp';
 import anomalies_image_3 from '../../assets/images/Thérapeutique et traitements endodontiques/Traitements des anomalies/anomalies_image_3.webp';
 
-const ANOMALIES_ITEMS = ['item1', 'item2', 'item3', 'item4', 'item5', 'item6'] as const;
+const ANOMALIES_ITEMS = ['item1', 'item2', 'item3'] as const;
 
 export const Therapeutique = () => {
   const { t } = useTranslation();
