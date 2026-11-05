@@ -12,10 +12,10 @@ The responsive, multilingual website for the dental clinic of Dr. Sarra Haouet i
   - Therapeutic and endodontic treatments, including composite bonding, endodontics, extractions, implant surgery, and treatment of dental anomalies.
   - Dental prosthetics, including fixed and removable prostheses and veneers.
 - **Treatment detail pages:** dedicated pages for dental care, preventive care, therapeutic treatments, and prosthetics. Service cards link directly to their corresponding detail sections.
-- **Before-and-after gallery:** interactive image comparisons, categories, live search, accent-insensitive matching, result counts, and an empty state with a filter reset.
+- **Before-and-after gallery:** interactive image comparisons, category filters, live search with accent-insensitive matching, result counts, and a clear no-results message with an option to reset the filters.
 - **Technology pages:** information about diode laser, intraoral scanning, and facial scanning.
 - **Contact page:** clinic contact details, social links, and a validated contact form with loading, success, and error states. The form sends messages through the PHP mail endpoint.
-- **Multilingual content:** French, English, and Italian translations, with browser language detection and English as the fallback language.
+- **Multilingual content:** French, English, and Italian translations, with automatic browser language detection and English as the fallback.
 - **Shared site experience:** responsive navigation, banner sliders, service cards, calls to action, footer, and scroll-to-top behavior.
 
 ## Routes
