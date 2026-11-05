@@ -210,7 +210,11 @@ export const Contact = () => {
                     ></textarea>
                   </div>
 
-                  <button type="submit" className={`btn btn-primary ${styles['contact-submit-btn']}`}>
+                  <button
+                    type="submit"
+                    className={`btn btn-primary ${styles['contact-submit-btn']}`}
+                    disabled={status.type === 'loading'}
+                  >
                     {t('contact.send')}
                   </button>
                 </form>

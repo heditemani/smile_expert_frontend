@@ -128,21 +128,21 @@ export const Therapeutique = () => {
       {/* 5. Traitements des anomalies */}
       <section id="anomalies">
         <SectionTitle 
-          title={t('Therapeutique.Traitementsanomalies\u00a0.title')} 
-          description={t('Therapeutique.Traitementsanomalies\u00a0.subtitle')} 
+          title={t('Therapeutique.Traitementsanomalies.title')}
+          description={t('Therapeutique.Traitementsanomalies.subtitle')}
           buttonText="" href=""
         />
         <div className={Style.description}>
           <ul style={{ paddingLeft: '20px', margin: '0 0 50px 0' }}>
             {ANOMALIES_ITEMS.map((item) => (
-              <li key={item}>{t(`Therapeutique.Traitementsanomalies\u00a0.items.${item}`)}</li>
+              <li key={item}>{t(`Therapeutique.Traitementsanomalies.items.${item}`)}</li>
             ))}
           </ul>
         </div>
-        <img className={Style.image_big} src={anomalies_image_1} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
+        <img className={Style.image_big} src={anomalies_image_1} alt={t('Therapeutique.Traitementsanomalies.title')} />
         <div className={Style.images_container}>
-          <img src={anomalies_image_2} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
-          <img src={anomalies_image_3} alt={t('Therapeutique.Traitementsanomalies\u00a0.title')} />
+          <img src={anomalies_image_2} alt={t('Therapeutique.Traitementsanomalies.title')} />
+          <img src={anomalies_image_3} alt={t('Therapeutique.Traitementsanomalies.title')} />
         </div>
       </section>
     </div>

@@ -1,5 +1,18 @@
 # React + TypeScript + Vite
 
+## Contact form backend
+
+The contact form sends requests to `api/contact.php`. For local development, run a
+PHP server from the repository root in a separate terminal:
+
+```sh
+php -S 127.0.0.1:8000 -t .
+```
+
+Vite proxies `/api` requests to that server. Configure the SMTP values in
+`api/.env`. In production, serve the built frontend and the `api` directory from
+a PHP-enabled web server so `/api/contact.php` remains available.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

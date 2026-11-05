@@ -8,7 +8,7 @@
 .hero {
   position: relative;
   height: 320px;
-  background-image: url("/images/hero-services.jpg");
+  background-image: url("../../assets/images/services/banner/img1.webp");
   background-size: cover;
   background-position: center;
   background-color: var(--green-background);
