@@ -1,86 +1,103 @@
-# React + TypeScript + Vite
+# Smile Expert
 
-## Contact form backend
+The responsive, multilingual website for the dental clinic of Dr. Sarra Haouet in Nabeul, Tunisia. Visitors can explore the clinic and its treatments, compare before-and-after cases, and contact the clinic.
 
-The contact form sends requests to `api/contact.php`. For local development, run a
-PHP server from the repository root in a separate terminal:
+## Features
+
+- **Home page:** clinic introduction, featured treatments, consultation call to action, external online appointment booking, video experience, schedule information, and a five-step overview of the patient journey.
+- **About page:** information about the clinic and its dental expertise.
+- **Services catalog:** treatments grouped into four sections:
+  - Dental care and gum treatments, including laser whitening, gingival alignment, gingival depigmentation, and frenectomy.
+  - Preventive care, including regular check-ups, preventive care, scaling, gingival decontamination, clear aligners, and early orthodontic care for children.
+  - Therapeutic and endodontic treatments, including composite bonding, endodontics, extractions, implant surgery, and treatment of dental anomalies.
+  - Dental prosthetics, including fixed and removable prostheses and veneers.
+- **Treatment detail pages:** dedicated pages for dental care, preventive care, therapeutic treatments, and prosthetics. Service cards link directly to their corresponding detail sections.
+- **Before-and-after gallery:** interactive image comparisons, categories, live search, accent-insensitive matching, result counts, and an empty state with a filter reset.
+- **Technology pages:** information about diode laser, intraoral scanning, and facial scanning.
+- **Contact page:** clinic contact details, social links, and a validated contact form with loading, success, and error states. The form sends messages through the PHP mail endpoint.
+- **Multilingual content:** French, English, and Italian translations, with browser language detection and English as the fallback language.
+- **Shared site experience:** responsive navigation, banner sliders, service cards, calls to action, footer, and scroll-to-top behavior.
+
+## Routes
+
+| Route | Page |
+| --- | --- |
+| `/` | Home |
+| `/about` | About |
+| `/services` | Services catalog |
+| `/services/bucco-dentaire` | Dental and gingival care |
+| `/services/soins-bucco-dentaires` | Preventive and oral care |
+| `/services/therapeutique` | Therapeutic treatments |
+| `/services/protheses-dentaires` | Dental prosthetics |
+| `/before-and-after` | Before-and-after gallery |
+| `/contact` | Contact |
+| `/laser` | Diode laser |
+| `/scanner.intraoral` | Intraoral scanner |
+| `/scanner.facial` | Facial scanner |
+
+Unknown routes display a not-found page.
+
+## Tech stack
+
+- React 19, TypeScript, and Vite
+- React Router for client-side routing
+- i18next and react-i18next for translations
+- Swiper for sliders
+- `react-compare-slider` for before-and-after comparisons
+- PHP and PHPMailer for contact form email delivery
+
+## Requirements
+
+- Node.js and npm
+- PHP for local contact form submissions
+- SMTP credentials configured for the PHP mail endpoint
+
+## Getting started
+
+Install dependencies and start the frontend:
+
+```sh
+npm ci
+npm run dev
+```
+
+The Vite development server is normally available at `http://localhost:5173`.
+
+### Contact form backend
+
+The frontend posts contact form submissions to `/api/contact.php`. For local development, start PHP from the repository root in a separate terminal:
 
 ```sh
 php -S 127.0.0.1:8000 -t .
 ```
 
-Vite proxies `/api` requests to that server. Configure the SMTP values in
-`api/.env`. In production, serve the built frontend and the `api` directory from
-a PHP-enabled web server so `/api/contact.php` remains available.
+Vite proxies `/api` requests to `http://127.0.0.1:8000`. Configure the mail server and recipient settings in `api/.env` using the variables expected by `api/contact.php` (`SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, and `RECEIVER_EMAIL`). Keep real credentials private and do not commit them.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website can be browsed without the PHP server, but the contact form will not be able to send messages.
 
-Currently, two official plugins are available:
+## Available scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Type-check the project and create a production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
 
-## React Compiler
+## Production deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Run `npm ci` and `npm run build`.
+2. Deploy the contents of `dist/` to a web server configured to serve the single-page application routes.
+3. Deploy the `api/` directory to a PHP-enabled server at `/api`, and configure its SMTP environment values securely.
+4. Confirm the contact form endpoint is available at `/api/contact.php`.
 
-## Expanding the ESLint configuration
+## Project structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+api/                    PHP contact endpoint and PHPMailer
+public/locales/         French, English, and Italian translation files
+public/icons/           Shared site icons
+src/Pages/              Route-level page components
+src/components/         Shared UI components
+src/assets/             Images and video assets
 ```
