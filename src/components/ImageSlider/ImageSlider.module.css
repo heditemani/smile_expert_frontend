@@ -112,6 +112,72 @@
     box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
 }
 
+.imageLabel {
+    position: absolute;
+    z-index: 1;
+    top: 0.9rem;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 999px;
+    background: rgba(25, 42, 65, 0.62);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    pointer-events: none;
+    backdrop-filter: blur(6px);
+}
+
+.beforeLabel {
+    left: 0.9rem;
+}
+
+.afterLabel {
+    right: 0.9rem;
+}
+
+.compact {
+    min-width: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid rgba(25, 42, 65, 0.08);
+    border-radius: 20px;
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+}
+
+.compact .container {
+    max-width: none;
+    padding: 0.9rem 1rem 0.5rem;
+}
+
+.compact .sectionTitle {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.compact .imgCompare {
+    width: calc(100% - 2rem);
+    border-radius: 14px;
+    box-shadow: none;
+}
+
+.compact .imageContainer {
+    height: 260px;
+}
+
+.compact .baServiceDesc {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    text-align: left;
+}
+
+.compact .container:last-child {
+    padding: 0.8rem 1rem 1rem;
+}
+
 /* =========================================
    Responsive
    ========================================= */
@@ -122,5 +188,19 @@
     }
     .imgCompare .imageContainer {
         height: 300px; /* nti7ou chwaya f toul fel mobile bch tji a7la */
+    }
+
+    .compact {
+        padding: 0;
+        border-radius: 18px;
+    }
+
+    .compact .imgCompare {
+        width: calc(100% - 2rem);
+        border-radius: 14px;
+    }
+
+    .compact .imageContainer {
+        height: clamp(210px, 62vw, 280px);
     }
 }

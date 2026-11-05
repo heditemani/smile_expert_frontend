@@ -6,6 +6,10 @@ export interface ImageSliderProps {
   imageBefore: string;
   imageAfter: string;
   description: string;
+  compact?: boolean;
+  beforeLabel?: string;
+  afterLabel?: string;
+  sliderLabel?: string;
 }
 
 export const ImageSlider: React.FC<ImageSliderProps> = ({
@@ -13,6 +17,10 @@ export const ImageSlider: React.FC<ImageSliderProps> = ({
   imageBefore,
   imageAfter,
   description,
+  compact = false,
+  beforeLabel = 'Avant',
+  afterLabel = 'Après',
+  sliderLabel = 'Pourcentage de l’image avant',
 }) => {
   const [sliderPosition, setSliderPosition] = useState<number>(50);
 
@@ -21,7 +29,7 @@ export const ImageSlider: React.FC<ImageSliderProps> = ({
   };
 
   return (
-    <section className={styles.baServiceSection}>
+    <section className={`${styles.baServiceSection} ${compact ? styles.compact : ''}`}>
       <div className={styles.container}>
         <h2 className={`${styles.sectionTitle} ${styles.textCenter}`}>{title}</h2>
       </div>
@@ -35,13 +43,19 @@ export const ImageSlider: React.FC<ImageSliderProps> = ({
           <img 
             className={`${styles.imageAfter} ${styles.sliderImage}`} 
             src={imageAfter} 
-            alt="Après" 
+            alt={afterLabel}
           />
           <img 
             className={`${styles.imageBefore} ${styles.sliderImage}`} 
             src={imageBefore} 
-            alt="Avant" 
+            alt={beforeLabel}
           />
+          <span className={`${styles.imageLabel} ${styles.beforeLabel}`} aria-hidden="true">
+            {beforeLabel}
+          </span>
+          <span className={`${styles.imageLabel} ${styles.afterLabel}`} aria-hidden="true">
+            {afterLabel}
+          </span>
         </div>
         
         <input 
@@ -50,7 +64,7 @@ export const ImageSlider: React.FC<ImageSliderProps> = ({
           max="100" 
           value={sliderPosition} 
           onChange={handleSliderChange}
-          aria-label="Pourcentage de l'image avant" 
+          aria-label={sliderLabel}
           className={styles.slider} 
         />
         

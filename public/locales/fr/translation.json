@@ -59,6 +59,22 @@
         "title": "Soins Préventifs",
         "subtitle": ""
       },
+      "detartrage": {
+        "title": "Détartrage professionnel",
+        "subtitle": ""
+      },
+      "decontaminationGingivale": {
+        "title": "Décontamination gingivale",
+        "subtitle": ""
+      },
+      "aligneurs": {
+        "title": "Aligneurs transparents",
+        "subtitle": ""
+      },
+      "interceptionEnfant": {
+        "title": "Orthodontie interceptive de l'enfant",
+        "subtitle": ""
+      },
       "Collage": {
         "title": "Collage résine Composite",
         "subtitle": ""
@@ -256,6 +272,23 @@
       "title": "Avant & Après",
       "subtitle": "Transformations Réelles de Nos Patients"
     },
+    "filters": {
+      "searchLabel": "Rechercher un soin",
+      "searchPlaceholder": "Rechercher par soin ou résultat...",
+      "all": "Toutes les catégories",
+      "results": "{{count}} résultats",
+      "before": "Avant",
+      "after": "Après",
+      "sliderLabel": "Comparer avant et après : {{title}}",
+      "noResults": "Aucun résultat trouvé",
+      "clear": "Effacer la recherche",
+      "reset": "Réinitialiser les filtres"
+    },
+    "categories": {
+      "aesthetic": "Esthétique du sourire",
+      "prosthetics": "Prothèses dentaires",
+      "care": "Soins dentaires"
+    },
     "depigmentation": {
       "title": "Dépigmentation Gingivale au Laser",
       "description": "Le traitement au laser permet d'éliminer les taches brunes et les pigmentations foncées sur les gencives pour leur redonner un aspect rose naturel et sain."
@@ -393,6 +426,26 @@
       "title": "Soins Préventifs",
       "subtitle": "Un sourire sain commence par de bonnes habitudes",
       "description": "Le détartrage, l’aéropolissage et l’application de fluorure aident à garder vos dents propres, fortes et protégées. Ces soins simples permettent de prévenir les caries et les problèmes de gencives, tout en prenant soin de votre sourire au quotidien."
+    },
+    "Detartrage": {
+      "title": "Détartrage professionnel",
+      "subtitle": "Préserver la santé de vos dents et de vos gencives",
+      "description": "Le détartrage élimine les dépôts de tartre et de plaque que le brossage ne suffit pas toujours à retirer. La fréquence et la méthode sont adaptées à l’état de vos dents et de vos gencives après un examen clinique."
+    },
+    "DecontaminationGingivale": {
+      "title": "Décontamination gingivale",
+      "subtitle": "Un soin gingival adapté à votre bilan",
+      "description": "Après un examen des gencives, un protocole de décontamination peut être proposé pour aider à réduire la charge bactérienne et prendre en charge l’inflammation gingivale. La technique, y compris le recours éventuel au laser diode, est choisie selon l’indication clinique."
+    },
+    "aligneurs": {
+      "title": "Aligneurs transparents",
+      "subtitle": "Une option discrète pour aligner les dents",
+      "description": "Les aligneurs transparents déplacent progressivement les dents à l’aide de gouttières amovibles réalisées sur mesure. Une consultation permet d’évaluer si cette solution convient à votre situation et de définir un plan de suivi."
+    },
+    "InterceptionEnfant": {
+      "title": "Orthodontie interceptive de l’enfant",
+      "subtitle": "Évaluer la croissance et le développement du sourire",
+      "description": "Un dépistage orthodontique précoce permet d’observer la croissance des mâchoires et l’évolution de la dentition. Si une anomalie est repérée, une prise en charge interceptive peut être discutée au moment adapté, selon le bilan de l’enfant."
     }
   },
 

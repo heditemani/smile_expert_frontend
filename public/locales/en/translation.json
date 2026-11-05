@@ -58,6 +58,22 @@
         "title": "Preventive Care",
         "subtitle": ""
       },
+      "detartrage": {
+        "title": "Professional Teeth Cleaning",
+        "subtitle": ""
+      },
+      "decontaminationGingivale": {
+        "title": "Gum Decontamination",
+        "subtitle": ""
+      },
+      "aligneurs": {
+        "title": "Clear Aligners",
+        "subtitle": ""
+      },
+      "interceptionEnfant": {
+        "title": "Early Orthodontic Care for Children",
+        "subtitle": ""
+      },
       "Collage": {
         "title": "Composite Resin Bonding",
         "subtitle": ""
@@ -258,6 +274,23 @@
       "title": "Before & After Gallery",
       "subtitle": "Real patient transformations showcasing our expertise"
     },
+    "filters": {
+      "searchLabel": "Search treatments",
+      "searchPlaceholder": "Search by treatment or result...",
+      "all": "All categories",
+      "results": "{{count}} results",
+      "before": "Before",
+      "after": "After",
+      "sliderLabel": "Compare before and after: {{title}}",
+      "noResults": "No results found",
+      "clear": "Clear search",
+      "reset": "Reset filters"
+    },
+    "categories": {
+      "aesthetic": "Smile aesthetics",
+      "prosthetics": "Dental prosthetics",
+      "care": "Dental care"
+    },
     "depigmentation": {
       "title": "Laser Gum Depigmentation",
       "description": "Advanced laser targets and gently breaks down dark melanin spots on the gum tissues, quickly restoring a uniform, healthy pink tone."
@@ -392,6 +425,26 @@
       "title": "Preventive Care",
       "subtitle": "A Healthy Smile Starts with Good Care",
       "description": "Scaling, air polishing, and fluoride treatments help keep your teeth clean, strong, and protected. These simple treatments can help prevent cavities and gum problems while keeping your smile healthy every day."
+    },
+    "Detartrage": {
+      "title": "Professional Teeth Cleaning",
+      "subtitle": "Support healthy teeth and gums",
+      "description": "Professional scaling removes hardened plaque and tartar that brushing cannot always reach. The recommended approach and frequency are tailored to the condition of your teeth and gums after a clinical examination."
+    },
+    "DecontaminationGingivale": {
+      "title": "Gum Decontamination",
+      "subtitle": "Gum care guided by your clinical assessment",
+      "description": "Following a gum examination, a decontamination protocol may be recommended to help reduce bacterial load and address gingival inflammation. The technique, including whether diode laser is appropriate, is selected according to the clinical indication."
+    },
+    "aligneurs": {
+      "title": "Clear Aligners",
+      "subtitle": "A discreet option for straightening teeth",
+      "description": "Clear aligners gradually move teeth using custom-made, removable trays. A consultation helps determine whether this option is suitable for your needs and what follow-up plan is appropriate."
+    },
+    "InterceptionEnfant": {
+      "title": "Early Orthodontic Care for Children",
+      "subtitle": "Monitoring jaw growth and dental development",
+      "description": "An early orthodontic assessment can monitor jaw growth and the development of a child's teeth. If a concern is identified, interceptive care can be discussed at an appropriate stage based on the child's clinical assessment."
     }
   },
   "Therapeutique": {

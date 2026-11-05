@@ -70,6 +70,70 @@ export const SoinsBuccoDentaires = () => {
           <img src={soins_image_3} alt={t('SoinsbuccoDentaire.SoinsPreventifs.title')} />
         </div>
       </section>
+
+      <section id="detartrage">
+        <SectionTitle
+          title={t('SoinsbuccoDentaire.Detartrage.title')}
+          description={t('SoinsbuccoDentaire.Detartrage.subtitle')}
+          buttonText="" href=""
+        />
+        <p className={Style.description}>
+          {t('SoinsbuccoDentaire.Detartrage.description')}
+        </p>
+        <img className={Style.image_big} src={soins_image_1} alt={t('SoinsbuccoDentaire.Detartrage.title')} />
+        <div className={Style.images_container}>
+          <img src={soins_image_2} alt={t('SoinsbuccoDentaire.Detartrage.title')} />
+          <img src={soins_image_3} alt={t('SoinsbuccoDentaire.Detartrage.title')} />
+        </div>
+      </section>
+
+      <section id="decontamination-gingivale">
+        <SectionTitle
+          title={t('SoinsbuccoDentaire.DecontaminationGingivale.title')}
+          description={t('SoinsbuccoDentaire.DecontaminationGingivale.subtitle')}
+          buttonText="" href=""
+        />
+        <p className={Style.description}>
+          {t('SoinsbuccoDentaire.DecontaminationGingivale.description')}
+        </p>
+        <img className={Style.image_big} src={soins_image_1} alt={t('SoinsbuccoDentaire.DecontaminationGingivale.title')} />
+        <div className={Style.images_container}>
+          <img src={soins_image_2} alt={t('SoinsbuccoDentaire.DecontaminationGingivale.title')} />
+          <img src={soins_image_3} alt={t('SoinsbuccoDentaire.DecontaminationGingivale.title')} />
+        </div>
+      </section>
+
+      <section id="aligneurs">
+        <SectionTitle
+          title={t('SoinsbuccoDentaire.aligneurs.title')}
+          description={t('SoinsbuccoDentaire.aligneurs.subtitle')}
+          buttonText="" href=""
+        />
+        <p className={Style.description}>
+          {t('SoinsbuccoDentaire.aligneurs.description')}
+        </p>
+        <img className={Style.image_big} src={examens_image_1} alt={t('SoinsbuccoDentaire.aligneurs.title')} />
+        <div className={Style.images_container}>
+          <img src={examens_image_2} alt={t('SoinsbuccoDentaire.aligneurs.title')} />
+          <img src={examens_image_3} alt={t('SoinsbuccoDentaire.aligneurs.title')} />
+        </div>
+      </section>
+
+      <section id="interception-enfants">
+        <SectionTitle
+          title={t('SoinsbuccoDentaire.InterceptionEnfant.title')}
+          description={t('SoinsbuccoDentaire.InterceptionEnfant.subtitle')}
+          buttonText="" href=""
+        />
+        <p className={Style.description}>
+          {t('SoinsbuccoDentaire.InterceptionEnfant.description')}
+        </p>
+        <img className={Style.image_big} src={examens_image_2} alt={t('SoinsbuccoDentaire.InterceptionEnfant.title')} />
+        <div className={Style.images_container}>
+          <img src={examens_image_1} alt={t('SoinsbuccoDentaire.InterceptionEnfant.title')} />
+          <img src={examens_image_3} alt={t('SoinsbuccoDentaire.InterceptionEnfant.title')} />
+        </div>
+      </section>
     </div>
   );
 };

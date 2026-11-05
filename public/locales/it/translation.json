@@ -58,6 +58,22 @@
         "title": "Igiene Orale Professionale",
         "subtitle": ""
       },
+      "detartrage": {
+        "title": "Detartrasi professionale",
+        "subtitle": ""
+      },
+      "decontaminationGingivale": {
+        "title": "Decontaminazione gengivale",
+        "subtitle": ""
+      },
+      "aligneurs": {
+        "title": "Allineatori trasparenti",
+        "subtitle": ""
+      },
+      "interceptionEnfant": {
+        "title": "Ortodonzia intercettiva per bambini",
+        "subtitle": ""
+      },
       "Collage": {
         "title": "Restauro in Resina Composita",
         "subtitle": ""
@@ -258,6 +274,23 @@
       "title": "Prima & Dopo",
       "subtitle": "Trasformazioni Reali dei Nostri Pazienti"
     },
+    "filters": {
+      "searchLabel": "Cerca trattamenti",
+      "searchPlaceholder": "Cerca per trattamento o risultato...",
+      "all": "Tutte le categorie",
+      "results": "{{count}} risultati",
+      "before": "Prima",
+      "after": "Dopo",
+      "sliderLabel": "Confronta prima e dopo: {{title}}",
+      "noResults": "Nessun risultato trovato",
+      "clear": "Cancella ricerca",
+      "reset": "Reimposta i filtri"
+    },
+    "categories": {
+      "aesthetic": "Estetica del sorriso",
+      "prosthetics": "Protesi dentali",
+      "care": "Cure dentali"
+    },
     "depigmentation": {
       "title": "Depigmentazione Gengivale a Laser",
       "description": "Il raggio laser elimina selettivamente le macchie melaniniche scure dalle gengive, restituendo un colorito rosa naturale, sano e uniforme."
@@ -392,6 +425,26 @@
       "title": "Cure preventive",
       "subtitle": "Un sorriso sano nasce dalla cura quotidiana",
       "description": "La detartrasi, l’air polishing e l’applicazione del fluoro aiutano a mantenere i denti puliti, forti e protetti. Questi semplici trattamenti aiutano a prevenire carie e problemi gengivali, prendendosi cura del tuo sorriso giorno dopo giorno."
+    },
+    "Detartrage": {
+      "title": "Detartrasi professionale",
+      "subtitle": "Per la salute di denti e gengive",
+      "description": "La detartrasi rimuove placca indurita e tartaro che lo spazzolamento non sempre riesce a eliminare. Frequenza e modalità vengono definite in base alle condizioni di denti e gengive dopo una valutazione clinica."
+    },
+    "DecontaminationGingivale": {
+      "title": "Decontaminazione gengivale",
+      "subtitle": "Cura gengivale in base alla valutazione clinica",
+      "description": "Dopo l’esame delle gengive, può essere indicato un protocollo di decontaminazione per contribuire a ridurre la carica batterica e gestire l’infiammazione. La tecnica, compreso l’eventuale uso del laser a diodo, viene scelta secondo l’indicazione clinica."
+    },
+    "aligneurs": {
+      "title": "Allineatori trasparenti",
+      "subtitle": "Un’opzione discreta per allineare i denti",
+      "description": "Gli allineatori trasparenti spostano gradualmente i denti tramite mascherine rimovibili realizzate su misura. Una visita permette di valutare se questa soluzione è adatta e di definire il percorso di controllo."
+    },
+    "InterceptionEnfant": {
+      "title": "Ortodonzia intercettiva per bambini",
+      "subtitle": "Monitorare la crescita e lo sviluppo del sorriso",
+      "description": "Una valutazione ortodontica precoce permette di osservare la crescita delle mascelle e lo sviluppo della dentizione. Se emerge un’anomalia, si può discutere un trattamento intercettivo nel momento opportuno, in base alla situazione clinica del bambino."
     }
   },
   "Therapeutique": {
