@@ -277,7 +277,7 @@
     "filters": {
       "searchLabel": "Cerca trattamenti",
       "searchPlaceholder": "Cerca per trattamento o risultato...",
-      "all": "Tutte le categorie",
+      "all": "Tutti i trattamenti",
       "results": "{{count}} risultati",
       "before": "Prima",
       "after": "Dopo",

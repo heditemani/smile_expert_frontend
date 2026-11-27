@@ -44,14 +44,6 @@ import after13 from '../../assets/images/BeforeAfter_Page/after13.webp';
 import before14 from '../../assets/images/BeforeAfter_Page/before14.webp';
 import after14 from '../../assets/images/BeforeAfter_Page/after14.webp';
 
-const CATEGORIES = [
-  { id: 'aesthetic', translationKey: 'aesthetic' },
-  { id: 'prosthetics', translationKey: 'prosthetics' },
-  { id: 'care', translationKey: 'care' },
-] as const;
-
-type CategoryId = (typeof CATEGORIES)[number]['id'];
-
 const EXAMPLES = [
   {
     id: 1,
@@ -150,8 +142,12 @@ const BANNER_IMAGES = [before1, before2];
 
 export const BeforeAfter = () => {
   const { t } = useTranslation();
-  const [selectedCategory, setSelectedCategory] = useState<CategoryId | 'all'>('all');
+  const [selectedService, setSelectedService] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const services = useMemo(
+    () => Array.from(new Set(EXAMPLES.map((example) => example.key))),
+    [],
+  );
   const normalizedQuery = searchQuery
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
@@ -160,13 +156,12 @@ export const BeforeAfter = () => {
 
   const filteredExamples = useMemo(
     () => EXAMPLES.filter((example) => {
-      if (selectedCategory !== 'all' && example.category !== selectedCategory) return false;
+      if (selectedService !== 'all' && example.key !== selectedService) return false;
       if (!normalizedQuery) return true;
 
       const searchableText = [
         t(`beforeAfter.${example.key}.title`),
         t(`beforeAfter.${example.key}.description`),
-        t(`beforeAfter.categories.${example.category}`),
       ]
         .join(' ')
         .normalize('NFD')
@@ -175,7 +170,7 @@ export const BeforeAfter = () => {
 
       return searchableText.includes(normalizedQuery);
     }),
-    [normalizedQuery, selectedCategory, t],
+    [normalizedQuery, selectedService, t],
   );
 
   return (
@@ -219,26 +214,26 @@ export const BeforeAfter = () => {
           <div className={styles.filters} aria-label={t('beforeAfter.filters.searchLabel')}>
             <button
               type="button"
-              className={`${styles.filterButton} ${selectedCategory === 'all' ? styles.activeFilter : ''}`}
-              onClick={() => setSelectedCategory('all')}
-              aria-pressed={selectedCategory === 'all'}
+              className={`${styles.filterButton} ${selectedService === 'all' ? styles.activeFilter : ''}`}
+              onClick={() => setSelectedService('all')}
+              aria-pressed={selectedService === 'all'}
             >
               {t('beforeAfter.filters.all')}
               <span>{EXAMPLES.length}</span>
             </button>
-            {CATEGORIES.map((category) => {
-              const count = EXAMPLES.filter((example) => example.category === category.id).length;
-              const isSelected = selectedCategory === category.id;
+            {services.map((serviceKey) => {
+              const count = EXAMPLES.filter((example) => example.key === serviceKey).length;
+              const isSelected = selectedService === serviceKey;
 
               return (
                 <button
-                  key={category.id}
+                  key={serviceKey}
                   type="button"
                   className={`${styles.filterButton} ${isSelected ? styles.activeFilter : ''}`}
-                  onClick={() => setSelectedCategory(category.id)}
+                  onClick={() => setSelectedService(serviceKey)}
                   aria-pressed={isSelected}
                 >
-                  {t(`beforeAfter.categories.${category.translationKey}`)}
+                  {t(`beforeAfter.${serviceKey}.title`)}
                   <span>{count}</span>
                 </button>
               );
@@ -246,14 +241,14 @@ export const BeforeAfter = () => {
           </div>
 
           {filteredExamples.length > 0 ? (
-            CATEGORIES.map((category) => {
-              const examples = filteredExamples.filter((example) => example.category === category.id);
+            services.map((serviceKey) => {
+              const examples = filteredExamples.filter((example) => example.key === serviceKey);
               if (examples.length === 0) return null;
 
               return (
-                <section key={category.id} className={styles.categorySection}>
+                <section key={serviceKey} className={styles.categorySection}>
                   <div className={styles.categoryHeading}>
-                    <h2>{t(`beforeAfter.categories.${category.translationKey}`)}</h2>
+                    <h2>{t(`beforeAfter.${serviceKey}.title`)}</h2>
                     <span>{examples.length}</span>
                   </div>
                   <div className={styles.caseGrid}>
@@ -285,7 +280,7 @@ export const BeforeAfter = () => {
                 className={styles.resetButton}
                 onClick={() => {
                   setSearchQuery('');
-                  setSelectedCategory('all');
+                  setSelectedService('all');
                 }}
               >
                 {t('beforeAfter.filters.reset')}

@@ -275,7 +275,7 @@
     "filters": {
       "searchLabel": "Rechercher un soin",
       "searchPlaceholder": "Rechercher par soin ou résultat...",
-      "all": "Toutes les catégories",
+      "all": "Tous les services",
       "results": "{{count}} résultats",
       "before": "Avant",
       "after": "Après",
