@@ -171,3 +171,73 @@ button {
 .mt{
     margin-top: 50px !important;
 }
+
+.motion-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+        opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+        transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--motion-delay, 0ms);
+    will-change: opacity, transform;
+}
+
+.motion-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    will-change: auto;
+}
+
+.btn,
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    [class*="scheduleRow"] {
+        transition:
+            transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+            background-color 0.25s ease,
+            box-shadow 0.25s ease;
+    }
+
+    [class*="scheduleRow"]:hover {
+        transform: translateX(5px);
+    }
+
+    [class*="galleryItem"],
+    [class*="techCard"],
+    [class*="reviewCard"],
+    [class*="step"] {
+        transition:
+            transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+            box-shadow 0.35s ease;
+    }
+
+    [class*="galleryItem"]:hover,
+    [class*="techCard"]:hover,
+    [class*="reviewCard"]:hover {
+        transform: translateY(-6px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .motion-reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

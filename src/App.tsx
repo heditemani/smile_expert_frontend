@@ -1,4 +1,5 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import './index.css'
 
 // les components
@@ -22,9 +23,68 @@ import Therapeutique from './Pages/Therapeutique/Therapeutique'
 import Prothesesdentaires from './Pages/Prothesesdentaires/Prothesesdentaires'
 import NotFound from './Pages/NotFound/NotFound'
 
+function SiteMotion() {
+  const location = useLocation()
+
+  useEffect(() => {
+    let frame = 0
+    let observer: IntersectionObserver | null = null
+
+    const scheduleReveal = () => {
+      cancelAnimationFrame(frame)
+      frame = requestAnimationFrame(() => {
+        observer?.disconnect()
+
+        const reveals = document.querySelectorAll<HTMLElement>(
+          '[data-reveal], section:not(.motion-reveal), [class*="grid"] > *, [class*="Grid"] > *, [class*="list"] > *, [class*="List"] > *, [class*="steps"] > *, [class*="Steps"] > *',
+        )
+
+        if (!('IntersectionObserver' in window)) {
+          reveals.forEach((element) => {
+            element.classList.add('motion-reveal', 'is-visible')
+          })
+          return
+        }
+
+        const currentObserver = new IntersectionObserver(
+          (entries, currentObserver) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return
+              entry.target.classList.add('is-visible')
+              currentObserver.unobserve(entry.target)
+            })
+          },
+          { threshold: 0.12, rootMargin: '0px 0px -36px' },
+        )
+        observer = currentObserver
+
+        reveals.forEach((element, index) => {
+          if (element.classList.contains('motion-reveal') || element.classList.contains('reveal')) return
+
+          element.classList.add('motion-reveal')
+          element.style.setProperty('--motion-delay', `${Math.min(index % 6, 5) * 80}ms`)
+          currentObserver.observe(element)
+        })
+      })
+    }
+
+    scheduleReveal()
+    window.addEventListener('resize', scheduleReveal)
+
+    return () => {
+      cancelAnimationFrame(frame)
+      observer?.disconnect()
+      window.removeEventListener('resize', scheduleReveal)
+    }
+  }, [location.pathname])
+
+  return null
+}
+
 function App() {
   return (
     <BrowserRouter>
+      <SiteMotion />
       <ScrollToTop />
       {/* Navbar  */}
       <Navbar />

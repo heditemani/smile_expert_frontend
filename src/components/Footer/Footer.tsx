@@ -12,6 +12,7 @@ const linkedin = '/icons/linkedin_icon.svg';
 
 export const Footer = () => {
   const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className={styles.footer}>
@@ -47,7 +48,7 @@ export const Footer = () => {
         </div>
 
         <div className={styles['footer-bottom']}>
-          <p>{t('footer.copyright')}</p>
+          <p>{t('footer.copyright', { year: currentYear })}</p>
           <div className={styles['social-links']}>
             <a href="https://www.facebook.com/sarra.fischer.1" target="_blank" rel="noopener noreferrer">
               <img src={facebook} alt="Facebook" />

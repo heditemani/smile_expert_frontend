@@ -23,6 +23,7 @@ import expertiseImg from '../../assets/images/about_page/expertise_image.webp';
 
 import ScheduleSection from '../../components/ScheduleSection/ScheduleSection';
 import CtaSplit from '../../components/CTASplit/CtaSplit';
+import RevealOnScroll from '../../components/RevealOnScroll/RevealOnScroll';
 
 const BANNER_IMAGES = [banner1, banner2];
 
@@ -91,10 +92,14 @@ export const About = () => {
       <section className={`${styles.gallery} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.galleryGrid}>
-            {GALLERY_IMAGES.map((image) => (
-              <div key={image.id} className={styles.galleryItem}>
+            {GALLERY_IMAGES.map((image, index) => (
+              <RevealOnScroll
+                key={image.id}
+                className={styles.galleryItem}
+                delay={index * 100}
+              >
                 <img src={image.src} alt={image.alt} />
-              </div>
+              </RevealOnScroll>
             ))}
           </div>
         </div>
@@ -112,8 +117,12 @@ export const About = () => {
               {t('about.tech.sectionTitle')}
             </h2>
             <div className={styles.techGrid}>
-              {TECHNOLOGIES.map((tech) => (
-                <div key={tech.id} className={styles.techCard}>
+              {TECHNOLOGIES.map((tech, index) => (
+                <RevealOnScroll
+                  key={tech.id}
+                  className={styles.techCard}
+                  delay={index * 120}
+                >
                   <div className={styles.techImageWrapper}>
                     <img src={tech.image} alt={t(`about.tech.items.${tech.key}.name`)} />
                   </div>
@@ -124,7 +133,7 @@ export const About = () => {
                     {t('about.tech.learnMore')} 
                     <img src="/icons/technoligie_icon_learn_more.svg" alt={t('about.tech.learnMore')} />
                   </a>
-                </div>
+                </RevealOnScroll>
               ))}
             </div>
           </div>
@@ -135,7 +144,7 @@ export const About = () => {
       <section className={styles.expertiseSection} style={{ backgroundColor: 'var(--bg-offwhite)' }}>
         <div className={styles.container}>
           <h2 className="section-title mb-4">{t('about.expertise.sectionTitle')}</h2>
-          <div className={styles.expertiseWrapper}>
+          <RevealOnScroll className={styles.expertiseWrapper}>
             <div className={styles.expertiseContent}>
               <h3>{t('about.expertise.doctorName')}</h3>
               <p className={styles.expertiseRole}>
@@ -145,7 +154,7 @@ export const About = () => {
             <div className={styles.expertiseImage}>
               <img src={expertiseImg} alt={t('about.expertise.doctorName')} />
             </div>
-          </div>
+          </RevealOnScroll>
         </div>
       </section>
     </div>

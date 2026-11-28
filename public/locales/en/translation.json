@@ -386,7 +386,7 @@
   },
   "footer": {
     "address": "1st Floor, Above Hamadi Abid, Imm Takwa, 105, Nabeul 8000",
-    "copyright": "Copyright © 2025 Smile Expert. All rights reserved."
+    "copyright": "Copyright © {{year}} Smile Expert. All rights reserved."
   },
   "buccoDentaire": {
     "facettes": {
